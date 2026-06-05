@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+venv/
+venv-test/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+err.txt
+server_out.txt
+server_err2.txt
+dev.log
+preview.log
+
+# Build outputs
+dist/
+build/
+
+# Database & Cache
+*.db
+local_media_cache/
+
+# Test outputs
+search_empty*.json
+search_test.json
+gen_test.json
+
+# IDE / Tool caches
+.vite/
+.claude/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
