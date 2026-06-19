@@ -4,6 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>이음(以音) — 관리자 대시보드</title>
+    <script>
+      (function(){
+        try {
+          // 이전 PWA(AirCheck 등)의 Service Worker 강제 해제
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function(r){for(var i=0;i<r.length;i++)r[i].unregister()});
+          }
+        } catch(e) {}
+        try {
+          if (!localStorage.getItem('temp_user_id')) {
+            window.location.replace('/login');
+          }
+        } catch(e) {}
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

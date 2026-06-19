@@ -4,8 +4,6 @@ KoBERT 기반 감정 분석 서비스.
 """
 from __future__ import annotations
 import asyncio
-from functools import lru_cache
-from typing import TYPE_CHECKING
 
 LABELS = ["negative", "neutral", "positive"]
 
@@ -26,27 +24,60 @@ def _load_model():
         _model = AutoModelForSequenceClassification.from_pretrained(model_name)
         _model.eval()
     except Exception as e:
-        # 모델 없을 때는 규칙 기반 폴백 사용
         print(f"[emotion] 모델 로드 실패, 규칙 기반 폴백 사용: {e}")
 
 
-NEGATIVE_WORDS = ["힘들", "외롭", "슬프", "무섭", "지쳐", "죽", "사라", "포기", "아무도"]
-POSITIVE_WORDS = ["좋았", "행복", "즐거", "감사", "기뻤", "설레", "신났", "고마"]
+# 가중치 기반 감정 패턴 (C-1)
+EMOTION_PATTERNS = {
+    "high_negative": {
+        "keywords": ["죽고 싶", "살기 싫", "자해", "없어지고 싶", "끝내고 싶"],
+        "weight": 3,
+    },
+    "medium_negative": {
+        "keywords": ["힘들어", "외로워", "무서워", "슬퍼", "괴로워", "우울해", "지쳐"],
+        "weight": 2,
+    },
+    "low_negative": {
+        "keywords": ["피곤", "걱정", "불안", "귀찮", "싫어", "짜증"],
+        "weight": 1,
+    },
+    "high_positive": {
+        "keywords": ["행복해", "너무 좋아", "기뻐", "설레", "신나"],
+        "weight": 3,
+    },
+    "medium_positive": {
+        "keywords": ["좋아", "감사", "즐거워", "고마워", "뿌듯"],
+        "weight": 2,
+    },
+    "low_positive": {
+        "keywords": ["괜찮아", "나쁘지 않아", "좋았", "웃겨"],
+        "weight": 1,
+    },
+}
 
 
-def _rule_based(text: str) -> dict:
-    neg = sum(1 for w in NEGATIVE_WORDS if w in text)
-    pos = sum(1 for w in POSITIVE_WORDS if w in text)
-    if neg > pos:
-        return {"label": "negative", "score": 0.6 + min(neg * 0.05, 0.3)}
-    if pos > neg:
-        return {"label": "positive", "score": 0.6 + min(pos * 0.05, 0.3)}
-    return {"label": "neutral", "score": 0.55}
+def _weighted_score(text: str) -> dict:
+    neg_score = 0
+    pos_score = 0
+    for pattern_type, pattern in EMOTION_PATTERNS.items():
+        for kw in pattern["keywords"]:
+            if kw in text:
+                if "negative" in pattern_type:
+                    neg_score += pattern["weight"]
+                else:
+                    pos_score += pattern["weight"]
+
+    total = neg_score + pos_score
+    if total == 0:
+        return {"label": "neutral", "score": 0.55}
+    if neg_score > pos_score:
+        return {"label": "negative", "score": min(0.5 + neg_score * 0.08, 0.95)}
+    return {"label": "positive", "score": min(0.5 + pos_score * 0.08, 0.95)}
 
 
 def _infer(text: str) -> dict:
     if _model is None:
-        return _rule_based(text)
+        return _weighted_score(text)
     try:
         import torch
         inputs = _tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
@@ -56,7 +87,15 @@ def _infer(text: str) -> dict:
         idx = probs.index(max(probs))
         return {"label": LABELS[idx], "score": probs[idx]}
     except Exception:
-        return _rule_based(text)
+        return _weighted_score(text)
+
+
+def get_crisis_level(text: str) -> str | None:
+    """고위험 키워드 직접 감지 — 모델 추론과 별개로 동작"""
+    for kw in EMOTION_PATTERNS["high_negative"]["keywords"]:
+        if kw in text:
+            return "red"
+    return None
 
 
 async def analyze(text: str) -> dict:
@@ -65,7 +104,6 @@ async def analyze(text: str) -> dict:
 
 
 async def check_emotion_trend(recent_emotions: list[dict]) -> str | None:
-    """최근 감정 리스트 기반 경보 수준 반환"""
     if len(recent_emotions) < 3:
         return None
     neg_count = sum(1 for e in recent_emotions if e.get("label") == "negative")
@@ -78,6 +116,5 @@ async def check_emotion_trend(recent_emotions: list[dict]) -> str | None:
     return None
 
 
-# 앱 시작 시 백그라운드에서 로드
 def preload():
     _load_model()

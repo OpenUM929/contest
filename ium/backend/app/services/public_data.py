@@ -8,8 +8,10 @@
 
 import random
 import os
+import uuid
 import hashlib
 import json
+import csv
 import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from typing import Any
@@ -22,37 +24,49 @@ from sqlalchemy import select
 
 from app.config import settings
 from app.models.models import WeeklyTopic
-from app.services.question_parser import QuestionSet, QuestionItem, ChoiceOption, DEFAULT_FALLBACK
+from app.services.question_parser import QuestionSet, QuestionItem, ChoiceOption, DEFAULT_FALLBACK, ImageAnalysis
 
 # OpenCode Zen API 설정
 OPENCODE_BASE_URL = getattr(settings, "opencode_base_url", "https://opencode.ai/zen/v1")
 OPENCODE_MODEL = getattr(settings, "opencode_model", "big-pickle")
 
 
-async def _call_opencode_chat(prompt: str) -> str | None:
-    """OpenCode Zen API에 직접 OpenAI compatible 호출을 수행합니다."""
+async def _call_opencode_chat(prompt: str, max_attempts: int = 2) -> str | None:
+    """OpenCode Zen API에 직접 OpenAI compatible 호출을 수행합니다.
+
+    deepseek 계열 추론 모델은 무거운 프롬프트에서 60~90초가 걸리고, OpenCode Zen 서버가
+    긴 요청에 간헐적으로 500을 던지거나 연결이 끊긴다. 한 번 실패했다고 곧장 폴백 템플릿으로
+    떨어지면 사용자에게 1차원적 더미 질문이 나가므로, 짧게 한 번 더 재시도한다.
+    """
     if not settings.opencode_api_key:
         print("[PublicData] OPENCODE_API_KEY 미설정")
         return None
 
-    try:
-        async with httpx.AsyncClient(timeout=20) as client:
-            resp = await client.post(
-                f"{OPENCODE_BASE_URL}/chat/completions",
-                headers={"Authorization": f"Bearer {settings.opencode_api_key}"},
-                json={
-                    "model": OPENCODE_MODEL,
-                    "messages": [{"role": "user", "content": prompt}],
-                    "temperature": 0.7,
-                },
-            )
-            if resp.status_code == 200:
-                data = resp.json()
-                return data["choices"][0]["message"]["content"]
-            else:
-                print(f"[PublicData] OpenCode API 오류: {resp.status_code} - {resp.text[:200]}")
-    except Exception as e:
-        print(f"[PublicData] OpenCode API 호출 실패: {e}")
+    for attempt in range(1, max_attempts + 1):
+        try:
+            # 타임아웃은 코드베이스의 다른 LLM 호출(60~120초)과 맞춰 넉넉히 준다.
+            async with httpx.AsyncClient(timeout=120) as client:
+                resp = await client.post(
+                    f"{OPENCODE_BASE_URL}/chat/completions",
+                    headers={"Authorization": f"Bearer {settings.opencode_api_key}"},
+                    json={
+                        "model": OPENCODE_MODEL,
+                        "messages": [{"role": "user", "content": prompt}],
+                        "temperature": 0.7,
+                    },
+                )
+                if resp.status_code == 200:
+                    data = resp.json()
+                    content = (data["choices"][0]["message"].get("content") or "").strip()
+                    if not content:
+                        finish = data["choices"][0].get("finish_reason")
+                        print(f"[PublicData] OpenCode 빈 content 반환 (finish_reason={finish})")
+                    else:
+                        return content
+                else:
+                    print(f"[PublicData] OpenCode API 오류(시도 {attempt}/{max_attempts}): {resp.status_code} - {resp.text[:200]}")
+        except Exception as e:
+            print(f"[PublicData] OpenCode API 호출 실패(시도 {attempt}/{max_attempts}): {e!r}")
     return None
 
 
@@ -69,6 +83,13 @@ async def _generate_with_opencode(prompt: str) -> QuestionSet | None:
     elif "```" in text:
         text = text.split("```")[-1].split("```")[0].strip()
 
+    # 코드펜스가 없고 추론 모델이 앞뒤로 산문을 붙인 경우, 첫 '{' ~ 마지막 '}'만 잘라낸다.
+    if not text.startswith("{"):
+        start = text.find("{")
+        end = text.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            text = text[start : end + 1]
+
     try:
         data = json.loads(text)
         return QuestionSet.model_validate(data)
@@ -78,7 +99,71 @@ async def _generate_with_opencode(prompt: str) -> QuestionSet | None:
         return None
 
 
+async def generate_artifact_analysis(
+    title: str,
+    description: str,
+    ingredient: str = "",
+    sizing: str = "",
+    source: str = "",
+) -> ImageAnalysis:
+    """OpenCode Zen API로 유물 분석 결과를 생성합니다 (0609 설계).
+    AI 실패 시 fallback 분석을 반환합니다."""
+    template_path = PROMPT_DIR / "artifact_analyze_v1.txt"
+    if template_path.exists():
+        template = template_path.read_text(encoding="utf-8")
+        prompt = template.format(
+            title=title,
+            description=description or "",
+            ingredient=ingredient or "",
+            sizing=sizing or "",
+            source=source or "",
+        )
+
+        raw_text = await _call_opencode_chat(prompt)
+        if raw_text:
+            text = raw_text.strip()
+            if "```json" in text:
+                text = text.split("```json")[-1].split("```")[0].strip()
+            elif "```" in text:
+                text = text.split("```")[-1].split("```")[0].strip()
+
+            try:
+                data = json.loads(text)
+                return ImageAnalysis.model_validate(data)
+            except Exception as e:
+                print(f"[PublicData] ImageAnalysis 파싱 실패: {e}")
+
+    print("[PublicData] AI 분석 실패 - fallback 분석 사용")
+    features = []
+    if ingredient:
+        features.append(f"재질: {ingredient}")
+    if sizing:
+        features.append(f"규격: {sizing}")
+    if description:
+        features.append(description[:60])
+    if not features:
+        features.append("메타데이터 없음")
+
+    return ImageAnalysis(
+        artifact_summary={
+            "era": description[:20] + " 추정" if description else "알 수 없음",
+            "type": "유물",
+            "features": features,
+        },
+        context={"historical": None, "social": None},
+        mood={"atmosphere": "정보 없음", "associations": []},
+        topic_candidates=[
+            {"title": title, "description": f"'{title}'에 대한 이야기를 나누어보세요", "age_suitability": "both"},
+        ],
+    )
+
+
 PROMPT_DIR = Path(__file__).parent.parent / "prompts"
+
+# 지역문화 멀티미디어 CSV 데이터 경로
+DATA_DIR = Path(r"C:\dev\contest")
+KF_AREA_IMAGE_CSV = DATA_DIR / "KF_AREA_IMAGE.csv"
+KF_AREA_TEXT_CSV = DATA_DIR / "KF_AREA_TEXT.csv"
 
 # 폴백용 샘플 풀 (API 실패 시 사용) - 위키미디어 퍼블릭 도메인 이미지
 TOPIC_POOL = [
@@ -284,7 +369,280 @@ TOPIC_POOL = [
             ],
         },
     },
+    {
+        "title": "한국 전통 혼례",
+        "description": "소중한 두 사람의 시작을 알리는 전통 혼례식의 아름다운 풍경입니다.",
+        "media_type": "image",
+        "media_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Korean_wedding_hanbok.jpg/800px-Korean_wedding_hanbok.jpg",
+        "source": "한국관광공사",
+        "source_url": "https://kto.visitkorea.or.kr",
+        "ai_question": "전통 혼례를 본 적이 있으신가요? 어떤 인상이었나요?",
+        "text_content": None,
+        "question_type": "mixed",
+        "choices": None,
+    },
+    {
+        "title": "다도 - 찻잔에 담긴 여유",
+        "description": "차를 우려내며 느끼는 평온함. 찻잔 속에 전통의 향기가 깃듭니다.",
+        "media_type": "image",
+        "media_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Korean_tea_ceremony_DSC_0075.jpg/800px-Korean_tea_ceremony_DSC_0075.jpg",
+        "source": "한국관광공사",
+        "source_url": "https://kto.visitkorea.or.kr",
+        "ai_question": "다도를 해보신 적 있으신가요? 차를 마시며 어떤 생각을 하셨나요?",
+        "text_content": None,
+        "question_type": "narrative",
+        "choices": None,
+    },
+    {
+        "title": "한옥 마을 정경",
+        "description": "기와지붕이 줄지은 한옥 마을. 옛 정취가 그대로 살아있는 공간입니다.",
+        "media_type": "image",
+        "media_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Korea_Andong_Hahoe_Village_02.jpg/800px-Korea_Andong_Hahoe_Village_02.jpg",
+        "source": "한국관광공사",
+        "source_url": "https://kto.visitkorea.or.kr",
+        "ai_question": "한옥에서 살아본 적이 있으신가요? 그때의 추억을 들려주세요.",
+        "text_content": None,
+        "question_type": "mixed",
+        "choices": None,
+    },
 ]
+
+
+def _load_kf_area_csv(media_type: str) -> list[dict]:
+    """KF_AREA CSV 파일을 읽어 dict 리스트로 반환합니다."""
+    csv_path = KF_AREA_IMAGE_CSV if media_type == "image" else KF_AREA_TEXT_CSV
+    if not csv_path.exists():
+        return []
+    rows = []
+    with open(csv_path, "r", encoding="utf-8-sig") as fh:
+        reader = csv.DictReader(fh)
+        for row in reader:
+            rows.append(row)
+    return rows
+
+
+async def fetch_local_culture_data(
+    media_type: str = "both",
+    region: str = "",
+    keyword: str = "",
+    quantity: int = 10,
+    media_subtype: str = "",
+) -> list[dict] | None:
+    """
+    지역문화 멀티미디어 CSV 파일에서 데이터를 로컬로 읽어옵니다.
+    
+    Args:
+        media_type: "image", "text", "both"
+        media_subtype: "image", "story", "text" (세부 타입 필터)
+        region: 지역 필터 (예: "경상남도", "충청남도")
+        keyword: 키워드 필터 (제목, 설명, CORE_KWRD_CN, REFINED_KWRD_CN에서 검색)
+        quantity: 반환 최대 개수
+    """
+    all_candidates = []
+    
+    if media_type in ("image", "both"):
+        rows = _load_kf_area_csv("image")
+        all_candidates.extend(rows)
+    
+    if media_type in ("text", "both"):
+        rows = _load_kf_area_csv("text")
+        all_candidates.extend(rows)
+    
+    if not all_candidates:
+        return None
+    
+    # media_subtype 필터 (image/story/text)
+    if media_subtype:
+        subtype_kw = media_subtype.strip().lower()
+        filtered_st = []
+        for r in all_candidates:
+            row_subtype = r.get("media_subtype", r.get("IS_STORY", "")).strip().lower()
+            if subtype_kw == "story":
+                if row_subtype in ("story", "y"):
+                    filtered_st.append(r)
+            elif subtype_kw == "text":
+                if row_subtype in ("text", "n", ""):
+                    filtered_st.append(r)
+            elif subtype_kw == "image":
+                if row_subtype == "image":
+                    filtered_st.append(r)
+        all_candidates = filtered_st
+    
+    # 지역 필터
+    filtered = all_candidates
+    if region:
+        region_kw = region.strip()
+        filtered = [r for r in filtered if region_kw in r.get("CTPRVN_NM", "") or region_kw in r.get("SIGNGU_NM", "")]
+    
+    # 키워드 필터 (refined keywords 포함)
+    if keyword:
+        keyword_kw = keyword.strip().lower()
+        keyword_filtered = []
+        for r in filtered:
+            search_text = " ".join([
+                r.get("DATA_TITLE_NM", ""),
+                r.get("SUMRY_CN", ""),
+                r.get("CORE_KWRD_CN", ""),
+                r.get("REFINED_KWRD_CN", ""),
+                r.get("THEME_NM", ""),
+                r.get("LWPRT_THEME_NM", ""),
+            ]).lower()
+            if keyword_kw in search_text:
+                keyword_filtered.append(r)
+        filtered = keyword_filtered
+    
+    # 랜덤 셔플 및 개수 제한
+    random.shuffle(filtered)
+    selected = filtered[:quantity]
+    
+    # 표준 형식으로 변환
+    result = []
+    for row in selected:
+        thumb_url = row.get("MAIN_THUMB_URL", "").strip()
+        mt = "image" if thumb_url and thumb_url.startswith("http") else "text"
+        # media_subtype: image/story/text
+        row_subtype = row.get("media_subtype", "").strip() or mt
+        is_story = row.get("IS_STORY", "").strip()
+        if is_story == "Y" and mt != "image":
+            row_subtype = "story"
+        
+        result.append({
+            "title": row.get("DATA_TITLE_NM", ""),
+            "description": row.get("SUMRY_CN", ""),
+            "media_url": thumb_url if mt == "image" else None,
+            "media_type": mt,
+            "media_subtype": row_subtype,
+            "source": "지역문화 포털",
+            "source_url": row.get("CNTNTS_URL", ""),
+            "text_content": None,
+            "local_id": row.get("DATA_MANAGE_NO", ""),
+            "region": row.get("CTPRVN_NM", ""),
+            "sub_region": row.get("SIGNGU_NM", ""),
+            "keywords": row.get("CORE_KWRD_CN", ""),
+            "refined_keywords": row.get("REFINED_KWRD_CN", ""),
+            "theme": row.get("THEME_NM", ""),
+            "sub_theme": row.get("LWPRT_THEME_NM", ""),
+            "address": row.get("ADDR", ""),
+            "lat": row.get("CTLSTT_LA", ""),
+            "lon": row.get("CTLSTT_LO", ""),
+            "regist_date": row.get("REGIST_DE", ""),
+        })
+    
+    return result
+
+
+async def fetch_cheongju_museum(keyword: str = "") -> list[dict] | None:
+    """
+    KCISA 문화공공데이터광장 - 국립청주박물관_소장품 API
+    
+    [공식 정보]
+    - 엔드포인트: https://api.kcisa.kr/openapi/API_CHA_084/request
+    - 메서드: GET
+    - 인증: serviceKey (KCISA에서 발급)
+    
+    [요청 파라미터]
+    - serviceKey   (string, 필수)  : KCISA API 키
+    - numOfRows    (string, 선택)  : 세션당 요청 레코드 수
+    - pageNo       (string, 선택)  : 페이지 수
+    
+    [출력값]
+    1. TITLE                  : 제목
+    2. ALTERNATIVE_TITLE      : 부제
+    3. ISSUED_DATE            : 원천기관등록일
+    4. DESCRIPTION            : 소개(설명)
+    5. SIZING                 : 규격
+    6. URL                    : URL
+    7. COLLECTED_DATE         : 수집일
+    8. LOCAL_ID               : 게시물번호
+    9. REG_DT                 : 등록일
+    10. INGREDIENT            : 재질
+    11. IMAGE_OBJECT          : 이미지주소  ← 이미지 URL
+    """
+    if not settings.cheongju_museum_api_key:
+        print("[PublicData] CHEONGJU_MUSEUM_API_KEY 미설정 (.env 확인)")
+        return None
+    
+    url = "https://api.kcisa.kr/openapi/API_CHA_084/request"
+    params = {
+        "serviceKey": settings.cheongju_museum_api_key,
+        "numOfRows": "20",
+        "pageNo": "1",
+    }
+    
+    try:
+        async with httpx.AsyncClient(timeout=30, verify=False) as client:
+            resp = await client.get(url, params=params)
+            print(f"[PublicData] 청주박물관 HTTP Status: {resp.status_code}")
+            print(f"[PublicData] 청주박물관 요청 URL: {resp.url}")
+            
+            if resp.status_code == 401:
+                print("[PublicData] 청주박물관 401 Unauthorized - API 키가 유효하지 않습니다")
+                return None
+            if resp.status_code != 200:
+                print(f"[PublicData] 청주박물관 오류 응답: {resp.text[:500]}")
+                return None
+            
+            resp_text = resp.text
+    except Exception as e:
+        print(f"[PublicData] 청주박물관 요청 예외: {type(e).__name__}: {e}")
+        return None
+    
+    try:
+        root = ET.fromstring(resp_text)
+    except ET.ParseError as e:
+        print(f"[PublicData] 청주박물관 XML 파싱 오류: {e}")
+        print(f"[PublicData] 원본 응답 일부: {resp_text[:300]}")
+        return None
+    
+    result_code = root.find(".//resultCode")
+    result_msg = root.find(".//resultMsg")
+    
+    if result_code is not None:
+        print(f"[PublicData] 청주박물관 resultCode: {result_code.text}")
+    if result_msg is not None:
+        print(f"[PublicData] 청주박물관 resultMsg: {result_msg.text}")
+    
+    if result_code is None or result_code.text != "0000":
+        msg = result_msg.text if result_msg is not None else "Unknown"
+        print(f"[PublicData] 청주박물관 API 결과 오류: {msg}")
+        return None
+    
+    items = root.findall(".//item")
+    print(f"[PublicData] 청주박물관 item 개수: {len(items)}")
+    if not items:
+        return None
+    
+    candidates = []
+    for item in items[:10]:
+        title = item.findtext("TITLE", default="")
+        alt_title = item.findtext("ALTERNATIVE_TITLE", default="")
+        description = item.findtext("DESCRIPTION", default="")
+        url_field = item.findtext("URL", default="")
+        image_object = item.findtext("IMAGE_OBJECT", default="")
+        local_id = item.findtext("LOCAL_ID", default="")
+        ingredient = item.findtext("INGREDIENT", default="")
+        sizing = item.findtext("SIZING", default="")
+        
+        media_url = None
+        if image_object and image_object.startswith("http"):
+            media_url = image_object
+            print(f"[PublicData] 청주박물관 IMAGE_OBJECT 발견: {media_url[:100]}")
+        
+        candidates.append({
+            "title": title or alt_title,
+            "description": description,
+            "media_url": media_url,
+            "media_type": "image",
+            "source": "국립청주박물관",
+            "source_url": url_field or "https://cheongju.museum.go.kr",
+            "text_content": None,
+            "local_id": local_id,
+            "ingredient": ingredient,
+            "sizing": sizing,
+        })
+    
+    print(f"[PublicData] 청주박물관 후보 {len(candidates)}개 추출 완료")
+    return candidates
 
 
 async def fetch_folk_museum(keyword: str = "") -> list[dict] | None:
@@ -321,14 +679,13 @@ async def fetch_folk_museum(keyword: str = "") -> list[dict] | None:
     16. SUB_DESCRIPTION       : 부가설명
     17. CNTC_INSTT_NM         : 제공기관명
     """
-    KCISA_KEY = os.getenv("KCISA_API_KEY", "")
-    if not KCISA_KEY:
+    if not settings.kcisa_api_key:
         print("[PublicData] KCISA_API_KEY 미설정 (.env 확인)")
         return None
     
     url = "https://api.kcisa.kr/openapi/API_CIA_092/request"
     params = {
-        "serviceKey": KCISA_KEY,
+        "serviceKey": settings.kcisa_api_key,
         "numOfRows": "20",
         "pageNo": "1",
     }
@@ -657,6 +1014,17 @@ async def refine_topic_question(
     return current_question_set
 
 
+def _ko_particle(word: str, josa_pair: tuple[str, str]) -> str:
+    """마지막 글자 받침 유무에 따라 적절한 조사를 반환. josa_pair = (받침O, 받침X)"""
+    if not word:
+        return josa_pair[0]
+    code = ord(word[-1])
+    if 0xAC00 <= code <= 0xD7A3:
+        has_batchim = (code - 0xAC00) % 28 != 0
+        return josa_pair[0] if has_batchim else josa_pair[1]
+    return josa_pair[1]
+
+
 def _build_fallback_question_set(
     question_type: str,
     title: str = "이 주제",
@@ -664,109 +1032,164 @@ def _build_fallback_question_set(
     narrative_count: int = 1,
     choice_count: int = 1,
 ) -> QuestionSet:
-    """
-    AI API 실패 시, 지정한 수량만큼 기본 질문을 동적으로 생성하여 반환.
-    """
-    from copy import deepcopy
+    """AI API 실패 시 기본 질문을 동적으로 생성하여 반환."""
+    wa = _ko_particle(title, ("과", "와"))      # 항아리 → 와, 그릇 → 과
+    reul = _ko_particle(title, ("을", "를"))    # 항아리 → 를, 그릇 → 을
+    i_ga = _ko_particle(title, ("이", "가"))
 
-    # 총 질문 수 계산
-    total = question_count
-    if question_type == "mixed":
-        total = choice_count + narrative_count
-
+    total = question_count if question_type != "mixed" else choice_count + narrative_count
     base_questions = []
 
     if question_type == "narrative":
-        # 서술형 폴백 템플릿
+        # (question, placeholder, guidelines) 순서
         templates = [
-            "{title}에 대해 어떤 기억이 떠오르세요?",
-            "{title}과 관련해 특별했던 순간을 이야기해 주세요.",
-            "{title}을(를) 생각하면 어떤 감정이 드시나요?",
-            "{title}에 대한 이야기를 자유롭게 나눠 주세요.",
-            "{title}을(를) 경험했던 때를 떠올려 보세요.",
+            (
+                f"{title}{wa} 관련한 장면이 아직 눈에 선한 게 있으신가요?",
+                "문득 떠오르는 대로...",
+                [f"그때의 냄새나 소리가 떠오른다면", f"{title} 근처에 누가 있었나요"],
+            ),
+            (
+                f"{title}{reul} 처음 만난 때는 어느 계절이었나요?",
+                "떠오르는 계절, 날씨, 장소...",
+                ["그 시절 하늘이 어땠는지", "함께 있던 풍경은"],
+            ),
+            (
+                f"{title}{wa} 함께했던 어떤 하루가 문득 떠오르시나요?",
+                "아주 작은 기억이어도 좋습니다...",
+                ["그날의 공기나 소리", "무엇을 하고 있었는지"],
+            ),
+            (
+                f"{title}{reul} 보면 어떤 소리나 냄새가 먼저 떠오르시나요?",
+                "감각적인 기억을 그대로...",
+                ["눈을 감으면 들리는 소리", "코끝에 맴도는 냄새"],
+            ),
+            (
+                f"{title}{wa} 얽힌 어떤 사람이 문득 생각나시나요?",
+                "떠오르는 사람이나 장면...",
+                ["그 사람이 어떤 모습이었는지", "어디서 만났는지"],
+            ),
         ]
         for i in range(total):
-            tpl = templates[i % len(templates)]
+            text, placeholder, guidelines = templates[i % len(templates)]
             base_questions.append(
                 QuestionItem(
                     id=f"q{i+1}",
                     type="narrative",
-                    text=tpl.format(title=title),
+                    text=text,
                     target_age="elderly",
-                    placeholder="자유롭게 이야기해 주세요...",
-                    guidelines=["떠오르는 대로", "구체적인 장면을"],
+                    placeholder=placeholder,
+                    guidelines=guidelines,
                     suggested_duration_seconds=45,
                 )
             )
 
     elif question_type == "choice":
-        # 선택형 폴백 템플릿
+        # (question, options[(label, value, icon)]) 순서
         templates = [
-            "{title}에 대해 어떤 생각이 드시나요?",
-            "{title}과 관련해 가장 기억에 남는 것은 무엇인가요?",
-            "{title}을(를) 경험한 적이 있으신가요?",
-            "{title}에 대해 가장 먼저 떠오르는 것은 무엇인가요?",
-            "{title}과(와) 관련해 어떤 감정을 느끼시나요?",
+            (
+                f"{title}{reul} 처음 접한 게 언제쯤이었나요?",
+                [("어릴 때 집에서", "A", "🏠"), ("어른 되고 나서", "B", "🌿"), ("일하면서 만났어요", "C", "🔨")],
+            ),
+            (
+                f"{title}{wa} 관련된 장면 중 아직 눈에 남아있는 게 있으신가요?",
+                [("냄새나 소리가 먼저 떠올라요", "A", "👃"), ("어떤 사람 얼굴이 생각나요", "B", "👤"), ("특정 장소가 그려져요", "C", "🏘️")],
+            ),
+            (
+                f"{title}{i_ga} 가장 많이 쓰이던 때는 어느 때였나요?",
+                [("명절이나 제삿날", "A", "🎑"), ("일상에서 늘 썼어요", "B", "☀️"), ("특별한 날에만 꺼냈어요", "C", "✨")],
+            ),
+            (
+                f"{title}{reul} 생각하면 먼저 연상되는 게 있으신가요?",
+                [("어머니·할머니 손길", "A", "🤲"), ("부엌이나 창고 풍경", "B", "🪣"), ("흙냄새·나무 냄새", "C", "🌱")],
+            ),
+            (
+                f"{title}{wa} 함께한 시간은 주로 어디서였나요?",
+                [("집 안 특정 공간", "A", "🏠"), ("마을 공동 공간", "B", "🌾"), ("장터나 시장", "C", "🛒")],
+            ),
         ]
         for i in range(total):
-            tpl = templates[i % len(templates)]
+            text, opts = templates[i % len(templates)]
+            options = [
+                ChoiceOption(id=f"opt_{i}_{v}", label=label, value=v, icon_hint=icon)
+                for label, v, icon in opts
+            ]
+            options.append(
+                ChoiceOption(id=f"opt_{i}_other", label="그 외에 문득 떠오르는 것", value="OTHER", is_other=True)
+            )
             base_questions.append(
                 QuestionItem(
                     id=f"q{i+1}",
                     type="choice",
-                    text=tpl.format(title=title),
+                    text=text,
                     target_age="elderly",
                     allow_multiple=False,
                     has_other=True,
-                    options=[
-                        ChoiceOption(id=f"opt_{i}_1", label="네, 많이 경험했어요", value="A", icon_hint="🙂"),
-                        ChoiceOption(id=f"opt_{i}_2", label="가끔 생각나요", value="B", icon_hint="🤔"),
-                        ChoiceOption(id=f"opt_{i}_3", label="잘 모르겠어요", value="C", icon_hint="😊"),
-                        ChoiceOption(id=f"opt_{i}_other", label="기타 (직접 말씀해 주세요)", value="OTHER", is_other=True),
-                    ],
+                    options=options,
                 )
             )
 
     elif question_type == "mixed":
-        # 혼합형: choice_count개 + narrative_count개
         choice_templates = [
-            "{title}에 대해 경험이 있으신가요?",
-            "{title}과(와) 관련해 가장 기억에 남는 것은 무엇인가요?",
+            (
+                f"{title}{reul} 처음 접한 게 언제쯤이었나요?",
+                [("어릴 때 집에서", "A", "🏠"), ("어른 되고 나서", "B", "🌿"), ("일하면서 만났어요", "C", "🔨")],
+            ),
+            (
+                f"{title}{wa} 관련된 장면 중 아직 눈에 남아있는 게 있으신가요?",
+                [("냄새나 소리가 먼저 떠올라요", "A", "👃"), ("어떤 사람 얼굴이 생각나요", "B", "👤"), ("특정 장소가 그려져요", "C", "🏘️")],
+            ),
+            (
+                f"{title}{i_ga} 가장 많이 쓰이던 때는 어느 때였나요?",
+                [("명절이나 제삿날", "A", "🎑"), ("일상에서 늘 썼어요", "B", "☀️"), ("특별한 날에만 꺼냈어요", "C", "✨")],
+            ),
         ]
         narrative_templates = [
-            "{title}에 대한 이야기를 자세히 들려주세요.",
-            "{title}을(를) 생각하면 어떤 장면이 떠오르세요?",
+            (
+                f"{title}{wa} 관련한 장면이 아직 눈에 선한 게 있으신가요?",
+                "문득 떠오르는 대로...",
+                [f"그때의 냄새나 소리가 떠오른다면", "함께 있던 사람이 생각난다면"],
+            ),
+            (
+                f"{title}{reul} 보면 어떤 소리나 냄새가 먼저 떠오르시나요?",
+                "감각적인 기억을 그대로...",
+                ["눈을 감으면 들리는 소리", "코끝에 맴도는 냄새"],
+            ),
+            (
+                f"{title}{wa} 얽힌 어떤 하루가 문득 떠오르시나요?",
+                "아주 작은 기억이어도 좋습니다...",
+                ["그날의 공기나 날씨", "무엇을 하고 있었는지"],
+            ),
         ]
-        # 선택형
         for i in range(choice_count):
-            tpl = choice_templates[i % len(choice_templates)]
+            text, opts = choice_templates[i % len(choice_templates)]
+            options = [
+                ChoiceOption(id=f"opt_{i}_{v}", label=label, value=v, icon_hint=icon)
+                for label, v, icon in opts
+            ]
+            options.append(
+                ChoiceOption(id=f"opt_{i}_other", label="그 외에 문득 떠오르는 것", value="OTHER", is_other=True)
+            )
             base_questions.append(
                 QuestionItem(
                     id=f"q{i+1}",
                     type="choice",
-                    text=tpl.format(title=title),
+                    text=text,
                     target_age="elderly",
                     allow_multiple=False,
                     has_other=True,
-                    options=[
-                        ChoiceOption(id=f"opt_{i}_1", label="네, 많이 경험했어요", value="A", icon_hint="🙂"),
-                        ChoiceOption(id=f"opt_{i}_2", label="가끔 생각나요", value="B", icon_hint="🤔"),
-                        ChoiceOption(id=f"opt_{i}_3", label="잘 모르겠어요", value="C", icon_hint="😊"),
-                        ChoiceOption(id=f"opt_{i}_other", label="기타 (직접 말씀해 주세요)", value="OTHER", is_other=True),
-                    ],
+                    options=options,
                 )
             )
-        # 서술형
         for i in range(narrative_count):
-            tpl = narrative_templates[i % len(narrative_templates)]
+            text, placeholder, guidelines = narrative_templates[i % len(narrative_templates)]
             base_questions.append(
                 QuestionItem(
                     id=f"q{choice_count + i + 1}",
                     type="narrative",
-                    text=tpl.format(title=title),
+                    text=text,
                     target_age="elderly",
-                    placeholder="자유롭게 이야기해 주세요...",
-                    guidelines=["떠오르는 대로", "구체적인 장면을"],
+                    placeholder=placeholder,
+                    guidelines=guidelines,
                     suggested_duration_seconds=45,
                 )
             )
@@ -788,14 +1211,16 @@ async def generate_topic_question(
     question_count: int = 1,
     narrative_count: int = 1,
     choice_count: int = 1,
-) -> QuestionSet:
+) -> tuple[QuestionSet, bool]:
     """
     딥시크 API로 대화 유도 질문을 instructor + Pydantic 스키마로 강제 생성.
-    Returns: QuestionSet
+    Returns: (QuestionSet, ai_generated)
+      ai_generated=False 이면 AI 호출이 실패해 하드코딩 폴백 템플릿이 쓰인 것이다.
+      (복지사 UI에서 "AI 생성 실패"를 알릴 수 있도록 신호로 돌려준다.)
     """
     template_path = PROMPT_DIR / f"topic_publish_{question_type}_v1.txt"
     if not template_path.exists():
-        return DEFAULT_FALLBACK
+        return DEFAULT_FALLBACK, False
 
     template = template_path.read_text(encoding="utf-8")
     prompt = template.format(
@@ -813,10 +1238,10 @@ async def generate_topic_question(
 
     result = await _generate_with_opencode(prompt)
     if result:
-        return result
+        return result, True
 
     print("[PublicData] AI 생성 실패 - 폴백 질문 사용")
-    return _build_fallback_question_set(question_type, title, question_count, narrative_count, choice_count)
+    return _build_fallback_question_set(question_type, title, question_count, narrative_count, choice_count), False
 
 
 async def save_weekly_topic(db: AsyncSession, topic_data: dict) -> WeeklyTopic:
@@ -824,19 +1249,31 @@ async def save_weekly_topic(db: AsyncSession, topic_data: dict) -> WeeklyTopic:
     today = date.today()
     monday = today - timedelta(days=today.weekday())
     
-    # 이번 주 해당 지역 주제가 이미 있으면 업데이트
+    # 이번 주 (지역 + 복지사) 주제가 이미 있으면 업데이트.
+    # welfare_id까지 키로 사용하므로 같은 지역의 다른 복지사 주제를 덮어쓰지 않는다.
+    # 스케줄러/중앙 주제는 welfare_id IS NULL 로 별도 관리된다.
+    region = topic_data.get("region", "default")
+    welfare_id = topic_data.get("welfare_id")
+    welfare_filter = (
+        WeeklyTopic.welfare_id == welfare_id
+        if welfare_id is not None
+        else WeeklyTopic.welfare_id.is_(None)
+    )
     existing = await db.execute(
         select(WeeklyTopic).where(
             WeeklyTopic.active_week == monday,
-            WeeklyTopic.region == topic_data.get("region", "default"),
+            WeeklyTopic.region == region,
+            welfare_filter,
         )
+        .order_by(WeeklyTopic.is_customized.desc(), WeeklyTopic.created_at.desc())
+        .limit(1)
     )
-    topic = existing.scalar_one_or_none()
-    
+    topic = existing.scalars().first()
+
     if topic is None:
         topic = WeeklyTopic(
             active_week=monday,
-            region=topic_data.get("region", "default"),
+            region=region,
         )
         db.add(topic)
     
@@ -875,76 +1312,102 @@ async def save_weekly_topic(db: AsyncSession, topic_data: dict) -> WeeklyTopic:
 async def get_active_topic(
     db: AsyncSession,
     region: str = "default",
-) -> dict:
-    """이번 주 활성 주제: DB 우선 (지역 기준), 없으면 TOPIC_POOL 폴백"""
+    welfare_id=None,
+) -> dict | None:
+    """이번 주 활성 주제 조회.
+
+    해석 우선순위 (모두 DB 기준):
+      1. 담당 복지사(welfare_id)의 이번 주 주제
+      2. 사용자 지역(region)의 주제
+      3. 중앙 기본 주제(region="default", welfare_id IS NULL)
+    어디에도 없으면 None 반환 (TOPIC_POOL 폴백 없음 — 발행되지 않은 주제는 노출하지 않음).
+
+    welfare_id를 우선 키로 사용하므로 같은 지역에 복수 복지사가 발행해도 격리된다.
+    다중 결과 가능 지점은 모두 limit(1)+first()로 처리해 MultipleResultsFound를 방지한다.
+    """
     today = date.today()
     monday = today - timedelta(days=today.weekday())
-    
-    # 1. 해당 지역의 주제 우선 조회
-    result = await db.execute(
-        select(WeeklyTopic).where(
-            WeeklyTopic.active_week == monday,
-            WeeklyTopic.region == region,
-        )
-        .order_by(WeeklyTopic.is_customized.desc())
-    )
-    topic = result.scalar_one_or_none()
-    
-    # 2. 해당 지역에 없으면 중앙 기본 주제 조회
-    if not topic:
+
+    topic = None
+
+    # 1. 담당 복지사 주제 우선
+    if welfare_id is not None:
+        if isinstance(welfare_id, str):
+            welfare_id = uuid.UUID(welfare_id)
         result = await db.execute(
-            select(WeeklyTopic).where(
+            select(WeeklyTopic)
+            .where(
+                WeeklyTopic.active_week == monday,
+                WeeklyTopic.welfare_id == welfare_id,
+            )
+            .order_by(WeeklyTopic.is_customized.desc(), WeeklyTopic.created_at.desc())
+            .limit(1)
+        )
+        topic = result.scalars().first()
+
+    # 2. 중앙 주제 — 지역 일치 (welfare_id IS NULL: 스케줄러/중앙 발행).
+    #    다른 복지사가 같은 지역에 발행한 주제는 가져오지 않는다(격리 유지).
+    if topic is None:
+        result = await db.execute(
+            select(WeeklyTopic)
+            .where(
+                WeeklyTopic.active_week == monday,
+                WeeklyTopic.region == region,
+                WeeklyTopic.welfare_id.is_(None),
+            )
+            .order_by(WeeklyTopic.is_customized.desc(), WeeklyTopic.created_at.desc())
+            .limit(1)
+        )
+        topic = result.scalars().first()
+
+    # 3. 중앙 기본 주제 (region="default", welfare_id IS NULL)
+    if topic is None and region != "default":
+        result = await db.execute(
+            select(WeeklyTopic)
+            .where(
                 WeeklyTopic.active_week == monday,
                 WeeklyTopic.region == "default",
+                WeeklyTopic.welfare_id.is_(None),
             )
+            .order_by(WeeklyTopic.is_customized.desc(), WeeklyTopic.created_at.desc())
+            .limit(1)
         )
-        topic = result.scalar_one_or_none()
-    
-    # 3. DB에 있으면 반환
-    if topic:
-        choices = None
-        if topic.choices and topic.choices not in ("null", "None", ""):
-            try:
-                raw = json.loads(topic.choices)
-                # 새 구조 (dict) vs 구 구조 (list) 판별
-                if isinstance(raw, dict) and raw.get("schema_version") == "1.0":
-                    choices = raw
-                elif isinstance(raw, list):
-                    choices = raw
-            except Exception:
-                choices = None
-        
-        # ai_question 폴백: choices 신구조에서 첫 질문 text 사용
-        ai_question = topic.ai_question
-        if not ai_question and isinstance(choices, dict) and choices.get("questions"):
-            ai_question = choices["questions"][0].get("text", "")
-        
-        return {
-            "id": str(topic.id),
-            "title": topic.title,
-            "description": topic.description,
-            "media_url": topic.media_url,
-            "media_type": topic.media_type,
-            "source": topic.source,
-            "source_url": topic.source_url,
-            "ai_question": ai_question,
-            "text_content": topic.text_content,
-            "question_type": topic.question_type,
-            "choices": choices,
-            "active_week": topic.active_week.isoformat() if topic.active_week else None,
-            "region": topic.region,
-        }
-    
-    # 4. 폴백: text 샘플 우선 (image 비활성화)
-    text_pool = [t for t in TOPIC_POOL if t["media_type"] == "text"]
-    pool = text_pool if text_pool else TOPIC_POOL
-    idx = monday.isocalendar().week % len(pool)
-    topic = pool[idx].copy()
-    topic["id"] = None
-    topic["active_week"] = monday.isoformat()
-    topic["media_url"] = None
-    topic["region"] = region
-    return topic
+        topic = result.scalars().first()
+
+    # 4. 폴백 없음 → None (호출부에서 "주제 없음" 처리)
+    if topic is None:
+        return None
+
+    # 직렬화
+    choices = None
+    if topic.choices and topic.choices not in ("null", "None", ""):
+        try:
+            raw = json.loads(topic.choices)
+            if isinstance(raw, (dict, list)):
+                choices = raw
+        except Exception:
+            choices = None
+
+    # ai_question 폴백: choices 신구조에서 첫 질문 text 사용
+    ai_question = topic.ai_question
+    if not ai_question and isinstance(choices, dict) and choices.get("questions"):
+        ai_question = choices["questions"][0].get("text", "")
+
+    return {
+        "id": str(topic.id),
+        "title": topic.title,
+        "description": topic.description,
+        "media_url": topic.media_url,
+        "media_type": topic.media_type,
+        "source": topic.source,
+        "source_url": topic.source_url,
+        "ai_question": ai_question,
+        "text_content": topic.text_content,
+        "question_type": topic.question_type,
+        "choices": choices,
+        "active_week": topic.active_week.isoformat() if topic.active_week else None,
+        "region": topic.region,
+    }
 
 
 BLACKLIST_KEYWORDS = [
@@ -979,69 +1442,84 @@ async def search_topic_candidates(
     quantity: int = 3,
 ) -> list[dict]:
     """
-    공공 API에서 후보 검색 (미디어 타입 + 키워드 기반)
+    주제 후보 검색 (로컬 CSV 우선 → API 폴백 → TOPIC_POOL 폴백)
     
     [흐름]
-    1. media_type == "image"  → KCISA(민속박물관) + 공공데이터포털(국가기록원) 병렬 호출
-    2. media_type == "text"   → TOPIC_POOL 샘플에서 직접 선택
-    3. media_type == "audio"  → TOPIC_POOL 샘플에서 직접 선택
-    4. API 결과 부족 시      → TOPIC_POOL 샘플로 보충
-    
-    [주의]
-    - image 타입: API 성공 시 이미지를 로컬 캐시(cache_media) 후 /media/ 경로 반환
-    - API 실패(401, 403, 500, 타임아웃) 시 자동으로 샘플 폴백
+    1. 로컬 CSV (KF_AREA_IMAGE.csv / KF_AREA_TEXT.csv) 우선 검색
+    2. 키워드 있을 때: 로컬 결과 없으면 빈 리스트 반환 (API 폴백 금지)
+    3. 키워드 없을 때: 로컬 부족 시 API/TOPIC_POOL 폴백
     """
-    import asyncio
     candidates = []
 
-    if media_type == "image":
-        print("[PublicData] image 타입은 현재 비활성화되어 있습니다. 후보를 반환하지 않습니다.")
-        # image 타입 완전 비활성화: API 호출 없음, 샘플도 사용 안 함
+    # 1차: 로컬 CSV 데이터 우선
+    if media_type in ("image", "text"):
+        print(f"[PublicData] {media_type} 후보: 로컬 CSV 검색 (keyword={keyword!r})")
+        local_results = await fetch_local_culture_data(
+            media_type=media_type,
+            keyword=keyword,
+            quantity=quantity,
+            media_subtype="",
+        )
+        if local_results:
+            for item in local_results:
+                if len(candidates) >= quantity:
+                    break
+                candidates.append(item)
+                print(f"[PublicData] 후보 추가(로컬): {item['title'][:40]}")
+        else:
+            print(f"[PublicData] 로컬 CSV 결과 없음")
 
-    elif media_type == "text":
-        # 공공 API 호출 생략, TOPIC_POOL 샘플 직접 사용 (속도 개선 및 안정성)
-        print(f"[PublicData] 텍스트 후보: TOPIC_POOL 샘플 직접 사용 (quantity={quantity})")
-        text_samples = [t for t in TOPIC_POOL if t["media_type"] == "text"]
-        already_titles: set[str] = set()
-        for s in random.sample(text_samples, min(quantity, len(text_samples))):
+    # 키워드 있을 때: 로컬 결과 없으면 빈 리스트 반환 (API 폴백 금지)
+    if keyword and not candidates:
+        print(f"[PublicData] 키워드({keyword}) 검색 결과 없음 → 빈 리스트 반환")
+        print(f"[PublicData] 최종 후보: 0개 (요청: {quantity})")
+        return []
+
+    # 2차: API 폴백 (image 타입만, 키워드 없을 때만)
+    if not keyword and media_type == "image" and len(candidates) < quantity:
+        print(f"[PublicData] 로컬 부족 ({len(candidates)}/{quantity}), API 폴백 시도")
+        
+        if settings.kcisa_api_key:
+            api_results = await fetch_folk_museum("")
+        else:
+            api_results = await fetch_cheongju_museum()
+        
+        if api_results:
+            for item in api_results:
+                if len(candidates) >= quantity:
+                    break
+                if item.get("media_url"):
+                    candidates.append(item)
+                    print(f"[PublicData] 후보 추가(API): {item['title'][:40]}")
+
+    # 3차: TOPIC_POOL 폴백 (전부 실패 시, 키워드 없을 때만)
+    if not keyword and not candidates:
+        print("[PublicData] 로컬/API 결과 없음 → TOPIC_POOL 폴백")
+        samples = [t for t in TOPIC_POOL if t["media_type"] == media_type]
+        if not samples:
+            samples = TOPIC_POOL
+        for s in random.sample(samples, min(quantity, len(samples))):
             if len(candidates) >= quantity:
                 break
-            if s["title"] not in already_titles:
-                sc = s.copy()
-                if not sc.get("question_type"):
-                    sc["question_type"] = "narrative"
-                candidates.append(sc)
-                already_titles.add(s["title"])
-                print(f"[PublicData] 후보 추가(샘플): {sc['title'][:40]}...")
+            candidates.append(s.copy())
+            print(f"[PublicData] 후보 추가(샘플): {s['title'][:40]}")
 
-    elif media_type == "audio":
-        print(f"[PublicData] 오디오 후보 검색 - TOPIC_POOL 샘플 사용")
-        audio_samples = [t for t in TOPIC_POOL if t["media_type"] == "audio"]
-        for s in random.sample(audio_samples, min(quantity, len(audio_samples))):
-            sc = s.copy()
-            if not sc.get("question_type"):
-                sc["question_type"] = "choice"
-            candidates.append(sc)
-
-    # ── 부족분을 TOPIC_POOL 샘플로 채움 (image 제외) ──
-    if len(candidates) < quantity and media_type != "image":
+    # ── 부족분을 TOPIC_POOL 샘플로 채움 (키워드 없을 때만) ──
+    if not keyword and len(candidates) < quantity:
         short = quantity - len(candidates)
-        print(f"[PublicData] API 결과 부족 ({len(candidates)}/{quantity}) - 샘플 {short}개 보충")
+        print(f"[PublicData] 결과 부족 ({len(candidates)}/{quantity}) - TOPIC_POOL {short}개 보충")
         pool = [t for t in TOPIC_POOL if t["media_type"] == media_type]
+        if not pool:
+            pool = TOPIC_POOL
         already_titles = {c["title"] for c in candidates}
         for s in random.sample(pool, min(len(pool), short)):
             if len(candidates) >= quantity:
                 break
             if s["title"] not in already_titles:
                 sc = s.copy()
-                if not sc.get("question_type"):
-                    if media_type == "text":
-                        sc["question_type"] = "narrative"
-                    elif media_type == "audio":
-                        sc["question_type"] = "choice"
                 candidates.append(sc)
                 already_titles.add(s["title"])
-                print(f"[PublicData] 샘플 보충: {s['title'][:40]}...")
+                print(f"[PublicData] TOPIC_POOL 보충: {s['title'][:40]}...")
 
     print(f"[PublicData] 최종 후보: {len(candidates)}개 (요청: {quantity})")
     return candidates[:quantity]
@@ -1056,18 +1534,27 @@ KEYWORD_POOL = [
 
 
 async def publish_weekly_default_topic():
-    """매주 월요일 00:00 - 중앙 기본 주제 자동 생성"""
+    """매주 월요일 00:00 - 중앙 기본 주제 자동 생성 (로컬 CSV 우선)"""
     import logging
     logger = logging.getLogger("ium.scheduler")
     
     keyword = random.choice(KEYWORD_POOL)
-    # image 타입 비활성화 -> text 타입으로 검색
+    
+    # 1차: 로컬 CSV에서 text + image 모두 검색
     candidates = await search_topic_candidates("text", keyword, quantity=1)
+    if not candidates:
+        candidates = await search_topic_candidates("image", keyword, quantity=1)
     
     if not candidates:
-        # API 완전 실패 시 text 샘플에서 무작위 선택
-        text_samples = [t for t in TOPIC_POOL if t["media_type"] == "text"]
-        candidates = [random.choice(text_samples) if text_samples else TOPIC_POOL[0]]
+        # 2차: 로컬 CSV에서 키워드 없이 랜덤 검색
+        local_all = await fetch_local_culture_data(media_type="both", quantity=1)
+        if local_all:
+            candidates = local_all
+    
+    if not candidates:
+        # 3차: TOPIC_POOL 폴백
+        all_samples = [t for t in TOPIC_POOL if t["media_type"] in ("text", "image")]
+        candidates = [random.choice(all_samples) if all_samples else TOPIC_POOL[0]]
     
     topic_data = candidates[0]
     topic_data["region"] = "default"

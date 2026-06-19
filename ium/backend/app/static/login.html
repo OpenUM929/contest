@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>이음(以音) - 로그인</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #FFFDF7 0%, #FFF8EE 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .login-card {
+      width: 380px;
+      background: #FFF;
+      border-radius: 20px;
+      padding: 40px 32px;
+      box-shadow: 0 8px 32px rgba(74,55,40,0.12);
+      text-align: center;
+    }
+    .logo { font-size: 36px; font-weight: bold; color: #4A3728; margin-bottom: 4px; }
+    .subtitle { font-size: 14px; color: #888; margin-bottom: 32px; }
+    .label { font-size: 14px; color: #666; margin-bottom: 8px; text-align: left; }
+    .input-field {
+      width: 100%;
+      padding: 14px 16px;
+      font-size: 15px;
+      border: 2px solid #DDD;
+      border-radius: 12px;
+      background: #FFF;
+      color: #333;
+      outline: none;
+      transition: border-color 0.2s;
+      margin-bottom: 16px;
+    }
+    .input-field:focus { border-color: #E8572A; }
+    .login-btn {
+      width: 100%;
+      padding: 14px;
+      font-size: 17px;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      background: #E8572A;
+      color: #FFF;
+      cursor: pointer;
+      transition: opacity 0.2s;
+    }
+    .login-btn:hover { opacity: 0.9; }
+    .login-btn:disabled { opacity: 0.4; cursor: default; }
+    .error { color: #E8572A; font-size: 13px; margin-bottom: 12px; display: none; }
+    .info {
+      margin-top: 20px;
+      padding: 12px;
+      background: #FFF8EE;
+      border-radius: 10px;
+      font-size: 12px;
+      color: #888;
+      line-height: 1.6;
+    }
+    .info table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+    .info th, .info td { padding: 4px 6px; font-size: 11px; text-align: left; border-bottom: 1px solid #EEE; }
+    .info th { color: #666; font-weight: bold; }
+    .info td { color: #888; }
+    .spinner {
+      display: none;
+      width: 20px; height: 20px;
+      border: 2px solid rgba(255,255,255,0.3);
+      border-top: 2px solid #FFF;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div class="login-card">
+    <div class="logo">이음(以音)</div>
+    <div class="subtitle">세대를 잇는 따뜻한 이야기</div>
+
+    <div class="label">이메일</div>
+    <input class="input-field" id="emailInput" type="email" placeholder="admin@ium.kr" autocomplete="email">
+
+    <div class="label">비밀번호</div>
+    <input class="input-field" id="pwInput" type="password" placeholder="admin1234 / demo1234">
+
+    <div class="error" id="errorMsg"></div>
+
+    <button class="login-btn" id="loginBtn" onclick="handleLogin()">
+      <span id="btnText">로그인</span>
+      <div class="spinner" id="spinner"></div>
+    </button>
+
+    <div class="info">
+      <strong>테스트 계정</strong>
+      <table>
+        <tr><th>이메일</th><th>비밀번호</th><th>권한</th></tr>
+        <tr><td>admin@ium.kr</td><td>admin1234</td><td>관리자</td></tr>
+        <tr><td>kim@welfare.kr</td><td>demo1234</td><td>복지사</td></tr>
+        <tr><td>lee@welfare.kr</td><td>demo1234</td><td>복지사</td></tr>
+        <tr><td>elder1@test.kr</td><td>demo1234</td><td>노인</td></tr>
+        <tr><td>elder2@test.kr</td><td>demo1234</td><td>노인</td></tr>
+        <tr><td>elder3@test.kr</td><td>demo1234</td><td>노인</td></tr>
+        <tr><td>youth1@test.kr</td><td>demo1234</td><td>청년</td></tr>
+        <tr><td>youth2@test.kr</td><td>demo1234</td><td>청년</td></tr>
+        <tr><td>youth3@test.kr</td><td>demo1234</td><td>청년</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <script>
+    try { if ('serviceWorker' in navigator) { navigator.serviceWorker.getRegistrations().then(function(r){for(var i=0;i<r.length;i++)r[i].unregister()}); } } catch(e) {}
+    const API = window.location.origin;
+    const urlParams = new URLSearchParams(window.location.search);
+    const redirectUrl = urlParams.get('redirect') || '';
+
+    document.getElementById('pwInput').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') handleLogin();
+    });
+
+    async function handleLogin() {
+      const email = document.getElementById('emailInput').value.trim();
+      const password = document.getElementById('pwInput').value;
+
+      if (!email || !password) {
+        showError('이메일과 비밀번호를 입력하세요.');
+        return;
+      }
+
+      const btn = document.getElementById('loginBtn');
+      const btnText = document.getElementById('btnText');
+      const spinner = document.getElementById('spinner');
+      btn.disabled = true;
+      btnText.style.display = 'none';
+      spinner.style.display = 'block';
+      hideError();
+
+      try {
+        const res = await fetch(API + '/api/auth/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email: email, password: password })
+        });
+
+        if (!res.ok) {
+          const err = await res.json();
+          throw new Error(err.detail || '로그인 실패');
+        }
+
+        const data = await res.json();
+        localStorage.setItem('temp_user_id', data.user_id);
+        localStorage.setItem('temp_user_type', data.user_type);
+        localStorage.setItem('temp_nickname', data.nickname);
+        if (data.welfare_id) {
+          localStorage.setItem('temp_welfare_id', data.welfare_id);
+        }
+        var targetPath = (data.user_type === 'elder' || data.user_type === 'youth') ? '/user' : '/dashboard';
+        window.location.href = redirectUrl || targetPath;
+      } catch (e) {
+        showError(e.message);
+        btn.disabled = false;
+        btnText.style.display = 'inline';
+        spinner.style.display = 'none';
+      }
+    }
+
+    function showError(msg) {
+      var el = document.getElementById('errorMsg');
+      el.textContent = msg;
+      el.style.display = 'block';
+    }
+    function hideError() {
+      document.getElementById('errorMsg').style.display = 'none';
+    }
+
+    if (localStorage.getItem('temp_user_id')) {
+      var storedType = localStorage.getItem('temp_user_type');
+      var storedPath = (storedType === 'elder' || storedType === 'youth') ? '/user' : '/dashboard';
+      window.location.href = redirectUrl || storedPath;
+    }
+  </script>
+</body>
+</html>

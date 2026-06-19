@@ -12,6 +12,12 @@ class ChoiceOption(BaseModel):
     value: str
     icon_hint: Optional[str] = None
     is_other: bool = False
+    # MBTI 유추용 태그 — 이 보기를 고른 사용자가 어느 성향으로 기우는지.
+    # 향수를 자극하는 보기 문구는 그대로 두고, 성향 정보는 이 메타데이터에만 담는다.
+    # axis: EI(외향/내향) | SN(감각/직관) | TF(사고/감정) | JP(판단/인식)
+    # pole: E | I | S | N | T | F | J | P  ('그 외' 같은 열린 창 보기는 태깅하지 않음)
+    mbti_axis: Optional[Literal["EI", "SN", "TF", "JP"]] = None
+    mbti_pole: Optional[Literal["E", "I", "S", "N", "T", "F", "J", "P"]] = None
 
 
 class QuestionItem(BaseModel):
@@ -27,6 +33,14 @@ class QuestionItem(BaseModel):
     placeholder: Optional[str] = None
     min_length_hint: Optional[str] = None
     suggested_duration_seconds: Optional[int] = None  # narrative 전용
+
+
+class ImageAnalysis(BaseModel):
+    """유물 분석 결과 — 복지사 주제 선택용 (0609 설계: artifact 중심)"""
+    artifact_summary: dict
+    context: dict
+    mood: dict
+    topic_candidates: list[dict]
 
 
 class QuestionSet(BaseModel):
@@ -50,6 +64,37 @@ class QuestionSet(BaseModel):
             if not any(q.type == "choice" for q in self.questions):
                 raise ValueError("mixed 타입은 최소 1개의 choice 질문이 필요합니다.")
         return self
+
+
+import re
+
+PROHIBITED_PATTERNS = [
+    (r"기분.*어땠", "정서 직접 묻기"),
+    (r"그립.*나요", "정서 직접 묻기"),
+    (r"외로.*우셨", "정서 직접 묻기"),
+    (r"가장.*기억에 남는", "최고급 강요"),
+    (r"가장.*좋았던", "최고급 강요"),
+    (r"가장.*행복했던", "최고급 강요"),
+    (r"가장.*감동", "최고급 강요"),
+    (r"해 주세요$", "명령형 압박"),
+    (r"말씀해 주세요", "명령형 압박"),
+    (r"이야기해 주세요", "명령형 압박"),
+    (r"기타$", "열린 선택지 미사용"),
+]
+
+
+def validate_question_quality(question_set: "QuestionSet") -> list[str]:
+    """금지 패턴 감지. 위반 문구 목록 반환 (빈 list = 통과)."""
+    violations: list[str] = []
+    for q in question_set.questions:
+        for pattern, category in PROHIBITED_PATTERNS:
+            if re.search(pattern, q.text):
+                violations.append(f"[{q.id}] {category}: '{q.text}'")
+        if q.options:
+            for opt in q.options:
+                if opt.label == "기타":
+                    violations.append(f"[{q.id}] 열린 선택지 미사용: 보기 '{opt.label}'")
+    return violations
 
 
 # 폴백 상수 — AI 실패 또는 API 키 없을 때 사용

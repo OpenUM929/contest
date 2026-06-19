@@ -11,6 +11,7 @@ import { useSurvey } from "../hooks/useSurvey";
 interface YouthSurveyProps {
   topic: any;
   userId: string;
+  topicId?: string;
   onSendStart?: () => void;
   onAiResponse?: (text: string) => void;
   onCrisis?: (level: string) => void;
@@ -19,6 +20,7 @@ interface YouthSurveyProps {
 export default function YouthSurvey({
   topic,
   userId,
+  topicId,
   onSendStart,
   onAiResponse,
   onCrisis,
@@ -36,6 +38,7 @@ export default function YouthSurvey({
   } = useSurvey(topic);
 
   const [inputText, setInputText] = useState("");
+  const _tid = topicId || (topic?.id as string | undefined);
 
   const toggleChoice = (option: ChoiceOption) => {
     if (!currentQuestion) return;
@@ -95,7 +98,7 @@ export default function YouthSurvey({
         questionId: currentQuestion.id,
         narrativeText: text,
       });
-      await submitAnswers(userId, onSendStart, onAiResponse, onCrisis);
+      await submitAnswers(userId, onSendStart, onAiResponse, onCrisis, _tid);
       setInputText("");
       return;
     }
@@ -107,7 +110,7 @@ export default function YouthSurvey({
       if (nextIdx < questions.length) {
         nextQuestion();
       } else {
-        await submitAnswers(userId, onSendStart, onAiResponse, onCrisis);
+        await submitAnswers(userId, onSendStart, onAiResponse, onCrisis, _tid);
       }
     }
   };

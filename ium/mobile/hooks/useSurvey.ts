@@ -16,7 +16,8 @@ export interface UseSurveyReturn {
     userId: string,
     onSendStart?: () => void,
     onAiResponse?: (text: string) => void,
-    onCrisis?: (level: string) => void
+    onCrisis?: (level: string) => void,
+    topicId?: string,
   ) => Promise<void>;
 }
 
@@ -83,7 +84,8 @@ export function useSurvey(topic: Topic | null): UseSurveyReturn {
       userId: string,
       onSendStart?: () => void,
       onAiResponse?: (text: string) => void,
-      onCrisis?: (level: string) => void
+      onCrisis?: (level: string) => void,
+      topicId?: string,
     ) => {
       setIsSubmitting(true);
       if (onSendStart) onSendStart();
@@ -117,6 +119,7 @@ export function useSurvey(topic: Topic | null): UseSurveyReturn {
           const response = await submitChat({
             user_id: userId,
             message,
+            topic_id: topicId,
             question_id: q.id,
             selected_option_id: selectedOptionId,
             selected_option_label: selectedOptionLabel,

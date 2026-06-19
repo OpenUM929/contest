@@ -1,13 +1,19 @@
-from pydantic_settings import BaseSettings
+from pathlib import Path
+from pydantic_settings import BaseSettings, SettingsConfigDict
+
+_ENV_FILE = Path(__file__).resolve().parent.parent / ".env"
 
 
 class Settings(BaseSettings):
+    model_config = SettingsConfigDict(env_file=str(_ENV_FILE), env_file_encoding="utf-8")
+
     database_url: str = "postgresql+asyncpg://ium:ium_secret@localhost:5432/ium"
     redis_url: str = "redis://localhost:6379"
     anthropic_api_key: str = ""
     openai_api_key: str = ""
     public_data_api_key: str = ""          # 공공데이터포털 API 키 (국가기록원)
     kcisa_api_key: str = ""                # KCISA 문화공공데이터광장 API 키 (민속박물관)
+    cheongju_museum_api_key: str = ""      # 국립청주박물관_소장품 API 키 (이미지 제공)
     deepseek_api_key: str = ""             # 딥시크 API 키 (질문 생성)
     opencode_base_url: str = "https://opencode.ai/zen/v1"  # OpenCode Zen API
     opencode_api_key: str = ""             # OpenCode API 키
@@ -31,9 +37,6 @@ class Settings(BaseSettings):
 
     # 로컬 개발용
     skip_emotion: bool = False  # 감정 모델 로딩 생략
-
-    class Config:
-        env_file = ".env"
 
 
 settings = Settings()

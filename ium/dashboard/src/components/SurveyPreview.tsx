@@ -4,10 +4,22 @@ import { QuestionSet, QuestionItem } from "../types/survey";
 
 interface Props {
   questionSet: QuestionSet | null;
-  title?: string;
+  candidate?: {
+    title: string;
+    description?: string;
+    text_content?: string;
+    media_url?: string;
+    media_type: string;
+    source: string;
+    image_analysis?: {
+      artifact_summary: { era: string; type: string; features: string[] };
+      mood: { atmosphere: string; associations: string[] };
+      topic_candidates: { title: string; description: string; age_suitability: string }[];
+    };
+  } | null;
 }
 
-export default function SurveyPreview({ questionSet, title = "미리보기" }: Props) {
+export default function SurveyPreview({ questionSet, candidate }: Props) {
   const [mode, setMode] = useState<"elder" | "youth">("elder");
 
   if (!questionSet || !questionSet.questions || questionSet.questions.length === 0) {
@@ -20,18 +32,92 @@ export default function SurveyPreview({ questionSet, title = "미리보기" }: P
 
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-        <h4 style={{ margin: 0, fontSize: 15, color: "#1A1A2E" }}>{title}</h4>
+      {/* 주제 정보 */}
+      {candidate && (
+        <div style={{
+          background: "#FFF8F6", borderRadius: 10, padding: "14px 16px",
+          border: "1px solid #FEE2E2", marginBottom: 4,
+        }}>
+          {candidate.media_url && candidate.media_type === "image" && (
+            <div style={{ width: "100%", maxHeight: 200, overflow: "hidden", borderRadius: 8, marginBottom: 10 }}>
+              <img src={candidate.media_url} alt={candidate.title}
+                style={{ width: "100%", height: "auto", display: "block" }} />
+            </div>
+          )}
+          {candidate.media_url && candidate.media_type === "audio" && (
+            <audio controls src={candidate.media_url} style={{ width: "100%", marginBottom: 10 }} />
+          )}
+          {(!candidate.media_url && candidate.media_type === "image") && (
+            <div style={{
+              width: "100%", height: 80, background: "#F1F5F9", borderRadius: 8,
+              display: "flex", alignItems: "center", justifyContent: "center",
+              fontSize: 13, color: "#94A3B8", marginBottom: 8,
+            }}>🖼 이미지 없음</div>
+          )}
+          <div style={{ fontSize: 15, fontWeight: "bold", color: "#222", marginBottom: 2 }}>{candidate.title}</div>
+          <div style={{ fontSize: 12, color: "#888", marginBottom: 4 }}>
+            [{candidate.source}] · {candidate.media_type === "image" ? "사진" : candidate.media_type === "audio" ? "음원" : "텍스트"}
+          </div>
+          {candidate.description ? (
+            <div style={{ fontSize: 13, color: "#555", lineHeight: 1.5, marginBottom: 4 }}>{candidate.description}</div>
+          ) : (
+            <div style={{ fontSize: 13, color: "#999", fontStyle: "italic", lineHeight: 1.5, marginBottom: 4 }}>설명 정보가 없습니다</div>
+          )}
+          {candidate.media_type === "text" && candidate.text_content && (
+            <div style={{
+              background: "#FAFAFA", borderRadius: 6, padding: "10px 12px",
+              border: "1px solid #E5E5E5", fontSize: 13, color: "#444",
+              lineHeight: 1.6, marginBottom: 8, maxHeight: 200, overflowY: "auto",
+            }}>
+              {candidate.text_content}
+            </div>
+          )}
+          {candidate.image_analysis && (
+            <div style={{
+              background: "#F8FAFC", borderRadius: 6, padding: "8px 10px",
+              border: "1px solid #E2E8F0", fontSize: 12, color: "#475569",
+            }}>
+              <div>🏺 {candidate.image_analysis.artifact_summary.era} · {candidate.image_analysis.artifact_summary.type}
+                {candidate.image_analysis.artifact_summary.features?.length > 0 && (
+                  <span> · {candidate.image_analysis.artifact_summary.features.join(", ")}</span>
+                )}
+              </div>
+              <div>🎨 {candidate.image_analysis.mood.atmosphere}</div>
+              {candidate.image_analysis.topic_candidates.length > 0 && (
+                <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 6 }}>
+                  {candidate.image_analysis.topic_candidates.map((tc, ti) => (
+                    <span key={ti} style={{
+                      fontSize: 11, background: "#E0F2FE", color: "#0369A1",
+                      padding: "2px 6px", borderRadius: 12, fontWeight: 600,
+                    }}>💡 {tc.title}</span>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* AI 생성 질문 구분선 */}
+      <div style={{
+        display: "flex", alignItems: "center", gap: 8,
+        margin: "8px 0 4px",
+      }}>
+        <div style={{ flex: 1, height: 1, background: "#DDD" }} />
+        <span style={{ fontSize: 13, fontWeight: "bold", color: "#888", whiteSpace: "nowrap" }}>
+          🤖 AI 생성 질문
+        </span>
+        <div style={{ flex: 1, height: 1, background: "#DDD" }} />
         <div style={{ display: "flex", gap: 6 }}>
           <button
             onClick={() => setMode("elder")}
             style={{
-              padding: "6px 12px",
+              padding: "4px 10px",
               borderRadius: 6,
               border: "none",
               background: mode === "elder" ? "#E8572A" : "#E0E0E0",
               color: mode === "elder" ? "#FFF" : "#333",
-              fontSize: 12,
+              fontSize: 11,
               fontWeight: "bold",
               cursor: "pointer",
             }}
@@ -41,12 +127,12 @@ export default function SurveyPreview({ questionSet, title = "미리보기" }: P
           <button
             onClick={() => setMode("youth")}
             style={{
-              padding: "6px 12px",
+              padding: "4px 10px",
               borderRadius: 6,
               border: "none",
               background: mode === "youth" ? "#7B7BFF" : "#E0E0E0",
               color: mode === "youth" ? "#FFF" : "#333",
-              fontSize: 12,
+              fontSize: 11,
               fontWeight: "bold",
               cursor: "pointer",
             }}

@@ -1,6 +1,15 @@
 // src/pages/SurveyManagerPage.tsx
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { WeeklyTopic, QuestionSet, SurveyTemplateItem } from "../types/survey";
+
+const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
+
+interface WorkerOption {
+  welfare_id: string;
+  name: string;
+  region?: string | null;
+}
 import {
   fetchCurrentSurveys,
   fetchTemplates,
@@ -8,6 +17,7 @@ import {
   updateSurvey,
   stopSurvey,
   saveTemplate,
+  generateArtwork,
 } from "../api/survey";
 import SurveyHistory from "../components/SurveyHistory";
 import SurveyAnalytics from "../components/SurveyAnalytics";
@@ -35,15 +45,41 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
   const [templates, setTemplates] = useState<SurveyTemplateItem[]>([]);
   const [loading, setLoading] = useState(false);
 
+  // 복지사 선택 (Dashboard/TopicManager와 동일 패턴 — 실제 DB workers 목록에서 선택)
+  const [workers, setWorkers] = useState<WorkerOption[]>([]);
+  const [selectedWelfareId, setSelectedWelfareId] = useState<string>(welfareId);
+
+  const loadWorkers = async () => {
+    try {
+      const { data } = await axios.get(`${API}/api/welfare/workers`);
+      setWorkers(data.workers ?? []);
+      if (data.workers?.length > 0 && !selectedWelfareId) {
+        setSelectedWelfareId(data.workers[0].welfare_id);
+      }
+    } catch { /* ignore */ }
+  };
+
+  useEffect(() => {
+    loadWorkers();
+  }, []);
+
   const [viewMode, setViewMode] = useState<ViewMode>("list");
   const [selectedTopic, setSelectedTopic] = useState<WeeklyTopic | null>(null);
   const [editingQuestionSet, setEditingQuestionSet] = useState<QuestionSet | null>(null);
+
+  // 작품 만들기 상태
+  const [artworkTarget, setArtworkTarget] = useState<{ topicId: string; topicTitle: string } | null>(null);
+  const [artworkType, setArtworkType] = useState<"essay" | "poem" | "novel">("essay");
+  const [promptVersion, setPromptVersion] = useState<"v0" | "v1" | "v2" | "v3">("v3");
+  const [referenceTitles, setReferenceTitles] = useState("");
+  const [artworkResult, setArtworkResult] = useState<any | null>(null);
+  const [artworkLoading, setArtworkLoading] = useState(false);
 
   // 현재 설문지 조회
   const loadCurrent = async () => {
     setLoading(true);
     try {
-      const res = await fetchCurrentSurveys();
+      const res = await fetchCurrentSurveys(selectedWelfareId || undefined);
       setCurrentTopics(res.data);
     } catch (e) {
       alert("현재 설문지 조회 실패");
@@ -54,10 +90,10 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
 
   // 템플릿 목록
   const loadTemplates = async () => {
-    if (!welfareId) return;
+    if (!selectedWelfareId) return;
     setLoading(true);
     try {
-      const res = await fetchTemplates(welfareId);
+      const res = await fetchTemplates(selectedWelfareId);
       setTemplates(res.data);
     } catch (e) {
       alert("템플릿 조회 실패");
@@ -68,11 +104,11 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
 
   useEffect(() => {
     loadCurrent();
-  }, []);
+  }, [selectedWelfareId]);
 
   useEffect(() => {
     if (subTab === "templates") loadTemplates();
-  }, [subTab]);
+  }, [subTab, selectedWelfareId]);
 
   // 수정 시작
   const startEdit = async (topic: WeeklyTopic) => {
@@ -155,11 +191,11 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
 
   // 템플릿 저장
   const handleSaveTemplate = async () => {
-    if (!editingQuestionSet || !welfareId) return;
+    if (!editingQuestionSet || !selectedWelfareId) return;
     const name = window.prompt("템플릿 이름을 입력하세요:");
     if (!name) return;
     try {
-      await saveTemplate({ welfare_id: welfareId, name, question_set: editingQuestionSet });
+      await saveTemplate({ welfare_id: selectedWelfareId, name, question_set: editingQuestionSet });
       alert("템플릿 저장 완료");
       if (subTab === "templates") loadTemplates();
     } catch (e) {
@@ -235,7 +271,7 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
           />
         )}
 
-        {viewMode === "analytics" && <SurveyAnalytics topicId={selectedTopic.topic_id} />}
+        {viewMode === "analytics" && <SurveyAnalytics topicId={selectedTopic.topic_id} welfareId={selectedWelfareId} />}
 
         {viewMode === "preview" && editingQuestionSet && (
           <SurveyPreview questionSet={editingQuestionSet} />
@@ -245,11 +281,46 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
   }
 
   // ═════════════════════════════════════
+  // 작품 만들기 핸들러
+  // ═════════════════════════════════════
+  const handleGenerateArtwork = async () => {
+    if (!artworkTarget) return;
+    setArtworkLoading(true);
+    setArtworkResult(null);
+    try {
+      const { data } = await generateArtwork(artworkTarget.topicId, artworkType, promptVersion, referenceTitles);
+      setArtworkResult(data);
+    } catch (e: any) {
+      alert("작품 생성 실패: " + (e.response?.data?.detail ?? e.message));
+    } finally {
+      setArtworkLoading(false);
+    }
+  };
+
+  // ═════════════════════════════════════
   // 목록 뷰
   // ═════════════════════════════════════
   return (
     <div style={{ padding: 24, background: "#F5F7FA", minHeight: "100vh" }}>
-      <h2 style={{ margin: "0 0 16px", fontSize: 20, color: "#1A1A2E" }}>설문지 통합 관리</h2>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", margin: "0 0 16px" }}>
+        <h2 style={{ margin: 0, fontSize: 20, color: "#1A1A2E" }}>설문지 통합 관리</h2>
+        {workers.length > 0 && (
+          <label style={{ fontSize: 13, color: "#555", display: "flex", alignItems: "center", gap: 8 }}>
+            복지사
+            <select
+              value={selectedWelfareId}
+              onChange={(e) => setSelectedWelfareId(e.target.value)}
+              style={{ padding: "6px 10px", borderRadius: 6, border: "1px solid #DDD", fontSize: 13 }}
+            >
+              {workers.map((w) => (
+                <option key={w.welfare_id} value={w.welfare_id}>
+                  {w.name} ({w.region || "기본"})
+                </option>
+              ))}
+            </select>
+          </label>
+        )}
+      </div>
 
       {/* 서브 탭 */}
       <div style={{ display: "flex", gap: 0, background: "#FFF", borderRadius: "8px 8px 0 0", overflow: "hidden", border: "1px solid #EEE", borderBottom: "none" }}>
@@ -346,6 +417,16 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
                       응답 집계
                     </button>
                     <button
+                      onClick={() => {
+                        setArtworkTarget({ topicId: topic.topic_id, topicTitle: topic.title });
+                        setArtworkResult(null);
+                        setReferenceTitles("");
+                      }}
+                      style={{ ...smallBtn, background: "#FFF", border: "1px solid #E8572A", color: "#E8572A" }}
+                    >
+                      작품 만들기
+                    </button>
+                    <button
                       onClick={() => handleStop(topic)}
                       style={{ ...smallBtn, background: "#FFF0F0", border: "1px solid #FF4444", color: "#FF4444" }}
                     >
@@ -382,6 +463,7 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
 
         {subTab === "history" && (
           <SurveyHistory
+            welfareId={selectedWelfareId}
             onCloneSuccess={() => {
               setSubTab("current");
               loadCurrent();
@@ -419,6 +501,135 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
           </div>
         )}
       </div>
+
+      {artworkTarget && (
+        <div style={{
+          position: "fixed", top: 0, left: 0, right: 0, bottom: 0,
+          background: "rgba(0,0,0,0.5)", zIndex: 1000,
+          display: "flex", alignItems: "center", justifyContent: "center",
+          padding: 24,
+        }} onClick={() => setArtworkTarget(null)}>
+          <div style={{
+            background: "#fff", borderRadius: 16, padding: 28,
+            width: "100%", maxWidth: 640, maxHeight: "90vh",
+            overflow: "auto", boxShadow: "0 8px 32px rgba(0,0,0,0.2)",
+          }} onClick={(e) => e.stopPropagation()}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 20 }}>
+              <h3 style={{ margin: 0, fontSize: 18, color: "#1A1A2E" }}>
+                작품 만들기 — {artworkTarget.topicTitle}
+              </h3>
+              <button
+                onClick={() => setArtworkTarget(null)}
+                style={{ background: "none", border: "none", fontSize: 20, cursor: "pointer", color: "#888", padding: "0 4px" }}
+              >
+                ✕
+              </button>
+            </div>
+
+            <div style={{ marginBottom: 18 }}>
+              <label style={{ display: "block", fontSize: 13, color: "#555", marginBottom: 8, fontWeight: 600 }}>
+                결과물 유형
+              </label>
+              <div style={{ display: "flex", gap: 8 }}>
+                {(["essay", "poem", "novel"] as const).map((t) => (
+                  <button
+                    key={t}
+                    onClick={() => { setArtworkType(t); setArtworkResult(null); }}
+                    style={{
+                      flex: 1, padding: "10px 0", borderRadius: 8,
+                      border: artworkType === t ? "2px solid #E8572A" : "2px solid #ddd",
+                      background: artworkType === t ? "#FFF0EB" : "#FFF",
+                      color: artworkType === t ? "#E8572A" : "#555",
+                      fontWeight: "bold", fontSize: 14, cursor: "pointer",
+                    }}
+                  >
+                    {t === "essay" ? "수필" : t === "poem" ? "시" : "소설"}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div style={{ marginBottom: 18 }}>
+              <label style={{ display: "block", fontSize: 13, color: "#555", marginBottom: 8, fontWeight: 600 }}>
+                프롬프트 버전
+              </label>
+              <div style={{ display: "flex", gap: 8 }}>
+                {([["v0", "v0"], ["v1", "v1"], ["v2", "v2"], ["v3", "v3 작가"]] as const).map(([v, label]) => (
+                  <button
+                    key={v}
+                    onClick={() => { setPromptVersion(v); setArtworkResult(null); }}
+                    style={{
+                      flex: 1, padding: "10px 0", borderRadius: 8,
+                      border: promptVersion === v ? "2px solid #1A1A2E" : "2px solid #ddd",
+                      background: promptVersion === v ? "#F0F0F5" : "#FFF",
+                      color: promptVersion === v ? "#1A1A2E" : "#555",
+                      fontWeight: "bold", fontSize: 13, cursor: "pointer",
+                    }}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
+              {promptVersion === "v3" && (
+                <div style={{ fontSize: 12, color: "#888", marginTop: 6, lineHeight: 1.5 }}>
+                  v3: 장르별 작가가 모든 응답을 혼합하고, 응답자별 성향(MBTI)을 유추해 각자를 주인공으로 그립니다.
+                </div>
+              )}
+            </div>
+
+            <div style={{ marginBottom: 18 }}>
+              <label style={{ display: "block", fontSize: 13, color: "#555", marginBottom: 8, fontWeight: 600 }}>
+                참고 작품 제목 <span style={{ fontWeight: 400, color: "#999" }}>(선택, 쉼표·줄바꿈으로 여러 개)</span>
+              </label>
+              <textarea
+                value={referenceTitles}
+                onChange={(e) => setReferenceTitles(e.target.value)}
+                placeholder="예) 무진기행, 소나기, 운수 좋은 날"
+                rows={2}
+                style={{
+                  width: "100%", boxSizing: "border-box", padding: "10px 12px",
+                  borderRadius: 8, border: "1px solid #ddd", fontSize: 14,
+                  resize: "vertical", fontFamily: "inherit",
+                }}
+              />
+            </div>
+
+            <button
+              onClick={handleGenerateArtwork}
+              disabled={artworkLoading}
+              style={{
+                width: "100%", padding: "12px 0", borderRadius: 10,
+                border: "none", background: artworkLoading ? "#ccc" : "#E8572A",
+                color: "#FFF", fontWeight: "bold", fontSize: 15,
+                cursor: artworkLoading ? "default" : "pointer", marginBottom: 20,
+              }}
+            >
+              {artworkLoading ? "AI가 작품을 만들고 있습니다..." : "생성하기"}
+            </button>
+
+            {artworkResult && (
+              <div style={{
+                background: "#FAFAFA", borderRadius: 12, padding: 20,
+                border: "1px solid #EEE",
+              }}>
+                <h4 style={{ margin: "0 0 8px", fontSize: 17, color: "#E8572A" }}>
+                  {artworkResult.title}
+                </h4>
+                <div style={{ fontSize: 12, color: "#888", marginBottom: 12 }}>
+                  {artworkResult.content_type === "essay" ? "수필" : artworkResult.content_type === "poem" ? "시" : "소설"} ·
+                  {artworkResult.contributor_cnt}명 기여 · 프롬프트 {artworkResult.prompt_version}
+                </div>
+                <div style={{
+                  fontSize: 15, lineHeight: 1.8, whiteSpace: "pre-wrap",
+                  color: "#333", fontFamily: "sans-serif",
+                }}>
+                  {artworkResult.content}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

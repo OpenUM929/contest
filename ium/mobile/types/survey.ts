@@ -44,6 +44,8 @@ export interface Topic {
   choices?: QuestionSet | string[] | null;
   active_week?: string | null;
   region?: string;
+  distributed_by?: string;
+  distributed_by_id?: string;
 }
 
 export interface SurveyAnswer {

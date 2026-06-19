@@ -77,6 +77,7 @@ CREATE TABLE IF NOT EXISTS essays (
     topic_id        UUID REFERENCES weekly_topics(id),
     title           VARCHAR(200),
     content         TEXT NOT NULL,
+    content_type    VARCHAR(20) DEFAULT 'essay',   -- essay | poem | novel
     contributor_cnt INTEGER DEFAULT 0,
     prompt_version  VARCHAR(10) DEFAULT 'v0',
     published_at    TIMESTAMP DEFAULT NOW()

@@ -1,0 +1,169 @@
+============================================================
+[1] API 호출 URL
+============================================================
+https://api.kcisa.kr/openapi/API_CCA_169/request?serviceKey=77f571ea-321d-464f-bbf0-f49597b5edb9&numOfRows=10&pageNo=1
+
+============================================================
+[2] 응답 상태 코드
+============================================================
+Status Code: 200
+Content-Type: text/xml;charset=UTF-8
+
+============================================================
+[3] 원본 응답 (앞 3000자)
+============================================================
+<response><header><resultCode>0000</resultCode><resultMsg>OK</resultMsg></header><body><items><item><TITLE>임선구</TITLE><URL>https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000508</URL><LOCAL_ID>202603040000508</LOCAL_ID><ISSUED_DATE>2026-03-04 12:51:43.290</ISSUED_DATE><DESCRIPTION><![CDATA[임선구(1990년생)는 삶의 언저리에 스며들어 있는 타인의 흔적들을 드로잉의 어법으로 서술한다. 개인의 내밀한 역사가 여러 세대와 교차하며 만들어 내는 우스꽝스럽고 기묘한 장면들을 포착하고, 나의 이야기가 다른 누군가의 이야기로 전이되는 순간에 주목한다. 종이와 흑연을 기반으로 흩어지고 증발하는 기억과 이야기를 끌어 모아 입체적인 서사를 구축해 나간다. 《축성법》 (금호미술관, 서울, 2024), 《보이지도않는꽃이: 발자국을 발굴하기》 (서울시립미술관 SeMA 창고, 2022) 등의 개인전을 개최하였으며, 서울시립미술관, 두산갤러리, 국립현대미술관 어린이 미술관 등의 단체전에 참여한 바 있다.
+
+Im Sun Goo (b. 1990) narrates the traces of others that permeate the edges of everyday life through the language of drawing. She captures darkly humorous and uncanny scenes formed at the intersections of intimate personal histories and multiple generations, and attends to moments when her own story transitions into that of another. Working primarily with paper and graphite, she gathers memories and stories that scatter and evaporate, constructing layered and dimensional narratives. She has presented solo exhibitions such as A Castle Built of Dust  (Kumho Museum of Art, Seoul, 2024) and A Flower Which Can’t Even Be Seen: Excavating Footprints  (SeMA Storage, Seoul, 2022), and has participated in group exhibitions at the Seoul Museum of Art, Doosan Gallery, and the MMCA Children’s Museum]]></DESCRIPTION><SUB_DESCRIPTION><![CDATA[﻿학력 
+2019 서울과학기술대학교 조형예술과 석사 졸업, 서울
+2014 서울과학기술대학교 조형예술과 학사 졸업, 서울
+
+개인전
+2024 《축성법》, 금호미술관, 서울
+2022 《벽돌나비》, 드로잉룸, 서울
+2022 《보이지도않는꽃이:발자국을 발굴하기》, SeMA창고, 서울
+2020 《이상하고 평화로운 날들이었다》, 학고재 디자인 프로젝트 스페이스, 서울
+2019 《종이위의 검은모래》, 갤러리 조선, 서울
+
+단체전
+2025 《Sparkling Islands in the Forest》, 풀사이드 갤러리, 가나자와
+2025 《실버 라이닝》, 드로잉룸, 서울
+2025 《모두의 바다》, 라니 서울, 서울
+2024 《반짝이는, 숲 속에 존재하는 섬》, 갤러리인 HQ, 서울
+2024 《협업의 기술》, 인천아트플랫폼, 인천
+2024 《흔적이 형태를 이룰 때》, 해동문화예술촌, 담양
+2024 《다섯 발자국 숲》, 국립현대미술관 어린이 미술관, 과천2024 《서 있을 수 있는 사람》, 갤러리SP, 서울
+2023 《커튼콜》, 양주 장욱진 시립미술관, 양주
+2023 《팬케이크 스왑》, 케이스 서울, 서울
+2022 《Mbps with PACK》, 서울시립미술관 프로젝트 갤러리, 서울
+2022 《Touch Stone》, 신한갤러리, 서울
+2022 《화가별장》, 양주시립 미술창작스튜디오 갤러리, 양주
+2022 《두산아트랩 2022》, 두산갤러리, 서울
+2021 《아이콘》, 학고재 갤러리, 서울
+2021 《낯선 여정》, 드로잉룸, 서울
+2020 《세발로 걷는》, 공간서울, 서울
+2020 《전시 후도록》, WESS, 서울
+2019 《Y군의 불타는 비행기》, Lab203, 서울
+2018 《Painter’s Painter》, 2W, 온라인 기획전시
+
+협업 프로젝트 
+2025 <벽장속의 집>, 챔버, 서울/ 기획 및 참여 
+2024 <미래비미래>, 부연, 인천/ 이민지 작가 개인전 제작 협업 2
+023 <쇼케이스:정원술>, 인천아트플랫폼 E3, 인천/ 임선구, 최가영 협업 프로젝트
+
+출판
+2023 ﻿「먼지로 세운 성﻿」, 드로잉 에세이, 드로잉룸
+2022 ﻿「시금석:우정의 장치﻿」, 공저, 밀푀유 타임라인
+2020 ﻿「숨은 산﻿」, 플립북, 밀푀유 타임라인
+2019 ﻿「검은 모래﻿」, 드로잉북, 독립출판
+2019 「abinet Vol.8﻿」, 공저, 일현미술관 도서지원 발간 프로젝트
+
+수상 및 지원
+2025 청년예술가 도약지원, 한국문화예술위원회, 서울
+2024 청년예술지원 창작발표형, 서울문화재단, 서울
+2023 청년예술지원 창작준비 리서치형, 서울문화재단, 서울
+2022 신진미술인 전시지원, 서울시립미술관, 서울
+2022 청년예술지원 창작발표형, 서울문화재단, 서울
+2021 아르코 청년예술가 지원사업 연구형, 한국문화예술위원회, 서울
+2020 최초예술지원: 창작발표-다년형, 서울문화재단, 서울
+2019 최초예술지원: 창작발표-다년형, 서울문화재단, 서울
+2017 일현 트래블그랜트 특상, 을지문화재단, 양양
+
+레지던시
+2025 푸른지대 창작샘터, 수원
+2023 인천아트플랫폼, 인천]]></SU
+...
+
+
+============================================================
+[4] 결과 코드 및 메시지
+============================================================
+resultCode: 0000
+resultMsg: OK
+
+============================================================
+[5] 데이터 항목 수: 10
+============================================================
+
+--- Item 1 ---
+TITLE: 임선구
+URL: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000508
+DESCRIPTION: 임선구(1990년생)는 삶의 언저리에 스며들어 있는 타인의 흔적들을 드로잉의 어법으로 서술한다. 개인의 내밀한 역사가 여러 세대와 교차하며 만들어 내는 우스꽝스럽고 기묘한 장면들을 포착하고, 나의 이야기가 다른 누군가의 이야기로 전이되는 순간에 주목한다. 종이와 흑연을 기반으로 흩어지고 증발하는 기억과 이야기를 끌어 모아 입체적인 서사를 구축해 나간다. 《...
+
+--- Item 2 ---
+TITLE: 이희경
+URL: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000507
+DESCRIPTION: 이희경(1986년생)은 한국 사회에 정주 중인 아시아 이주민 개인의 미시사에 잠재된 문화, 역사적 배경을 탐색한다. 특히 도착지에서 형성되는 이주 여성의 다층적인 정체성의 구현 방식에 주목하며 영상과 드로잉, 리서치 작업을 이어가고 있다. 글로벌 자본 체인망을 타고 이동하는 이들이 자신을 재구성하기 위해 실천하는 일상의 현실과 여전히 유효한 아시아의 식민 ...
+
+--- Item 3 ---
+TITLE: 이진형
+URL: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000506
+DESCRIPTION: 이진형(1982년생)은 이미지의 질감과 구조적 특성을 포착하고 그 맥락적 의미를 제거함으로써 이미지를 재구성한다. 또한 글자의 여백과 회화적 층위를 활용해 화면을 단일한 이미지가 아닌 공간 속의 물리적 대상으로 구현하는 방식을 탐색한다. 최근 개인전으로 《이름 지워진》 (드로잉룸, 서울, 2024), 《4painting》(Hall 1, 서울, 2023) 등...
+
+--- Item 4 ---
+TITLE: 이은지 
+URL: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000504
+DESCRIPTION: 이은지(1989년생)는 자연스레 체득하고 있는 사소한 공동의 것들, 특히 여러 물질의 모양과 그것이 불리는 이름 간의 관계에 집중한다. 종이를 주된 재료로 한 드로잉, 입체, 텍스트 등을 통해 물리적 형태와 그것으로부터 파생되는 사회적 의미 간의 연결 지점을 탐구하고 이해하고자 한다. 개인전 《Flickers》(아트센터예술의시간, 서울, 2023), 《Cr...
+
+--- Item 5 ---
+TITLE: 윤미류
+URL: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000503
+DESCRIPTION: 윤미류(1991년생)는 회화적 실험과 사건을 위해 인물을 등장시킨다. 허구적 존재와 감각이 실제 인물과 교차하여 어떻게 ‘몸을 가진 형태’가 될 수 있을지 탐구하며, 특정한 상황과 설정 속에 인물을 배치하고 다양한 물리적 조건을 연출한다. 디지털 사진과 캔버스를 오가며 평면을 조직하는 과정을 통해, 대안적 환경과 구조 안에서 다른 종(種)의 존재 방식을 실...
+
+--- Item 6 ---
+TITLE: 엘리 허경란 
+URL: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000502
+DESCRIPTION: 엘리 허경란(1976년생)은 시간 기반 미디어를 매개로 현장 조사와 범학문 연구를 수행하며, 사회·생태적 갈등과 공존의 역학을 탐구한다. 유기적 존재들 사이를 가로지르는 균형과 이를 교란하는 흐름에 주목하며, 그 얽힘과 마찰을 이미지, 사운드, 텍스트, 교차 감각적 설치로 드러내고 재구성한다. 이를 통해 생물과 비생물, 존재와 흔적이 맞물리는 ‘영화적 집합...
+
+--- Item 7 ---
+TITLE: 소민경
+URL: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000501
+DESCRIPTION: 소민경(1984년생)은 이미지를 선별하고 수집하며, 이를 바탕으로 회화와 드로잉을 전개한다. 이미지들을 중첩하거나 격차를 두고, 이어 붙이며 화면을 구성하여 하나의 
+완결된 이미지가 아닌 사이가 벌어지고, 변형되고 어긋난 상태를 만들고자 한다. 이러한 시도는 이미지의 물질성을 중심에 두고 실험하여, 그 본질을 이해하려는 태도에서 기인한다. 이를 위해 회화를...
+
+--- Item 8 ---
+TITLE: 나오미 
+URL: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000499
+DESCRIPTION: 나오미(1982년생)는 특정 장소의 역사적 사건과 현재의 풍경을 교차시키며, 이를 둘러싼 개인의 구술 기록, 문헌, 설화 사이에서 장소의 역사성과 정체성을 비교 연구하며 바라보고자 한다. 이미지와 서사가 장소와 시대, 이데올로기에 따라 번안되거나 소멸하는 지점을 포착하고 추적하며, 그 과정에서 수집된 기록과 기억의 파편들을 디오라마 형식의 회화적 장면으로 ...
+
+--- Item 9 ---
+TITLE: 김을지로 
+URL: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000498
+DESCRIPTION: 김을지로(1994년생)는 기술적 이미지가 세계를 재현하는 구조를 살피는 미디어 아티스트이다. 3D 영상이 신체 장기와 미생물, 육안으로 관찰될 수 없는 대상들의 과학적 검증 매개로서 작동하는 매체임에 주목하여 데이터와 생물, 인간·비인간과 같은 이항 대립 너머의 관계들을 탐색한다. 디지털의 물질·비물질이 각기 다른 환경·인터페이스에서 생장하는 과정을 추적함...
+
+--- Item 10 ---
+TITLE: 김대환
+URL: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000497
+DESCRIPTION: 김대환(1987년생)은 거인의 어깨 위에서 살아가는 인류의 일원으로서, 개인과 그 친구들에게 어울리는 테이블을 제작하고, 함께 나눌 이야깃거리와 근사한 다과, 흥미로운 농담을 고민한다. 개인의 삶을 성공적으로 운영할 수 있도록 돕는 조형 기술과 함께, 규칙적인 일과를 충실히 지키며, 시간과 공간과 기억을 함께 나누고 서로의 길이 되어주는 관계에 대해 생각한...
+
+============================================================
+[6] 이미지 호출 가능 여부 테스트
+============================================================
+
+Testing: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000508
+  -> [ERROR] 호출 실패: ('Connection aborted.', ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None))
+
+Testing: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000507
+  -> [ERROR] 호출 실패: ('Connection aborted.', ConnectionResetError(10054, '현재 연결은 원격 호스트에 의해 강제로 끊겼습니다', None, 10054, None))
+
+Testing: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000506
+  Status: 400
+  Content-Type: text/html
+  Content-Length: 147 bytes
+  -> [FAIL] 이 URL은 이미지가 아닙니다 (HTML/기타)
+
+Testing: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000504
+  Status: 400
+  Content-Type: text/html
+  Content-Length: 147 bytes
+  -> [FAIL] 이 URL은 이미지가 아닙니다 (HTML/기타)
+
+Testing: https://www.mmca.go.kr/artStudio/artistDetail.do?cinArtId=202603040000503
+  Status: 400
+  Content-Type: text/html
+  Content-Length: 147 bytes
+  -> [FAIL] 이 URL은 이미지가 아닙니다 (HTML/기타)
+
+============================================================
+[7] 완료
+============================================================

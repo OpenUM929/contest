@@ -1,6 +1,6 @@
 import uuid
 from datetime import datetime
-from sqlalchemy import String, Boolean, Float, Integer, DateTime, ForeignKey, Date, Text, JSON
+from sqlalchemy import String, Boolean, Float, Integer, DateTime, ForeignKey, Date, Text, JSON, SmallInteger
 from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from app.database import Base
@@ -13,6 +13,15 @@ class WelfareWorker(Base):
     name: Mapped[str] = mapped_column(String(50))
     region: Mapped[str | None] = mapped_column(String(100))
     email: Mapped[str | None] = mapped_column(String(200))
+    # 관리자 회원 관리 모듈 확장 (0615_02)
+    status: Mapped[str] = mapped_column(String(20), default="active")   # active | inactive
+    phone: Mapped[str | None] = mapped_column(String(20))
+    role: Mapped[str] = mapped_column(String(20), default="worker")     # admin | worker
+    note: Mapped[str | None] = mapped_column(Text)
+    password_hash: Mapped[str | None] = mapped_column(String(128))
+    updated_at: Mapped[datetime | None] = mapped_column(
+        DateTime, default=datetime.utcnow, onupdate=datetime.utcnow
+    )
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
     users: Mapped[list["User"]] = relationship(back_populates="welfare_worker")
@@ -27,6 +36,17 @@ class User(Base):
     is_anonymous: Mapped[bool] = mapped_column(Boolean, default=False)
     welfare_id: Mapped[uuid.UUID | None] = mapped_column(UUID(as_uuid=True), ForeignKey("welfare_workers.id"))
     last_seen_at: Mapped[datetime | None] = mapped_column(DateTime)
+    # 관리자 회원 관리 모듈 확장 (0615_02)
+    status: Mapped[str] = mapped_column(String(20), default="active")   # active | dormant | withdrawn
+    phone: Mapped[str | None] = mapped_column(String(20))
+    email: Mapped[str | None] = mapped_column(String(200))
+    name: Mapped[str | None] = mapped_column(String(50))                # 실명
+    region: Mapped[str | None] = mapped_column(String(100))             # 시도/시군구
+    password_hash: Mapped[str | None] = mapped_column(String(128))
+    note: Mapped[str | None] = mapped_column(Text)                      # 관리자 메모
+    updated_at: Mapped[datetime | None] = mapped_column(
+        DateTime, default=datetime.utcnow, onupdate=datetime.utcnow
+    )
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
     welfare_worker: Mapped["WelfareWorker | None"] = relationship(back_populates="users")
@@ -84,6 +104,7 @@ class Essay(Base):
     topic_id: Mapped[uuid.UUID | None] = mapped_column(UUID(as_uuid=True), ForeignKey("weekly_topics.id"))
     title: Mapped[str | None] = mapped_column(String(200))
     content: Mapped[str] = mapped_column(Text)
+    content_type: Mapped[str] = mapped_column(String(20), default="essay")
     contributor_cnt: Mapped[int] = mapped_column(Integer, default=0)
     prompt_version: Mapped[str] = mapped_column(String(10), default="v0")
     published_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
@@ -124,6 +145,21 @@ class EssayContributor(Base):
     user_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), ForeignKey("users.id", ondelete="CASCADE"))
     message_count: Mapped[int] = mapped_column(Integer, default=1)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+
+class TopicDistribution(Base):
+    __tablename__ = "topic_distributions"
+
+    id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    topic_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), ForeignKey("weekly_topics.id"))
+    user_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), ForeignKey("users.id"))
+    welfare_id: Mapped[uuid.UUID | None] = mapped_column(UUID(as_uuid=True), ForeignKey("welfare_workers.id"))
+    acknowledged: Mapped[bool] = mapped_column(Boolean, default=False)
+    acknowledged_at: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+    user: Mapped["User"] = relationship()
+    welfare_worker: Mapped["WelfareWorker | None"] = relationship()
 
 
 class TopicProposal(Base):
@@ -167,3 +203,43 @@ class SurveyResponse(Base):
     selected_option_label: Mapped[str | None] = mapped_column(String(100))
     narrative_text: Mapped[str | None] = mapped_column(Text)
     responded_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+
+class UserConsent(Base):
+    __tablename__ = "user_consents"
+
+    id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    user_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), ForeignKey("users.id", ondelete="CASCADE"))
+    consent_type: Mapped[str] = mapped_column(String(50))   # privacy | terms | ai_usage
+    agreed: Mapped[bool] = mapped_column(Boolean, nullable=False)
+    agreed_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+    user: Mapped["User"] = relationship()
+
+
+class PsychIndex(Base):
+    __tablename__ = "psych_indices"
+
+    id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    user_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), ForeignKey("users.id", ondelete="CASCADE"))
+    calculated_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    loneliness: Mapped[int] = mapped_column(SmallInteger, nullable=False)    # 0~100
+    vitality: Mapped[int] = mapped_column(SmallInteger, nullable=False)      # 0~100
+    cognition: Mapped[int] = mapped_column(SmallInteger, nullable=False)     # 0~100
+    relationship_score: Mapped[int] = mapped_column("relationship", SmallInteger, nullable=False)  # 0~100
+    future: Mapped[int] = mapped_column(SmallInteger, nullable=False)        # 0~100
+
+    user: Mapped["User"] = relationship()
+
+
+class AdminLog(Base):
+    """관리자 회원/복지사 관리 작업 이력 (0615_02)."""
+    __tablename__ = "admin_logs"
+
+    id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4)
+    admin_id: Mapped[str] = mapped_column(String(50))   # 현재 "admin" 고정 (Phase 4에서 인증 연동)
+    action: Mapped[str] = mapped_column(String(50))     # create_user | update_user | delete_user | assign_worker | create_worker | update_worker | delete_worker
+    target_type: Mapped[str] = mapped_column(String(20))  # user | worker
+    target_id: Mapped[str] = mapped_column(String(36))
+    payload: Mapped[str | None] = mapped_column(Text)   # JSON 문자열: 변경 전/후 값
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)

@@ -16,6 +16,7 @@ interface ElderlySurveyProps {
   topic: any;
   userId: string;
   fontSize: number;
+  topicId?: string;
   onSendStart?: () => void;
   onAiResponse?: (text: string) => void;
   onCrisis?: (level: string) => void;
@@ -25,6 +26,7 @@ export default function ElderlySurvey({
   topic,
   userId,
   fontSize,
+  topicId,
   onSendStart,
   onAiResponse,
   onCrisis,
@@ -44,6 +46,8 @@ export default function ElderlySurvey({
   const [isRecording, setIsRecording] = useState(false);
   const recordingRef = useRef<Audio.Recording | null>(null);
 
+  const _tid = topicId || (topic?.id as string | undefined);
+
   const handleChoiceSelect = async (option: ChoiceOption) => {
     if (!currentQuestion || isSubmitting) return;
 
@@ -61,7 +65,7 @@ export default function ElderlySurvey({
     }
 
     // 그 외에는 바로 전송
-    await submitAnswers(userId, onSendStart, onAiResponse, onCrisis);
+    await submitAnswers(userId, onSendStart, onAiResponse, onCrisis, _tid);
   };
 
   const startRecording = async () => {
@@ -94,7 +98,7 @@ export default function ElderlySurvey({
         narrativeText: userText,
       });
 
-      await submitAnswers(userId, onSendStart, onAiResponse, onCrisis);
+      await submitAnswers(userId, onSendStart, onAiResponse, onCrisis, _tid);
     } catch (e) {
       console.error("STT failed", e);
     }

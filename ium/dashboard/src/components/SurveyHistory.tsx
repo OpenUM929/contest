@@ -4,23 +4,24 @@ import { WeeklyTopic } from "../types/survey";
 import { fetchSurveyHistory, cloneSurvey } from "../api/survey";
 
 interface Props {
+  welfareId?: string;
   onSelect?: (topic: WeeklyTopic) => void;
   onCloneSuccess?: () => void;
 }
 
-export default function SurveyHistory({ onSelect, onCloneSuccess }: Props) {
+export default function SurveyHistory({ welfareId, onSelect, onCloneSuccess }: Props) {
   const [history, setHistory] = useState<WeeklyTopic[]>([]);
   const [loading, setLoading] = useState(false);
   const [weeks, setWeeks] = useState(4);
 
   useEffect(() => {
     loadHistory();
-  }, [weeks]);
+  }, [weeks, welfareId]);
 
   const loadHistory = async () => {
     setLoading(true);
     try {
-      const res = await fetchSurveyHistory(weeks);
+      const res = await fetchSurveyHistory(weeks, welfareId || undefined);
       setHistory(res.data);
     } catch (e) {
       alert("이력 조회 실패");

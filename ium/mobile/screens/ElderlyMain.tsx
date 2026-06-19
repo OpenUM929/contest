@@ -2,28 +2,36 @@ import React, { useEffect, useState } from "react";
 import {
   View, Text, TouchableOpacity, Image, ScrollView,
   StyleSheet, ActivityIndicator, Dimensions, Alert, Linking,
-  Modal, FlatList,
+  Modal, FlatList, ToastAndroid, Platform,
 } from "react-native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Speech from "expo-speech";
 import { Topic } from "../types/survey";
-import { fetchTopic, fetchMySurveys, fetchEssayArchive, fetchEssayDetail, fetchTopicArchive } from "../api/survey";
+import { fetchTopic, fetchAvailableSurveys, fetchTopicById, fetchTopicStatistics, fetchDeliverablesArchive, fetchEssayDetail } from "../api/survey";
+import { triggerWelfareContact } from "../api/safety";
 import ElderlySurvey from "../components/ElderlySurvey";
+import axios from "axios";
+
+const API_BASE = process.env.EXPO_PUBLIC_API_URL || "http://localhost:8000";
 
 const { width } = Dimensions.get("window");
 
-export default function ElderlyMain({ userId }: { userId: string }) {
+export default function ElderlyMain({ userId, onLogout }: { userId: string; onLogout?: () => void }) {
   const [topic, setTopic] = useState<Topic | null>(null);
   const [aiResponse, setAiResponse] = useState("");
   const [isSpeaking, setIsSpeaking] = useState(false);
   const [fontSize, setFontSize] = useState(20);
 
   // 모달 상태
-  const [modalType, setModalType] = useState<"my-surveys" | "essay-archive" | "topic-archive" | null>(null);
-  const [mySurveys, setMySurveys] = useState<any[]>([]);
-  const [essayArchive, setEssayArchive] = useState<any[]>([]);
-  const [topicArchive, setTopicArchive] = useState<any[]>([]);
+  const [modalType, setModalType] = useState<"survey-management" | "statistics" | "deliverables" | null>(null);
+  const [availableSurveys, setAvailableSurveys] = useState<any[]>([]);
+  const [deliverables, setDeliverables] = useState<any[]>([]);
   const [selectedEssay, setSelectedEssay] = useState<any>(null);
+  const [selectedTopicForSurvey, setSelectedTopicForSurvey] = useState<any | null>(null);
+  const [surveyAnalytics, setSurveyAnalytics] = useState<any | null>(null);
+  const [selectedStatTopic, setSelectedStatTopic] = useState<any>(null);
   const [loadingModal, setLoadingModal] = useState(false);
+  const [rejoinAlert, setRejoinAlert] = useState(false);
 
   useEffect(() => {
     loadTopic();
@@ -32,6 +40,11 @@ export default function ElderlyMain({ userId }: { userId: string }) {
   const loadTopic = async () => {
     const data = await fetchTopic(userId);
     setTopic(data);
+    // 주제 확인 기록 (acknowledge)
+    if (data.id) {
+      axios.post(`${API_BASE}/chat/topic/${data.id}/acknowledge`, { user_id: userId })
+        .catch(() => {});
+    }
     const intro = data.ai_question || data.title;
     speakText(`이번 주 이야기입니다. ${data.title}. ${intro}`);
   };
@@ -52,29 +65,56 @@ export default function ElderlyMain({ userId }: { userId: string }) {
     speakText(text);
   };
 
-  const handleCrisis = (level: string) => {
-    const isHigh = level === "high";
+  const showToast = (message: string) => {
+    if (Platform.OS === "android") {
+      ToastAndroid.show(message, ToastAndroid.SHORT);
+    } else {
+      Alert.alert(message, "", [{ text: "확인" }], { cancelable: true });
+    }
+  };
+
+  const handleLogout = () => {
     Alert.alert(
-      "도움이 필요하신가요?",
-      isHigh
-        ? "힘드실 때는 혼자 참지 마세요. 정신건강 위기상담전화 1393으로 전화하시면 24시간 도움받으실 수 있습니다."
-        : "힘드신 마음이 느껴집니다. 언제든 1393에 전화하시면 전문가와 대화할 수 있습니다.",
+      "계정 전환",
+      "다른 계정으로 전환하시겠습니까?",
       [
-        { text: "닫기", style: "cancel" },
-        {
-          text: "1393 전화하기",
-          onPress: () => Linking.openURL("tel:1393"),
-        },
+        { text: "취소", style: "cancel" },
+        { text: "전환", onPress: () => onLogout?.() },
       ]
     );
   };
 
-  const openMySurveys = async () => {
-    setModalType("my-surveys");
+  const handleCrisis = (level: string) => {
+    if (level === "high") {
+      Alert.alert(
+        "지금 힘드신가요?",
+        "전문가와 바로 연결해 드릴게요.",
+        [
+          { text: "1393 전화하기", onPress: () => Linking.openURL("tel:1393") },
+          { text: "닫기", style: "cancel" },
+        ]
+      );
+    } else if (level === "medium") {
+      Alert.alert(
+        "많이 힘드신가요?",
+        "복지사 선생님께 알려드릴게요.",
+        [
+          { text: "복지사에게 연락하기", onPress: () => triggerWelfareContact(userId) },
+          { text: "괜찮아요", style: "cancel" },
+        ]
+      );
+    } else if (level === "low") {
+      showToast("오늘 많이 힘드셨군요. 언제든 이야기해주세요.");
+    }
+  };
+
+  const openSurveyManagement = async () => {
+    setModalType("survey-management");
+    setSelectedTopicForSurvey(null);
     setLoadingModal(true);
     try {
-      const data = await fetchMySurveys(userId);
-      setMySurveys(data.topics || []);
+      const data = await fetchAvailableSurveys(userId);
+      setAvailableSurveys(data.surveys || []);
     } catch (e) {
       console.error(e);
     } finally {
@@ -82,12 +122,43 @@ export default function ElderlyMain({ userId }: { userId: string }) {
     }
   };
 
-  const openEssayArchive = async () => {
-    setModalType("essay-archive");
+  const [pendingRejoinId, setPendingRejoinId] = useState<string | null>(null);
+
+  const handleSurveyCardPress = async (item: any) => {
+    if (item.has_responded) {
+      setPendingRejoinId(item.topic_id);
+      setRejoinAlert(true);
+      return;
+    }
+    await enterSurvey(item.topic_id);
+  };
+
+  const enterSurvey = async (topicId: string) => {
     setLoadingModal(true);
     try {
-      const data = await fetchEssayArchive();
-      setEssayArchive(data);
+      const topicData = await fetchTopicById(topicId);
+      setSelectedTopicForSurvey(topicData);
+    } catch (e) {
+      console.error(e);
+    } finally {
+      setLoadingModal(false);
+    }
+  };
+
+  const confirmRejoin = async () => {
+    setRejoinAlert(false);
+    if (pendingRejoinId) {
+      await enterSurvey(pendingRejoinId);
+      setPendingRejoinId(null);
+    }
+  };
+
+  const openDeliverables = async () => {
+    setModalType("deliverables");
+    setLoadingModal(true);
+    try {
+      const data = await fetchDeliverablesArchive();
+      setDeliverables(data);
     } catch (e) {
       console.error(e);
     } finally {
@@ -107,14 +178,33 @@ export default function ElderlyMain({ userId }: { userId: string }) {
     }
   };
 
-  const openTopicArchive = async () => {
-    setModalType("topic-archive");
+  const openStatistics = async () => {
+    setModalType("statistics");
+    setSurveyAnalytics(null);
+    setSelectedStatTopic(null);
     setLoadingModal(true);
     try {
-      const data = await fetchTopicArchive();
-      setTopicArchive(data.topics || []);
+      const data = await fetchAvailableSurveys(userId);
+      setAvailableSurveys(data.surveys || []);
     } catch (e) {
       console.error(e);
+    } finally {
+      setLoadingModal(false);
+    }
+  };
+
+  const selectStatTopic = async (topicId: string) => {
+    setLoadingModal(true);
+    try {
+      const data = await fetchTopicStatistics(topicId, userId);
+      setSurveyAnalytics(data);
+      setSelectedStatTopic(data);
+    } catch (e: any) {
+      if (e.response?.status === 403) {
+        showToast("이 설문에 먼저 참여해 주세요.");
+      } else {
+        console.error(e);
+      }
     } finally {
       setLoadingModal(false);
     }
@@ -123,85 +213,198 @@ export default function ElderlyMain({ userId }: { userId: string }) {
   const renderModal = () => {
     if (!modalType) return null;
     return (
-      <Modal animationType="slide" transparent={false} visible={true} onRequestClose={() => { setModalType(null); setSelectedEssay(null); }}>
+      <Modal animationType="slide" transparent={false} visible={true} onRequestClose={() => { setModalType(null); setSelectedEssay(null); setSelectedTopicForSurvey(null); setSurveyAnalytics(null); setSelectedStatTopic(null); }}>
         <View style={styles.modalContainer}>
           <View style={styles.modalHeader}>
-            <TouchableOpacity onPress={() => { setModalType(null); setSelectedEssay(null); }}>
+            <TouchableOpacity onPress={() => { setModalType(null); setSelectedEssay(null); setSelectedTopicForSurvey(null); setSurveyAnalytics(null); setSelectedStatTopic(null); }}>
               <Text style={styles.modalClose}>← 닫기</Text>
             </TouchableOpacity>
             <Text style={styles.modalTitle}>
-              {modalType === "my-surveys" ? "내가 나눈 이야기" :
-               modalType === "essay-archive" ? "지난 이야기" :
-               modalType === "topic-archive" ? "다른 이들의 생각" : ""}
+              {modalType === "survey-management" ? "설문지 관리" :
+               modalType === "statistics" ? "통계 보기" :
+               modalType === "deliverables" ? "결과물 전달" : ""}
             </Text>
           </View>
 
           {loadingModal && <ActivityIndicator size="large" color="#E8572A" style={{ marginTop: 40 }} />}
 
-          {!loadingModal && modalType === "my-surveys" && (
+          {/* ── 설문지 관리 ── */}
+          {!loadingModal && modalType === "survey-management" && !selectedTopicForSurvey && (
             <FlatList
-              data={mySurveys}
+              data={availableSurveys}
               keyExtractor={(item) => item.topic_id}
               renderItem={({ item }) => (
-                <View style={styles.modalCard}>
-                  <Text style={[styles.modalCardTitle, { fontSize }]}>{item.topic_title}</Text>
-                  {item.responses.map((r: any, idx: number) => (
-                    <View key={idx} style={{ marginTop: 8 }}>
-                      {r.selected_option_label && (
-                        <Text style={[styles.modalText, { fontSize: fontSize - 2 }]}>✓ {r.selected_option_label}</Text>
-                      )}
-                      {r.narrative_text && (
-                        <Text style={[styles.modalText, { fontSize: fontSize - 2 }]}>📝 {r.narrative_text}</Text>
-                      )}
+                <TouchableOpacity style={styles.modalCard} onPress={() => handleSurveyCardPress(item)}>
+                  <View style={styles.badgeRow}>
+                    <View style={[styles.badge, item.has_responded ? styles.badgeDone : styles.badgeNew]}>
+                      <Text style={[styles.badgeText, { fontSize: fontSize - 6 }]}>
+                        {item.has_responded ? "작성완료" : "신규"}
+                      </Text>
                     </View>
-                  ))}
-                </View>
-              )}
-            />
-          )}
-
-          {!loadingModal && modalType === "essay-archive" && !selectedEssay && (
-            <FlatList
-              data={essayArchive}
-              keyExtractor={(item) => item.essay_id}
-              renderItem={({ item }) => (
-                <TouchableOpacity style={styles.modalCard} onPress={() => openEssayDetail(item.essay_id)}>
-                  <Text style={[styles.modalCardTitle, { fontSize }]}>{item.topic_title}</Text>
+                  </View>
+                  <Text style={[styles.modalCardTitle, { fontSize }]}>{item.title}</Text>
                   <Text style={[styles.modalMeta, { fontSize: fontSize - 4 }]}>
-                    {item.active_week} · {item.contributor_cnt}명의 이야기
+                    📅 {item.active_week || "날짜 미정"}
                   </Text>
                 </TouchableOpacity>
               )}
             />
           )}
 
-          {!loadingModal && modalType === "essay-archive" && selectedEssay && (
+          {/* 설문 재참여: ElderlySurvey를 모달 안에 표시 */}
+          {!loadingModal && modalType === "survey-management" && selectedTopicForSurvey && (
+            <ScrollView>
+              <View style={styles.modalCard}>
+                <Text style={[styles.modalCardTitle, { fontSize: fontSize + 2 }]}>{selectedTopicForSurvey.title}</Text>
+                <ElderlySurvey
+                  topic={selectedTopicForSurvey}
+                  userId={userId}
+                  fontSize={fontSize}
+                  topicId={selectedTopicForSurvey.id}
+                  onSendStart={() => setAiResponse("")}
+                  onAiResponse={handleAiResponse}
+                  onCrisis={handleCrisis}
+                />
+              </View>
+            </ScrollView>
+          )}
+
+          {/* ── 통계 ── */}
+          {!loadingModal && modalType === "statistics" && !selectedStatTopic && (
+            <FlatList
+              data={availableSurveys.filter((s) => s.has_responded)}
+              keyExtractor={(item) => item.topic_id}
+              ListEmptyComponent={
+                <Text style={[styles.modalMeta, { fontSize, textAlign: "center", marginTop: 40 }]}>
+                  아직 참여한 설문이 없습니다.
+                </Text>
+              }
+              renderItem={({ item }) => (
+                <TouchableOpacity style={styles.modalCard} onPress={() => selectStatTopic(item.topic_id)}>
+                  <Text style={[styles.modalCardTitle, { fontSize }]}>{item.title}</Text>
+                  <Text style={[styles.modalMeta, { fontSize: fontSize - 4 }]}>
+                    📅 {item.active_week || ""}
+                  </Text>
+                </TouchableOpacity>
+              )}
+            />
+          )}
+
+          {!loadingModal && modalType === "statistics" && selectedStatTopic && (
+            <ScrollView>
+              <Text style={[styles.modalCardTitle, { fontSize: fontSize + 2, marginBottom: 8 }]}>
+                {selectedStatTopic.topic_title}
+              </Text>
+              <Text style={[styles.modalMeta, { fontSize: fontSize - 4, marginBottom: 16 }]}>
+                총 {selectedStatTopic.total_respondents}명 참여
+              </Text>
+              {selectedStatTopic.my_responses.map((q: any, idx: number) => (
+                <View key={idx} style={styles.modalCard}>
+                  <Text style={[styles.modalText, { fontSize, fontWeight: "bold", marginBottom: 8 }]}>
+                    {q.question_text}
+                  </Text>
+                  <Text style={[styles.modalMeta, { fontSize: fontSize - 4, marginBottom: 4 }]}>
+                    나의 답변: {q.my_answer || "(미응답)"} ✓
+                  </Text>
+                  {q.question_type === "choice" && q.statistics && (
+                    <View style={{ marginTop: 8 }}>
+                      {q.statistics.map((stat: any, si: number) => (
+                        <View key={si} style={{ flexDirection: "row", alignItems: "center", marginBottom: 4 }}>
+                          <View style={{ flex: 1 }}>
+                            <Text style={[styles.modalText, { fontSize: fontSize - 4 }]}>{stat.label}</Text>
+                          </View>
+                          <View style={{ width: 100, height: 14, backgroundColor: "#EEE", borderRadius: 7, marginHorizontal: 8 }}>
+                            <View style={{ width: `${stat.percent}%`, height: 14, backgroundColor: "#E8572A", borderRadius: 7 }} />
+                          </View>
+                          <Text style={[styles.modalMeta, { fontSize: fontSize - 6, minWidth: 40 }]}>{stat.percent}%</Text>
+                        </View>
+                      ))}
+                    </View>
+                  )}
+                  {q.question_type === "narrative" && q.sample_responses && (
+                    <View style={{ marginTop: 8 }}>
+                      <Text style={[styles.modalMeta, { fontSize: fontSize - 4 }]}>
+                        총 {q.response_count || 0}명이 답변했어요
+                      </Text>
+                      {q.sample_responses.slice(0, 5).map((sr: any, si: number) => (
+                        <Text key={si} style={[styles.modalText, { fontSize: fontSize - 4, marginTop: 4 }]}>
+                          📝 {sr.text?.substring(0, 80)}
+                        </Text>
+                      ))}
+                    </View>
+                  )}
+                </View>
+              ))}
+            </ScrollView>
+          )}
+
+          {/* ── 결과물 전달 ── */}
+          {!loadingModal && modalType === "deliverables" && !selectedEssay && (
+            <FlatList
+              data={deliverables}
+              keyExtractor={(item) => item.essay_id}
+              ListEmptyComponent={
+                <Text style={[styles.modalMeta, { fontSize, textAlign: "center", marginTop: 40 }]}>
+                  아직 결과물이 없습니다.
+                </Text>
+              }
+              renderItem={({ item }) => (
+                <TouchableOpacity style={styles.modalCard} onPress={() => openEssayDetail(item.essay_id)}>
+                  <Text style={[styles.modalCardTitle, { fontSize }]}>
+                    {item.content_type === "poem" ? "📝 시 " :
+                     item.content_type === "novel" ? "📖 소설 " :
+                     "📖 수필 "}
+                    「{item.topic_title}」
+                  </Text>
+                  <Text style={[styles.modalMeta, { fontSize: fontSize - 4 }]}>
+                    👥 {item.contributor_cnt}명의 이야기 · {item.active_week || ""}
+                  </Text>
+                </TouchableOpacity>
+              )}
+            />
+          )}
+
+          {!loadingModal && modalType === "deliverables" && selectedEssay && (
             <ScrollView>
               <View style={styles.modalCard}>
                 <Text style={[styles.modalCardTitle, { fontSize: fontSize + 2 }]}>{selectedEssay.title}</Text>
+                <Text style={[styles.modalMeta, { fontSize: fontSize - 4, marginBottom: 12 }]}>
+                  {selectedEssay.content_type === "poem" ? "📝 시" :
+                   selectedEssay.content_type === "novel" ? "📖 소설" : "📖 수필"}
+                </Text>
                 <Text style={[styles.modalText, { fontSize, lineHeight: fontSize * 1.6 }]}>{selectedEssay.content}</Text>
-                <TouchableOpacity style={styles.ttsBtn} onPress={() => speakText(selectedEssay.content)}>
+                <TouchableOpacity style={styles.ttsBtn} onPress={() => {
+                  Speech.stop();
+                  Speech.speak(selectedEssay.content, { language: "ko", rate: 0.9 });
+                }}>
                   <Text style={styles.ttsBtnText}>🔊 읽어 듣기</Text>
                 </TouchableOpacity>
               </View>
             </ScrollView>
           )}
-
-          {!loadingModal && modalType === "topic-archive" && (
-            <FlatList
-              data={topicArchive}
-              keyExtractor={(item) => item.topic_id}
-              renderItem={({ item }) => (
-                <View style={styles.modalCard}>
-                  <Text style={[styles.modalCardTitle, { fontSize }]}>{item.title}</Text>
-                  <Text style={[styles.modalMeta, { fontSize: fontSize - 4 }]}>
-                    {item.respondents}명 참여 · {item.has_essay ? "수필 있음" : "수필 없음"}
-                  </Text>
-                </View>
-              )}
-            />
-          )}
         </View>
+
+        {/* 재참여 확인 Alert */}
+        {rejoinAlert && (
+          <Modal transparent visible={true} animationType="fade" onRequestClose={() => { setRejoinAlert(false); setPendingRejoinId(null); }}>
+            <View style={styles.alertOverlay}>
+              <View style={styles.alertBox}>
+                <Text style={[styles.alertTitle, { fontSize }]}>이전에 작성한 설문입니다</Text>
+                <Text style={[styles.alertText, { fontSize: fontSize - 2 }]}>
+                  기존 답변 위에 새로운 답변을 추가합니다.
+                </Text>
+                <View style={styles.alertBtns}>
+                  <TouchableOpacity style={styles.alertCancel} onPress={() => { setRejoinAlert(false); setPendingRejoinId(null); }}>
+                    <Text style={[styles.alertCancelText, { fontSize }]}>취소</Text>
+                  </TouchableOpacity>
+                  <TouchableOpacity style={styles.alertConfirm} onPress={confirmRejoin}>
+                    <Text style={[styles.alertConfirmText, { fontSize }]}>추가 답변</Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
+            </View>
+          </Modal>
+        )}
       </Modal>
     );
   };
@@ -226,6 +429,11 @@ export default function ElderlyMain({ userId }: { userId: string }) {
         <Text style={[styles.source, { fontSize: fontSize - 4 }]}>
           [{topic.source || "이음"} 제공]
         </Text>
+        {topic.distributed_by && (
+          <Text style={[styles.distributedBy, { fontSize: fontSize - 4 }]}>
+            👤 {topic.distributed_by} 복지사님 준비
+          </Text>
+        )}
 
         <ElderlySurvey
           topic={topic}
@@ -248,18 +456,25 @@ export default function ElderlyMain({ userId }: { userId: string }) {
         </View>
       )}
 
-      {/* 하단 메뉴: 3개 버튼 */}
+      {/* 하단 메뉴: 3개 버튼 (설문지 관리 / 통계 / 결과물 전달) */}
       <View style={styles.bottomMenu}>
-        <TouchableOpacity style={styles.menuBtn} onPress={openEssayArchive}>
-          <Text style={[styles.menuText, { fontSize: fontSize - 2 }]}>지난 이야기 듣기</Text>
+        <TouchableOpacity style={styles.menuBtn} onPress={openSurveyManagement}>
+          <Text style={[styles.menuText, { fontSize: fontSize - 2 }]}>설문지 관리</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.menuBtn} onPress={openMySurveys}>
-          <Text style={[styles.menuText, { fontSize: fontSize - 2 }]}>내가 나눈 이야기</Text>
+        <TouchableOpacity style={styles.menuBtn} onPress={openStatistics}>
+          <Text style={[styles.menuText, { fontSize: fontSize - 2 }]}>통계 보기</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.menuBtn} onPress={openTopicArchive}>
-          <Text style={[styles.menuText, { fontSize: fontSize - 2 }]}>다른 이들의 생각</Text>
+        <TouchableOpacity style={styles.menuBtn} onPress={openDeliverables}>
+          <Text style={[styles.menuText, { fontSize: fontSize - 2 }]}>결과물 전달</Text>
         </TouchableOpacity>
       </View>
+
+      {/* 계정 전환 */}
+      <TouchableOpacity onPress={handleLogout}>
+        <Text style={[styles.switchAccount, { fontSize: fontSize - 4 }]}>
+          🔄 계정 전환
+        </Text>
+      </TouchableOpacity>
 
       {/* 접근성: 글자 크기 조절 */}
       <View style={styles.accessRow}>
@@ -293,7 +508,8 @@ const styles = StyleSheet.create({
   placeholder: {
     backgroundColor: "#EEE", justifyContent: "center", alignItems: "center",
   },
-  source: { color: "#AAA", marginBottom: 12 },
+  source: { color: "#AAA", marginBottom: 4 },
+  distributedBy: { color: "#7B7BFF", marginBottom: 12, fontWeight: "bold" },
   responseCard: {
     backgroundColor: "#EEF7EE", borderRadius: 16, padding: 20, marginBottom: 20,
   },
@@ -306,6 +522,9 @@ const styles = StyleSheet.create({
     padding: 14, alignItems: "center", marginHorizontal: 2,
   },
   menuText: { color: "#4A3728", textAlign: "center" },
+  switchAccount: {
+    color: "#888", textAlign: "center", marginBottom: 12, textDecorationLine: "underline",
+  },
   accessRow: {
     flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 12,
   },
@@ -332,4 +551,31 @@ const styles = StyleSheet.create({
     alignItems: "center", marginTop: 16,
   },
   ttsBtnText: { color: "#FFF", fontWeight: "bold", fontSize: 14 },
+  // 배지
+  badgeRow: { flexDirection: "row", marginBottom: 6 },
+  badge: {
+    paddingHorizontal: 10, paddingVertical: 3, borderRadius: 10,
+  },
+  badgeNew: { backgroundColor: "#E8572A" },
+  badgeDone: { backgroundColor: "#4CAF50" },
+  badgeText: { color: "#FFF", fontWeight: "bold" },
+  // Alert
+  alertOverlay: {
+    flex: 1, backgroundColor: "rgba(0,0,0,0.5)",
+    justifyContent: "center", alignItems: "center",
+  },
+  alertBox: {
+    backgroundColor: "#FFF8EE", borderRadius: 16, padding: 24,
+    marginHorizontal: 32, elevation: 8,
+  },
+  alertTitle: { fontWeight: "bold", color: "#4A3728", marginBottom: 8 },
+  alertText: { color: "#666", marginBottom: 20 },
+  alertBtns: { flexDirection: "row", justifyContent: "flex-end", gap: 12 },
+  alertCancel: { paddingHorizontal: 16, paddingVertical: 10 },
+  alertCancelText: { color: "#888" },
+  alertConfirm: {
+    backgroundColor: "#E8572A", borderRadius: 10,
+    paddingHorizontal: 20, paddingVertical: 10,
+  },
+  alertConfirmText: { color: "#FFF", fontWeight: "bold" },
 });
