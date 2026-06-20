@@ -1,0 +1,15 @@
+{
+  "label_id": "N26-01",
+  "label_name": "실험 실패 처벌",
+  "macro": "N26",
+  "penalty": 0.7,
+  "weight": 0.8,
+  "definition": "실험과 도전 중 실패를 처벌",
+  "when": "새로운 시도 중 실패에 대해 징계",
+  "not_when": "실패를 학습과 성장의 기회로 삼음; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

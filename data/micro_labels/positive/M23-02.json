@@ -1,0 +1,14 @@
+{
+  "label_id": "M23-02",
+  "label_name": "아이디어 발굴 장려",
+  "macro": "L23",
+  "weight": 0.7,
+  "definition": "팀원들의 창의적 아이디어를 독려하고 지원",
+  "when": "브레인스토밍 세션, 아이디어 제안 시스템, 창의적 사고 장려",
+  "not_when": "아이디어 무시, 창의성 억압",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.3
+  }
+}

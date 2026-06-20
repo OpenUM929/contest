@@ -1,0 +1,15 @@
+{
+  "label_id": "N15-02",
+  "label_name": "발언 차단",
+  "macro": "N15",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "말할 기회를 주지 않고 차단",
+  "when": "회의 중 발언 기회 박탈, 끼어들기",
+  "not_when": "모든 구성원의 발언 기회 보장; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "label_id": "M07-02",
+  "label_name": "성장 지향 피드백",
+  "total": 4,
+  "updated": "2026-05-06 14:52:21",
+  "entries": [
+    {
+      "text": "문제는 방식이 아니라, 받아들이는 사람의 속도였다(- 팀원은 기능이 아니라, 관성을 가진 사람이다(- 중요한 것은 새로움이 아니라 익숙한 새로움이었다(- 앞으로는 이렇게 해보고 싶다(- 마무리(팀 프로젝트, 도메인 팀의 경험을 거치면서 점점 강하게 느끼게 된 것",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M07-02",
+          "label_name": "성장 지향 피드백",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "많은 개발자들이 새로운 서비스를 만드는 것을 좋아하는 만큼 좋은 팀 문화에서 일을 하는 것을 고대합니다. 이번 팀 프로젝트를 진행하기에 앞서서 팀원들과 함께 건강한 팀에 대해 이야기를 나누고 우리 팀만의 문화를 정립하는 시간을 가졌습니다. 좋은 팀 문화를 생각하기에 앞",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M03-03",
+          "label_name": "새로운 접근 유도",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M07-02",
+          "label_name": "성장 지향 피드백",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "요즘 개발자에 대한 책을 읽고 방향성에 대해 고민하며 나에 대한 생각도 적어봤다. 그리고 금요일에 커피챗 해서 커피챗 후기(+ 트위터 시작 강추) 또한 적어봄!!!",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M01-01",
+          "label_name": "명확한 비전 제시",
+          "match_score": 1,
+          "reason": "keyword matches 1/11"
+        },
+        {
+          "label_id": "M07-02",
+          "label_name": "성장 지향 피드백",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "테오가 생각하는 잘하는 개발자라는 것은 어떤 건가요? > ㄴ 음... 저는 코딩 수준이 일정이상이 되고나면 결국 그 뒤에는 좋은 제품을 잘 만드려면 협업이 제일 중요한것 같아요. 연차가 올라갈수록 협업이나 팀 문화에 더 관심이 생기네요. 특히 스프린트를 진행해보면서 더",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M07-02",
+          "label_name": "성장 지향 피드백",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        }
+      ],
+      "status": "unverified"
+    }
+  ]
+}

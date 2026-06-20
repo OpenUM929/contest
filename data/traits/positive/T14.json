@@ -1,0 +1,44 @@
+{
+  "trait_id": "T14",
+  "trait_type": "positive",
+  "trait_name": "Learning Agile Leader",
+  "required": [
+    "M21-01",
+    "M22-01"
+  ],
+  "optional": [
+    "M21-02",
+    "M22-02",
+    "M35-01",
+    "M37-01",
+    "M37-02"
+  ],
+  "hard_forbidden": [
+    "N21-01",
+    "N23-01",
+    "N22-01"
+  ],
+  "soft_forbidden": [
+    {
+      "label": "N26-01",
+      "penalty": 0.4
+    }
+  ],
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.1,
+    "innovation": 1.4
+  },
+  "hybrid_eligible": true,
+  "k_trait": 1.1,
+  "description": "실패에서 학습하고 디지털·AI 환경에 빠르게 적응하는 리더",
+  "strengths": [
+    "빠른 학습",
+    "기술 적응력",
+    "조직 학습 문화 형성"
+  ],
+  "risks": [
+    "일관성 부족",
+    "지나친 변화 추구"
+  ]
+}

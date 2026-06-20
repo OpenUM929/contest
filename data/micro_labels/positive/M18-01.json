@@ -1,0 +1,14 @@
+{
+  "label_id": "M18-01",
+  "label_name": "불확실성 속 안정감 제공",
+  "macro": "L18",
+  "weight": 0.7,
+  "definition": "불확실하고 모호한 상황에서 평정심 유지",
+  "when": "위기 상황 침착함, 불확실성 속 리더십, 평정심 유지",
+  "not_when": "불안 조장, 패닉 발언",
+  "context_weight": {
+    "crisis": 1.3,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

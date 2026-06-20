@@ -1,0 +1,33 @@
+{
+  "trait_id": "T101",
+  "trait_type": "negative",
+  "trait_name": "Risk: Avoidant",
+  "required": [
+    "N08-01",
+    "N08-02"
+  ],
+  "optional": [
+    "N10-01",
+    "N14-01",
+    "N08-03",
+    "N33-01",
+    "N33-02",
+    "N22-01",
+    "N22-02"
+  ],
+  "hard_forbidden": [],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 1.3,
+    "normal": 1.0,
+    "innovation": 1.1
+  },
+  "hybrid_eligible": false,
+  "k_trait": 0.8,
+  "description": "의사결정 회피 성향",
+  "strengths": [],
+  "risks": [
+    "책임 회피",
+    "의사결정 지연"
+  ]
+}

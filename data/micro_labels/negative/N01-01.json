@@ -1,0 +1,15 @@
+{
+  "label_id": "N01-01",
+  "label_name": "비현실적 목표 제시",
+  "macro": "N01",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "달성 불가능한 목표를 설정하고 강요",
+  "when": "근거 없이 무리한 목표 지시, 불가능한 데드라인 강제",
+  "not_when": "도전적이지만 달성 가능한 목표 설정; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.3
+  }
+}

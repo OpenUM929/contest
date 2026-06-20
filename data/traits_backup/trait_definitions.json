@@ -1,0 +1,675 @@
+{
+  "schema_version": "2026-04-v3",
+  "trait_library_version": "v2.0",
+  "total_traits": 18,
+  "description": "由щ뜑??Trait ?뺤쓽??v3.0 - Pattern Engine 理쒖쟻??,
+  "traits": [
+    {
+      "trait_id": "T01",
+      "trait_name": "Strategic Decisive Leader",
+      "required": [
+        "M01-01",
+        "M06-01",
+        "M10-01"
+      ],
+      "optional": [
+        "M01-02",
+        "M06-02",
+        "M19-01",
+        "M01-03"
+      ],
+      "hard_forbidden": [
+        "N08-01",
+        "N08-02",
+        "N14-01"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N19-01",
+          "penalty": 0.4
+        }
+      ],
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.2,
+      "description": "紐⑺몴 湲곕컲?쇰줈 鍮좊Ⅴ怨?紐낇솗???섏궗寃곗젙???섑뻾?섎뒗 由щ뜑",
+      "strengths": [
+        "鍮좊Ⅸ ?먮떒",
+        "梨낆엫媛?,
+        "諛⑺뼢??紐낇솗"
+      ],
+      "risks": [
+        "?깃툒??寃곗젙",
+        "援ъ꽦???섍껄 諛곗젣"
+      ]
+    },
+    {
+      "trait_id": "T02",
+      "trait_name": "Collaborative Leader",
+      "required": [
+        "M11-01",
+        "M15-01",
+        "M15-03"
+      ],
+      "optional": [
+        "M11-02",
+        "M12-01",
+        "M12-02",
+        "M15-02",
+        "M15-04",
+        "M15-05",
+        "M15-06",
+        "M14-02"
+      ],
+      "hard_forbidden": [
+        "N11-01",
+        "N11-02",
+        "N15-03",
+        "N04-02"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N19-01",
+          "penalty": 0.3
+        }
+      ],
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.1,
+      "description": "??뚰겕? ?뚰넻 以묒떖???묐젰??由щ뜑",
+      "strengths": [
+        "? 寃곗냽",
+        "媛덈벑 ?꾪솕"
+      ],
+      "risks": [
+        "寃곗젙 吏??
+      ]
+    },
+    {
+      "trait_id": "T03",
+      "trait_name": "Innovative Leader",
+      "required": [
+        "M03-03",
+        "M05-02",
+        "M23-01"
+      ],
+      "optional": [
+        "M03-01",
+        "M03-02",
+        "M23-02",
+        "M05-01",
+        "M05-03",
+        "M26-01"
+      ],
+      "hard_forbidden": [
+        "N03-01",
+        "N03-02",
+        "N05-03"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N01-02",
+          "penalty": 0.5
+        }
+      ],
+      "context_weight": {
+        "crisis": 0.8,
+        "normal": 1.0,
+        "innovation": 1.4
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.3,
+      "description": "?덈줈???쒕룄? 蹂?붾? 二쇰룄?섎뒗 由щ뜑",
+      "strengths": [
+        "?곸떊 李쎌텧",
+        "誘몃옒 吏??
+      ],
+      "risks": [
+        "?꾩떎??遺議?
+      ]
+    },
+    {
+      "trait_id": "T04",
+      "trait_name": "Crisis Manager",
+      "required": [
+        "M19-01",
+        "M10-01",
+        "M20-01"
+      ],
+      "optional": [
+        "M18-01",
+        "M17-01"
+      ],
+      "hard_forbidden": [
+        "N18-01",
+        "N18-02"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N10-01",
+          "penalty": 0.6
+        }
+      ],
+      "context_weight": {
+        "crisis": 1.5,
+        "normal": 0.8,
+        "innovation": 0.9
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.4,
+      "description": "?꾧린 ?곹솴?먯꽌 鍮좊Ⅴ怨?媛뺣젰????묒쓣 ?섎뒗 由щ뜑",
+      "strengths": [
+        "湲닿툒 ???,
+        "寃곕떒??
+      ],
+      "risks": [
+        "?됱떆 怨쇰룄???듭젣"
+      ]
+    },
+    {
+      "trait_id": "T05",
+      "trait_name": "Analytical Leader",
+      "required": [
+        "M34-01"
+      ],
+      "optional": [
+        "M08-02",
+        "M18-02",
+        "M08-01"
+      ],
+      "hard_forbidden": [
+        "N01-02",
+        "N28-01"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N06-01",
+          "penalty": 0.3
+        }
+      ],
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.0,
+      "description": "?곗씠??湲곕컲 ?섏궗寃곗젙???좏샇?섎뒗 由щ뜑",
+      "strengths": [
+        "?뺥솗??,
+        "?쇰━??
+      ],
+      "risks": [
+        "寃곗젙 吏??
+      ]
+    },
+    {
+      "trait_id": "T06",
+      "trait_name": "Execution Driver",
+      "required": [
+        "M10-01",
+        "M10-02"
+      ],
+      "optional": [
+        "M19-01",
+        "M27-01"
+      ],
+      "hard_forbidden": [
+        "N10-02",
+        "N27-01"
+      ],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.2,
+      "description": "?ㅽ뻾 以묒떖???깃낵 李쎌텧 由щ뜑",
+      "strengths": [
+        "鍮좊Ⅸ ?ㅽ뻾",
+        "?깃낵 李쎌텧"
+      ],
+      "risks": [
+        "?꾨왂 遺議?
+      ]
+    },
+    {
+      "trait_id": "T07",
+      "trait_name": "Coaching Leader",
+      "required": [
+        "M02-02",
+        "M07-02"
+      ],
+      "optional": [
+        "M02-01",
+        "M02-03",
+        "M07-01",
+        "M02-04",
+        "M09-01"
+      ],
+      "hard_forbidden": [
+        "N07-02",
+        "N14-02"
+      ],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 0.8,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.1,
+      "description": "援ъ꽦???깆옣??吏?먰븯??由щ뜑",
+      "strengths": [
+        "?몄옱 ?≪꽦",
+        "議곗쭅 ?깆옣"
+      ],
+      "risks": [
+        "?깃낵 吏??
+      ]
+    },
+    {
+      "trait_id": "T08",
+      "trait_name": "Emotional Intelligence Leader",
+      "required": [
+        "M12-01",
+        "M14-01"
+      ],
+      "optional": [
+        "M11-01",
+        "M12-02",
+        "M12-03"
+      ],
+      "hard_forbidden": [
+        "N12-01",
+        "N12-02",
+        "N12-03"
+      ],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.2,
+      "description": "媛먯젙 ?댄빐 湲곕컲 由щ뜑",
+      "strengths": [
+        "愿怨??뺤꽦",
+        "?щ━ ?덉젙"
+      ],
+      "risks": [
+        "寃곕떒??遺議?
+      ]
+    },
+    {
+      "trait_id": "T09",
+      "trait_name": "Visionary Leader",
+      "required": [
+        "M01-01",
+        "M01-04"
+      ],
+      "optional": [
+        "M01-02",
+        "M02-01",
+        "M04-01",
+        "M04-02"
+      ],
+      "hard_forbidden": [
+        "N01-03"
+      ],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.3
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.25,
+      "description": "誘몃옒 諛⑺뼢 ?쒖떆 由щ뜑",
+      "strengths": [
+        "諛⑺뼢???쒖떆",
+        "?숆린遺??
+      ],
+      "risks": [
+        "?꾩떎??遺議?
+      ]
+    },
+    {
+      "trait_id": "T101",
+      "trait_name": "Risk: Avoidant",
+      "required": [
+        "N08-01",
+        "N08-02"
+      ],
+      "optional": [
+        "N10-01",
+        "N14-01",
+        "N08-03",
+        "N33-01",
+        "N33-02",
+        "N22-01",
+        "N22-02"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "hybrid_eligible": false,
+      "k_trait": 0.8,
+      "description": "?섏궗寃곗젙 ?뚰뵾 ?깊뼢",
+      "strengths": [],
+      "risks": [
+        "梨낆엫 ?뚰뵾",
+        "?섏궗寃곗젙 吏??
+      ]
+    },
+    {
+      "trait_id": "T102",
+      "trait_name": "Risk: Authoritarian",
+      "required": [
+        "N15-03",
+        "N19-01"
+      ],
+      "optional": [
+        "N04-02",
+        "N03-01",
+        "N03-02",
+        "N03-03",
+        "N05-01",
+        "N05-02",
+        "N05-03",
+        "N07-01",
+        "N07-02",
+        "N15-01",
+        "N15-02",
+        "N15-04",
+        "N15-05",
+        "N15-06",
+        "N24-01",
+        "N10-02"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 0.9
+      },
+      "hybrid_eligible": false,
+      "k_trait": 0.9,
+      "description": "怨쇰룄??沅뚯쐞二쇱쓽 ?깊뼢",
+      "strengths": [],
+      "risks": [
+        "? 諛섎컻",
+        "李쎌쓽?????
+      ]
+    },
+    {
+      "trait_id": "T12",
+      "trait_name": "Balanced Leader",
+      "required": [],
+      "optional": [
+        "M24-01",
+        "M28-01",
+        "M31-01",
+        "M28-02"
+      ],
+      "hard_forbidden": [
+        "N28-01",
+        "N30-01",
+        "N31-01"
+      ],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.3,
+      "description": "洹좏삎 ?≫엺 由щ뜑??,
+      "strengths": [
+        "?덉젙??,
+        "?곸쓳??
+      ],
+      "risks": [
+        "?뱀깋 遺議?
+      ]
+    },
+    {
+      "trait_id": "T103",
+      "trait_name": "Risk: Integrity Violation",
+      "required": [
+        "N30-01",
+        "N28-01",
+        "N34-01"
+      ],
+      "optional": [
+        "N01-03",
+        "N35-01",
+        "N37-01"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.3,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": false,
+      "k_trait": 1.0,
+      "description": "?명뻾 遺덉씪移?諛??щ챸???꾨컲",
+      "strengths": [],
+      "risks": [
+        "?좊ː?????,
+        "議곗쭅 臾명솕 ?쇱넀"
+      ]
+    },
+    {
+      "trait_id": "T13",
+      "trait_name": "Ethical Courageous Leader",
+      "required": [
+        "M33-01",
+        "M33-02",
+        "M30-01"
+      ],
+      "optional": [
+        "M33-03",
+        "M33-04",
+        "M33-05",
+        "M32-01",
+        "M32-02",
+        "M08-01"
+      ],
+      "hard_forbidden": [
+        "N30-01",
+        "N33-01",
+        "N33-02"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N28-01",
+          "penalty": 0.5
+        }
+      ],
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.2,
+      "description": "?ㅻ━???먮떒怨??꾨뜒???⑷린瑜?諛뷀깢?쇰줈 ?먯튃??吏?ㅻ뒗 由щ뜑",
+      "strengths": [
+        "?꾨뜒???⑷린",
+        "?좊ː ?뺤꽦",
+        "議곗쭅 ?ㅻ━ 臾명솕 援ъ텞"
+      ],
+      "risks": [
+        "怨쇰룄???먯튃二쇱쓽",
+        "?좎뿰??遺議?
+      ]
+    },
+    {
+      "trait_id": "T14",
+      "trait_name": "Learning Agile Leader",
+      "required": [
+        "M21-01",
+        "M22-01"
+      ],
+      "optional": [
+        "M21-02",
+        "M22-02",
+        "M35-01",
+        "M37-01",
+        "M37-02"
+      ],
+      "hard_forbidden": [
+        "N21-01",
+        "N23-01",
+        "N22-01"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N26-01",
+          "penalty": 0.4
+        }
+      ],
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.4
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.1,
+      "description": "?ㅽ뙣?먯꽌 ?숈뒿?섍퀬 ?붿??맞텮I ?섍꼍??鍮좊Ⅴ寃??곸쓳?섎뒗 由щ뜑",
+      "strengths": [
+        "鍮좊Ⅸ ?숈뒿",
+        "湲곗닠 ?곸쓳??,
+        "議곗쭅 ?숈뒿 臾명솕 ?뺤꽦"
+      ],
+      "risks": [
+        "?쇨???遺議?,
+        "吏?섏튇 蹂??異붽뎄"
+      ]
+    },
+    {
+      "trait_id": "T104",
+      "trait_name": "Risk: Narcissistic Leadership",
+      "required": [
+        "N04-01",
+        "N09-01"
+      ],
+      "optional": [
+        "N08-03",
+        "N02-01",
+        "N14-03",
+        "N09-02",
+        "N27-01",
+        "N14-02",
+        "N11-01",
+        "N11-02",
+        "N12-01",
+        "N12-02",
+        "N12-03"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": false,
+      "k_trait": 1.0,
+      "description": "?먭린 怨쇰??됯?쨌李⑹랬 湲곕컲 ?먭린?좎쟻 由щ뜑??,
+      "strengths": [],
+      "risks": [
+        "議곗쭅 李⑹랬",
+        "遺덇났??臾명솕",
+        "?몄옱 ?댄깉"
+      ]
+    },
+    {
+      "trait_id": "T105",
+      "trait_name": "Risk: Manipulative Leadership",
+      "required": [
+        "N02-02",
+        "N02-03"
+      ],
+      "optional": [
+        "N02-01",
+        "N01-01",
+        "N06-02",
+        "N05-01",
+        "N05-02",
+        "N01-02"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": false,
+      "k_trait": 1.0,
+      "description": "媛먯젙 議곗옉쨌蹂댁긽 怨쇱옣쨌怨듯룷 湲곕컲 ?숆린 ?좊룄 由щ뜑??,
+      "strengths": [],
+      "risks": [
+        "援ъ꽦???좊ː 遺뺢눼",
+        "踰덉븘??,
+        "?덉쐞 湲곕? 議곗꽦"
+      ]
+    },
+    {
+      "trait_id": "T106",
+      "trait_name": "Risk: Volatile Leadership",
+      "required": [
+        "N17-01",
+        "N24-01"
+      ],
+      "optional": [
+        "N22-01",
+        "N21-01",
+        "N23-01",
+        "N26-01",
+        "N06-01",
+        "N31-01",
+        "N18-01",
+        "N18-02",
+        "N06-01"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "hybrid_eligible": false,
+      "k_trait": 0.9,
+      "description": "媛먯젙 湲곕났쨌怨쇱엵 ?듭젣濡??곸떊怨??숈뒿 臾명솕瑜??듭젣?섎뒗 由щ뜑??,
+      "strengths": [],
+      "risks": [
+        "?곸떊 ?듭젣",
+        "議곗쭅 寃쎌쭅",
+        "?숈뒿 臾명솕 ?뚭눼"
+      ]
+    }
+  ]
+}

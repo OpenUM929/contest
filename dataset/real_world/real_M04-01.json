@@ -1,0 +1,65 @@
+{
+  "label_id": "M04-01",
+  "label_name": "카리스마적 영향력",
+  "total": 3,
+  "updated": "2026-05-06 14:52:21",
+  "entries": [
+    {
+      "text": "사내 강연을 듣고 가볍게 정리한 리더십 편린리더십에 대한 여러 고민이 많지만, 오늘 세미나로 확실히 느낀 것은 '변화를 만들어 갈 수 있는 역량' 이다.평소 생각하던 성과란 발휘한 영향력의 크기와도 비슷한 결이 있어서 신기했다. 송파구에서 유명해진 말 이끌거나, 따르거",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M02-02",
+          "label_name": "성장 기회 제공",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        },
+        {
+          "label_id": "M04-01",
+          "label_name": "카리스마적 영향력",
+          "match_score": 1,
+          "reason": "keyword matches 1/7"
+        },
+        {
+          "label_id": "M05-01",
+          "label_name": "변화 필요 성명",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "주니어 레벨의 PM으로서 영향력을 키우기 위해 제일 중요한 것은 무엇일까?PM의 고유한 입지: 권한 없는 영향력 PM은 공식적 권한 없이 다양한 이해관계자에게 영향력을 행사해야 하는 독특한 위치PM의 제품 의사결정 렌즈 이해 모든 PM은 제품을 바라보는 고유한",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M04-01",
+          "label_name": "카리스마적 영향력",
+          "match_score": 1,
+          "reason": "keyword matches 1/7"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "리더는 위대한 목표를 제시해야 한다. 섀클턴처럼 자신의 삶을 포기할 수 있을 정도의 위대한 목표를 제시해야 한다. 이 목표에 팀원들이 모두 공감하고 설득이 되었다면 누가 뭐라고 해도 팀원들은 모두 같은 길을 걸을 것이다.",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M01-01",
+          "label_name": "명확한 비전 제시",
+          "match_score": 1,
+          "reason": "keyword matches 1/11"
+        },
+        {
+          "label_id": "M04-01",
+          "label_name": "카리스마적 영향력",
+          "match_score": 1,
+          "reason": "keyword matches 1/7"
+        }
+      ],
+      "status": "unverified"
+    }
+  ]
+}

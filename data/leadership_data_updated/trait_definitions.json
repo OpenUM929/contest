@@ -1,0 +1,675 @@
+{
+  "schema_version": "2026-04-v3",
+  "trait_library_version": "v2.0",
+  "total_traits": 18,
+  "description": "리더십 Trait 정의서 v3.0 - Pattern Engine 최적화",
+  "traits": [
+    {
+      "trait_id": "T01",
+      "trait_name": "Strategic Decisive Leader",
+      "required": [
+        "M01-01",
+        "M06-01",
+        "M10-01"
+      ],
+      "optional": [
+        "M01-02",
+        "M06-02",
+        "M19-01",
+        "M01-03"
+      ],
+      "hard_forbidden": [
+        "N08-01",
+        "N08-02",
+        "N14-01"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N19-01",
+          "penalty": 0.4
+        }
+      ],
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.2,
+      "description": "목표 기반으로 빠르고 명확한 의사결정을 수행하는 리더",
+      "strengths": [
+        "빠른 판단",
+        "책임감",
+        "방향성 명확"
+      ],
+      "risks": [
+        "성급한 결정",
+        "구성원 의견 배제"
+      ]
+    },
+    {
+      "trait_id": "T02",
+      "trait_name": "Collaborative Leader",
+      "required": [
+        "M11-01",
+        "M15-01",
+        "M15-03"
+      ],
+      "optional": [
+        "M11-02",
+        "M12-01",
+        "M12-02",
+        "M15-02",
+        "M15-04",
+        "M15-05",
+        "M15-06",
+        "M14-02"
+      ],
+      "hard_forbidden": [
+        "N11-01",
+        "N11-02",
+        "N15-03",
+        "N04-02"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N19-01",
+          "penalty": 0.3
+        }
+      ],
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.1,
+      "description": "팀워크와 소통 중심의 협력형 리더",
+      "strengths": [
+        "팀 결속",
+        "갈등 완화"
+      ],
+      "risks": [
+        "결정 지연"
+      ]
+    },
+    {
+      "trait_id": "T03",
+      "trait_name": "Innovative Leader",
+      "required": [
+        "M03-03",
+        "M05-02",
+        "M23-01"
+      ],
+      "optional": [
+        "M03-01",
+        "M03-02",
+        "M23-02",
+        "M05-01",
+        "M05-03",
+        "M26-01"
+      ],
+      "hard_forbidden": [
+        "N03-01",
+        "N03-02",
+        "N05-03"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N01-02",
+          "penalty": 0.5
+        }
+      ],
+      "context_weight": {
+        "crisis": 0.8,
+        "normal": 1.0,
+        "innovation": 1.4
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.3,
+      "description": "새로운 시도와 변화를 주도하는 리더",
+      "strengths": [
+        "혁신 창출",
+        "미래 지향"
+      ],
+      "risks": [
+        "현실성 부족"
+      ]
+    },
+    {
+      "trait_id": "T04",
+      "trait_name": "Crisis Manager",
+      "required": [
+        "M19-01",
+        "M10-01",
+        "M20-01"
+      ],
+      "optional": [
+        "M18-01",
+        "M17-01"
+      ],
+      "hard_forbidden": [
+        "N18-01",
+        "N18-02"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N10-01",
+          "penalty": 0.6
+        }
+      ],
+      "context_weight": {
+        "crisis": 1.5,
+        "normal": 0.8,
+        "innovation": 0.9
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.4,
+      "description": "위기 상황에서 빠르고 강력한 대응을 하는 리더",
+      "strengths": [
+        "긴급 대응",
+        "결단력"
+      ],
+      "risks": [
+        "평시 과도한 통제"
+      ]
+    },
+    {
+      "trait_id": "T05",
+      "trait_name": "Analytical Leader",
+      "required": [
+        "M34-01"
+      ],
+      "optional": [
+        "M08-02",
+        "M18-02",
+        "M08-01"
+      ],
+      "hard_forbidden": [
+        "N01-02",
+        "N28-01"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N06-01",
+          "penalty": 0.3
+        }
+      ],
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.0,
+      "description": "데이터 기반 의사결정을 선호하는 리더",
+      "strengths": [
+        "정확성",
+        "논리성"
+      ],
+      "risks": [
+        "결정 지연"
+      ]
+    },
+    {
+      "trait_id": "T06",
+      "trait_name": "Execution Driver",
+      "required": [
+        "M10-01",
+        "M10-02"
+      ],
+      "optional": [
+        "M19-01",
+        "M27-01"
+      ],
+      "hard_forbidden": [
+        "N10-02",
+        "N27-01"
+      ],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.2,
+      "description": "실행 중심의 성과 창출 리더",
+      "strengths": [
+        "빠른 실행",
+        "성과 창출"
+      ],
+      "risks": [
+        "전략 부족"
+      ]
+    },
+    {
+      "trait_id": "T07",
+      "trait_name": "Coaching Leader",
+      "required": [
+        "M02-02",
+        "M07-02"
+      ],
+      "optional": [
+        "M02-01",
+        "M02-03",
+        "M07-01",
+        "M02-04",
+        "M09-01"
+      ],
+      "hard_forbidden": [
+        "N07-02",
+        "N14-02"
+      ],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 0.8,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.1,
+      "description": "구성원 성장을 지원하는 리더",
+      "strengths": [
+        "인재 육성",
+        "조직 성장"
+      ],
+      "risks": [
+        "성과 지연"
+      ]
+    },
+    {
+      "trait_id": "T08",
+      "trait_name": "Emotional Intelligence Leader",
+      "required": [
+        "M12-01",
+        "M14-01"
+      ],
+      "optional": [
+        "M11-01",
+        "M12-02",
+        "M12-03"
+      ],
+      "hard_forbidden": [
+        "N12-01",
+        "N12-02",
+        "N12-03"
+      ],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.2,
+      "description": "감정 이해 기반 리더",
+      "strengths": [
+        "관계 형성",
+        "심리 안정"
+      ],
+      "risks": [
+        "결단력 부족"
+      ]
+    },
+    {
+      "trait_id": "T09",
+      "trait_name": "Visionary Leader",
+      "required": [
+        "M01-01",
+        "M01-04"
+      ],
+      "optional": [
+        "M01-02",
+        "M02-01",
+        "M04-01",
+        "M04-02"
+      ],
+      "hard_forbidden": [
+        "N01-03"
+      ],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.3
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.25,
+      "description": "미래 방향 제시 리더",
+      "strengths": [
+        "방향성 제시",
+        "동기부여"
+      ],
+      "risks": [
+        "현실성 부족"
+      ]
+    },
+    {
+      "trait_id": "T10",
+      "trait_name": "Risk: Avoidant",
+      "required": [
+        "N08-01",
+        "N08-02"
+      ],
+      "optional": [
+        "N10-01",
+        "N14-01",
+        "N08-03",
+        "N33-01",
+        "N33-02",
+        "N22-01",
+        "N22-02"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "hybrid_eligible": false,
+      "k_trait": 0.8,
+      "description": "의사결정 회피 성향",
+      "strengths": [],
+      "risks": [
+        "책임 회피",
+        "의사결정 지연"
+      ]
+    },
+    {
+      "trait_id": "T11",
+      "trait_name": "Risk: Authoritarian",
+      "required": [
+        "N15-03",
+        "N19-01"
+      ],
+      "optional": [
+        "N04-02",
+        "N03-01",
+        "N03-02",
+        "N03-03",
+        "N05-01",
+        "N05-02",
+        "N05-03",
+        "N07-01",
+        "N07-02",
+        "N15-01",
+        "N15-02",
+        "N15-04",
+        "N15-05",
+        "N15-06",
+        "N24-01",
+        "N10-02"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 0.9
+      },
+      "hybrid_eligible": false,
+      "k_trait": 0.9,
+      "description": "과도한 권위주의 성향",
+      "strengths": [],
+      "risks": [
+        "팀 반발",
+        "창의성 저해"
+      ]
+    },
+    {
+      "trait_id": "T12",
+      "trait_name": "Balanced Leader",
+      "required": [],
+      "optional": [
+        "M24-01",
+        "M28-01",
+        "M31-01",
+        "M28-02"
+      ],
+      "hard_forbidden": [
+        "N28-01",
+        "N30-01",
+        "N31-01"
+      ],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.3,
+      "description": "균형 잡힌 리더십",
+      "strengths": [
+        "안정성",
+        "적응력"
+      ],
+      "risks": [
+        "특색 부족"
+      ]
+    },
+    {
+      "trait_id": "T_RISK_INTEGRITY",
+      "trait_name": "Risk: Integrity Violation",
+      "required": [
+        "N30-01",
+        "N28-01",
+        "N34-01"
+      ],
+      "optional": [
+        "N01-03",
+        "N35-01",
+        "N37-01"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.3,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": false,
+      "k_trait": 1.0,
+      "description": "언행 불일치 및 투명성 위반",
+      "strengths": [],
+      "risks": [
+        "신뢰도 저하",
+        "조직 문화 훼손"
+      ]
+    },
+    {
+      "trait_id": "T13",
+      "trait_name": "Ethical Courageous Leader",
+      "required": [
+        "M33-01",
+        "M33-02",
+        "M30-01"
+      ],
+      "optional": [
+        "M33-03",
+        "M33-04",
+        "M33-05",
+        "M32-01",
+        "M32-02",
+        "M08-01"
+      ],
+      "hard_forbidden": [
+        "N30-01",
+        "N33-01",
+        "N33-02"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N28-01",
+          "penalty": 0.5
+        }
+      ],
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.2,
+      "description": "윤리적 판단과 도덕적 용기를 바탕으로 원칙을 지키는 리더",
+      "strengths": [
+        "도덕적 용기",
+        "신뢰 형성",
+        "조직 윤리 문화 구축"
+      ],
+      "risks": [
+        "과도한 원칙주의",
+        "유연성 부족"
+      ]
+    },
+    {
+      "trait_id": "T14",
+      "trait_name": "Learning Agile Leader",
+      "required": [
+        "M21-01",
+        "M22-01"
+      ],
+      "optional": [
+        "M21-02",
+        "M22-02",
+        "M35-01",
+        "M37-01",
+        "M37-02"
+      ],
+      "hard_forbidden": [
+        "N21-01",
+        "N23-01",
+        "N22-01"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N26-01",
+          "penalty": 0.4
+        }
+      ],
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.4
+      },
+      "hybrid_eligible": true,
+      "k_trait": 1.1,
+      "description": "실패에서 학습하고 디지털·AI 환경에 빠르게 적응하는 리더",
+      "strengths": [
+        "빠른 학습",
+        "기술 적응력",
+        "조직 학습 문화 형성"
+      ],
+      "risks": [
+        "일관성 부족",
+        "지나친 변화 추구"
+      ]
+    },
+    {
+      "trait_id": "T_RISK_NARCISSISM",
+      "trait_name": "Risk: Narcissistic Leadership",
+      "required": [
+        "N04-01",
+        "N09-01"
+      ],
+      "optional": [
+        "N08-03",
+        "N02-01",
+        "N14-03",
+        "N09-02",
+        "N27-01",
+        "N14-02",
+        "N11-01",
+        "N11-02",
+        "N12-01",
+        "N12-02",
+        "N12-03"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": false,
+      "k_trait": 1.0,
+      "description": "자기 과대평가·착취 기반 자기애적 리더십",
+      "strengths": [],
+      "risks": [
+        "조직 착취",
+        "불공정 문화",
+        "인재 이탈"
+      ]
+    },
+    {
+      "trait_id": "T_RISK_MANIPULATIVE",
+      "trait_name": "Risk: Manipulative Leadership",
+      "required": [
+        "N02-02",
+        "N02-03"
+      ],
+      "optional": [
+        "N02-01",
+        "N01-01",
+        "N06-02",
+        "N05-01",
+        "N05-02",
+        "N01-02"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "hybrid_eligible": false,
+      "k_trait": 1.0,
+      "description": "감정 조작·보상 과장·공포 기반 동기 유도 리더십",
+      "strengths": [],
+      "risks": [
+        "구성원 신뢰 붕괴",
+        "번아웃",
+        "허위 기대 조성"
+      ]
+    },
+    {
+      "trait_id": "T_RISK_VOLATILE",
+      "trait_name": "Risk: Volatile Leadership",
+      "required": [
+        "N17-01",
+        "N24-01"
+      ],
+      "optional": [
+        "N22-01",
+        "N21-01",
+        "N23-01",
+        "N26-01",
+        "N06-01",
+        "N31-01",
+        "N18-01",
+        "N18-02",
+        "N06-01"
+      ],
+      "hard_forbidden": [],
+      "soft_forbidden": [],
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "hybrid_eligible": false,
+      "k_trait": 0.9,
+      "description": "감정 기복·과잉 통제로 혁신과 학습 문화를 억제하는 리더십",
+      "strengths": [],
+      "risks": [
+        "혁신 억제",
+        "조직 경직",
+        "학습 문화 파괴"
+      ]
+    }
+  ]
+}

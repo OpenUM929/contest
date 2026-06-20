@@ -1,0 +1,15 @@
+{
+  "label_id": "M33-04",
+  "label_name": "공정한 의사결정",
+  "macro": "L33",
+  "weight": 0.7,
+  "core": true,
+  "when": "내부 권력 대상에 대한 공정성",
+  "not_when": "자기 이익 우선",
+  "definition": "누구에게나 공정하고 편향 없는 의사결정",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

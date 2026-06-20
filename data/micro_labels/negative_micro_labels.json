@@ -1,0 +1,896 @@
+{
+  "schema_version": "2026-04-v3",
+  "micro_label_mapping_version": "v2.0_full_negative_complete",
+  "type": "negative",
+  "total_count": 58,
+  "documentation": {
+    "overview": "Negative Micro Labels (58) - Complete with when/not_when/definition",
+    "design_principles": [
+      "각 Micro Label은 실제 관찰 가능한 행동 단위로 정의",
+      "penalty는 Trait 감소, weight는 Risk 강화",
+      "critical은 단일 발생으로도 Trait 붕괴 가능",
+      "context_weight는 상황별 영향도 조정",
+      "when: 부정 라벨이 탐지되는 명확한 상황",
+      "not_when: 오탐(False Positive) 방지를 위한 제외 상황"
+    ]
+  },
+  "micro_labels": [
+    {
+      "label_id": "N01-01",
+      "label_name": "비현실적 목표 제시",
+      "macro": "N01",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "달성 불가능한 목표를 설정하고 강요",
+      "when": "근거 없이 무리한 목표 지시, 불가능한 데드라인 강제",
+      "not_when": "도전적이지만 달성 가능한 목표 설정; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N01-02",
+      "label_name": "비전 과장",
+      "macro": "N01",
+      "penalty": 0.4,
+      "weight": 0.5,
+      "definition": "실현 불가능한 미래상을 과장하여 제시",
+      "when": "근거 없는 낙관적 전망, 실현 불가능한 약속",
+      "not_when": "현실적 근거 기반의 비전 제시; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N01-03",
+      "label_name": "방향성 불일치",
+      "macro": "N01",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "말과 행동의 방향이 서로 다름",
+      "when": "말로는 혁신을 강조하면서 구태의연한 행동",
+      "not_when": "일관된 방향성 유지; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.2
+      }
+    },
+    {
+      "label_id": "N02-01",
+      "label_name": "공포 기반 동기 유도",
+      "macro": "N02",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "두려움을 조장하여 행동을 강요",
+      "when": "해고, 인사불성실 등 위협으로 동기 부여",
+      "not_when": "긍정적 보상과 성장 기회로 동기 부여; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N02-02",
+      "label_name": "보상 과장 약속",
+      "macro": "N02",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "지킬 수 없는 보상을 약속하여 manipulative하게 유도",
+      "when": "실현 불가능한 인센티브 약속, 거짓 보상 제시",
+      "not_when": "명확하고 달성 가능한 보상 체계; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N02-03",
+      "label_name": "감정적 압박",
+      "macro": "N02",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "죄책감이나 감정을 이용해 강요",
+      "when": "팀원의 죄책감을 자극하여 업무 강요",
+      "not_when": "이성적 설득과 자발적 동기 부여; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N03-01",
+      "label_name": "아이디어 무시",
+      "macro": "N03",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "팀원의 새로운 아이디어를 검토 없이 거절",
+      "when": "혁신적 제안을 즉시 차단, 검토 없이 거절",
+      "not_when": "아이디어를 경청하고 건설적 피드백 제공; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N03-02",
+      "label_name": "비판 금지",
+      "macro": "N03",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "다른 의견이나 비판을 억압",
+      "when": "반대 의견을 묵살, 비판자 처벌 위협",
+      "not_when": "건설적 비판과 다양한 의견 환영; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N03-03",
+      "label_name": "질문 억제",
+      "macro": "N03",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "질문과 탐구를 제한",
+      "when": "질문하는 사람을 무시, 탐구 활동 차단",
+      "not_when": "적극적 질문과 호기심 장려; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N04-01",
+      "label_name": "개인 숭배 유도",
+      "macro": "N04",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "자신을 영웅화하고 의존하도록 조장",
+      "when": "자신의 업적 과시, 타인 의존성 강화",
+      "not_when": "팀의 성과 강조, 겸손한 리더십; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N04-02",
+      "label_name": "권위 과시",
+      "macro": "N04",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "지위를 이용한 위압적 행동",
+      "when": "직급을 내세워 압박, 권위적으로 명령",
+      "not_when": "수평적 소통과 권위 없는 리더십; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N05-01",
+      "label_name": "의견 없이 변화 강행",
+      "macro": "N05",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "의견 수렴 없이 일방적 변화 추진",
+      "when": "팀 의견 무시하고 일방적 변화 지시",
+      "not_when": "충분한 논의 후 변화 추진; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N05-02",
+      "label_name": "준비 없는 변화 추진",
+      "macro": "N05",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "계획과 자원 없이 변화만 강조",
+      "when": "변화 필요성은 있으나 인력/시스템/예산/교육 준비가 갖춰지지 않은 상태에서 강행, 구성원에게 변화를 통보만 하고 지원 없이 진행, 준비 없이 급작스러운 변화 지시",
+      "not_when": "충분한 준비(로드맵·예산·교육)와 관련자 안내 후 변화 실행(M05-02 긍정); 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N05-03",
+      "label_name": "변화 반대 억압",
+      "macro": "N05",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "변화를 거부하고 반대자를 탄압",
+      "when": "혁신 시도를 묵살, 변화 반대자 옹호",
+      "not_when": "건설적 변화 제안 수용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N06-01",
+      "label_name": "목표 불명확 전달",
+      "macro": "N06",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "모호하고 이해하기 어려운 목표 제시",
+      "when": "구체적이지 않은 지시, 모호한 기대치",
+      "not_when": "명확하고 측정 가능한 목표 전달; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N06-02",
+      "label_name": "우선순위 불명확",
+      "macro": "N06",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "중요도와 우선순위를 명시하지 않음",
+      "when": "모든 일을 긴급로 지시, 우선순위 혼재",
+      "not_when": "명확한 우선순위와 중요도 표시; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N07-01",
+      "label_name": "성과만으로 평가",
+      "macro": "N07",
+      "penalty": 0.4,
+      "weight": 0.5,
+      "definition": "과정과 성장을 무시하고 결과만 중시",
+      "when": "과정과 노력을 무시하고 결과만으로 평가",
+      "not_when": "과정-결과 균형 잡힌 평가; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N07-02",
+      "label_name": "공개적 질책",
+      "macro": "N07",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "공개된 장소에서 망신을 줌",
+      "when": "회의 중 공개적 비난, 타인 앞에서 질책",
+      "not_when": "1:1 피드백과 존중하는 비판; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N08-01",
+      "label_name": "직접 책임 전가",
+      "macro": "N08",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "critical": true,
+      "definition": "실패의 책임을 타인에게 직접 떠넘김",
+      "when": "상사/타인에게 결정 책임 떠맡기기, 나는 결정 안 함",
+      "also_known_as": "회피, 떠맡기기, 제가 결정할 수 없습니다",
+      "not_when": "본인이 책임지고 결정, 공동 책임 인정; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N08-02",
+      "label_name": "책임 회피 발언",
+      "macro": "N08",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "모호한 표현으로 책임을 회피",
+      "when": "다 같이 = 내가 결정 안 함, 누군가 문제 생기면 제 탓",
+      "also_known_as": "팀 결정으로 위장한 개인 회피",
+      "not_when": "명확한 개인/팀 책임 구분; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N08-03",
+      "label_name": "의사결정 지연",
+      "macro": "N08",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "필요한 결정을 계속 미룸",
+      "when": "중요한 결정을 계속 연기, 결정 회피",
+      "not_when": "적시적소에 빠른 결정; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N09-01",
+      "label_name": "공로 독점",
+      "macro": "N09",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "팀 또는 협업 성과를 상위 조직에 보고할 때 본인 기여만 부각하고 타인 기여를 암묵적으로 누락하는 행동",
+      "when": "팀 성과를 개인 성과로 발표, 상위 보고 시 타인 기여 묵살, 협업 결과를 본인 단독 성과로 포장",
+      "not_when": "팀원들의 기여를 명확히 인정, 의도적 조작 없는 단순 누락, 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N09-02",
+      "label_name": "타인 업적 가로채기",
+      "macro": "N09",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "타인의 아이디어와 성과를 도용",
+      "when": "부하직원 아이디어를 본인 것처럼 발표",
+      "not_when": "아이디어 출처를 명확히 밝힘; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N10-01",
+      "label_name": "실행 부진",
+      "macro": "N10",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "계획만 세우고 실제 실행하지 않음",
+      "when": "계획만 반복, 실제 실행 움직임 없음",
+      "not_when": "계획-실행-완수의 연속성; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N10-02",
+      "label_name": "마감 무시",
+      "macro": "N10",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "약속된 기한을 지키지 않음",
+      "when": "마감 기한을 반복적으로 지키지 않음",
+      "not_when": "약속된 기한 엄수; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N11-01",
+      "label_name": "경청 거부",
+      "macro": "N11",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "타인의 말을 듣지 않고 차단",
+      "when": "대화 중 끼어들기, 말을 끝까지 듣지 않음",
+      "not_when": "적극적 경청과 이해 확인; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N11-02",
+      "label_name": "의견 폄하",
+      "macro": "N11",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "타인의 의견을 무시하고 폄하",
+      "when": "팀원 의견을 가치 없는 것으로 치부",
+      "not_when": "모든 의견을 존중하고 검토; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N12-01",
+      "label_name": "공감 결여",
+      "macro": "N12",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "타인의 감정과 상황에 공감하지 않음",
+      "when": "어려운 상황에서도 무감각, 감정적 배려 없음",
+      "not_when": "타인의 감정과 상황 이해; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N12-02",
+      "label_name": "정서적 무관심",
+      "macro": "N12",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "팀원의 정서적 필요를 무시",
+      "when": "개인적 어려움에도 불구하고 무관심",
+      "not_when": "정서적 지지와 배려 제공; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N12-03",
+      "label_name": "심리적 압박",
+      "macro": "N12",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "심리적 안전감을 해치는 행동",
+      "when": "부하직원을 심리적으로 압박, 협박",
+      "not_when": "심리적 안전감과 안정감 제공; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N14-01",
+      "label_name": "자기 이익 우선",
+      "macro": "N14",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "팀보다 개인 이익을 우선시",
+      "when": "팀 보호라면서 실제로는 개인 이익/회피 보호",
+      "also_known_as": "제가 불리해지면, 나만 손해",
+      "not_when": "팀과 조직의 이익을 최우선; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N14-02",
+      "label_name": "공로 가로채기",
+      "macro": "N14",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "특정 구성원의 기여를 문서에서 삭제하거나 보고 시 의도적으로 타인 공로를 축소·은폐하는 행동",
+      "when": "특정 팀원의 기여를 문서에서 삭제, 보고서에서 의도적으로 타인 공로 축소, 아이디어 출처를 은폐하고 본인 성과로 대체",
+      "not_when": "팀 전체 성과 보고 맥락에서 단순 누락, 팀원의 기여를 명시적으로 인정, 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N14-03",
+      "label_name": "팀 희생 강요",
+      "macro": "N14",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "개인이나 조직을 위해 팀원을 희생시킴",
+      "when": "개인적 목표 달성을 위해 팀원 희생 강요",
+      "not_when": "팀원 보호와 성장 최우선; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N15-01",
+      "label_name": "의견 무시",
+      "macro": "N15",
+      "penalty": 0.4,
+      "weight": 0.5,
+      "definition": "제시된 의견을 검토 없이 무시",
+      "when": "팀원 의견을 듣지 않고 무시",
+      "not_when": "모든 의견을 경청하고 고려; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N15-02",
+      "label_name": "발언 차단",
+      "macro": "N15",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "말할 기회를 주지 않고 차단",
+      "when": "회의 중 발언 기회 박탈, 끼어들기",
+      "not_when": "모든 구성원의 발언 기회 보장; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N15-03",
+      "label_name": "공개적 비난",
+      "macro": "N15",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "critical": true,
+      "definition": "공개된 장소에서 망신을 줌",
+      "when": "회의나 공개 석상에서 인격 모독적 비난",
+      "not_when": "1:1에서 존중하는 피드백; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N15-04",
+      "label_name": "실수 처벌",
+      "macro": "N15",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "실수를 인간적으로 처벌",
+      "when": "실수한 팀원을 징계하거나 괴롭힘",
+      "not_when": "실수를 학습 기회로 활용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N15-05",
+      "label_name": "불신 조장",
+      "macro": "N15",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "팀원들을 서로 불신하게 만듦",
+      "when": "팀원 간 갈등 유발, 의심 조장",
+      "not_when": "신뢰 기반 팀 문화 조성; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N15-06",
+      "label_name": "보복 암시",
+      "macro": "N15",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "불이익을 주겠다고 암시",
+      "when": "반대 의견 제시자에게 불이익 암시",
+      "not_when": "다양한 의견을 환영; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N17-01",
+      "label_name": "상황 무시 강경 대응",
+      "macro": "N17",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "맥락과 상황을 무시하고 무조건 강경",
+      "when": "상황과 조건 무시하고 윽박지름",
+      "not_when": "상황에 맞는 유연한 대응; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N18-01",
+      "label_name": "불안 조장 발언",
+      "macro": "N18",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "근거 없는 불안감을 확산",
+      "when": "위기 상황에서 패닉 발언, 공포 조장",
+      "not_when": "위기 상황에서 평정심 유지; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N18-02",
+      "label_name": "위기 과장",
+      "macro": "N18",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "실제보다 위기를 과장하여 표현",
+      "when": "작은 문제를 큰 위기로 과장",
+      "not_when": "객관적 사실 기반 위기 인식; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N19-01",
+      "label_name": "독단 결정",
+      "macro": "N19",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "타인 의견 없이 일방적 결정",
+      "when": "의견수렴 절차를 생략하고 본인 판단만으로 결정, 반대 의견 있음에도 일방적으로 추진, 팀 동의 없이 방향 전환, 충분한 정보 공유 없이 본인 의견만으로 결정",
+      "not_when": "위기 상황에서 관련자 의견을 들은 후 신속하게 결정(M19-01 긍정), 합의된 의사결정 프레임 내 결정; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N21-01",
+      "label_name": "디지털 거부",
+      "macro": "N21",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "디지털 도구와 변화를 전면 거부",
+      "when": "새로운 디지털 도구 도입 거부, 종이 문서 고집",
+      "not_when": "디지털 도구 적극 수용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N22-01",
+      "label_name": "실패 은폐",
+      "macro": "N22",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "실패를 숨기고 정보를 조작",
+      "when": "실패한 사실을 숨기거나 축소 보고",
+      "not_when": "실패를 투명하게 공유하고 학습; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N22-02",
+      "label_name": "책임 회피 학습 차단",
+      "macro": "N22",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "실패로부터 배우는 기회를 차단",
+      "when": "실패 분석을 금지, 책임 추궁만 함",
+      "not_when": "실패를 학습 기회로 활용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N23-01",
+      "label_name": "혁신 아이디어 차단",
+      "macro": "N23",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "새로운 시도와 아이디어를 억압",
+      "when": "혁신적 아이디어를 즉시 차단, 현상 유지 강요",
+      "not_when": "혁신 아이디어를 경청하고 지원; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N24-01",
+      "label_name": "과도한 통제",
+      "macro": "N24",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "모든 것을 직접 챙기려 함",
+      "when": "모든 결정을 본인이 직접 하려고 함, 위임 거부",
+      "not_when": "적절한 위임과 신뢰 기반 통제; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N26-01",
+      "label_name": "실험 실패 처벌",
+      "macro": "N26",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "definition": "실험과 도전 중 실패를 처벌",
+      "when": "새로운 시도 중 실패에 대해 징계",
+      "not_when": "실패를 학습과 성장의 기회로 삼음; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N27-01",
+      "label_name": "자원 독점",
+      "macro": "N27",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "자원을 본인이나 특정인에게만 집중",
+      "when": "예산, 인력 등 자원을 독점적으로 배분",
+      "not_when": "공정하고 균형 잡힌 자원 배분; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N28-01",
+      "label_name": "정보 은폐",
+      "macro": "N28",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "critical": true,
+      "definition": "중요한 정보를 의도적으로 숨김",
+      "when": "중요한 의사결정 정보를 의도적으로 은폐",
+      "not_when": "투명하고 적시적인 정보 공유; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N30-01",
+      "label_name": "말과 행동 불일치",
+      "macro": "N30",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "말한 것과 실제 행동이 다름",
+      "when": "약속한 것을 지키지 않음, 말과 행동 불일치",
+      "not_when": "언행 일치와 일관성 유지; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N31-01",
+      "label_name": "차별 행동",
+      "macro": "N31",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "definition": "특정인을 차별하고 불공정하게 대우",
+      "when": "성별, 학벌, 연차 등으로 차별적 대우",
+      "not_when": "모든 구성원을 공정하게 대우; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "N33-01",
+      "label_name": "부당행위 묵인",
+      "macro": "N33",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "부당한 행위를看见하고도 방치",
+      "when": "부당한 지시나 행위를看见하고도 묵인",
+      "not_when": "부당행위를 당당히 거절하고 시정; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N33-02",
+      "label_name": "문제 회피",
+      "macro": "N33",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "해결해야 할 문제를 고의로 피함",
+      "when": "중요한 문제를 직면하지 않고 회피",
+      "not_when": "문제를 직면하고 해결책 모색; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N34-01",
+      "label_name": "데이터 조작",
+      "macro": "N34",
+      "penalty": 0.8,
+      "weight": 0.9,
+      "critical": true,
+      "definition": "의도적으로 데이터를 조작하거나 위조",
+      "when": "실적을 부풀리기 위해 데이터 조작",
+      "not_when": "정직하고 투명한 데이터 보고; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.3,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "N35-01",
+      "label_name": "도구 남용",
+      "macro": "N35",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "리더십 도구를 부당하게 사용",
+      "when": "감시 도구를 부당하게 사용, 통제 목적",
+      "not_when": "도구를 지원과 생산성 목적으로 사용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "N37-01",
+      "label_name": "AI 부정 사용",
+      "macro": "N37",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "definition": "AI를 편향되거나 부정하게 사용",
+      "when": "AI 결과를 조작하거나 편향되게 활용",
+      "not_when": "AI를 윤리적이고 투명하게 활용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    }
+  ]
+}

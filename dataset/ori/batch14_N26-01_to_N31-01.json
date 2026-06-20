@@ -1,0 +1,2802 @@
+[
+  {
+    "text": "실험 결과가 안 좋다고 징계하겠습니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "파일럿 프로젝트 실패했으니 불이익 줄게요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "새로운 시도에서 실패는 용납 못 해요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "도전해봤자 실패하면 처벌 대상입니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패한 팀원에게 인센티브를 삭감하겠습니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실험을 망쳤으니 성과급을 깎겠습니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패하면 무조건 책임을 묻고 징계하겠어요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "시도한 것이 실패했으니 질책하겠어요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "혁신하다가 실패하면 징계 대상입니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "도전은 좋은데 실패하면 벌점을 받아요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패 결과 나오면 바로 인사상 불이익 줘요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "프로토타입 실패했으니 경고 조치합니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "새 시도 실패는 회사에 손핵이라 처벌하겠습니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 파일럿 결과 불량으로 팀원을 징계했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원은 실험 실패로 인사 불이익을 받았다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "새로운 시도의 실패를 이유로 질책당했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 프로젝트 실패 책임을 팀원에게 돌렸다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 도전 실패를 용납하지 않고 처벌했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실패한 실험 결과를 보고 팀원이 경고받았다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "혁신 시도가 실패하자 리더가 징계를 낮았다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "파일럿 테스트 실패로 팀원의 성과급이 삭감되었다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원은 실패한 프로토타입 때문에 불이익을 당했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 새로운 아이디어 실패를 처벌했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실험 결과 부진으로 팀원이 질책을 받았다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 실패를 인정하지 않고 팀원을 벌했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "도전 과정에서의 실패가 징계 사유로 삼아졌다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장이 실패한 실험 보고서를 던지며 질책했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패한 프로젝트 결과가 발표되자 팀원들의 표정이 굳었다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 파일럿 실패 책임을 팀원에게 돌리는 장면이 이어졌다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실험실 분위기는 실패가 처벌로 이어진다는 공포로 가득 찼다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "혁신 제안이 실패하자 리더가 팀원을 날카롭게 질타했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 실패하면 처벌받는다는 압박 속에서 일했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패한 결과를 낸 팀원이 인사평가에서 낮은 등급을 받았다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "프로토타입 실패 소식에 팀장이 팀원을 불러내 징계를 통보했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실험 도중 생긴 문제를 실패로 규정하고 처벌이 낮어졌다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 도전했다가 실패하자 팀장이 서류를 집어던졌다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패한 프로젝트에 대해 리더가 팀원에게 불이익을 주었다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의 중 실패 사례를 언급하며 팀장이 특정 팀원을 질책했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패는 성공의 어머니지만 여기선 책임을 져야 합니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "도전한 만큼 책임도 지는 게 당연하잖아요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과가 좋지 않으니 조치를 취할 수밖에 없어요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "시도는 인정하지만 결과도 봐야 하죠.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실험이 안 맞아서 정리를 좀 해야겠네요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새 길을 찾다 본면 비용이 발생할 수 있죠.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "프로토타입이 미흡해서 재정비가 필요합니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "도전은 좋았는데 성과가 미안해서 말이죠.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패한 만큼 기록에 남겨두고 정리해야겠어요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실험 결과가 아쉬워서 다음 단계로 넘어갈 수 없어요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "파일럿이 삐끗해서 정산을 좀 해야겠습니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과가 부정적이라서 인사 쪽에서 정리가 들어갔어요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "반복되는 실수는 반드시 관리해야겠습니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의도적으로 태만한 건 징계할 수밖에 없어요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "계속 같은 실수하면 경고 조치하겠습니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "태만한 태도는 인사 규정에 따라 처리하겠습니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "반복 실수는 개선이 필요해서 면담하겠습니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더가 반복되는 동일 실수를 관리했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "의도적 태만을 보인 직원에게 징계가 낮어졌다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "동일한 실수를 반복한 팀원이 경고받았다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 반복 실수에 대해 개선을 요구했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "태만한 행동에 대한 인사 조치가 이루어졌다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 반복되는 실수를 지적하며 개선을 독려했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "의도적 태만을 보인 직원이 인사팀에 연행되었다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 반복 실수에 대한 경고 조치가 논의되었다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 동일한 실패를 다시는 하지 말라고 당부했다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "태만한 태도를 보인 직원에게 성과 피드백이 주어졌다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "계속 같은 실수는 교육이 필요한 부분이에요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "의도적 태만은 정산 대상이 될 수 있어요.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "반복 실수는 조직 규정에 따라 정리됩니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "태만은 팀 문화와 거리가 있어서 정리가 필요합니다.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "동일한 실수는 개인의 성장 과제로 남겨두죠.",
+    "label_id": "N26-01",
+    "label_name": "실험 실패 처벌",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "이 예산은 내 프로젝트에만 사용합니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "인력은 내 팀으로 다 끌어올 거예요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다른 팀 자원을 좀 빼올 수 있겠죠?",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자원은 내가 먼저 차지하는 게 이득이에요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "내 프로젝트에만 자원을 몰아줘야 해요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "인력은 내 맘대로 자유롭게 배분할 겁니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "예산은 내가 다 가져가는 것이 맞죠.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다른 팀 필요 없어요, 여기로 다 옮기세요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자원 배분은 내가 전부 독점할 거예요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "우리 팀만 살아남으면 되니까 자원 다 가져와요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "내 프로젝트에 인력을 집중 배치하겠습니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "예산은 내가 통제하고 다른 팀에 주지 않겠습니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자원은 눈에 보이는 대로 내가 다 가져갈게요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 자신의 프로젝트에만 예산을 몰아줬다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다른 팀의 인력을 빼앗아 자신의 팀으로 배치했다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자원이 불공정하게 특정인에게 집중되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 자원을 독점적으로 편중 배분했다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 예산을 자신에게 유리하게 편중시켰다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "인력 자원이 특정 프로젝트에만 쏠리게 되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다른 팀의 자원을 빼오는 행위가 반복되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 자원 배분 권한을 혼자 독점했다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "예산 편중으로 다른 팀이 어려움을 겪었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 인력을 자신의 프로젝트에만 집중 투입했다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자원 배분 과정에서 공정성이 심각하게 훼손되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "특정 프로젝트에만 자원이 편중 배분되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 예산을 독식하여 타 팀에 배분하지 않았다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "예산 회의에서 팀장이 대부분의 예산을 자신의 프로젝트에 배정했다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "인력 배치표를 보면 특정 팀에만 인원이 몰려 있었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 다른 팀의 자원을 빼앗아 오는 장면이 연출되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "자원 배분 회의는 한 사람의 독주로 진행되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서는 자원을 차지하려는 경쟁이 격화되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 예산 문서를 움켜쥐고 다른 팀에 주지 않았다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "인력 이동 공문이 특정 프로젝트로만 발령되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "예산 편중으로 인해 다른 팀원들의 업무가 마비되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 자원 배분 권한을 독점하며 일방적으로 결정했다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 자원 독점을 위한 로비가 이어졌다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "특정 프로젝트에만 예산이 쏟아지는 모습이 보였다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 자원을 독식하며 팀원들을 부려먹었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "좋은 프로젝트에 자원은 집중되어야죠.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "선택과 집중을 위해 일부로 몰아주는 거예요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "강한 팀에 더 많은 자원이 가는 게 당연합니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "내 프로젝트가 우선순위니까 예산을 확보했어요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "효율을 위해 자원은 한곳에 모으는 게 낫죠.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "눈에 띄는 성과를 위해 자원을 집중 투입했습니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "경쟁력 있는 곳에 자원이 쏠리는 건 자연스러워요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀이 중심이니까 인력을 끌어온 겁니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "자원은 성과가 보이는 쪽으로 흘러야 합니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "핵심 프로젝트에 모든 것을 걸어야 하니까요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "자원 배분은 결과에 따라 유연하게 조정된 거예요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우선순위가 높은 곳에 자원이 몰리는 게 순리죠.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "전략적 우선순위에 따라 예산을 배분하겠습니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "합리적인 기준으로 인력을 배치할게요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자원은 전체 효율을 고려해서 나누겠습니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "기준에 따라 공정하게 자원을 관리하겠어요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "전략적 중요도에 맞춰 예산을 집행하겠습니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더가 전략적 우선순위에 따라 자원을 배분했다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자원은 합리적 기준에 따라 공정하게 관리되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "예산 배분이 전체 효율을 고려하여 이루어졌다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "인력 배치가 역량과 우선순위에 따라 결정되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자원 관리 과정에서 투명한 기준이 적용되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자원 배분 회의에서 전략적 우선순위가 논의되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "예산은 공정한 기준에 따라 각 팀에 배정되었다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 합리적인 근거로 인력을 재배치했다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서 자원 배분 기준에 대한 설명이 이루어졌다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "투명한 자원 관리를 위해 평가위원회가 열렸다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "전략에 맞춰 자원을 조정한 것뿐이에요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "전체 밸런스를 맞추기 위한 배분입니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "공정한 기준으로 자원을 나눈 겁니다.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "우선순위에 따라 예산을 효율적으로 쓴 거죠.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "전략적 관점에서 자원을 재배치한 것뿐이에요.",
+    "label_id": "N27-01",
+    "label_name": "자원 독점",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원에게 알릴 필요 없는 정보니까 숨기겠습니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "중요한 사안은 나만 알고 있을 거예요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의사결정 과정은 불투명하게 해도 돼요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀에 공유하지 말고 조용히 진행합시다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 정보는 숨기는 게 회사에 이득이에요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 알면 복잡해지니까 숨깁니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "중요 정보를 공유할 필요는 없다고 봐요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "결정 과정은 밝히지 않는 게 좋겠어요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원에게 굳이 전달 안 해도 문제없어요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 사안은 일부러 공유하지 않겠습니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "정보 공개는 최소화하는 게 맞습니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 결과만 알면 되니까 숨기죠.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀 내에서도 이 정보는 제한하겠습니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 팀원에게 중요한 정보를 숨겼다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "의사결정에 필요한 정보가 의도적으로 은폐되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 중요한 사안을 팀에 공유하지 않았다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 모르는 사이에 결정이 낮아졌다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "핵심 정보가 팀장에 의해 차단되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "의사결정 과정이 불투명하게 운영되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "중요한 정보가 팀원들에게 전달되지 않았다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 중요한 정보 공개를 회피했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀 내에서 정보가 선택적으로 공유되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 팀원의 알 권리를 전혀 무시했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "핵심 내용이 숨겨져 팀원들이 혼란스러워했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정보 은폐로 인해 팀원들의 신뢰가 떨어졌다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 투명성을 포기하고 정보를 독점했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장이 중요 문건을 서랍에 넣으며 숨겼다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 모르는 사이에 중요 결정이 공지되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서 정보 공유는 차단되고 소문만 난무했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 모니터를 가리며 팀원에게 보이지 않게 했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "중요한 메일이 팀장에 의해 팀원들에게 전달되지 않았다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "의사결정 회의는 팀원들이 배제된 채 진행되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 정보 부족으로 업무 진행에 어려움을 겪었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 문서를 내부용으로 분류하며 팀원 접근을 막았다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "정보 은폐로 인해 팀의 불안감이 커졌다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 결과만 통보받고 과정은 전혀 알지 못했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 데이터 접근 권한을 제한하며 독점했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의록에서 핵심 내용이 삭제된 채 공유되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "필요한 만큼만 공유하는 게 효율적이에요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 항상 적절하게 관리해야 하죠.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 결과에만 집중하면 되는 거죠.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "과정은 밝히지 않는 게 덜 복잡해요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "내부 정보는 최소한으로 전달하는 게 원칙이에요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "투명한 건 좋지만 때로는 은밀하게 해야죠.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "알 필요 없는 정보는 줄이는 게 맞습니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "결정은 위에서 하는 거니까 아래는 모르는 게 나아요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보 공개는 상황에 따라 조절해야 합니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들이 알면 감정적으로 대응할 수 있어요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "핵심 정보는 소수만 알고 있어야겠어요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공유 범위를 좁히는 게 프로젝트에 도움이 됩니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "기밀 정보는 철저하게 관리하겠습니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "단계적으로 모든 정보를 공유할 거예요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "민감한 정보는 절차에 따라 관리합시다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "필요한 순간에 정보를 공개하겠습니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "보안 규정에 맞춰 정보를 다루겠습니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더가 기밀 정보를 적절하게 관리했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정보는 단계적으로 팀원들에게 공유되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "민감한 사안은 절차에 따라 처리되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 보안 규정에 따라 정보를 제한했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "필요한 시점에 정보가 투명하게 공개되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "기밀 문서는 금고에 보관되며 권한별로 접근이 제한되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 단계적 정보 공유 계획을 발표했다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 정보 공개 절차가 투명하게 논의되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "보안 규정에 따라 민감 데이터 접근이 통제되었다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 필요한 시점에 적절한 정보를 제공받았다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "기밀은 절차에 따라 관리되는 거예요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "단계적으로 밝히는 것이 기본 원칙입니다.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 때가 되면 투명하게 공개될 거예요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "보안을 위해 일부는 제한하는 것이죠.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "적절한 관리가 정보를 보호하는 방법이에요.",
+    "label_id": "N28-01",
+    "label_name": "정보 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속한 건 절대로 지키지 않겠습니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "한 말과 실제 행동은 달라도 괜찮아요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "공언한 것과 전혀 반대로 하겠습니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제 말은 믿지 마세요, 행동이 다르니까요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "언행이 일치하지 않아도 신경 쓰지 마세요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "약속은 약속일 뿐 실제 실행은 다르죠.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "한 약속을 지키지 않는 게 이득이에요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "말과 행동이 틀려도 전혀 괜찮습니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "공개적으로 약속했지만 실제로는 안 할 거예요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실천은 뒷전이고 말만 앞서나갔습니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "약속과 달리 전혀 다른 행동을 하겠습니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "말로는 지원한다 했지만 실제로는 방관하겠어요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "언행 불일치는 저의 고유한 스타일입니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더가 한 약속을 전혀 지키지 않았다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "말과 실제 행동이 달라 팀원들이 혼란스러워했다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "공언한 것과 정반대로 실제 행동했다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장의 언행이 일치하지 않아 신뢰가 깨졌다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "약속한 지원이 실행으로 이어지지 않았다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더의 말은 좋았지만 행동은 전혀 달랐다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 약속이 지켜지지 않는다고 느꼈다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "한 말과 실제 결정이 배치되는 상황이 반복되었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 공개적으로 약속한 내용을 실행하지 않았다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "말과 행동의 불일치로 팀 분위기가 흔들렸다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 말로는 혁신을 외쳤지만 행동은 보수적이었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "약속이 공기 중에 사라지고 행동은 달라졌다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더의 언행 불일치가 팀원들의 불만을 샀다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의에서 팀장은 협력을 강조했지만 현장에서는 독단적으로 행동했다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "약속한 프로젝트 지원은 실제로는 아무런 움직임이 없었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장의 발언과 실제 업무 처리 방식이 정반대였다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서 팀장은 말로만 지시하고 직접 실행하지 않았다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "공개적으로 공정을 외친 팀장이 사적으로는 편파적이었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장의 언행 불일치를 지적하는 팀원이 나타났다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "약속한 보상은 회의실 안에서만 존재했다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 윤리를 강조했지만 실제 행동은 비윤리적이었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "말과 행동이 다른 리더의 모습이 팀원들에게 실망을 안겼다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장의 공약은 현실에서 지켜지지 않았다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 팀장의 말과 행동이 따로 논다고 느꼈다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 한 말은 사라지고 현장은 변함없이 달랐다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "말과 행동이 좀 조금 다른 것 같아요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 상황에 따라 유연하게 바뀔 수 있죠.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실천은 말보다 늘 늦어질 수 있습니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공언은 단순히 의도의 표현일 뿐이에요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "언행 일치는 이상일 뿐 현실은 다르죠.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "말한 대로 하기 어려운 부분이 있어요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 계획이고 실행은 변동성이 있죠.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "말과 행동 사이에 간극이 존재할 수밖에 없어요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "현실적으로는 약속과 다른 선택을 해야죠.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공개 발언과 내부 결정은 다를 수 있습니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "말은 그때그때 달라질 수 있는 거예요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실천이 말을 따라가지 못하는 경우가 많죠.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "불가피한 상황이라 계획을 수정했습니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사전에 소통하고 변경했으니 이해해 주세요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상황이 달라져서 약속을 일부 조정했어요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "변경 사항을 미리 모두 공유했습니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사전 협의를 거쳐 일정을 변경했습니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더가 불가피한 상황으로 계획을 수정했다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "약속 변경 사항은 사전에 팀원에게 소통되었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상황 변화로 인해 계획이 합리적으로 조정되었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 변경 내용을 미리 공유하고 이해를 구했다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "사전 협의를 통해 일정이 변경되었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 변경된 계획을 사전에 설명하는 회의를 열었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서 변경 사항이 투명하게 공유되었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 사전 소통 후 일정 변경에 동의했다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 불가피한 이유를 설명하며 계획을 수정했다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 변경 내용이 투명하게 논의되었다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "상황이 변해서 계획도 조정된 거예요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "변경은 미리 소통하고 진행한 겁니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "불가피한 사정으로 약속이 바뀐 겁니다.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "사전 협의를 거쳐 유연하게 대응했죠.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "계획 수정은 투명하게 공유된 내용이에요.",
+    "label_id": "N30-01",
+    "label_name": "말과 행동 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "여자는 이 업무를 맡기기가 좀 어렵죠.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "우리는 특정 학교 출신만 챙기겠습니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "연차가 적으니 기회를 줄 수 없어요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "남자만 이 프로젝트에 투입하겠습니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "학벌에 따라 업무 기회를 다르게 줄게요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "특정 팀원만 차별적으로 대우하겠습니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "연령이 많으니 새 시도는 시키지 않겠어요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성별 때문에 이 직무는 맞지 않습니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "출신 학교가 다르면 신뢰할 수 없어요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "특정인에게만 승진 기회를 주겠습니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "학벌에 따라 중요 업무를 배분하겠습니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "연차가 낮으니 의견은 반영하지 않겠어요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "차별적 발언은 제 고유한 스타일입니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 성별에 따라 업무 기회를 다르게 주었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "특정 출신 학교 팀원만 챙기는 행위가 보였다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 연차 차별로 불이익을 받았다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 학벌로 팀원을 분명히 차별했다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성별에 따른 차별적 대우가 반복되었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "특정 팀원에게만 승진 기회가 주어졌다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 연령을 이유로 기회를 차단했다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "출신 학교에 따라 팀원의 역할이 결정되었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "차별적 발언으로 팀원이 상처를 받았다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 특정인에게만 중요 업무를 맡겼다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 차별적 배분에 대해 불만을 터뜨렸다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성별에 따른 임금 차별이 분명히 존재했다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "학벌 차별로 인해 팀 내 분열이 생겼다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장이 여성 팀원의 의견을 무시하는 장면이 나왔다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "특정 출신 학교 팀원만 중요 회의에 배석되었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서 연차가 적은 팀원이 업무에서 배제되었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 성별에 따라 업무를 구분하는 모습을 보였다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "학벌에 따른 좌석 배치가 눈에 띄었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "특정 팀원만 승진 발령이 떨어지는 모습이 이어졌다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 차별적 분위기 속에서 일했다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 연령을 이유로 교육 기회를 제한했다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀 내에서 차별적 발언이 공공연하게 오갔다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "중요 프로젝트는 특정 학교 출신에게만 배정되었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 차별적 시선으로 팀원을 대하는 모습이 포착되었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "성별에 따른 업무 배분이 회의에서 논의되었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "특정 스타일의 사람이 이 업무에 맞아요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀에는 이런 배경이 필요합니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "역할은 각자의 강점에 맞게 배분되는 거예요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "특정 출신은 우리 팀 문화와 잘 맞죠.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "경험이 많은 사람은 중요한 결정을 하는 게 맞아요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "성별에 맞는 업무 배분이 효율적이에요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "학벌이 좋으면 신뢰도가 더 높으니까요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "연차가 높은 분이 이끄는 게 순리죠.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "특정인에게 기회를 주는 게 팀에 도움이 됩니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "배경이 비슷한 사람끼리 일이 잘돼요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "남성 위주의 프로젝트가 성과가 좋습니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "차등 대우는 실력의 차이 때문이에요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "역할과 책임에 따라 업무를 배분하겠습니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "역량 기준으로 공정하게 평가할 거예요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "공정하게 모든 팀원에게 기회를 제공하겠습니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 팀원에게 동일한 기준을 적용합니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "역할에 맞는 업무를 공정하게 맡기겠습니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더가 역할과 책임에 따라 업무를 배분했다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 역량 기반으로 공정하게 평가받았다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "업무 배분이 역할에 따른 정당한 차등이었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "평가 과정에서 공정한 기준이 적용되었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 모든 팀원에게 공평한 기회를 제공했다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 역량 기반 평가 기준이 공개되었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 역할에 따라 업무를 공정하게 배분하는 모습을 보였다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서 모든 팀원이 동등한 기회를 얻었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "평가위원회에서 공정한 기준이 논의되었다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 역할에 따른 정당한 차등에 동의했다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그저 역할에 맞게 배분한 것뿐이에요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "역량에 따라 기회가 주어지는 것이죠.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "공정한 기준으로 모두를 나눈 겁니다.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "정당한 차등은 조직에 필요한 부분이에요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "역할과 책임에 맞춰 조정된 것이에요.",
+    "label_id": "N31-01",
+    "label_name": "차별 행동",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  }
+]

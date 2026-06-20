@@ -1,0 +1,38 @@
+{
+  "trait_id": "T11",
+  "trait_type": "positive",
+  "trait_name": "Empathetic Leader",
+  "required": [
+    "M12-01",
+    "M14-01",
+    "M14-02"
+  ],
+  "optional": [
+    "M12-02",
+    "M12-03",
+    "M15-01",
+    "M15-02"
+  ],
+  "hard_forbidden": [
+    "N12-01",
+    "N12-02",
+    "N12-03",
+    "N14-01"
+  ],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  },
+  "hybrid_eligible": true,
+  "k_trait": 1.1,
+  "description": "공감과 배려 중심의 리더",
+  "strengths": [
+    "팀원 배려",
+    "심리적 안전감"
+  ],
+  "risks": [
+    "결정 지연"
+  ]
+}

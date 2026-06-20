@@ -1,0 +1,15 @@
+{
+  "label_id": "N17-01",
+  "label_name": "상황 무시 강경 대응",
+  "macro": "N17",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "맥락과 상황을 무시하고 무조건 강경",
+  "when": "상황과 조건 무시하고 윽박지름",
+  "not_when": "상황에 맞는 유연한 대응; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.1
+  }
+}

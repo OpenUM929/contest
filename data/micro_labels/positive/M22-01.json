@@ -1,0 +1,15 @@
+{
+  "label_id": "M22-01",
+  "label_name": "혁신 기회 탐색_L22",
+  "macro": "L22",
+  "weight": 0.7,
+  "core": true,
+  "definition": "새로운 비즈니스 기회와 혁신 분야를 탐색",
+  "when": "새로운 시장 탐색, 혁신 아이디어 발굴, 트렌드 분석",
+  "not_when": "기존 방식 유지, 변화 거부",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.1,
+    "innovation": 1.3
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label_id": "M33-03",
+  "label_name": "압력 저항",
+  "macro": "L33",
+  "weight": 0.7,
+  "when": "상위자/갈등/압력 상황에서 저항",
+  "not_when": "누군가 희생",
+  "definition": "부당한 압력에 저항하고 원칙 고수",
+  "context_weight": {
+    "crisis": 1.3,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

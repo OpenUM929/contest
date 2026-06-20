@@ -1,0 +1,14 @@
+{
+  "label_id": "M27-01",
+  "label_name": "전략적 자원 배분",
+  "macro": "L27",
+  "weight": 0.7,
+  "definition": "목표 달성을 위해 자원을 전략적으로 배분",
+  "when": "예산 우선순위 배정, 인력 전략적 배치, 자원 최적화",
+  "not_when": "자원 낭비, 비전략적 자원 배분",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.1,
+    "innovation": 1.0
+  }
+}

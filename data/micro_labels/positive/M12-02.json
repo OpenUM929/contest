@@ -1,0 +1,14 @@
+{
+  "label_id": "M12-02",
+  "label_name": "감정적 지지",
+  "macro": "L12",
+  "weight": 0.7,
+  "definition": "정서적으로 타인을 지지하고 격려",
+  "when": "격려 메시지, 심리적 지지, 정서적 위로",
+  "not_when": "감정적 압박, 정서적 무관심",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

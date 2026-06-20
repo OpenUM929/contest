@@ -1,0 +1,14 @@
+{
+  "label_id": "M12-03",
+  "label_name": "심리적 안전감 조성",
+  "macro": "L12",
+  "weight": 0.6,
+  "definition": "두려움 없이 의견을 낼 수 있는 환경 구축",
+  "when": "심리적 안전감 조성, 실수해도 안전한 분위기, 자유로운 발언",
+  "not_when": "비판 묵살, 공개적 질책",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.1,
+    "innovation": 1.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label_id": "M11-02",
+  "label_name": "개방적 의견 수용",
+  "macro": "L11",
+  "weight": 0.7,
+  "definition": "다양한 의견과 비판을 열린 마음으로 수용",
+  "when": "다양한 의견 환영, 비판적 피드백 수용, 건설적 반론 수용",
+  "not_when": "자기 의견만 고집, 반대 의견 거부",
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

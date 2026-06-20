@@ -1,0 +1,38 @@
+{
+  "trait_id": "T05",
+  "trait_type": "positive",
+  "trait_name": "Analytical Leader",
+  "required": [
+    "M34-01"
+  ],
+  "optional": [
+    "M08-02",
+    "M18-02",
+    "M08-01"
+  ],
+  "hard_forbidden": [
+    "N01-02",
+    "N28-01"
+  ],
+  "soft_forbidden": [
+    {
+      "label": "N06-01",
+      "penalty": 0.3
+    }
+  ],
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.0
+  },
+  "hybrid_eligible": true,
+  "k_trait": 1.0,
+  "description": "데이터 기반 의사결정을 선호하는 리더",
+  "strengths": [
+    "정확성",
+    "논리성"
+  ],
+  "risks": [
+    "결정 지연"
+  ]
+}

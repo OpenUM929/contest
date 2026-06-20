@@ -1,0 +1,14 @@
+{
+  "label_id": "M01-04",
+  "label_name": "비전 공유",
+  "macro": "L01",
+  "weight": 0.6,
+  "definition": "조직 구성원과 비전을 지속적으로 공유",
+  "when": "정기적 비전 공유회, 비전 교육, 미션 전파",
+  "not_when": "비전을 문서에만 두고 소통 안 함",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.1,
+    "innovation": 1.3
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": "1.0",
+  "resolution_rules": [
+    {"type": "suppression", "source": "T03", "target": "T01", "effect": 0.7},
+    {"type": "suppression", "source": "T02", "target": "T08", "effect": 0.5},
+    {"type": "suppression", "source": "T01", "target": "T09", "effect": 0.9},
+    {"type": "supplement", "traits": ["T01", "T05"], "boost": 0.2},
+    {"type": "supplement", "traits": ["T03", "T06"], "boost": 0.3}
+  ]
+}

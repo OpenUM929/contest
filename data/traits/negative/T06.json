@@ -1,0 +1,33 @@
+{
+  "trait_id": "T06",
+  "trait_type": "positive",
+  "trait_name": "Execution Driver",
+  "required": [
+    "M10-01",
+    "M10-02",
+    "M19-01"
+  ],
+  "optional": [
+    "M27-01"
+  ],
+  "hard_forbidden": [
+    "N10-02",
+    "N27-01"
+  ],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.1,
+    "innovation": 1.0
+  },
+  "hybrid_eligible": true,
+  "k_trait": 1.2,
+  "description": "빠른 실행과 성과 창출 리더",
+  "strengths": [
+    "빠른 실행",
+    "성과 창출"
+  ],
+  "risks": [
+    "전략 부족"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "label_id": "M33-05",
+  "label_name": "책임 있는 행동",
+  "macro": "L33",
+  "weight": 0.8,
+  "core": true,
+  "when": "본인도 함께 결정에責任지고 실행",
+  "not_when": "다 같이 = 내가 결정 안 함 (개인 회피)",
+  "definition": "자신의 결정에 책임을 지고 주도적으로 행동",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

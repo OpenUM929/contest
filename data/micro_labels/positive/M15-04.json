@@ -1,0 +1,14 @@
+{
+  "label_id": "M15-04",
+  "label_name": "정보 투명 공유",
+  "macro": "L15",
+  "weight": 0.6,
+  "definition": "중요 정보를 숨김없이 투명하게 공유",
+  "when": "정기적 정보 공유회, 투명한 지표 공개, 정보 접근성 보장",
+  "not_when": "정보 독점, 의도적 정보 은폐",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "label_id": "N11-01",
+  "label_name": "경청 거부",
+  "macro": "N11",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "타인의 말을 듣지 않고 차단",
+  "when": "대화 중 끼어들기, 말을 끝까지 듣지 않음",
+  "not_when": "적극적 경청과 이해 확인; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

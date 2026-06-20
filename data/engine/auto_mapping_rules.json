@@ -1,0 +1,143 @@
+{
+  "auto_mapping_version": "v1.0",
+  "documentation": {
+    "overview": "Micro Label(M/N)를 기반으로 Trait을 자동 매핑하기 위한 규칙 정의. 수동 rule 없이도 Trait 후보를 생성한다.",
+    "core_logic": [
+      "Micro Label의 macro category를 기반으로 Trait 후보군을 1차 필터링",
+      "label_name semantic 키워드를 기반으로 Trait score 가중치 부여",
+      "core label 여부에 따라 가중치 추가",
+      "Negative Label은 penalty 또는 suppression으로 반영",
+      "최종적으로 score 상위 Trait을 Primary/Secondary로 선정"
+    ],
+    "processing_steps": [
+      "1. NLP → Micro Label 추출",
+      "2. macro 기반 Trait 후보군 매핑",
+      "3. keyword 기반 weight 추가",
+      "4. core/critical 여부 반영",
+      "5. score aggregation",
+      "6. 상위 Trait 선정"
+    ]
+  },
+
+  "macro_trait_map": {
+    "변혁적·영감적 리더십": ["T01", "T03", "T09"],
+    "성과·책임 관리": ["T01", "T05", "T06"],
+    "서번트·공감적 리더십": ["T02", "T07", "T08"],
+    "적응적·민첩 리더십": ["T04", "T01"],
+    "디지털·혁신 리더십": ["T03", "T05"],
+    "양손잡이 리더십": ["T03", "T06", "T12"],
+    "윤리·진정성 리더십": ["T12", "T08"],
+    "부정적 리더십": ["T101", "T102", "T12"]
+  },
+
+  "negative_trait_map": {
+    "N01-01": "T01", "N01-02": "T01", "N01-03": "T01",
+    "N02-01": "T102", "N02-02": "T102", "N02-03": "T102",
+    "N03-01": "T03", "N03-02": "T03", "N03-03": "T03",
+    "N04-01": "T104", "N04-02": "T104",
+    "N05-01": "T03", "N05-02": "T03", "N05-03": "T03",
+    "N06-01": "T101", "N06-02": "T101",
+    "N07-01": "T102", "N07-02": "T102",
+    "N08-01": "T101", "N08-02": "T101", "N08-03": "T101",
+    "N09-01": "T104", "N09-02": "T104",
+    "N10-01": "T101", "N10-02": "T101",
+    "N11-01": "T102", "N11-02": "T102",
+    "N12-01": "T102", "N12-02": "T102", "N12-03": "T102",
+    "N14-01": "T104", "N14-02": "T104", "N14-03": "T104",
+    "N15-01": "T102", "N15-02": "T102", "N15-03": "T102",
+    "N15-04": "T102", "N15-05": "T102", "N15-06": "T102",
+    "N17-01": "T106",
+    "N18-01": "T106", "N18-02": "T106",
+    "N19-01": "T102",
+    "N21-01": "T106",
+    "N22-01": "T106", "N22-02": "T106",
+    "N23-01": "T106",
+    "N24-01": "T106",
+    "N26-01": "T106",
+    "N27-01": "T104",
+    "N28-01": "T103",
+    "N30-01": "T103",
+    "N31-01": "T103",
+    "N33-01": "T103", "N33-02": "T103",
+    "N34-01": "T103",
+    "N35-01": "T105",
+    "N37-01": "T105"
+  },
+
+  "keyword_weight_map": [
+    {
+      "keywords": ["비전", "방향", "전략"],
+      "target_traits": ["T01", "T09"],
+      "weight": 0.3
+    },
+    {
+      "keywords": ["혁신", "변화", "아이디어"],
+      "target_traits": ["T03"],
+      "weight": 0.4
+    },
+    {
+      "keywords": ["실행", "완수"],
+      "target_traits": ["T06"],
+      "weight": 0.4
+    },
+    {
+      "keywords": ["공감", "경청"],
+      "target_traits": ["T02", "T08"],
+      "weight": 0.4
+    },
+    {
+      "keywords": ["데이터", "분석"],
+      "target_traits": ["T05"],
+      "weight": 0.4
+    },
+    {
+      "keywords": ["위기", "긴급"],
+      "target_traits": ["T04"],
+      "weight": 0.5
+    },
+    {
+      "keywords": ["공정", "윤리"],
+      "target_traits": ["T12"],
+      "weight": 0.4
+    },
+    {
+      "keywords": ["비난", "책임 전가", "독단"],
+      "target_traits": ["T101", "T102", "T103", "T104", "T105", "T106"],
+      "weight": 0.5
+    },
+    {
+      "keywords": ["불일치", "위반", "투명"],
+      "target_traits": ["T12"],
+      "weight": 0.4
+    }
+  ],
+
+  "scoring_rules": {
+    "base_weight": 1.0,
+    "core_bonus": 0.3,
+    "critical_penalty": 0.7,
+    "negative_penalty": 0.4,
+    "normalization": "log(1+n)"
+  },
+
+  "example_execution": {
+    "input_micro_labels": [
+      {"label": "M01-01", "name": "명확한 비전 제시", "core": true},
+      {"label": "M10-01", "name": "실행 추진"},
+      {"label": "M15-01", "name": "자유 발언 환경 조성"}
+    ],
+    "intermediate": {
+      "macro_candidates": ["T01", "T03", "T02", "T08"],
+      "keyword_hits": [
+        {"keyword": "비전", "trait": "T01"},
+        {"keyword": "실행", "trait": "T06"},
+        {"keyword": "발언", "trait": "T02"}
+      ]
+    },
+    "result": {
+      "primary_trait": "T01",
+      "secondary_traits": ["T06", "T02"],
+      "confidence": 0.82
+    }
+  }
+}

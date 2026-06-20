@@ -1,0 +1,14 @@
+{
+  "label_id": "M02-02",
+  "label_name": "성장 기회 제공",
+  "macro": "L02",
+  "weight": 0.7,
+  "definition": "팀원이 성장할 수 있는 기회와 환경 제공",
+  "when": "교육 기회 제공, 새로운 프로젝트 참여 기회, 멘토링",
+  "not_when": "성장 기회 차단, 동일 업무 반복 강요",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

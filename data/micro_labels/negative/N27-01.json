@@ -1,0 +1,15 @@
+{
+  "label_id": "N27-01",
+  "label_name": "자원 독점",
+  "macro": "N27",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "자원을 본인이나 특정인에게만 집중",
+  "when": "예산, 인력 등 자원을 독점적으로 배분",
+  "not_when": "공정하고 균형 잡힌 자원 배분; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.1,
+    "innovation": 1.0
+  }
+}

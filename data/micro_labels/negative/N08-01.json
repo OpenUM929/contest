@@ -1,0 +1,17 @@
+{
+  "label_id": "N08-01",
+  "label_name": "직접 책임 전가",
+  "macro": "N08",
+  "penalty": 0.7,
+  "weight": 0.8,
+  "critical": true,
+  "definition": "실패의 책임을 타인에게 직접 떠넘김",
+  "when": "상사/타인에게 결정 책임 떠맡기기, 나는 결정 안 함",
+  "also_known_as": "회피, 떠맡기기, 제가 결정할 수 없습니다",
+  "not_when": "본인이 책임지고 결정, 공동 책임 인정; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.3,
+    "normal": 1.0,
+    "innovation": 1.1
+  }
+}

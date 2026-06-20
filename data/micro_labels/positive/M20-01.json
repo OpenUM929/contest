@@ -1,0 +1,14 @@
+{
+  "label_id": "M20-01",
+  "label_name": "위기 대응 및 문제 해결",
+  "macro": "L20",
+  "weight": 0.8,
+  "definition": "위기 상황 즉각 대응 및 문제 해결",
+  "when": "문제 발생, 긴급 상황, 서버 다운, 장애 발생, 복구 지시, 로그 분석, 즉시 대응, 위기 상황 돌파, 돌발 상황 해결",
+  "not_when": "일반 상황, 평시 업무",
+  "context_weight": {
+    "crisis": 1.3,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

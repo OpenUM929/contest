@@ -1,0 +1,15 @@
+{
+  "label_id": "N05-01",
+  "label_name": "의견 없이 변화 강행",
+  "macro": "N05",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "의견 수렴 없이 일방적 변화 추진",
+  "when": "팀 의견 무시하고 일방적 변화 지시",
+  "not_when": "충분한 논의 후 변화 추진; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

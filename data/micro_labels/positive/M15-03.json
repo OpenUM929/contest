@@ -1,0 +1,15 @@
+{
+  "label_id": "M15-03",
+  "label_name": "적극적 의견 청취",
+  "macro": "L15",
+  "weight": 0.7,
+  "definition": "팀원들의 의견을 적극적으로 구하고 경청",
+  "when": "정기적 의견 수렴, 설문 조사, 회의 시 발언 유도",
+  "not_when": "의견 묻지 않음, 일방적 지시",
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.1
+  },
+  "core": true
+}

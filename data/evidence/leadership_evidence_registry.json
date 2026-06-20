@@ -1,0 +1,895 @@
+{
+  "schema_version": "evidence-v1",
+  "purpose": "각 리더십 구성개념의 학술적 위상을 '시간축'으로 추적한다. 근거는 계속 쌓이므로, trait/결과가 시대에 맞게 갱신되도록 구성개념별로 출처·효과크기·추세·함의를 기록하고 주기적으로 재검토한다.",
+  "last_full_review": "2026-06-20",
+  "review_cadence_months": 6,
+  "next_review_due": "2026-12-20",
+  "field_guide": {
+    "validity_status": "구성개념이 실증적으로 얼마나 견고/구별되는가: emerging | growing | established | contested | redundant | declining | superseded",
+    "attention_trend": "최근 학술적 관심·출판 추세(위상과 별개): rising | stable | declining",
+    "note": "validity_status와 attention_trend는 분리한다. 예: authentic은 attention=rising이나 validity=contested(변혁적과 중복). 이 괴리가 '추세 신호'의 핵심.",
+    "implication": "taxonomy 조치: keep | merge | split | add | deprecate | watch | out_of_scope",
+    "incremental_validity": "변혁적 리더십 대비 추가 설명변량(있으면). 중복 판정의 핵심 지표."
+  },
+  "constructs": [
+    {
+      "id": "transformational",
+      "name_ko": "변혁적 리더십",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T09",
+        "T03",
+        "T07"
+      ],
+      "validity_status": "established",
+      "attention_trend": "stable",
+      "first_seen_year": 1985,
+      "incremental_validity": "benchmark(기준)",
+      "implication": "keep",
+      "trend_note": "40년 벤치마크. 다른 긍정 구성개념의 증분변량을 재는 기준선. 위상 자체는 안정이나 *적용 도메인은 확장 중* — 2025 SLR(54편)에서 기업성과에 일관된 정(+)효과, 지속가능성 성과로도 확장. 즉 'transformational + 도메인'(green/digital/sustainability) 파생형이 늘어나는 추세.",
+      "sources": [
+        {
+          "cite": "Antonakis, Avolio & Sivasubramaniam, Context and leadership: nine-factor full-range (MLQ)",
+          "year": 2003,
+          "type": "primary",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1048984303000304",
+          "doi": "10.1016/S1048-9843(03)00030-4",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "claim_quote": "9요인 구조(변혁 5·거래 3·laissez-faire 1)를 MLQ로 확인 (Leadership Quarterly 14:261-295)"
+        },
+        {
+          "cite": "MLQ 측정 평가",
+          "year": 2021,
+          "type": "review",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297756/",
+          "evidence_grade": "R",
+          "peer_reviewed": true,
+          "doi": ""
+        },
+        {
+          "cite": "Agazu, Kero & Debela, Transformational Leadership & Firm Performance SLR",
+          "year": 2025,
+          "type": "SLR",
+          "url": "https://link.springer.com/article/10.1186/s13731-025-00476-x",
+          "evidence_grade": "S",
+          "peer_reviewed": true,
+          "doi": "10.1186/s13731-025-00476-x"
+        },
+        {
+          "cite": "TFL & Organizational Sustainability Performance SLR",
+          "year": 2026,
+          "type": "SLR",
+          "url": "https://link.springer.com/article/10.1007/s10668-026-07319-z",
+          "evidence_grade": "S",
+          "peer_reviewed": true,
+          "doi": "10.1007/s10668-026-07319-z"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "성과(+)·직무만족(+)·OCB(+)·조직몰입(+) — 메타 일관",
+      "causal_evidence": {
+        "mechanism": "동기부여·조직동일시 매개",
+        "evidence_type": "횡단 메타(일부 종단)"
+      }
+    },
+    {
+      "id": "transactional_contingent_reward",
+      "name_ko": "거래적 리더십(성과보상)",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T06"
+      ],
+      "validity_status": "established",
+      "attention_trend": "declining",
+      "first_seen_year": 1985,
+      "incremental_validity": "낮음~중간",
+      "implication": "add",
+      "trend_note": "건설적 보상교환은 효과 있으나 국내 박동필 메타에서 효과크기 최소. 현재 긍정 trait에 빠져 있음(부정 N09만 존재) → Recognizing/Contingent-Reward 보강 후보.",
+      "sources": [
+        {
+          "cite": "박동필, 조직효과성 리더십 메타분석",
+          "year": 2022,
+          "type": "meta-analysis",
+          "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002875728",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "",
+          "claim_quote": "588편/839 효과크기; 조직효과성 서번트 최대·거래적 최소",
+          "n_studies": "588편/839 효과크기",
+          "journal_tier": "KCI"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "성과(+,중간)·만족(+) — 효과크기 작음",
+      "causal_evidence": {
+        "mechanism": "기대명확화·공정성 지각 매개",
+        "evidence_type": "횡단 메타"
+      }
+    },
+    {
+      "id": "servant",
+      "name_ko": "서번트 리더십",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T07",
+        "T11"
+      ],
+      "validity_status": "growing",
+      "attention_trend": "rising",
+      "first_seen_year": 1970,
+      "incremental_validity": "+12% (조직성과), +19% (상사신뢰) — 변혁적 대비 최대",
+      "implication": "add",
+      "trend_note": "신흥 긍정 구성개념 중 *유일하게* 변혁적 대비 증분변량 큼. 국내외 메타 일치(박동필: 조직효과성 최대 효과크기). 현재 T07·T11로 파편 → 통합해 정식 trait로. **신설 1순위.**",
+      "sources": [
+        {
+          "cite": "Hoch et al. 메타분석",
+          "year": 2018,
+          "type": "meta-analysis",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/0149206316665461",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "10.1177/0149206316665461",
+          "claim_quote": "변혁적 대비 증분: 조직성과 +12%, 상사신뢰 +19% (Hoch et al. 2018 메타)",
+          "effect_size": "조직성과 +12%·신뢰 +19% 증분",
+          "journal_tier": "Q1 (J. of Management)"
+        },
+        {
+          "cite": "박동필 KCI 메타분석",
+          "year": 2022,
+          "type": "meta-analysis",
+          "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002875728",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "",
+          "n_studies": "588편/839 효과크기",
+          "journal_tier": "KCI"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "상사신뢰(+,최대)·조직효과성(+)·OCB(+)",
+      "causal_evidence": {
+        "mechanism": "상사신뢰 매개",
+        "evidence_type": "횡단 메타"
+      }
+    },
+    {
+      "id": "authentic",
+      "name_ko": "진성 리더십",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T13"
+      ],
+      "validity_status": "contested",
+      "attention_trend": "rising",
+      "first_seen_year": 2005,
+      "incremental_validity": "5~11% (작음, 변혁적과 중복)",
+      "implication": "watch",
+      "trend_note": "관심은 상승 중이나 변혁적과 상관 매우 높아 증분변량 작음(=중복). attention↑ vs validity contested 괴리 = 별도 trait 정당화 약함. T13 흡수 검토 신호.",
+      "sources": [
+        {
+          "cite": "Hoch et al. 메타분석",
+          "year": 2018,
+          "type": "meta-analysis",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/0149206316665461",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "10.1177/0149206316665461",
+          "claim_quote": "변혁적과 상관 높아 증분 5~11%에 그침(중복) (Hoch et al. 2018)",
+          "effect_size": "증분 5~11%(중복)",
+          "journal_tier": "Q1 (J. of Management)"
+        },
+        {
+          "cite": "Authentic leadership across culture: meta-analytic review (APJM)",
+          "year": 2021,
+          "type": "meta-analysis",
+          "url": "https://link.springer.com/article/10.1007/s10490-021-09762-0",
+          "doi": "10.1007/s10490-021-09762-0",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "journal_tier": "Q1 (Asia Pacific J. Management)",
+          "n_studies": "214편, N=196,300",
+          "claim_quote": "214편/N=196,300; 만족·성과·OCB와 정적, 문화(권력거리·개인주의) 조절"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "만족(+)·성과(+)·신뢰(+) — 단 변혁적과 중복",
+      "causal_evidence": {
+        "mechanism": "LMX·직무만족 매개",
+        "evidence_type": "횡단 메타(문화 조절)"
+      }
+    },
+    {
+      "id": "ethical",
+      "name_ko": "윤리적 리더십",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T13"
+      ],
+      "validity_status": "contested",
+      "attention_trend": "stable",
+      "first_seen_year": 2005,
+      "incremental_validity": "5~11% (작음, 변혁적과 중복)",
+      "implication": "watch",
+      "trend_note": "authentic과 동일 패턴. T13 Ethical Courageous의 별도 trait 유지가 메타 증거상 약함 → 변혁축 속성으로 흡수 후보.",
+      "sources": [
+        {
+          "cite": "Hoch et al. 메타분석",
+          "year": 2018,
+          "type": "meta-analysis",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/0149206316665461",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "10.1177/0149206316665461",
+          "claim_quote": "변혁적과 상관 높아 증분 5~11%에 그침(중복) (Hoch et al. 2018)",
+          "effect_size": "증분 5~11%(중복)",
+          "journal_tier": "Q1 (J. of Management)"
+        },
+        {
+          "cite": "Li et al., Ethical leadership meta-analysis (EJIM)",
+          "year": 2024,
+          "type": "meta-analysis",
+          "url": "https://www.inderscience.com/info/inarticle.php?artid=140922",
+          "doi": "",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "journal_tier": "(EJIM 24:243-266)",
+          "claim_quote": "윤리적 리더십→발언·직무성과 정적(매개·조절 포함 메타)"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "발언(+)·직무성과(+)·OCB(+)",
+      "causal_evidence": {
+        "mechanism": "내재적 동기 매개",
+        "evidence_type": "횡단 메타"
+      }
+    },
+    {
+      "id": "shared_distributed",
+      "name_ko": "공유/분산 리더십",
+      "polarity": "positive",
+      "mapped_traits": [],
+      "validity_status": "growing",
+      "attention_trend": "rising",
+      "first_seen_year": 2002,
+      "incremental_validity": "팀성과 ρ=.34",
+      "implication": "out_of_scope",
+      "trend_note": "관심 급상승하나 *팀 수준* 구성개념(개인 스타일 아님). 다면평가=개인 진단이므로 범위 밖으로 명시. 단 향후 팀 단위 분석 확장 시 재검토.",
+      "sources": [
+        {
+          "cite": "Wang et al. 메타분석",
+          "year": 2014,
+          "type": "meta-analysis",
+          "url": "https://psycnet.apa.org/record/2013-38206-001",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "",
+          "claim_quote": "공유리더십–팀효과 ρ=.34 (메타)",
+          "effect_size": "ρ=.34(팀효과)",
+          "journal_tier": "Q1 (JAP)"
+        },
+        {
+          "cite": "Chamberlin et al. configuration",
+          "year": 2024,
+          "type": "primary",
+          "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/job.2774",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "doi": "10.1002/job.2774"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "팀성과(+, ρ=.34)",
+      "causal_evidence": {
+        "mechanism": "팀 신뢰·조정 매개",
+        "evidence_type": "횡단 메타(팀수준)"
+      }
+    },
+    {
+      "id": "digital",
+      "name_ko": "디지털 리더십",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T14"
+      ],
+      "validity_status": "emerging",
+      "attention_trend": "rising",
+      "first_seen_year": 2018,
+      "incremental_validity": "미확정(SLR 단계)",
+      "implication": "watch",
+      "trend_note": "COVID 이후 급상승. 4차원(Technological·Visionary-Strategic·Relational-Emotional·Structural-Managerial) 중 고유는 Technological뿐, 나머지 기존축 중복. 현재 T14에 묻힌 M35·M37을 별도 Digital/Tech 축으로 분리 검토. 메타 누적되면 위상 재평가.",
+      "sources": [
+        {
+          "cite": "Digital Leadership SLR",
+          "year": 2025,
+          "type": "SLR",
+          "url": "https://www.tandfonline.com/doi/full/10.1080/02642069.2025.2512779",
+          "evidence_grade": "S",
+          "peer_reviewed": true,
+          "doi": "10.1080/02642069.2025.2512779"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "디지털 전환성과(+) — 측정 초기단계",
+      "causal_evidence": {
+        "mechanism": "—(SLR 단계)",
+        "evidence_type": "SLR(인과 미확립)"
+      }
+    },
+    {
+      "id": "identity_social",
+      "name_ko": "정체성(사회정체성) 리더십",
+      "polarity": "positive",
+      "mapped_traits": [],
+      "validity_status": "growing",
+      "attention_trend": "rising",
+      "first_seen_year": 2014,
+      "incremental_validity": "프로토타입성 메타지지(고유 각도)",
+      "implication": "watch",
+      "trend_note": "Haslam ILI 4차원('우리' 관리: be/do/craft/embed). 변혁적과 구별되는 고유 각도이며 현재 통째 부재. 단 문장단위 micro로 탐지 난이도 높음 → 장기 후보. 측정도구(ILI) 성숙 중.",
+      "sources": [
+        {
+          "cite": "Steffens et al. 프로토타입성 메타",
+          "year": 2021,
+          "type": "meta-analysis",
+          "url": "https://journals.sagepub.com/doi/10.1177/2041386620962569",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "10.1177/2041386620962569",
+          "claim_quote": "리더 집단프로토타입성–추종 정효과 (메타)",
+          "journal_tier": "Q1 (Group Processes & IR)"
+        },
+        {
+          "cite": "Identity Leadership Inventory(ILI)",
+          "year": 2014,
+          "type": "primary",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1048984314000514",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "doi": ""
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "집단동일시(+)·추종(+)",
+      "causal_evidence": {
+        "mechanism": "집단동일시 매개",
+        "evidence_type": "횡단 메타(프로토타입성)"
+      }
+    },
+    {
+      "id": "adaptive",
+      "name_ko": "적응형 리더십",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T14",
+        "T04"
+      ],
+      "validity_status": "contested",
+      "attention_trend": "rising",
+      "first_seen_year": 2009,
+      "incremental_validity": "미확정(이론 분열)",
+      "implication": "merge",
+      "trend_note": "관심 상승하나 이론 분열(Heifetz 실천 vs Uhl-Bien 복잡성)·측정타당도 미정. T14(Learning Agile)+T04(Crisis)와 중복 → 신설보다 기존 change축 강화로 흡수.",
+      "sources": [
+        {
+          "cite": "Adaptive Leadership 측정 타당화",
+          "year": 2025,
+          "type": "primary",
+          "url": "https://journals.sagepub.com/doi/10.1177/15480518241296665",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "doi": "10.1177/15480518241296665"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "적응성과(+)·위기대응(+)",
+      "causal_evidence": {
+        "mechanism": "—(측정 미정)",
+        "evidence_type": "횡단/SLR"
+      }
+    },
+    {
+      "id": "toxic_destructive",
+      "name_ko": "독성/파괴적 리더십",
+      "polarity": "negative",
+      "mapped_traits": [
+        "T102",
+        "T104",
+        "T106"
+      ],
+      "validity_status": "established",
+      "attention_trend": "rising",
+      "first_seen_year": 2008,
+      "incremental_validity": "측정척도(TLS) 검증됨",
+      "implication": "keep",
+      "trend_note": "Schmidt 5차원(abusive·authoritarian·narcissism·self-promotion·unpredictability)에 T102/T104/T106 직결. 부정 모델의 토대. 관심 지속 상승.",
+      "sources": [
+        {
+          "cite": "Schmidt, Development and Validation of the Toxic Leadership Scale (PhD thesis, Univ. of Maryland; dir. Hanges)",
+          "year": 2008,
+          "type": "scale",
+          "url": "https://www.proquest.com/openview/2d4bf487b9961c7a5eedb5af1aefe456/1",
+          "doi": "",
+          "evidence_grade": "E",
+          "peer_reviewed": false,
+          "claim_quote": "5차원: abusive supervision(α=.93)·authoritarian(.89)·narcissism(.88)·self-promotion(.91)·unpredictability(.92)"
+        },
+        {
+          "cite": "Pletzer, Breevaart & Bakker, Constructive & destructive leadership (JD-R) meta",
+          "year": 2024,
+          "type": "meta-analysis",
+          "url": "https://journals.sagepub.com/doi/10.1177/20413866231197519",
+          "doi": "10.1177/20413866231197519",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "journal_tier": "Q1 (JLOS)",
+          "claim_quote": "파괴적 리더십→소진·이직의도↑·웰빙·성과↓ (동기·건강손상 경로 메타)"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "이직의도(+)·만족(−)·정서소진(+)·CWB(+)",
+      "causal_evidence": {
+        "mechanism": "조직부정의·정서소진 매개",
+        "evidence_type": "종단 메타(Pletzer 2024)"
+      }
+    },
+    {
+      "id": "abusive_supervision",
+      "name_ko": "학대적 감독",
+      "polarity": "negative",
+      "mapped_traits": [
+        "T107"
+      ],
+      "validity_status": "established",
+      "attention_trend": "rising",
+      "first_seen_year": 2000,
+      "incremental_validity": "파괴적 리더십에서 가장 많이 연구됨",
+      "implication": "keep",
+      "trend_note": "Tepper 학대적 감독은 파괴 구성개념 중 최다 연구·Schmidt 5차원의 하나인데 현재 독립 trait 없이 N15에 흩어짐. **부정 신설 1순위.**",
+      "sources": [
+        {
+          "cite": "Tepper, Consequences of Abusive Supervision (AMJ)",
+          "year": 2000,
+          "type": "primary",
+          "url": "https://journals.aom.org/doi/abs/10.5465/1556375",
+          "doi": "10.5465/1556375",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "claim_quote": "학대적 감독→이직의도↑·직무/삶 만족↓·심리적 고통(AMJ 43:178-190)"
+        },
+        {
+          "cite": "Schmidt, Development and Validation of the Toxic Leadership Scale (PhD thesis, Univ. of Maryland; dir. Hanges)",
+          "year": 2008,
+          "type": "scale",
+          "url": "https://www.proquest.com/openview/2d4bf487b9961c7a5eedb5af1aefe456/1",
+          "doi": "",
+          "evidence_grade": "E",
+          "peer_reviewed": false,
+          "claim_quote": "5차원: abusive supervision(α=.93)·authoritarian(.89)·narcissism(.88)·self-promotion(.91)·unpredictability(.92)"
+        },
+        {
+          "cite": "Pletzer, Breevaart & Bakker, Constructive & destructive leadership (JD-R) meta",
+          "year": 2024,
+          "type": "meta-analysis",
+          "url": "https://journals.sagepub.com/doi/10.1177/20413866231197519",
+          "doi": "10.1177/20413866231197519",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "journal_tier": "Q1 (JLOS)",
+          "claim_quote": "파괴적 리더십→소진·이직의도↑·웰빙·성과↓ (동기·건강손상 경로 메타)"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "이직의도(+)·만족(−)·CWB(+)·정서소진(+)",
+      "causal_evidence": {
+        "mechanism": "지각된 부정의·정서소진 매개",
+        "evidence_type": "종단/횡단 메타"
+      }
+    },
+    {
+      "id": "laissez_faire",
+      "name_ko": "방임형(소극-회피) 리더십",
+      "polarity": "negative",
+      "mapped_traits": [
+        "T101"
+      ],
+      "validity_status": "established",
+      "attention_trend": "stable",
+      "first_seen_year": 1994,
+      "incremental_validity": "FRLM 검증됨",
+      "implication": "keep",
+      "trend_note": "FRLM passive-avoidant = T101 Avoidant 직결. 위상 안정.",
+      "sources": [
+        {
+          "cite": "Antonakis, Avolio & Sivasubramaniam, Context and leadership: nine-factor full-range (MLQ)",
+          "year": 2003,
+          "type": "primary",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1048984303000304",
+          "doi": "10.1016/S1048-9843(03)00030-4",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "claim_quote": "9요인 구조(변혁 5·거래 3·laissez-faire 1)를 MLQ로 확인 (Leadership Quarterly 14:261-295)"
+        },
+        {
+          "cite": "Pletzer, Breevaart & Bakker, Constructive & destructive leadership (JD-R) meta",
+          "year": 2024,
+          "type": "meta-analysis",
+          "url": "https://journals.sagepub.com/doi/10.1177/20413866231197519",
+          "doi": "10.1177/20413866231197519",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "journal_tier": "Q1 (JLOS)",
+          "claim_quote": "파괴적 리더십→소진·이직의도↑·웰빙·성과↓ (동기·건강손상 경로 메타)"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "만족(−)·역할모호(+)·성과(−)",
+      "causal_evidence": {
+        "mechanism": "역할모호·자원고갈 매개",
+        "evidence_type": "종단 메타(Pletzer 2024)"
+      }
+    },
+    {
+      "id": "dark_triad",
+      "name_ko": "어둠의 3요소",
+      "polarity": "negative",
+      "mapped_traits": [
+        "T104",
+        "T105"
+      ],
+      "validity_status": "established",
+      "attention_trend": "stable",
+      "first_seen_year": 2002,
+      "incremental_validity": "성격기반 검증됨",
+      "implication": "keep",
+      "trend_note": "narcissism=T104, Machiavellianism=T105 직결. psychopathy는 미매핑이나 조직맥락 적용 논쟁 → watch.",
+      "sources": [
+        {
+          "cite": "Paulhus & Williams, The Dark Triad of Personality",
+          "year": 2002,
+          "type": "primary",
+          "url": "https://doi.org/10.1016/S0092-6566(02)00505-6",
+          "doi": "10.1016/S0092-6566(02)00505-6",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "claim_quote": "Narcissism·Machiavellianism·Psychopathy 3요인 정의 (J. Research in Personality 36:556-563)"
+        },
+        {
+          "cite": "Dark Triad in workplace leadership: systematic review (Behavioral Sciences)",
+          "year": 2025,
+          "type": "SLR",
+          "url": "https://www.mdpi.com/2076-328X/15/3/297",
+          "doi": "10.3390/bs15030297",
+          "evidence_grade": "S",
+          "peer_reviewed": true,
+          "journal_tier": "(Behavioral Sciences)",
+          "claim_quote": "Dark Triad 리더: 단기 성공 가능하나 장기 조직건강 훼손"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "단기성공(±)·장기 조직건강(−)·CWB(+)",
+      "causal_evidence": {
+        "mechanism": "사회적교환 훼손",
+        "evidence_type": "횡단 SLR/메타"
+      }
+    },
+    {
+      "id": "empowering",
+      "name_ko": "임파워링(권한위임) 리더십",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T15"
+      ],
+      "validity_status": "established",
+      "attention_trend": "rising",
+      "first_seen_year": 2000,
+      "incremental_validity": "메타 검증된 증분기여(자율부여→심리적 임파워먼트·신뢰 매개로 성과·OCB·창의성)",
+      "implication": "keep",
+      "trend_note": "내가 §2에서 '긍정 짝이 비었다'고 지적한 위임/임파워먼트 갭을 정확히 메우는 *독립 메타근거 보유* 구성개념(Lee et al. 2018, 105표본; Kim et al. 2018). 부정 N24(과도통제)·N15-07(과잉보호)의 긍정 대칭축. **신설 후보(서번트와 함께 1순위).** 단 경고: 과도한 자율부여는 과업 불확실성↑로 역효과 가능 → 맥락 조절 필요.",
+      "sources": [
+        {
+          "cite": "Lee, Willis & Tian, Empowering leadership meta-analysis (incremental contribution)",
+          "year": 2018,
+          "type": "meta-analysis",
+          "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/job.2220",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "10.1002/job.2220",
+          "claim_quote": "임파워링→성과·OCB·창의성 증분기여 (105표본 메타)",
+          "n_studies": "105 samples",
+          "journal_tier": "Q1 (JOB)"
+        },
+        {
+          "cite": "Kim, Beehr & Prewett, Employee Responses to Empowering Leadership: A Meta-Analysis",
+          "year": 2018,
+          "type": "meta-analysis",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/1548051817750538",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "10.1177/1548051817750538",
+          "journal_tier": "Q1 (JLOS)"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "창의성(+)·OCB(+)·성과(+); 과도 자율→과업불확실성(−)",
+      "causal_evidence": {
+        "mechanism": "심리적 임파워먼트·신뢰 매개",
+        "evidence_type": "횡단 메타(일부 실험)"
+      }
+    },
+    {
+      "id": "green_environmental",
+      "name_ko": "녹색/환경(특화) 리더십",
+      "polarity": "positive",
+      "mapped_traits": [],
+      "validity_status": "emerging",
+      "attention_trend": "rising",
+      "first_seen_year": 2014,
+      "incremental_validity": "OCBE·직원 녹색행동에 정효과(녹색조직풍토·녹색몰입 매개)",
+      "implication": "watch",
+      "trend_note": "사용자가 든 'Employee Green Behavior/OCB-E' 논문 계열. 핵심 통찰: 대부분 '*환경특화 변혁적 리더십(green transformational)*'으로, 새 성향이 아니라 **변혁적의 도메인 적용**. → T04 Crisis처럼 별도 trait이 아니라 *도메인/맥락 렌즈*로 모델링이 타당(context: sustainability). 지속가능성 의제로 급상승 중이라 추적 가치 높음.",
+      "sources": [
+        {
+          "cite": "Green transformational leadership & OCBE (social info processing)",
+          "year": 2022,
+          "type": "primary",
+          "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2022.1097655/full",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "doi": "10.3389/fpsyg.2022.1097655/full"
+        },
+        {
+          "cite": "Eco-centric leadership & OCBE (green commitment 매개)",
+          "year": 2025,
+          "type": "primary",
+          "url": "https://www.frontiersin.org/journals/sustainability/articles/10.3389/frsus.2025.1647824/full",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "doi": "10.3389/frsus.2025.1647824/full"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "직원 녹색행동/OCBE(+)",
+      "causal_evidence": {
+        "mechanism": "녹색풍토·녹색몰입 매개",
+        "evidence_type": "횡단"
+      }
+    },
+    {
+      "id": "humble",
+      "name_ko": "겸손 리더십",
+      "polarity": "positive",
+      "mapped_traits": [],
+      "validity_status": "growing",
+      "attention_trend": "rising",
+      "first_seen_year": 2012,
+      "incremental_validity": "대형 메타(212편): 몰입·윤리행동·팀성과·혁신에 정효과",
+      "implication": "watch",
+      "trend_note": "Chiu et al.(2023) 212편 메타로 빠르게 확립 중. 단 서번트·임파워링·inclusive와 개념 인접(겸손=서번트의 핵심 요소) → 중복 점검 필요. 양날: 혁신 촉진하나 'time theft'도 유발(2025). 서번트 통합 시 그 하위로 흡수 검토.",
+      "sources": [
+        {
+          "cite": "Chiu et al., A meta-analysis of humble leadership",
+          "year": 2023,
+          "type": "meta-analysis",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1048984322000637",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "",
+          "claim_quote": "212편 메타: 몰입·팀성과·혁신에 정효과",
+          "n_studies": "212 studies",
+          "journal_tier": "Q1 (Leadership Quarterly)"
+        },
+        {
+          "cite": "Wu, Chen & Zhang, Humble Leadership→Follower Performance meta",
+          "year": 2025,
+          "type": "meta-analysis",
+          "url": "https://journals.sagepub.com/doi/10.1177/15480518241290090",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": "10.1177/15480518241290090",
+          "journal_tier": "Q1 (JLOS)"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "몰입(+)·팀성과(+)·혁신(+)",
+      "causal_evidence": {
+        "mechanism": "관계·자기효능 매개",
+        "evidence_type": "횡단 메타"
+      }
+    },
+    {
+      "id": "inclusive",
+      "name_ko": "포용 리더십",
+      "polarity": "positive",
+      "mapped_traits": [],
+      "validity_status": "growing",
+      "attention_trend": "rising",
+      "first_seen_year": 2010,
+      "incremental_validity": "소속감·심리적 안전 경유 효과(메타 누적 중)",
+      "implication": "watch",
+      "trend_note": "다양성·소속(belonging) 의제로 상승. 겸손·서번트와 인접하며 심리적 안전(현재 M15/L15군)과 직결 → 기존 관계축·심리안전 micro로 상당부분 커버. 별도 trait보다 관계축 강화로 흡수 가능성. DEI 정책 변동에 민감한 추세라 모니터링.",
+      "sources": [
+        {
+          "cite": "Humble & inclusive leadership 관계(메타 맥락)",
+          "year": 2023,
+          "type": "meta-analysis",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36619057/",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "doi": ""
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "소속감(+)·심리적안전(+)·참여(+)",
+      "causal_evidence": {
+        "mechanism": "심리적 안전·소속감 매개",
+        "evidence_type": "횡단"
+      }
+    },
+    {
+      "id": "participative",
+      "name_ko": "참여적 리더십",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T02"
+      ],
+      "validity_status": "established",
+      "attention_trend": "stable",
+      "first_seen_year": 1971,
+      "incremental_validity": "직무만족·성과에 정효과(임파워먼트 매개)",
+      "implication": "keep",
+      "trend_note": "협의·공동 의사결정·정보공유(Path-Goal/Yukl consulting). T02 Collaborative의 학술 부모. 참여가 형식적이면 효과 소멸(가짜 참여 주의).",
+      "sources": [
+        {
+          "cite": "Xu et al., Threshold effect of participative leadership & info sharing (AMJ)",
+          "year": 2017,
+          "type": "primary",
+          "url": "https://journals.aom.org/doi/10.5465/amj.2013.0427",
+          "doi": "10.5465/amj.2013.0427",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "claim_quote": "참여적 리더십–정보공유–성과 관계의 임계효과(AMJ)"
+        },
+        {
+          "cite": "Miao & Zhang, Participative leadership & voice (public servants)",
+          "year": 2023,
+          "type": "primary",
+          "url": "https://journals.sagepub.com/doi/abs/10.1177/00910260221147692",
+          "doi": "10.1177/00910260221147692",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "claim_quote": "참여적 리더십→발언행동(조직동일시 매개, 권력거리 조절)"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "발언(+)·만족(+)·창의성(+)",
+      "causal_evidence": {
+        "mechanism": "조직동일시 매개",
+        "evidence_type": "횡단(권력거리 조절)"
+      }
+    },
+    {
+      "id": "behavioral_integrity",
+      "name_ko": "행동적 진실성(위반=T103)",
+      "polarity": "negative",
+      "mapped_traits": [
+        "T103"
+      ],
+      "validity_status": "established",
+      "attention_trend": "stable",
+      "first_seen_year": 2002,
+      "incremental_validity": "말-행동 정렬 지각→신뢰·성과(Simons)",
+      "implication": "keep",
+      "trend_note": "Simons 행동적 진실성=관리자의 말과 행동 정렬 지각. T103 Integrity Violation은 *그 위반*(언행 불일치·약속 미이행·투명성 위반). 부모 구성개념으로 T103을 정초.",
+      "sources": [
+        {
+          "cite": "Simons, Behavioral Integrity (Organization Science)",
+          "year": 2002,
+          "type": "primary",
+          "url": "https://pubsonline.informs.org/doi/10.1287/orsc.13.1.18.543",
+          "doi": "10.1287/orsc.13.1.18.543",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "claim_quote": "말-행동 정렬 지각이 신뢰의 선행(Organization Science 13:18-35)"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "신뢰(+)·몰입(+)·OCB(+)·성과(+)",
+      "causal_evidence": {
+        "mechanism": "신뢰 매개",
+        "evidence_type": "횡단 메타(Simons)"
+      }
+    },
+    {
+      "id": "initiating_structure",
+      "name_ko": "과업구조화(Ohio Initiating Structure)",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T01",
+        "T06",
+        "T10"
+      ],
+      "validity_status": "established",
+      "attention_trend": "stable",
+      "first_seen_year": 1957,
+      "incremental_validity": "Initiating Structure ρ=.29 (Judge 2004 메타)",
+      "implication": "keep",
+      "trend_note": "Ohio State 2요인 중 과업축. T01·T06·T10이 *공유하는 부모* → 이 셋은 과업축 중복 클러스터. 통합 여부는 요인분석(데이터)으로 결정, 현재는 공유부모로 명시하고 통합 보류.",
+      "sources": [
+        {
+          "cite": "Judge, Piccolo & Ilies, The Forgotten Ones (consideration & initiating structure 메타)",
+          "year": 2004,
+          "type": "meta-analysis",
+          "url": "https://psycnet.apa.org/doi/10.1037/0021-9010.89.1.36",
+          "doi": "10.1037/0021-9010.89.1.36",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "claim_quote": "Initiating Structure ρ=.29, Consideration ρ=.48 (JAP 89:36-51)",
+          "n_studies": "163/159 correlations",
+          "effect_size": "IS ρ=.29, Consideration ρ=.48",
+          "journal_tier": "Q1 (JAP)"
+        },
+        {
+          "cite": "Ceri-Booms et al., Task- & person-focused leadership & team performance meta (HRMR)",
+          "year": 2017,
+          "type": "meta-analysis",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S105348221630064X",
+          "doi": "10.1016/j.hrmr.2016.09.010",
+          "evidence_grade": "M",
+          "peer_reviewed": true,
+          "journal_tier": "Q1 (HRM Review)",
+          "claim_quote": "과업초점 리더행동→팀성과(메타, 조절변수 분석)"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "팀/직무성과(+, ρ≈.29)",
+      "causal_evidence": {
+        "mechanism": "역할명확성 매개",
+        "evidence_type": "횡단 메타"
+      }
+    },
+    {
+      "id": "ambidextrous",
+      "name_ko": "양손잡이(탐색-활용) 리더십",
+      "polarity": "positive",
+      "mapped_traits": [
+        "T12"
+      ],
+      "validity_status": "growing",
+      "attention_trend": "rising",
+      "first_seen_year": 2011,
+      "incremental_validity": "opening/closing 전환이 혁신 촉진(Rosing 2011)",
+      "implication": "keep",
+      "trend_note": "T12 Balanced를 *ambidextrous(탐색-활용 균형)*로 재정의·구제. opening(탐색 촉진)+closing(활용·정렬) 행동을 상황에 맞게 유연 전환. '특색없는 residual'이 아니라 균형 전환이 핵심.",
+      "sources": [
+        {
+          "cite": "Rosing, Frese & Bausch, Ambidextrous Leadership (Leadership Quarterly)",
+          "year": 2011,
+          "type": "primary",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1048984311001019",
+          "doi": "10.1016/j.leaqua.2011.07.014",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "claim_quote": "opening·closing 행동 전환이 리더십-혁신 관계의 이질성 설명(LQ 22:956-974)"
+        },
+        {
+          "cite": "Kousina & Voudouris, Ambidextrous leadership & innovative behavior (PAR)",
+          "year": 2023,
+          "type": "primary",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/puar.13650",
+          "doi": "10.1111/puar.13650",
+          "evidence_grade": "E",
+          "peer_reviewed": true,
+          "journal_tier": "Q1 (Public Administration Review)",
+          "claim_quote": "양손잡이 리더십→혁신행동(심리적 주인의식 매개)"
+        }
+      ],
+      "last_reviewed": "2026-06-20",
+      "expected_outcomes": "혁신행동(+)·창의성(+)",
+      "causal_evidence": {
+        "mechanism": "심리적 주인의식 매개",
+        "evidence_type": "횡단(매개 검증)"
+      }
+    }
+  ]
+}

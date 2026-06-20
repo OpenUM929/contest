@@ -1,0 +1,15 @@
+{
+  "label_id": "N02-01",
+  "label_name": "공포 기반 동기 유도",
+  "macro": "N02",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "두려움을 조장하여 행동을 강요",
+  "when": "해고, 인사불성실 등 위협으로 동기 부여",
+  "not_when": "긍정적 보상과 성장 기회로 동기 부여; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.1,
+    "innovation": 1.0
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label_id": "M06-02",
+  "label_name": "세부 실행 지침",
+  "macro": "L06",
+  "weight": 0.7,
+  "definition": "목표 달성을 위한 구체적 실행 방법 제시",
+  "when": "실행 계획서 작성, 상세 프로세스 안내, 단계별 지침",
+  "not_when": "방향만 제시하고 방법은 안 알려줌",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

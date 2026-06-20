@@ -1,0 +1,15 @@
+{
+  "label_id": "M03-03",
+  "label_name": "새로운 접근 유도",
+  "macro": "L03",
+  "weight": 0.8,
+  "core": true,
+  "definition": "익숙하지 않은 새로운 방법론 제안",
+  "when": "새로운 방법 제안, 혁신적 접근 권장, 실험적 시도",
+  "not_when": "기존 방식에만 집착",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "label_id": "N03-03",
+  "label_name": "질문 억제",
+  "macro": "N03",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "질문과 탐구를 제한",
+  "when": "질문하는 사람을 무시, 탐구 활동 차단",
+  "not_when": "적극적 질문과 호기심 장려; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

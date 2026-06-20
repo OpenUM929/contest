@@ -1,0 +1,15 @@
+{
+  "label_id": "M28-01",
+  "label_name": "투명한 소통",
+  "macro": "L28",
+  "weight": 0.7,
+  "core": true,
+  "definition": "투명하고 정직한 정보 공유와 소통",
+  "when": "정직한 소통, 정보 투명 공개, 숨김없는 대화",
+  "not_when": "정보 은폐, 의도적 왜곡",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

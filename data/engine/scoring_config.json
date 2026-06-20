@@ -1,0 +1,49 @@
+{
+  "version": "2.0",
+  "scoring_rules": {
+    "core_bonus": 0.3,
+    "negative_penalty": 0.8,
+    "log_norm_base": 1.0,
+    "required_weight": 0.5,
+    "optional_weight": 0.2,
+    "negative_required_weight": 0.5,
+    "negative_optional_weight": 0.25,
+    "default_confidence": 0.5,
+    "penalty_factor": {
+      "incomplete_default": 0.3,
+      "incomplete_crisis": 0.5,
+      "complete": 1.0
+    },
+    "confidence_thresholds": {
+      "high": 0.75,
+      "medium": 0.45,
+      "low": 0.0
+    },
+    "strength_thresholds": {
+      "strong": 0.8,
+      "moderate": 0.5,
+      "weak": 0.0
+    },
+    "severity_thresholds": {
+      "high": 0.7,
+      "medium": 0.4,
+      "low": 0.0
+    },
+    "hybrid": {
+      "eligible_min_strength": 0.3,
+      "combine_min_strength": 0.5
+    },
+    "risks": {
+      "toxic_leader_min_negative_labels": 2,
+      "toxic_leader_high_threshold": 4,
+      "toxic_leader_base_score": 0.3,
+      "toxic_leader_increment": 0.15,
+      "toxic_leader_max_score": 0.9,
+      "negative_dominance_threshold": 0.2,
+      "negative_dominance_high_threshold": 0.5,
+      "integrity_risk_score": 0.7,
+      "transparency_risk_score": 0.8,
+      "psychological_safety_risk_score": 0.85
+    }
+  }
+}

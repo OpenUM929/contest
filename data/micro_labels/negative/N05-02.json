@@ -1,0 +1,15 @@
+{
+  "label_id": "N05-02",
+  "label_name": "준비 없는 변화 추진",
+  "macro": "N05",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "계획과 자원 없이 변화만 강조",
+  "when": "준비 없이 급작스러운 변화 지시",
+  "not_when": "충분한 준비와 로드맵 동반한 변화; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

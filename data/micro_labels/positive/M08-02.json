@@ -1,0 +1,14 @@
+{
+  "label_id": "M08-02",
+  "label_name": "공정한 성과 인정_L08",
+  "macro": "L08",
+  "weight": 0.7,
+  "definition": "누구나 납득할 수 있게 공정하게 성과 평가",
+  "when": "투명한 평가 기준, 공정한 인센티브 배분, 객관적 평가",
+  "not_when": "편애, 주관적 평가, 내부자 우대",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

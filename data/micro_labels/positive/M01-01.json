@@ -1,0 +1,15 @@
+{
+  "label_id": "M01-01",
+  "label_name": "명확한 비전 제시",
+  "macro": "L01",
+  "weight": 0.8,
+  "core": true,
+  "definition": "조직의 미래 방향과 목표를 명확히 제시",
+  "when": "비전 선포, 미래 방향 제시, 명확한 목표 선언",
+  "not_when": "모호한 표현, 방향성 불분명",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.3
+  }
+}

@@ -1,0 +1,742 @@
+{
+  "schema_version": "causal-v1",
+  "purpose": "인과관계 근거: (A) 왜 이 구성개념이 이 trait인가 = 구성개념의 학술 '정의 차원(dimension)'을 trait이 구현(instantiate). (B) 왜 이 trait이 이 micro와 연관되는가 = 각 micro의 행동 정의(definition)가 그 차원의 관찰가능한 조작화. 핵심 micro만 명시하고 나머지는 라벨 정의가 1차 근거.",
+  "constructs": {
+    "transformational": {
+      "dimensions": [
+        "Idealized Influence(이상적 영향)",
+        "Inspirational Motivation(영감적 동기부여)",
+        "Intellectual Stimulation(지적 자극)",
+        "Individualized Consideration(개별적 배려)"
+      ],
+      "dimensions_source": {
+        "cite": "Antonakis, Avolio & Sivasubramaniam, Context and leadership: nine-factor full-range (MLQ)",
+        "year": 2003,
+        "type": "primary",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1048984303000304",
+        "doi": "10.1016/S1048-9843(03)00030-4",
+        "evidence_grade": "E",
+        "peer_reviewed": true,
+        "claim_quote": "9요인 구조(변혁 5·거래 3·laissez-faire 1)를 MLQ로 확인 (Leadership Quarterly 14:261-295)"
+      },
+      "trait_links": [
+        {
+          "trait": "T09",
+          "instantiates": "Inspirational Motivation + Idealized Influence",
+          "why": "미래 비전·방향을 제시해 추종자를 고무하는 행동 = 영감적 동기부여/이상적 영향의 직접 구현",
+          "key_micros": [
+            {
+              "id": "M01-04",
+              "why": "장기 비전 제시 행동이 영감적 동기부여를 관찰가능하게 조작화"
+            },
+            {
+              "id": "M01-01",
+              "why": "명확한 방향 제시 = 이상적 영향(역할모델)의 기반"
+            }
+          ],
+          "rival": "비전 발화가 자기과시(N04 개인숭배)일 수 있음",
+          "disconfirm": "비전 발화가 추종자 고무 없이 자기홍보로 귀결되면 영감동기 인과 무효",
+          "causal_grade": "수렴근거"
+        },
+        {
+          "trait": "T03",
+          "instantiates": "Intellectual Stimulation",
+          "why": "기존 가정에 도전하고 창의적 문제해결을 자극 = 지적 자극 차원",
+          "key_micros": [
+            {
+              "id": "M03-03",
+              "why": "창의적 사고 촉진이 지적 자극의 핵심 행동"
+            },
+            {
+              "id": "M05-02",
+              "why": "변화 주도 = 현상 재구성 자극"
+            }
+          ],
+          "rival": "변화 발화가 준비없는 강요(N05)일 수 있음",
+          "disconfirm": "아이디어 자극이 실험 장려 아닌 처벌(N26) 동반 시 지적자극 무효",
+          "causal_grade": "수렴근거"
+        },
+        {
+          "trait": "T07",
+          "instantiates": "Individualized Consideration",
+          "why": "구성원 개개인의 성장을 배려·코칭 = 개별적 배려 차원",
+          "key_micros": [
+            {
+              "id": "M02-02",
+              "why": "성장 기회 제공이 개별 배려의 직접 행동"
+            },
+            {
+              "id": "M07-02",
+              "why": "성장 지향 피드백 = 개인 발전 지원"
+            }
+          ],
+          "rival": "성장지원이 과잉개입·통제(N24)일 수 있음",
+          "disconfirm": "피드백이 발전보다 평가·질책으로 기능하면 개별배려 무효",
+          "causal_grade": "수렴근거"
+        }
+      ]
+    },
+    "transactional_contingent_reward": {
+      "dimensions": [
+        "Contingent Reward(성과연계 보상)",
+        "Management-by-Exception(예외관리)"
+      ],
+      "dimensions_source": {
+        "cite": "Bass, Transactional dimensions",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8297756/",
+        "evidence_grade": "R",
+        "peer_reviewed": true,
+        "doi": ""
+      },
+      "trait_links": [
+        {
+          "trait": "T06",
+          "instantiates": "Contingent Reward의 '기대 명확화·성과 추진' 측면(부분)",
+          "why": "목표 실행을 추진·완수하는 거래적 교환 행동에 해당하나, 보상교환의 '건설적 인정' 측면은 약함",
+          "key_micros": [
+            {
+              "id": "M10-01",
+              "why": "실행 추진이 성과 산출 교환의 행동 기반"
+            },
+            {
+              "id": "M10-02",
+              "why": "완수 지향이 거래적 성과 달성"
+            }
+          ],
+          "rival": "실행추진이 독단(N19)·압박만일 수 있음",
+          "disconfirm": "보상·명확화 없이 압박만이면 거래적 교환(보상) 아님",
+          "causal_grade": "논쟁"
+        }
+      ],
+      "note": "건설적 보상/인정(contingent reward의 핵심)을 담는 긍정 micro가 부재(부정 N09 불공정인정만 존재) → Recognizing micro 보강 시 인과가 완성됨."
+    },
+    "servant": {
+      "dimensions": [
+        "Emotional Healing(정서적 치유)",
+        "Empowering(권한위임)",
+        "Developing People(구성원 성장)",
+        "Putting Subordinates First(구성원 우선)",
+        "Ethical/Stewardship(윤리·청지기)"
+      ],
+      "dimensions_source": {
+        "cite": "Liden et al. / Spears Servant dimensions",
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/0149206316665461",
+        "evidence_grade": "R",
+        "peer_reviewed": true,
+        "doi": "10.1177/0149206316665461"
+      },
+      "trait_links": [
+        {
+          "trait": "T07",
+          "instantiates": "Developing People (+ Empowering)",
+          "why": "구성원의 성장과 잠재력 개발에 헌신 = 서번트의 '구성원 성장' 차원",
+          "key_micros": [
+            {
+              "id": "M02-02",
+              "why": "성장 기회 제공이 developing people의 직접 조작화"
+            },
+            {
+              "id": "M07-02",
+              "why": "성장 지향 피드백 = 발전 지원"
+            }
+          ],
+          "rival": "developing이 후계 통제 수단일 수 있음",
+          "disconfirm": "성장지원이 구성원 자율 확대로 이어지지 않으면 서번트 아님",
+          "causal_grade": "수렴근거"
+        },
+        {
+          "trait": "T11",
+          "instantiates": "Emotional Healing + Putting Subordinates First",
+          "why": "구성원의 정서·복지를 우선 돌봄 = 정서적 치유/구성원 우선 차원",
+          "key_micros": [
+            {
+              "id": "M29-01",
+              "why": "팀 웰빙 케어가 emotional healing의 직접 행동(앵커)"
+            },
+            {
+              "id": "M14-01",
+              "why": "타인 우선 행동 = putting subordinates first"
+            },
+            {
+              "id": "M14-02",
+              "why": "희생적 지원 = 구성원 우선의 강한 형태"
+            }
+          ],
+          "rival": "배려가 과잉보호(N15-07)로 자율 침해할 수 있음",
+          "disconfirm": "웰빙케어가 의존 심화·성장기회 차단 동반 시 정서적 치유 아님",
+          "causal_grade": "수렴근거"
+        }
+      ],
+      "note": "서번트는 현재 T07(성장)·T11(정서/우선)으로 *분산 구현* → 두 trait이 서번트의 서로 다른 차원을 담음. 정식 Servant trait 신설 시 이 두 갈래를 상위에서 통합하는 게 인과적으로 정합."
+    },
+    "authentic": {
+      "dimensions": [
+        "Self-awareness(자기인식)",
+        "Relational Transparency(관계적 투명성)",
+        "Balanced Processing(균형적 처리)",
+        "Internalized Moral Perspective(내재화된 도덕관점)"
+      ],
+      "dimensions_source": {
+        "cite": "Walumbwa et al. Authentic Leadership 4차원",
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/0149206316665461",
+        "evidence_grade": "R",
+        "peer_reviewed": true,
+        "doi": "10.1177/0149206316665461"
+      },
+      "trait_links": [
+        {
+          "trait": "T13",
+          "instantiates": "Internalized Moral Perspective + Relational Transparency",
+          "why": "원칙에 기반한 도덕적 행동·언행일치 = 내재화된 도덕관점/관계적 투명성",
+          "key_micros": [
+            {
+              "id": "M33-01",
+              "why": "도덕적 용기 발휘가 내재화된 도덕관점의 행동"
+            },
+            {
+              "id": "M30-01",
+              "why": "언행 일치 = relational transparency의 조작화"
+            }
+          ],
+          "rival": "도덕적 언어가 인상관리(moral licensing)일 수 있음",
+          "disconfirm": "언행일치 주장과 실제 행동 불일치(N30) 관측 시 진성 무효",
+          "causal_grade": "논쟁"
+        }
+      ],
+      "note": "단 메타(Hoch et al.)상 변혁적과 중복(증분 5~11%) → T13를 별도 trait로 두는 인과적 정당성 약함. 변혁적(이상적 영향) 속성으로 흡수 검토."
+    },
+    "ethical": {
+      "dimensions": [
+        "Moral Person(도덕적 인격)",
+        "Moral Manager(도덕적 관리: 규범 강화·책임)"
+      ],
+      "dimensions_source": {
+        "cite": "Brown, Treviño & Harrison Ethical Leadership",
+        "url": "https://journals.sagepub.com/doi/abs/10.1177/0149206316665461",
+        "evidence_grade": "R",
+        "peer_reviewed": true,
+        "doi": "10.1177/0149206316665461"
+      },
+      "trait_links": [
+        {
+          "trait": "T13",
+          "instantiates": "Moral Person + Moral Manager",
+          "why": "원칙 준수와 도덕 규범의 본보기·강화 = 윤리적 리더십 두 축",
+          "key_micros": [
+            {
+              "id": "M33-01",
+              "why": "도덕적 용기 = moral person의 행동"
+            },
+            {
+              "id": "M33-02",
+              "why": "원칙 고수 = moral manager의 규범 강화"
+            }
+          ],
+          "rival": "규범 강화가 권위적 통제(N15-03)일 수 있음",
+          "disconfirm": "원칙 강조가 처벌·공개비난으로 기능하면 윤리 아님",
+          "causal_grade": "논쟁"
+        }
+      ],
+      "note": "authentic과 동일하게 변혁적과 중복 → 별도 trait 약화 신호. T13는 authentic+ethical을 한데 담고 있어 둘의 흡수 판단을 함께."
+    },
+    "adaptive": {
+      "dimensions": [
+        "기술적 vs 적응적 과제 구분",
+        "고통(distress) 조절",
+        "규율 있는 주의 집중",
+        "일을 구성원에게 되돌리기(학습)"
+      ],
+      "dimensions_source": {
+        "cite": "Heifetz Adaptive Leadership",
+        "url": "https://journals.sagepub.com/doi/10.1177/15480518241296665",
+        "evidence_grade": "R",
+        "peer_reviewed": true,
+        "doi": "10.1177/15480518241296665"
+      },
+      "trait_links": [
+        {
+          "trait": "T14",
+          "instantiates": "학습·적응(일을 되돌리기)",
+          "why": "실패에서 학습하고 환경에 적응 = 적응형의 학습 차원",
+          "key_micros": [
+            {
+              "id": "M21-01",
+              "why": "지속 학습이 적응 학습의 행동"
+            },
+            {
+              "id": "M22-01",
+              "why": "실패 수용 = 적응적 과제의 학습 전환"
+            }
+          ],
+          "rival": "학습 강조가 실패 은폐(N22) 회피일 수 있음",
+          "disconfirm": "실패수용이 책임회피·학습차단(N22-02) 동반 시 적응 아님",
+          "causal_grade": "수렴근거"
+        },
+        {
+          "trait": "T04",
+          "instantiates": "고통 조절(위기 대응)",
+          "why": "위기에서 혼란을 다스리는 행동 = distress 조절 측면",
+          "key_micros": [
+            {
+              "id": "M20-01",
+              "why": "문제 해결이 위기 distress 조절의 조작화"
+            }
+          ],
+          "rival": "위기대응이 평시 과잉통제 전이일 수 있음",
+          "disconfirm": "distress 조절이 공포 조장(N18)으로 기능하면 적응 아님",
+          "causal_grade": "논쟁"
+        }
+      ],
+      "note": "적응형은 이론 분열(Heifetz vs 복잡성)·측정 미정 → 신설보다 T14(change축)+T04로 분산 흡수가 인과적으로 충분."
+    },
+    "digital": {
+      "dimensions": [
+        "Technological(기술·디지털 리터러시)",
+        "Visionary-Strategic",
+        "Relational-Emotional",
+        "Structural-Managerial"
+      ],
+      "dimensions_source": {
+        "cite": "Digital Leadership SLR(2025) 4차원",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/02642069.2025.2512779",
+        "evidence_grade": "R",
+        "peer_reviewed": true,
+        "doi": "10.1080/02642069.2025.2512779"
+      },
+      "trait_links": [
+        {
+          "trait": "T14",
+          "instantiates": "Technological(고유 차원)",
+          "why": "디지털·AI 도구 활용·적응 = 디지털 리더십의 유일 고유 차원. 나머지 3차원은 기존 변혁/관계축과 중복",
+          "key_micros": [
+            {
+              "id": "M21-01",
+              "why": "지속 학습이 디지털 적응의 기반(단 기술 고유행동은 미연계)"
+            }
+          ],
+          "rival": "디지털 강조가 도구 남용(N35)·AI 오용(N37)일 수 있음",
+          "disconfirm": "기술활용이 인간중심 결여·감시로 기능하면 디지털리더십 아님",
+          "causal_grade": "논쟁"
+        }
+      ],
+      "note": "디지털 고유 행동 micro(M35 디지털활용·M37 AI활용)가 현재 T14 required에 미연계 → 인과 단절. Technological 축으로 분리하거나 T14에 디지털 micro를 명시 연계해야 인과 성립."
+    },
+    "toxic_destructive": {
+      "dimensions": [
+        "Abusive Supervision(학대적 감독)",
+        "Authoritarianism(권위주의)",
+        "Narcissism(자기애)",
+        "Self-promotion(자기과시)",
+        "Unpredictability(예측불가)"
+      ],
+      "dimensions_source": {
+        "cite": "Schmidt, Development and Validation of the Toxic Leadership Scale (PhD thesis, Univ. of Maryland; dir. Hanges)",
+        "year": 2008,
+        "type": "scale",
+        "url": "https://www.proquest.com/openview/2d4bf487b9961c7a5eedb5af1aefe456/1",
+        "doi": "",
+        "evidence_grade": "E",
+        "peer_reviewed": false,
+        "claim_quote": "5차원: abusive supervision(α=.93)·authoritarian(.89)·narcissism(.88)·self-promotion(.91)·unpredictability(.92)"
+      },
+      "trait_links": [
+        {
+          "trait": "T102",
+          "instantiates": "Authoritarianism (+Abusive)",
+          "why": "반대 억압·독단·공개 비난 = 권위주의/학대 차원",
+          "key_micros": [
+            {
+              "id": "N15-03",
+              "why": "공개적 비난이 abusive/authoritarian의 직접 행동"
+            },
+            {
+              "id": "N19-01",
+              "why": "독단 결정 = 권위주의의 조작화"
+            }
+          ],
+          "rival": "강한 방향제시(T01)와 표면 유사",
+          "disconfirm": "공개비난·독단이 협의·존중 동반 시 권위주의 아님",
+          "causal_grade": "이론연역"
+        },
+        {
+          "trait": "T104",
+          "instantiates": "Narcissism (+Self-promotion)",
+          "why": "개인 숭배 유도·편파적 평가 = 자기애/자기과시",
+          "key_micros": [
+            {
+              "id": "N04-01",
+              "why": "개인 숭배 유도가 narcissism의 행동"
+            },
+            {
+              "id": "N09-01",
+              "why": "편파적 평가 = 자기 이익 우선"
+            }
+          ],
+          "rival": "자기확신(T01)과 표면 유사",
+          "disconfirm": "개인숭배 유도가 구성원 공로 인정 동반 시 자기애 아님",
+          "causal_grade": "이론연역"
+        },
+        {
+          "trait": "T106",
+          "instantiates": "Unpredictability",
+          "why": "상황 무시 강경·과도 통제의 일관성 결여 = 예측불가 차원",
+          "key_micros": [
+            {
+              "id": "N17-01",
+              "why": "상황 무시 강경 대응이 예측불가의 행동"
+            }
+          ],
+          "rival": "유연성(T14 적응)과 표면 유사",
+          "disconfirm": "비일관성이 맥락 적응의 결과이면 변덕 아님",
+          "causal_grade": "수렴근거"
+        }
+      ]
+    },
+    "laissez_faire": {
+      "dimensions": [
+        "Passive-Avoidant(소극·회피)",
+        "Inaction/Absence(부작위)"
+      ],
+      "dimensions_source": {
+        "cite": "Antonakis, Avolio & Sivasubramaniam, Context and leadership: nine-factor full-range (MLQ)",
+        "year": 2003,
+        "type": "primary",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1048984303000304",
+        "doi": "10.1016/S1048-9843(03)00030-4",
+        "evidence_grade": "E",
+        "peer_reviewed": true,
+        "claim_quote": "9요인 구조(변혁 5·거래 3·laissez-faire 1)를 MLQ로 확인 (Leadership Quarterly 14:261-295)"
+      },
+      "trait_links": [
+        {
+          "trait": "T101",
+          "instantiates": "Passive-Avoidant",
+          "why": "의사결정·책임을 회피하고 개입하지 않음 = 방임형의 핵심",
+          "key_micros": [
+            {
+              "id": "N08-01",
+              "why": "직접 책임 전가가 회피의 직접 행동(앵커)"
+            },
+            {
+              "id": "N08-02",
+              "why": "책임 회피 = 부작위의 조작화"
+            }
+          ],
+          "rival": "위임(임파워링)과 표면 유사",
+          "disconfirm": "개입 축소가 자율부여+지원 동반 시 방임 아님(임파워링)",
+          "causal_grade": "이론연역"
+        }
+      ]
+    },
+    "dark_triad": {
+      "dimensions": [
+        "Narcissism(자기애)",
+        "Machiavellianism(마키아벨리즘)",
+        "Psychopathy(사이코패시)"
+      ],
+      "dimensions_source": {
+        "cite": "Paulhus & Williams, The Dark Triad of Personality",
+        "year": 2002,
+        "type": "primary",
+        "url": "https://doi.org/10.1016/S0092-6566(02)00505-6",
+        "doi": "10.1016/S0092-6566(02)00505-6",
+        "evidence_grade": "E",
+        "peer_reviewed": true,
+        "claim_quote": "Narcissism·Machiavellianism·Psychopathy 3요인 정의 (J. Research in Personality 36:556-563)"
+      },
+      "trait_links": [
+        {
+          "trait": "T104",
+          "instantiates": "Narcissism",
+          "why": "자기 과대·착취가 T104의 토대",
+          "key_micros": [
+            {
+              "id": "N04-01",
+              "why": "개인 숭배 유도 = 자기애의 행동"
+            }
+          ],
+          "rival": "자기확신과 표면 유사",
+          "disconfirm": "개인숭배가 공로 인정 동반 시 자기애 아님",
+          "causal_grade": "이론연역"
+        },
+        {
+          "trait": "T105",
+          "instantiates": "Machiavellianism",
+          "why": "감정 조작·기만적 보상으로 타인 조종 = 마키아벨리즘",
+          "key_micros": [
+            {
+              "id": "N02-02",
+              "why": "보상 과장 약속이 기만적 조종의 행동"
+            },
+            {
+              "id": "N02-03",
+              "why": "감정적 압박 = 조작적 영향"
+            }
+          ],
+          "rival": "설득·영향력과 표면 유사",
+          "disconfirm": "보상 약속이 실제 이행되면 조작 아님",
+          "causal_grade": "이론연역"
+        }
+      ],
+      "note": "Psychopathy는 조직맥락 적용 논쟁으로 미매핑(watch)."
+    },
+    "empowering": {
+      "dimensions": [
+        "Delegation(위임)",
+        "Autonomy Support(자율 지원)",
+        "Coaching/Information-sharing"
+      ],
+      "dimensions_source": {
+        "cite": "Lee et al. empowering meta",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/job.2220",
+        "doi": "10.1002/job.2220",
+        "evidence_grade": "M",
+        "peer_reviewed": true
+      },
+      "trait_links": [
+        {
+          "trait": "T15",
+          "instantiates": "Delegation + Autonomy Support",
+          "why": "권한 이양·자율 부여로 심리적 임파워먼트 유발 = 임파워링 핵심",
+          "causal_grade": "수렴근거",
+          "rival": "방임(T101)과 표면 유사 — 둘 다 개입 축소",
+          "disconfirm": "위임이 지원·책임 없이 방치로 기능하면 임파워링 아님(방임)",
+          "key_micros": [
+            {
+              "id": "M49-01",
+              "why": "권한 위임이 임파워링의 변별 행동(앵커)"
+            },
+            {
+              "id": "M49-02",
+              "why": "자율성 부여"
+            }
+          ]
+        }
+      ],
+      "note": "부정 N24(과도통제)·N15-07(과잉보호)의 긍정 대칭축이 T15로 채워짐(비대칭 교정 완료)."
+    },
+    "abusive_supervision": {
+      "dimensions": [
+        "Sustained Hostility(지속적 적대)",
+        "Verbal Abuse(언어적 학대)",
+        "Belittling(비하)"
+      ],
+      "dimensions_source": {
+        "cite": "Tepper, Consequences of Abusive Supervision (AMJ)",
+        "url": "https://journals.aom.org/doi/abs/10.5465/1556375",
+        "doi": "10.5465/1556375",
+        "evidence_grade": "E",
+        "peer_reviewed": true
+      },
+      "trait_links": [
+        {
+          "trait": "T107",
+          "instantiates": "Sustained Hostility / Verbal Abuse",
+          "why": "지속적 적대·모욕·비하 = 학대적 감독의 핵심",
+          "causal_grade": "이론연역",
+          "rival": "일회성 질책·업무 비판과 구분 필요",
+          "disconfirm": "비판이 업무 한정·일회성·건설적이면 학대 아님",
+          "key_micros": [
+            {
+              "id": "N40-01",
+              "why": "지속적 적대·모욕이 학대의 변별 행동(앵커)"
+            }
+          ]
+        }
+      ],
+      "note": "Schmidt 5차원 중 abusive supervision을 N15(심리안전파괴)에서 분리해 T107로 독립 → 권위주의(T102 통제)와 학대(T107 적대)의 인과를 구분."
+    },
+    "shared_distributed": {
+      "note": "팀 수준 구성개념 — 개인 trait↔micro 인과 사슬의 범위 밖. 개인 다면평가로는 인과 측정 불가."
+    },
+    "identity_social": {
+      "note": "인과: 리더가 '우리(공유 정체성)'를 대표·전진·창출·정착 → 집단 동일시·추종(Steffens 2021). 현재 '우리 관리' 행동 micro 부재 → 신규 micro 필요(장기, 문장단위 탐지 난이도)."
+    },
+    "humble": {
+      "note": "인과: 자기 한계 인정·타인 강점 인정·학습 개방 → 신뢰·팀 학습(Chiu 2023). 서번트(T07/T11)·관계축과 인접 → 별도보다 서번트 하위 흡수가 인과적으로 절약적."
+    },
+    "inclusive": {
+      "note": "인과: 개방·접근가능·구성원 기여 인정 → 소속감·심리적 안전(현재 M15군)·참여. 심리적 안전 micro(M15)가 이미 일부 담음 → 관계축 강화로 흡수 가능."
+    },
+    "green_environmental": {
+      "note": "인과: (환경특화) 비전·동기부여 → 녹색 조직풍토·녹색 몰입 → 직원 녹색행동/OCBE. 이는 *변혁적의 인과를 환경 도메인에 적용*한 것 → 새 trait이 아니라 context(sustainability) 차원으로 모델링해야 인과 중복을 피함."
+    },
+    "participative": {
+      "dimensions": [
+        "Consultation(협의)",
+        "Joint Decision-Making(공동 의사결정)",
+        "Information Sharing(정보 공유)"
+      ],
+      "dimensions_source": {
+        "cite": "Xu et al. (AMJ)",
+        "url": "https://journals.aom.org/doi/10.5465/amj.2013.0427",
+        "doi": "10.5465/amj.2013.0427",
+        "evidence_grade": "E",
+        "peer_reviewed": true
+      },
+      "trait_links": [
+        {
+          "trait": "T02",
+          "instantiates": "Consultation + Joint Decision-Making",
+          "why": "구성원 의견을 구하고 공동으로 결정 = 참여적 리더십의 핵심 행동",
+          "causal_grade": "수렴근거",
+          "rival": "협의가 형식적 동의 구하기(가짜 참여)이거나, 결정 회피(방임 T101)일 수 있음",
+          "disconfirm": "의견 수렴이 실제 결정에 반영되지 않고 독단(N19-01) 동반 시 참여 인과 무효",
+          "key_micros": [
+            {
+              "id": "M11-01",
+              "why": "경청이 협의의 출발 행동"
+            },
+            {
+              "id": "M15-03",
+              "why": "정보 공유가 공동 의사결정의 조건"
+            }
+          ]
+        }
+      ]
+    },
+    "behavioral_integrity": {
+      "dimensions": [
+        "Word-Deed Alignment(말-행동 정렬)",
+        "Promise Keeping(약속 이행)",
+        "Transparency(투명성)"
+      ],
+      "dimensions_source": {
+        "cite": "Simons (Organization Science)",
+        "url": "https://pubsonline.informs.org/doi/10.1287/orsc.13.1.18.543",
+        "doi": "10.1287/orsc.13.1.18.543",
+        "evidence_grade": "E",
+        "peer_reviewed": true
+      },
+      "trait_links": [
+        {
+          "trait": "T103",
+          "instantiates": "Word-Deed Misalignment (낮은 행동적 진실성)",
+          "why": "말과 행동의 불일치·약속 미이행·정보 은폐 = 행동적 진실성의 위반",
+          "causal_grade": "이론연역",
+          "rival": "상황 변화로 인한 불가피한 말 바꿈(정직한 수정)일 수 있음",
+          "disconfirm": "불일치가 외부 요인으로 설명되고 투명하게 고지되면 integrity 위반 아님",
+          "key_micros": [
+            {
+              "id": "N30-01",
+              "why": "언행 불일치가 위반의 직접 행동(앵커)"
+            },
+            {
+              "id": "N28-01",
+              "why": "정보 은폐 = 투명성 위반"
+            },
+            {
+              "id": "N34-01",
+              "why": "데이터 조작 = 진실성 위반의 강한 형태"
+            }
+          ]
+        }
+      ]
+    },
+    "initiating_structure": {
+      "dimensions": [
+        "Initiating Structure(과업 구조화)",
+        "역할·기대 명확화",
+        "성과 모니터링"
+      ],
+      "dimensions_source": {
+        "cite": "Judge et al. (JAP)",
+        "url": "https://psycnet.apa.org/doi/10.1037/0021-9010.89.1.36",
+        "doi": "10.1037/0021-9010.89.1.36",
+        "evidence_grade": "M",
+        "peer_reviewed": true
+      },
+      "trait_links": [
+        {
+          "trait": "T01",
+          "instantiates": "Initiating Structure(방향·구조 제시)",
+          "why": "목표 기반의 명확한 결정과 구조 부여 = 과업 구조화",
+          "causal_grade": "수렴근거",
+          "rival": "독단(N19-01)과 표면 유사",
+          "disconfirm": "구조화가 일방 통제로 기능하면 IS 아님",
+          "key_micros": [
+            {
+              "id": "M36-01",
+              "why": "전략적 결단이 과업 구조화의 변별 행동(앵커)"
+            },
+            {
+              "id": "M01-01",
+              "why": "명확한 방향 제시"
+            }
+          ]
+        },
+        {
+          "trait": "T06",
+          "instantiates": "Initiating Structure(실행 추진·모니터링)",
+          "why": "실행을 추진하고 성과를 모니터링 = 과업 구조화의 실행 측면",
+          "causal_grade": "수렴근거",
+          "rival": "과도 통제(N24-01)와 표면 유사",
+          "disconfirm": "성과 압박이 학대 동반 시 IS 아님",
+          "key_micros": [
+            {
+              "id": "M44-02",
+              "why": "성취지향 실행이 변별 행동(앵커)"
+            },
+            {
+              "id": "M10-01",
+              "why": "실행 추진"
+            }
+          ]
+        },
+        {
+          "trait": "T10",
+          "instantiates": "Initiating Structure(전략→실행 구조화)",
+          "why": "전략적 자원배분과 실행 구조화",
+          "causal_grade": "논쟁",
+          "rival": "T01·T06과 중복(과업축)",
+          "disconfirm": "고유 변별이 없으면 별도 trait 불성립 → 통합 후보(요인분석 필요)",
+          "key_micros": [
+            {
+              "id": "M27-01",
+              "why": "전략적 자원배분이 변별 행동(앵커)"
+            },
+            {
+              "id": "M10-02",
+              "why": "실행 완수"
+            }
+          ]
+        }
+      ],
+      "note": "T01·T06·T10은 Initiating Structure를 공유 = 과업축 중복 클러스터. 통합/유지는 수렴·변별 타당도(요인분석=데이터)로 결정. 현재는 공유부모 명시로 구성타당도 백로그를 *가시화*만."
+    },
+    "ambidextrous": {
+      "dimensions": [
+        "Opening behaviors(탐색 촉진)",
+        "Closing behaviors(활용·정렬)",
+        "유연한 전환"
+      ],
+      "dimensions_source": {
+        "cite": "Rosing et al. (LQ)",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1048984311001019",
+        "doi": "10.1016/j.leaqua.2011.07.014",
+        "evidence_grade": "E",
+        "peer_reviewed": true
+      },
+      "trait_links": [
+        {
+          "trait": "T12",
+          "instantiates": "Opening + Closing 균형(탐색-활용 전환)",
+          "why": "탐색(혁신 장려)과 활용(운영 안정·정렬)을 상황에 맞게 균형 = ambidextrous",
+          "causal_grade": "수렴근거",
+          "rival": "특색 없는 residual(평균)로 보일 수 있음",
+          "disconfirm": "탐색·활용 전환 행동이 관측되지 않고 단순 중간값이면 ambidextrous 아님(폐기 대상)",
+          "key_micros": [
+            {
+              "id": "M24-01",
+              "why": "운영 안정 = closing(활용) 행동"
+            },
+            {
+              "id": "M28-01",
+              "why": "정보 공유 = 정렬"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

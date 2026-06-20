@@ -1,0 +1,14 @@
+{
+  "label_id": "M21-02",
+  "label_name": "실패 수용 및 회복",
+  "macro": "L21",
+  "weight": 0.7,
+  "definition": "실패를 학습 기회로 삼고 빠르게 회복",
+  "when": "실패 감싸기, 복구 지원, 실패 분석 후 재시도, 탄력성 발휘",
+  "not_when": "실패 처벌, 실패 숨기기",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.0,
+    "innovation": 1.2
+  }
+}

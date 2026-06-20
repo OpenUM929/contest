@@ -1,0 +1,15 @@
+{
+  "label_id": "M33-02",
+  "label_name": "부당행위 대응",
+  "macro": "L33",
+  "weight": 0.7,
+  "when": "부당한 지시 거절, 원칙 수호",
+  "not_when": "누군가 손해 봄",
+  "definition": "부당한 지시나 행위에 대해 당당히 거절하고 대응",
+  "context_weight": {
+    "crisis": 1.3,
+    "normal": 1.0,
+    "innovation": 1.0
+  },
+  "core": true
+}

@@ -1,0 +1,15 @@
+{
+  "label_id": "N31-01",
+  "label_name": "차별 행동",
+  "macro": "N31",
+  "penalty": 0.7,
+  "weight": 0.8,
+  "definition": "특정인을 차별하고 불공정하게 대우",
+  "when": "성별, 학벌, 연차 등으로 차별적 대우",
+  "not_when": "모든 구성원을 공정하게 대우; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

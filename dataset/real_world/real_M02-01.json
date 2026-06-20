@@ -1,0 +1,127 @@
+{
+  "label_id": "M02-01",
+  "label_name": "내재적 동기 자극",
+  "total": 5,
+  "updated": "2026-05-06 14:52:21",
+  "entries": [
+    {
+      "text": "사전 질문 의사결정을 할때: 개인적 편향 조심하기 자기 인식의 3단계 1 기본적 자기 인식: 강점, 약점, 가치관, 성격 특성에 대한 이해 2 상황적 자기 인식: 다양한 맥락에서의 반응과 행동 패턴 인식 3 메타 인지적 자기 인식: 자신의 사고 과정을 객관적으로 관찰하는 능력 PM의 제품 의사결정 렌즈 이해 자신의 제품 철학 명료화하기 어떤 제품에 ...",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M02-01",
+          "label_name": "내재적 동기 자극",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M03-02",
+          "label_name": "창의적 질문",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        },
+        {
+          "label_id": "M06-02",
+          "label_name": "세부 실행 지침",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "사전 질문 1.상호 신뢰 2.명확한 공동목표 3.효과적인 의사소통 4.다양성의 가치 5.집단책임 리더십 봉사로서의 리더십 2.존재의 영향력 3.공간 창조 5.자기초월 1.비전 제시 2.영감과 동기부여 진정성 결정과 책임 적응과 혁신:피벗용기 타인의 성장 촉진",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M01-01",
+          "label_name": "명확한 비전 제시",
+          "match_score": 2,
+          "reason": "keyword matches 2/11"
+        },
+        {
+          "label_id": "M02-01",
+          "label_name": "내재적 동기 자극",
+          "match_score": 2,
+          "reason": "keyword matches 2/8"
+        },
+        {
+          "label_id": "M02-02",
+          "label_name": "성장 기회 제공",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "과거의 집권적 관리의 경우에 지휘는 명령이라는 형태를 취하지만, 오늘날 분권적 관리에서는 지휘가 동기부여라는 형태로 변화함 (자발적 업무수행)목적조화의 원칙 : 조직구성원의 목적과 조직의 목적의 조화명령통일의 원칙직접감독의 원칙감독기술의 원칙리더십 : 특정한 집단의 목",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M02-01",
+          "label_name": "내재적 동기 자극",
+          "match_score": 2,
+          "reason": "keyword matches 2/8"
+        },
+        {
+          "label_id": "M05-01",
+          "label_name": "변화 필요 성명",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "사전 질문 기업가 정신?-> 의미 있는 문제를 찾고 해결책을 찾는 과정 미션의 본질: 왜 우리 제품이 존재하는가? (시간이 지나도 변하지 않는 핵심 가치) 좋은 미션의 특징: 영감, 명확함, 차별성, 지속가능성 사고 확장: 이 미션이 달성된 세상은 어떤 모습일까?? 미션 기준: 10년후에도 유효할까? 비전의 본질: 우리 제품은 어디로 가고있는가?...",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M01-01",
+          "label_name": "명확한 비전 제시",
+          "match_score": 2,
+          "reason": "keyword matches 2/11"
+        },
+        {
+          "label_id": "M02-01",
+          "label_name": "내재적 동기 자극",
+          "match_score": 2,
+          "reason": "keyword matches 2/8"
+        },
+        {
+          "label_id": "M03-02",
+          "label_name": "창의적 질문",
+          "match_score": 2,
+          "reason": "keyword matches 2/9"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "BDCTP GLOBAL 거래소 시장 리더십 강화: 비트코인 가치 성장 예측 아래의 전략 및 혁신",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M01-02",
+          "label_name": "장기 방향 설정",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        },
+        {
+          "label_id": "M02-01",
+          "label_name": "내재적 동기 자극",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M02-02",
+          "label_name": "성장 기회 제공",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        }
+      ],
+      "status": "unverified"
+    }
+  ]
+}

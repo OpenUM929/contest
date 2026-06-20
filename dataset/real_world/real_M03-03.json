@@ -1,0 +1,115 @@
+{
+  "label_id": "M03-03",
+  "label_name": "새로운 접근 유도",
+  "total": 5,
+  "updated": "2026-05-06 14:52:21",
+  "entries": [
+    {
+      "text": "전통적 리더십 연구 아이오와 대학 연구(권위적/민주적/자유방임적 리더십 실험) 오하이오 주립 대학 연구(구조조도 행동 vs 배려 행동) 미시간 대학 연구(직무중심형 vs 인간관계 중심형 리더십) Blake & Mouton 관리 격자 모형(생",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M03-03",
+          "label_name": "새로운 접근 유도",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "발명에 실패하기 위한 최고의 방법은 그 일을 누군가에게 파트타임 업무로 맡기는 것이다. 속력과 방향을 모두 측정하는 지표 '속도' > - 어떻게 신속한 혁신을 이뤄냈는지, 더불어 관료주의의 유혹은 어떻게 떨쳐냈는지 숱한 질문을 받는다. 비슷한 규모의 회사에서 공통적으로 발견되는 정체 현상을 이겨내고, 모두를 깜짝 놀래킨 민첩함을 유지할 수 있었을까? 답은...",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M01-01",
+          "label_name": "명확한 비전 제시",
+          "match_score": 1,
+          "reason": "keyword matches 1/11"
+        },
+        {
+          "label_id": "M03-02",
+          "label_name": "창의적 질문",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        },
+        {
+          "label_id": "M03-03",
+          "label_name": "새로운 접근 유도",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "많은 개발자들이 새로운 서비스를 만드는 것을 좋아하는 만큼 좋은 팀 문화에서 일을 하는 것을 고대합니다. 이번 팀 프로젝트를 진행하기에 앞서서 팀원들과 함께 건강한 팀에 대해 이야기를 나누고 우리 팀만의 문화를 정립하는 시간을 가졌습니다. 좋은 팀 문화를 생각하기에 앞",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M03-03",
+          "label_name": "새로운 접근 유도",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M07-02",
+          "label_name": "성장 지향 피드백",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "새로운 팀원들을 만나고 소통을 하며 프로젝트를 진행해 나가며 고민하면 좋았던 것들을 기억해봅니다.",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M03-03",
+          "label_name": "새로운 접근 유도",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "국내 1위 오픈 소스 개발자의 경험을 바탕으로 오픈 소스에 대한 전반적인 생태계, 메인테이너를 위한 오픈 소스 라이프사이클에 대한 지침, 오픈 소스 프로젝트를 개인과 기업 모두를 위해 성공적인 벤처로 전환하기 위한 전략에 대하여 살펴봅니다.",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M01-02",
+          "label_name": "장기 방향 설정",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        },
+        {
+          "label_id": "M03-03",
+          "label_name": "새로운 접근 유도",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M05-02",
+          "label_name": "변화 실행 장려",
+          "match_score": 1,
+          "reason": "keyword matches 1/7"
+        }
+      ],
+      "status": "unverified"
+    }
+  ]
+}

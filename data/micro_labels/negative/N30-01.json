@@ -1,0 +1,15 @@
+{
+  "label_id": "N30-01",
+  "label_name": "말과 행동 불일치",
+  "macro": "N30",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "말한 것과 실제 행동이 다름",
+  "when": "약속한 것을 지키지 않음, 말과 행동 불일치",
+  "not_when": "언행 일치와 일관성 유지; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

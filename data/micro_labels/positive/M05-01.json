@@ -1,0 +1,14 @@
+{
+  "label_id": "M05-01",
+  "label_name": "변화 필요 성명",
+  "macro": "L05",
+  "weight": 0.7,
+  "definition": "현상 유지의 한계를 지적하고 변화 필요성 역설",
+  "when": "변화 필요성 강조, 현状 타파 선언, 혁신 필요성 역설",
+  "not_when": "현状 유지 주장",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

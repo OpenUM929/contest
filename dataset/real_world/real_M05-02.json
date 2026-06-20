@@ -1,0 +1,58 @@
+{
+  "label_id": "M05-02",
+  "label_name": "변화 실행 장려",
+  "total": 2,
+  "updated": "2026-05-06 14:52:21",
+  "entries": [
+    {
+      "text": "멘토링과 코칭의 차이 멘토: 지혜의 말을 조금씩 나눠 주는 조언자 코치: 소매를 걷어붙이고 손을 더럽혀 가며 직접 가르치는 실천자 멘토는 경험을 공유하지만, 코치는 실제 행동으로 이끎평가의 세 가지 핵심 영역 제품 지식: 모든 것의 기초 프로세스 기술: 실행의",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M01-04",
+          "label_name": "비전 공유",
+          "match_score": 1,
+          "reason": "keyword matches 1/7"
+        },
+        {
+          "label_id": "M02-02",
+          "label_name": "성장 기회 제공",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        },
+        {
+          "label_id": "M05-02",
+          "label_name": "변화 실행 장려",
+          "match_score": 1,
+          "reason": "keyword matches 1/7"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "국내 1위 오픈 소스 개발자의 경험을 바탕으로 오픈 소스에 대한 전반적인 생태계, 메인테이너를 위한 오픈 소스 라이프사이클에 대한 지침, 오픈 소스 프로젝트를 개인과 기업 모두를 위해 성공적인 벤처로 전환하기 위한 전략에 대하여 살펴봅니다.",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M01-02",
+          "label_name": "장기 방향 설정",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        },
+        {
+          "label_id": "M03-03",
+          "label_name": "새로운 접근 유도",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M05-02",
+          "label_name": "변화 실행 장려",
+          "match_score": 1,
+          "reason": "keyword matches 1/7"
+        }
+      ],
+      "status": "unverified"
+    }
+  ]
+}

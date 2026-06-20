@@ -1,0 +1,15 @@
+{
+  "label_id": "M21-01",
+  "label_name": "학습 및 디지털 민첩성",
+  "macro": "L21",
+  "weight": 0.7,
+  "core": true,
+  "definition": "새로운 기술과 지식을 빠르게 습득하고 적용",
+  "when": "새로운 도구 학습, 디지털 역량 강화, 빠른 학습,技术 습득",
+  "not_when": "새로운 것 거부, 고정관념",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

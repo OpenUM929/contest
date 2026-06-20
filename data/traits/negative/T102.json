@@ -1,0 +1,42 @@
+{
+  "trait_id": "T102",
+  "trait_type": "negative",
+  "trait_name": "Risk: Authoritarian",
+  "required": [
+    "N15-03",
+    "N19-01"
+  ],
+  "optional": [
+    "N04-02",
+    "N03-01",
+    "N03-02",
+    "N03-03",
+    "N05-01",
+    "N05-02",
+    "N05-03",
+    "N07-01",
+    "N07-02",
+    "N15-01",
+    "N15-02",
+    "N15-04",
+    "N15-05",
+    "N15-06",
+    "N24-01",
+    "N10-02"
+  ],
+  "hard_forbidden": [],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 0.9
+  },
+  "hybrid_eligible": false,
+  "k_trait": 0.9,
+  "description": "과도한 권위주의 성향",
+  "strengths": [],
+  "risks": [
+    "팀 반발",
+    "창의성 저해"
+  ]
+}

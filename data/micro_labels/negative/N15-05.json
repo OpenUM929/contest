@@ -1,0 +1,15 @@
+{
+  "label_id": "N15-05",
+  "label_name": "불신 조장",
+  "macro": "N15",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "팀원들을 서로 불신하게 만듦",
+  "when": "팀원 간 갈등 유발, 의심 조장",
+  "not_when": "신뢰 기반 팀 문화 조성; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

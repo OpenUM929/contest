@@ -1,0 +1,179 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Leadership Evaluation Data Schema v2.0",
+  "description": "리더십 성향 추론 엔진 데이터 구조 검증 스키마",
+  "definitions": {
+    "micro_label": {
+      "type": "object",
+      "required": ["micro_code", "micro_label", "definition", "semantic_keywords", "dimension", "parent_label", "weight", "conflict_axis", "relations", "difficulty_level", "frequency_weight"],
+      "properties": {
+        "micro_code": {"type": "string", "pattern": "^[MN]\\d{2}-\\d{2}$"},
+        "micro_label": {"type": "string", "maxLength": 50},
+        "definition": {"type": "string"},
+        "semantic_keywords": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+        "dimension": {"type": "array", "items": {"type": "string", "enum": ["behavioral", "emotional", "cognitive"]}},
+        "parent_label": {"type": "string", "pattern": "^[LN]\\d{2}$"},
+        "weight": {"type": "number", "minimum": 0, "maximum": 1},
+        "conflict_axis": {"type": "string"},
+        "relations": {
+          "type": "object",
+          "properties": {
+            "contributesTo": {"type": "array", "items": {"$ref": "#/definitions/relation"}},
+            "conflictsWith": {"type": "array", "items": {"type": "string"}},
+            "relatedTo": {"type": "array", "items": {"$ref": "#/definitions/relation"}}
+          }
+        },
+        "difficulty_level": {"type": "string", "enum": ["easy", "medium", "hard"]},
+        "frequency_weight": {"type": "number", "minimum": 0}
+      }
+    },
+    "relation": {
+      "type": "object",
+      "required": ["label", "weight", "direction", "reason"],
+      "properties": {
+        "label": {"type": "string"},
+        "weight": {"type": "number"},
+        "direction": {"type": "string", "enum": ["positive", "negative"]},
+        "reason": {"type": "string"}
+      }
+    },
+    "trait": {
+      "type": "object",
+      "required": ["trait_id", "trait_name", "description", "context_weight", "required", "optional", "hard_forbidden", "soft_forbidden", "hybrid_eligible", "strengths", "risks", "theory_mapping"],
+      "properties": {
+        "trait_id": {"type": "string", "pattern": "^T\\d{2}$"},
+        "trait_name": {"type": "string"},
+        "description": {"type": "string"},
+        "context_weight": {
+          "type": "object",
+          "patternProperties": {
+            "^(crisis|normal|innovation)$": {
+              "type": "object",
+              "properties": {
+                "required_multiplier": {"type": "number", "minimum": 0}
+              }
+            }
+          }
+        },
+        "required": {"type": "array", "items": {"$ref": "#/definitions/trait_micro_requirement"}},
+        "optional": {"type": "array", "items": {"$ref": "#/definitions/trait_micro_requirement"}},
+        "hard_forbidden": {"type": "array", "items": {"type": "string"}},
+        "soft_forbidden": {"type": "array", "items": {"$ref": "#/definitions/trait_micro_penalty"}},
+        "hybrid_eligible": {"type": "array", "items": {"$ref": "#/definitions/hybrid_eligible"}},
+        "strengths": {"type": "array", "items": {"type": "string"}},
+        "risks": {"type": "array", "items": {"type": "string"}},
+        "theory_mapping": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "trait_micro_requirement": {
+      "type": "object",
+      "required": ["micro_code", "min_confidence", "weight"],
+      "properties": {
+        "micro_code": {"type": "string"},
+        "min_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "weight": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "trait_micro_penalty": {
+      "type": "object",
+      "required": ["micro_code", "penalty"],
+      "properties": {
+        "micro_code": {"type": "string"},
+        "penalty": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "hybrid_eligible": {
+      "type": "object",
+      "required": ["target_trait", "hybrid_name"],
+      "properties": {
+        "target_trait": {"type": "string"},
+        "hybrid_name": {"type": "string"}
+      }
+    },
+    "evaluation_output": {
+      "type": "object",
+      "required": ["primary_trait", "secondary_traits", "conflict_flags", "risks", "evidence", "theory_mapping"],
+      "properties": {
+        "primary_trait": {"$ref": "#/definitions/trait_result"},
+        "secondary_traits": {"type": "array", "items": {"$ref": "#/definitions/trait_result"}},
+        "hybrid_trait": {"$ref": "#/definitions/hybrid_result"},
+        "conflict_flags": {"type": "object", "additionalProperties": {"$ref": "#/definitions/conflict_flag"}},
+        "risks": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "array", "items": {"$ref": "#/definitions/evidence"}},
+        "theory_mapping": {"$ref": "#/definitions/theory_mapping_output"}
+      }
+    },
+    "trait_result": {
+      "type": "object",
+      "required": ["trait_id", "trait_name", "strength", "confidence"],
+      "properties": {
+        "trait_id": {"type": "string"},
+        "trait_name": {"type": "string"},
+        "strength": {"type": "string", "enum": ["Strong", "Moderate", "Weak"]},
+        "confidence": {"type": "string", "enum": ["High", "Medium", "Low"]},
+        "context": {"type": "string"},
+        "context_adjustment": {"type": "string"}
+      }
+    },
+    "hybrid_result": {
+      "type": "object",
+      "required": ["name", "components"],
+      "properties": {
+        "name": {"type": "string"},
+        "components": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "conflict_flag": {
+      "type": "object",
+      "required": ["type", "message"],
+      "properties": {
+        "type": {"type": "string", "enum": ["hard_conflict", "soft_conflict"]},
+        "message": {"type": "string"}
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["micro_code", "confidence"],
+      "properties": {
+        "micro_code": {"type": "string"},
+        "confidence": {"type": "number"},
+        "count": {"type": "integer"},
+        "context_consistency": {"type": "number"}
+      }
+    },
+    "theory_mapping_output": {
+      "type": "object",
+      "required": ["primary", "validation_note"],
+      "properties": {
+        "primary": {"type": "array", "items": {"type": "string"}},
+        "validation_note": {"type": "string"}
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "type": "object",
+      "required": ["schema_version", "type", "total_count", "description", "micro_labels"],
+      "properties": {
+        "schema_version": {"type": "string"},
+        "type": {"type": "string", "enum": ["positive", "negative"]},
+        "total_count": {"type": "integer"},
+        "description": {"type": "string"},
+        "micro_labels": {"type": "array", "items": {"$ref": "#/definitions/micro_label"}}
+      }
+    },
+    {
+      "type": "object",
+      "required": ["schema_version", "total_traits", "description", "traits"],
+      "properties": {
+        "schema_version": {"type": "string"},
+        "total_traits": {"type": "integer"},
+        "description": {"type": "string"},
+        "traits": {"type": "array", "items": {"$ref": "#/definitions/trait"}}
+      }
+    },
+    {
+      "$ref": "#/definitions/evaluation_output"
+    }
+  ]
+}

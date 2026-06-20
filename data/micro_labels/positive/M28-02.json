@@ -1,0 +1,14 @@
+{
+  "label_id": "M28-02",
+  "label_name": "포용성 및 다양성 존중",
+  "macro": "L28",
+  "weight": 0.7,
+  "definition": "다양한 배경과 의견을 포용하고 존중",
+  "when": "다양성 존중, 포용적 문화, 차별 없는 환경, 다양한 의견 수용",
+  "not_when": "특정 집단 선호, 차별적 대우",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

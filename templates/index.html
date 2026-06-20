@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리더십 분석 시스템</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar Toggle Button (Mobile) -->
+    <button class="sidebar-toggle" id="sidebarToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <span class="logo-icon">📊</span>
+                <span class="logo-text">리더십 분석</span>
+            </div>
+            <button class="sidebar-close" id="sidebarClose">&times;</button>
+        </div>
+
+        <ul class="menu-list">
+            <!-- 분석 Menu -->
+            <li class="menu-item has-submenu">
+                <div class="menu-header">
+                    <span class="menu-icon">📈</span>
+                    <span class="menu-title">분석</span>
+                    <span class="submenu-arrow expanded"></span>
+                </div>
+                <ul class="submenu">
+                    <li class="submenu-item">
+                        <a href="#" class="menu-link" data-page="dashboard" data-url="/dashboard">
+                            <span class="link-icon">📋</span>
+                            <span>대시보드</span>
+                        </a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="#" class="menu-link" data-page="bulk-analysis" data-url="/bulk">
+                            <span class="link-icon">📑</span>
+                            <span>대규모 분석</span>
+                        </a>
+                    </li>
+                    <li class="submenu-item active">
+                        <a href="#" class="menu-link" data-page="single-analysis" data-url="/">
+                            <span class="link-icon">🔍</span>
+                            <span>개별 분석</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- 테스트 Menu -->
+            <li class="menu-item has-submenu">
+                <div class="menu-header">
+                    <span class="menu-icon">📝</span>
+                    <span class="menu-title">테스트</span>
+                    <span class="submenu-arrow"></span>
+                </div>
+                <ul class="submenu collapsed">
+                    <li class="submenu-item">
+                        <a href="#" class="menu-link" data-page="quiz-test">
+                            <span class="link-icon">✅</span>
+                            <span>선택형 테스트</span>
+                            <span class="badge">30</span>
+                        </a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="#" class="menu-link" data-page="situation-test">
+                            <span class="link-icon">🎴</span>
+                            <span>상황 카드</span>
+                            <span class="badge">8</span>
+                        </a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="#" class="menu-link" data-page="hybrid-test">
+                            <span class="link-icon">🔀</span>
+                            <span>복합 테스트</span>
+                            <span class="badge">3</span>
+                        </a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="#" class="menu-link" data-page="negative-test">
+                            <span class="link-icon">⚠️</span>
+                            <span>부정 탐지</span>
+                            <span class="badge warning">10</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <!-- 설정 Menu -->
+            <li class="menu-item has-submenu">
+                <div class="menu-header">
+                    <span class="menu-icon">⚙️</span>
+                    <span class="menu-title">설정</span>
+                    <span class="submenu-arrow"></span>
+                </div>
+                <ul class="submenu collapsed">
+                    <li class="submenu-item">
+                        <a href="#" class="menu-link" data-page="api-settings">
+                            <span class="link-icon">🔑</span>
+                            <span>API 설정</span>
+                        </a>
+                    </li>
+                    <li class="submenu-item">
+                        <a href="#" class="menu-link" data-page="label-management">
+                            <span class="link-icon">🏷️</span>
+                            <span>라벨 관리</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <div class="user-info">
+                <div class="user-avatar">L</div>
+                <div class="user-details">
+                    <span class="user-name">Leader</span>
+                    <span class="user-role">Analyzer</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Overlay for mobile -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Main Content -->
+    <div class="main-content" id="mainContent">
+        <!-- Header -->
+        <header class="header">
+            <h1>리더십 분석 시스템</h1>
+            <p class="subtitle">Micro Label 추출 + Trait 추론</p>
+        </header>
+
+        <!-- Test Section (Hidden by default) -->
+        <div class="test-section" id="testSection" style="display: none;">
+            <div class="test-header" id="testHeader"></div>
+            <div id="progressBar" class="progress-bar"></div>
+            <div id="testContent" class="test-content"></div>
+            <div class="test-navigation">
+                <button id="prevBtn" class="btn btn-secondary" disabled>이전</button>
+                <button id="nextBtn" class="btn btn-primary">다음</button>
+                <button id="submitBtn" class="btn btn-primary" style="display: none;">제출</button>
+            </div>
+        </div>
+
+        <!-- Random Examples Section -->
+        <div class="examples-section" id="examplesSection">
+            <div class="panel">
+                <div class="examples-header">
+                    <h2>테스트 예제</h2>
+                    <select id="traitFilter" class="filter-select">
+                        <option value="">전체</option>
+                        <optgroup label="📊 Positive Traits">
+                            <option value="T01">T01: Strategic Decisive</option>
+                            <option value="T02">T02: Collaborative</option>
+                            <option value="T03">T03: Innovative</option>
+                            <option value="T04">T04: Crisis Manager</option>
+                            <option value="T05">T05: Analytical</option>
+                            <option value="T06">T06: Execution Driver</option>
+                            <option value="T07">T07: Coaching</option>
+                            <option value="T08">T08: Emotional Intelligence</option>
+                            <option value="T09">T09: Visionary</option>
+                            <option value="T12">T12: Balanced</option>
+                            <option value="T13">T13: Ethical Courageous</option>
+                            <option value="T14">T14: Learning Agile</option>
+                        </optgroup>
+                        <optgroup label="⚠️ Negative Traits">
+                            <option value="T101">T101: Avoidant</option>
+                            <option value="T102">T102: Authoritarian</option>
+                            <option value="T103">T103: Integrity Violation</option>
+                            <option value="T104">T104: Narcissistic</option>
+                            <option value="T105">T105: Manipulative</option>
+                            <option value="T106">T106: Volatile</option>
+                        </optgroup>
+                    </select>
+                    <button id="refreshExamplesBtn" class="btn btn-secondary btn-small">🔄</button>
+                </div>
+                <div id="examplesList" class="examples-list">
+                    <p class="loading-text">예제를 불러오는 중...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pipeline Guide -->
+        <div class="pipeline-guide" id="pipelineGuide">
+            <div class="pipeline-step" data-step="1">
+                <div class="step-icon">1</div>
+                <div class="step-label">Vector DB 검색</div>
+            </div>
+            <div class="pipeline-line"></div>
+            <div class="pipeline-step" data-step="2">
+                <div class="step-icon">2</div>
+                <div class="step-label">임계값 판단</div>
+            </div>
+            <div class="pipeline-line"></div>
+            <div class="pipeline-step" data-step="3">
+                <div class="step-icon">3</div>
+                <div class="step-label">하이브리드 파이프라인</div>
+            </div>
+            <div class="pipeline-line"></div>
+            <div class="pipeline-step" data-step="4">
+                <div class="step-icon">4</div>
+                <div class="step-label">후처리</div>
+            </div>
+            <div class="pipeline-line"></div>
+            <div class="pipeline-step" data-step="5">
+                <div class="step-icon">5</div>
+                <div class="step-label">Trait 추론</div>
+            </div>
+            <div class="pipeline-line"></div>
+            <div class="pipeline-step" data-step="6">
+                <div class="step-icon">6</div>
+                <div class="step-label">결과 반환</div>
+            </div>
+        </div>
+
+        <!-- Input Section -->
+        <div class="input-section auto-mode">
+            <div class="panel input-panel">
+                <h2>입력 텍스트</h2>
+                <textarea id="inputText" placeholder="분석할 텍스트를 입력하세요..."></textarea>
+                
+                <div class="mode-selector">
+                    <label class="radio-label">
+                        <input type="radio" name="mode" value="auto" checked>
+                        <span class="radio-custom"></span>
+                        자동 모드 (LLM API 호출)
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="mode" value="manual">
+                        <span class="radio-custom"></span>
+                        수동 모드 (사용자 입력)
+                    </label>
+                </div>
+
+                <div class="llm-selector">
+                    <label for="llmProvider">LLM Provider:</label>
+                    <select id="llmProvider">
+                        <option value="opencode">OpenCode (big-pickle)</option>
+                    </select>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="generatePromptBtn" class="btn btn-secondary">프롬프트 생성</button>
+                    <button id="analyzeBtn" class="btn btn-primary">분석 실행</button>
+                </div>
+            </div>
+
+            <div class="panel llm-panel" id="llmPanel">
+                <h2>LLM 결과 입력 (수동 모드)</h2>
+                <textarea id="llmResponse" placeholder='{
+  "sentences": [
+    {
+      "text": "문장 원문",
+      "context": "crisis",
+      "labels": [
+        {"label_id": "M14-01", "confidence": 0.95}
+      ]
+    }
+  ]
+}'></textarea>
+            </div>
+        </div>
+
+        <!-- Debug Info Section -->
+        <div class="debug-section" id="debugSection" style="display: none;">
+            <h2>디버그 정보 - 파이프라인 단계별 분석</h2>
+            <div class="debug-table-container">
+                <table class="debug-table">
+                    <thead>
+                        <tr>
+                            <th>Step</th>
+                            <th>단계</th>
+                            <th>입력</th>
+                            <th>출력</th>
+                            <th>상세</th>
+                        </tr>
+                    </thead>
+                    <tbody id="debugTableBody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div class="results-section" id="resultsSection" style="display: none;">
+            <!-- Trait Results with % Bar -->
+            <div class="panel result-panel">
+                <h2>Trait 추론 결과 (멀티 %)</h2>
+                <div class="trait-result">
+                    <!-- % 바 차트 -->
+                    <div id="traitPercentageChart" class="trait-percentage-chart"></div>
+                    
+                    <!-- Primary Trait 상세 -->
+                    <div class="primary-trait">
+                        <span class="trait-label">Primary:</span>
+                        <span id="primaryTrait" class="trait-value">-</span>
+                    </div>
+                    <div id="primaryDescription" class="trait-description">-</div>
+                    
+                    <!-- Strengths/Risks -->
+                    <div class="strengths-risks">
+                        <div class="strengths-box">
+                            <h4> Strengths (강점)</h4>
+                            <ul id="strengthsList"></ul>
+                        </div>
+                        <div class="risks-box">
+                            <h4> Risks (리스크)</h4>
+                            <ul id="risksList"></ul>
+                        </div>
+                    </div>
+
+                    <!-- Negative Traits -->
+                    <div class="negative-traits-section" id="negativeTraitsSection" style="display: none;">
+                        <h4>⚠️ 감지된 부정 Trait</h4>
+                        <div id="negativeTraitsList" class="negative-traits-list"></div>
+                    </div>
+
+                    <div class="confidence">
+                        <span class="trait-label">Confidence:</span>
+                        <span id="traitConfidence" class="trait-value">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Important Labels with Details -->
+            <div class="panel result-panel">
+                <h2>주요 Micro Labels</h2>
+                <div id="importantLabels" class="important-labels-grid"></div>
+            </div>
+
+            <!-- Vector DB Results -->
+            <div class="panel result-panel" id="vectorSection" style="display: none;">
+                <h2>Vector DB 검색 결과</h2>
+                <div class="vector-meta" id="vectorMeta"></div>
+                <table class="vector-table">
+                    <thead>
+                        <tr>
+                            <th>순위</th>
+                            <th>Label</th>
+                            <th>신뢰도</th>
+                            <th>거리</th>
+                            <th>정의</th>
+                        </tr>
+                    </thead>
+                    <tbody id="vectorTableBody">
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Extracted Labels -->
+            <div class="panel result-panel">
+                <h2>전체 추출된 Micro Labels</h2>
+                <div id="extractedLabels" class="labels-grid"></div>
+            </div>
+
+            <!-- LLM Response -->
+            <div class="panel result-panel">
+                <h2>LLM 원본 응답</h2>
+                <pre id="llmResponseDisplay" class="code-block"></pre>
+            </div>
+        </div>
+
+        <!-- Error Display -->
+        <div class="error-panel" id="errorPanel" style="display: none;">
+            <h2>오류 발생</h2>
+            <p id="errorMessage"></p>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div class="loading" id="loadingIndicator" style="display: none;">
+            <div class="spinner"></div>
+            <p id="loadingStatus">분석 중...</p>
+            <p id="loadingDetail" class="loading-detail"></p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/test.js') }}"></script>
+</body>
+</html>

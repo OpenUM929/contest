@@ -1,0 +1,15 @@
+{
+  "label_id": "N02-02",
+  "label_name": "보상 과장 약속",
+  "macro": "N02",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "지킬 수 없는 보상을 약속하여 manipulative하게 유도",
+  "when": "실현 불가능한 인센티브 약속, 거짓 보상 제시",
+  "not_when": "명확하고 달성 가능한 보상 체계; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

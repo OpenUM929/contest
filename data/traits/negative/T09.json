@@ -1,0 +1,34 @@
+{
+  "trait_id": "T09",
+  "trait_type": "positive",
+  "trait_name": "Visionary Leader",
+  "required": [
+    "M01-01",
+    "M01-04"
+  ],
+  "optional": [
+    "M01-02",
+    "M02-01",
+    "M04-01",
+    "M04-02"
+  ],
+  "hard_forbidden": [
+    "N01-03"
+  ],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.1,
+    "innovation": 1.3
+  },
+  "hybrid_eligible": true,
+  "k_trait": 1.25,
+  "description": "미래 방향 제시 리더",
+  "strengths": [
+    "방향성 제시",
+    "동기부여"
+  ],
+  "risks": [
+    "현실성 부족"
+  ]
+}

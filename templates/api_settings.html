@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API 설정 - 리더십 분석 시스템</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Sidebar -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <div class="logo">
+                <span class="logo-icon">📊</span>
+                <span class="logo-text">리더십 분석</span>
+            </div>
+        </div>
+        <ul class="menu-list">
+            <li class="menu-item">
+                <a href="/" class="menu-link">
+                    <span class="menu-icon">🔍</span>
+                    <span>개별 분석</span>
+                </a>
+            </li>
+            <li class="menu-item active">
+                <a href="#" class="menu-link">
+                    <span class="menu-icon">🔑</span>
+                    <span>API 설정</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+        <header class="header">
+            <h1>API 설정</h1>
+            <p class="subtitle">OpenCode API 연결 설정</p>
+        </header>
+
+        <div class="settings-section">
+            <div class="panel">
+                <h2>OpenCode API 설정</h2>
+                <p class="description">OpenCode (big-pickle 모델)을 사용하기 위한 API 키를 설정하세요.</p>
+                
+                <div class="form-group">
+                    <label for="opencodeKey">OpenCode API Key</label>
+                    <input type="password" id="opencodeKey" class="form-input" placeholder="OPENCODE_API_KEY 입력">
+                    <span class="form-hint">환경변수 OPENCODE_API_KEY와 동일</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="opencodeUrl">OpenCode Base URL</label>
+                    <input type="text" id="opencodeUrl" class="form-input" value="https://opencode.ai/zen" readonly>
+                    <span class="form-hint">OpenCode Zen 서버 주소</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="opencodeModel">모델 선택</label>
+                    <input type="text" id="opencodeModel" class="form-input" value="big-pickle" readonly>
+                    <span class="form-hint">현재 사용 중인 무료 모델</span>
+                </div>
+
+                <div class="button-group">
+                    <button id="saveBtn" class="btn btn-primary">저장</button>
+                    <button id="testBtn" class="btn btn-secondary">연결 테스트</button>
+                </div>
+
+                <div id="statusMessage" class="status-message" style="display: none;"></div>
+            </div>
+
+            <div class="panel">
+                <h2>현재 설정 상태</h2>
+                <div class="status-grid">
+                    <div class="status-item">
+                        <span class="status-label">OpenCode API</span>
+                        <span id="apiStatus" class="status-value">확인 중...</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">기본 모델</span>
+                        <span class="status-value">big-pickle</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">FlASK DEBUG</span>
+                        <span id="debugStatus" class="status-value">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel info-panel">
+                <h2>ℹ️ OpenCode 사용 안내</h2>
+                <ul>
+                    <li>OpenCode는 <a href="https://opencode.ai" target="_blank">https://opencode.ai</a>에서 API 키를 발급받을 수 있습니다.</li>
+                    <li>big-pickle 모델은 무료로 제공되는 경량화된 모델입니다.</li>
+                    <li>API 키는 서버의 .env 파일에 저장하거나 환경변수로 설정하세요.</li>
+                    <li>현재 시스템은 OpenCode를 기본 LLM 제공자로 사용합니다.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const opencodeKey = document.getElementById('opencodeKey');
+            const saveBtn = document.getElementById('saveBtn');
+            const testBtn = document.getElementById('testBtn');
+            const statusMessage = document.getElementById('statusMessage');
+            const apiStatus = document.getElementById('apiStatus');
+            const debugStatus = document.getElementById('debugStatus');
+
+            // Load current settings
+            fetch('/api/auth/check')
+                .then(r => r.json())
+                .then(data => {
+                    if (data.authenticated) {
+                        apiStatus.textContent = '✅ 인증됨';
+                        apiStatus.className = 'status-value success';
+                    } else {
+                        apiStatus.textContent = '⚠️ API 키 필요';
+                        apiStatus.className = 'status-value warning';
+                    }
+                });
+
+            // Debug status
+            fetch('/api/settings/debug-status')
+                .then(r => r.json())
+                .then(data => {
+                    debugStatus.textContent = data.debug ? 'ON' : 'OFF';
+                    debugStatus.className = 'status-value ' + (data.debug ? 'warning' : 'success');
+                })
+                .catch(() => {
+                    debugStatus.textContent = '알 수 없음';
+                });
+
+            // Save button
+            saveBtn.addEventListener('click', function() {
+                const key = opencodeKey.value.trim();
+                if (!key) {
+                    showStatus('API 키를 입력해주세요.', 'error');
+                    return;
+                }
+
+                // Save to server (through settings API)
+                fetch('/api/settings/save', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        opencode_api_key: key
+                    })
+                })
+                .then(r => r.json())
+                .then(data => {
+                    if (data.success) {
+                        showStatus('✅ API 키가 저장되었습니다.', 'success');
+                    } else {
+                        showStatus('저장 실패: ' + data.message, 'error');
+                    }
+                })
+                .catch(err => {
+                    showStatus('저장 중 오류: ' + err.message, 'error');
+                });
+            });
+
+            // Test button
+            testBtn.addEventListener('click', function() {
+                showStatus('OpenCode API 연결 테스트 중...', 'info');
+                
+                fetch('/api/analyze', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        text: '테스트',
+                        mode: 'auto'
+                    })
+                })
+                .then(r => r.json())
+                .then(data => {
+                    if (data.success || data.error) {
+                        showStatus('✅ OpenCode API 연결 성공', 'success');
+                    }
+                })
+                .catch(err => {
+                    showStatus('❌ 연결 실패: ' + err.message, 'error');
+                });
+            });
+
+            function showStatus(message, type) {
+                statusMessage.textContent = message;
+                statusMessage.className = 'status-message ' + type;
+                statusMessage.style.display = 'block';
+                
+                if (type === 'success') {
+                    setTimeout(() => {
+                        statusMessage.style.display = 'none';
+                    }, 3000);
+                }
+            }
+        });
+    </script>
+</body>
+</html>

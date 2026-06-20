@@ -1,0 +1,14 @@
+{
+  "label_id": "M01-03",
+  "label_name": "목표 정렬",
+  "macro": "L01",
+  "weight": 0.7,
+  "definition": "개인과 조직 목표를 일치시킴",
+  "when": "목표 공유 회의, 개인별 목표 정렬, 팀 목표 일치",
+  "not_when": "개인과 조직 목표 충돌 방치",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "label_id": "M02-01",
+  "label_name": "내재적 동기 자극",
+  "macro": "L02",
+  "weight": 0.8,
+  "core": true,
+  "definition": "보상 없이도 스스로 동기부여하도록 유도",
+  "when": "자율성 부여, 의미 있는 업무 배정, 내적 동기 강조",
+  "not_when": "외부 압박이나 보상에만 의존",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

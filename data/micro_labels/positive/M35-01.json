@@ -1,0 +1,14 @@
+{
+  "label_id": "M35-01",
+  "label_name": "디지털 도구 활용 및 자동화",
+  "macro": "L35",
+  "weight": 0.7,
+  "definition": "디지털 기술과 자동화 도구를 적극 활용",
+  "when": "디지털 도구 도입, 자동화 프로세스 구축, 기술 활용 극대화",
+  "not_when": "디지털 거부, 수동 프로세스 고집",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

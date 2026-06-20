@@ -1,0 +1,14 @@
+{
+  "label_id": "M02-04",
+  "label_name": "목표 몰입 유도",
+  "macro": "L02",
+  "weight": 0.7,
+  "definition": "목표에 집중하고 몰입할 수 있는 환경 조성",
+  "when": "몰입 환경 조성, 방해 요소 제거, 집중 시간 보장",
+  "not_when": "잦은 변경, 집중 방해",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

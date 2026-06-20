@@ -1,0 +1,15 @@
+{
+  "label_id": "N04-01",
+  "label_name": "개인 숭배 유도",
+  "macro": "N04",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "자신을 영웅화하고 의존하도록 조장",
+  "when": "자신의 업적 과시, 타인 의존성 강화",
+  "not_when": "팀의 성과 강조, 겸손한 리더십; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

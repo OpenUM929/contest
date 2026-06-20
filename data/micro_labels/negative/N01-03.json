@@ -1,0 +1,15 @@
+{
+  "label_id": "N01-03",
+  "label_name": "방향성 불일치",
+  "macro": "N01",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "말과 행동의 방향이 서로 다름",
+  "when": "말로는 혁신을 강조하면서 구태의연한 행동",
+  "not_when": "일관된 방향성 유지; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.2
+  }
+}

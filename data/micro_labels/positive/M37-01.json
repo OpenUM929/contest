@@ -1,0 +1,14 @@
+{
+  "label_id": "M37-01",
+  "label_name": "AI 및 기술 기반 혁신 주도",
+  "macro": "L37",
+  "weight": 0.7,
+  "definition": "AI와 신기술을 활용해 조직 혁신 주도",
+  "when": "AI 도입 주도, 신기술 실험, 디지털 전환 리딩",
+  "not_when": "기술 회피, 아날로그 고집",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

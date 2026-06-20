@@ -1,0 +1,1308 @@
+{
+  "schema_version": "2026-06-v4",
+  "micro_label_mapping_version": "v2.1_full_negative_complete",
+  "type": "negative",
+  "total_count": 80,
+  "documentation": {
+    "overview": "Negative Micro Labels (58) - Complete with when/not_when/definition",
+    "design_principles": [
+      "각 Micro Label은 실제 관찰 가능한 행동 단위로 정의",
+      "penalty는 Trait 감소, weight는 Risk 강화",
+      "critical은 단일 발생으로도 Trait 붕괴 가능",
+      "context_weight는 상황별 영향도 조정",
+      "when: 부정 라벨이 탐지되는 명확한 상황",
+      "not_when: 오탐(False Positive) 방지를 위한 제외 상황"
+    ]
+  },
+  "micro_labels": [
+    {
+      "label_id": "N01-01",
+      "label_name": "비현실적 목표 제시",
+      "macro": "N01",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "달성 불가능한 목표를 설정하고 강요",
+      "when": "근거 없이 무리한 목표 지시, 불가능한 데드라인 강제 | 예시: '내일까지 3개월치 작업을 끝내세요', '불가능한 건 없어요 무조건 해야 합니다', '이번 달에 매출을 3배로 올리세요'",
+      "not_when": "도전적이지만 달성 가능한 목표 설정; 과거 시제 키워드 포함 시 트리거하지 않음",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N01-02",
+      "label_name": "비전 과장",
+      "macro": "N01",
+      "penalty": 0.4,
+      "weight": 0.5,
+      "definition": "실현 불가능한 미래상을 과장하여 제시",
+      "when": "근거 없는 낙관적 전망, 실현 불가능한 약속 | 예시: '우리 제품이 곧 세계 1위가 될 겁니다', '내년에 IPO 한다고 근거 없이 약속했습니다'",
+      "not_when": "현실적 근거 기반의 비전 제시; 달성 가능한 낙관적 목표",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N01-03",
+      "label_name": "방향성 불일치",
+      "macro": "N01",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "말과 행동의 방향이 서로 다름",
+      "when": "말로는 혁신을 강조하면서 구태의연한 행동 | 예시: '혁신하자고 말하면서 항상 예전 방식만 고집했다', '새로운 시도를 장려한다고 했지만 실제로는 전통적 방법만 사용했다'",
+      "not_when": "말과 행동이 일치하는 경우; 전략적으로 기존 방식을 유지하는 경우",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.2
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N02-01",
+      "label_name": "공포 기반 동기 유도",
+      "macro": "N02",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "두려움을 조장하여 행동을 강요",
+      "when": "해고 인사불이익 등 위협으로 동기 부여 | 예시: '못하면 잘릴 수 있어요', '이 결과 못 내면 어떻게 될지 알죠', '실적 안 나오면 팀 해산입니다', '두려움을 이용해서 팀원을 움직였다'",
+      "not_when": "정당한 성과 기준 제시; 건강한 도전 목표 설정",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N02-02",
+      "label_name": "보상 과장 약속",
+      "macro": "N02",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "지킬 수 없는 보상을 약속하여 manipulative하게 유도",
+      "when": "실현 불가능한 인센티브 약속, 거짓 보상 제시 | 예시: '잘하면 즉시 승진시켜드립니다 하지만 실제로는 그런 일 없습니다', '성과 내면 보너스 드리겠습니다 하지만 실제로는 지키지 않았다', '이 프로젝트 성공하면 스톡옵션 드립니다라는 빈 약속'",
+      "not_when": "실제로 이행 가능하고 이행한 보상 약속; 투명하게 조건을 밝힌 인센티브",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N02-03",
+      "label_name": "감정적 압박",
+      "macro": "N02",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "죄책감이나 감정을 이용해 강요",
+      "when": "팀원의 죄책감을 자극하여 업무 강요, 해고나 불이익으로 협박 | 예시: '안 하면 해고하겠습니다', '못하면 팀 전체가 피해를 봅니다', '당신만 열심히 안 하고 있어요', '이렇게 하지 않으면 팀에 민폐입니다', '감정적으로 압박해서 일을 시켰다'",
+      "not_when": "정당한 업무 요청; 명확한 기준에 따른 성과 피드백",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N03-01",
+      "label_name": "아이디어 무시",
+      "macro": "N03",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "팀원의 새로운 아이디어를 검토 없이 거절",
+      "when": "혁신적 제안을 즉시 차단, 검토 없이 거절 | 예시: '그런 아이디어는 필요 없어요', '검토도 없이 바로 거절했다', '새로운 제안을 들으려 하지 않았다'",
+      "not_when": "충분한 검토 후 합리적 이유로 거절; 현실적 제약 설명",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N03-02",
+      "label_name": "비판 금지",
+      "macro": "N03",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "다른 의견이나 비판을 억압",
+      "when": "반대 의견을 묵살, 비판자 처벌 위협 | 예시: '비판하는 사람은 팀에 필요 없어요', '왜 자꾸 반기를 드나요', '비판적인 말 하면 어떻게 됩니까'",
+      "not_when": "건설적 비판 수용; 반대 의견 경청 후 합리적 결정",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N03-03",
+      "label_name": "질문 억제",
+      "macro": "N03",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "질문과 탐구를 제한",
+      "when": "질문하는 사람을 무시, 탐구 활동 차단 | 예시: '왜 자꾸 질문해요 시키는 대로 하세요', '질문할 시간에 일이나 하세요', '이해 못 하면 그냥 따르면 됩니다'",
+      "not_when": "적절한 타이밍에 질문을 요청; 효율적 회의 진행",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N04-01",
+      "label_name": "개인 숭배 유도",
+      "macro": "N04",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "자신을 영웅화하고 의존하도록 조장",
+      "when": "자신의 업적 과시, 타인 의존성 강화 | 예시: '내가 없으면 이 팀은 돌아가지 않아요', '내 덕분에 이 프로젝트가 성공했습니다', '팀원들이 나만 바라보게 만들었다'",
+      "not_when": "정당한 성과 공유; 팀의 성공에 자신의 역할 설명",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N04-02",
+      "label_name": "권위 과시",
+      "macro": "N04",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "지위를 이용한 위압적 행동",
+      "when": "직급을 내세워 압박, 권위적으로 명령 | 예시: '내가 팀장이니까 내 말대로 하세요', '직급을 생각해서 말해요', '나는 부장이고 당신은 사원이잖아요'",
+      "not_when": "역할과 책임에 따른 정당한 의사결정; 경험 기반 조언",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N05-01",
+      "label_name": "의견 없이 변화 강행",
+      "macro": "N05",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "의견 수렴 없이 일방적 변화 추진",
+      "when": "팀 의견 무시하고 일방적 변화 지시 | 예시: '다들 반대해도 무조건 바꿉니다', '의견 수렴 없이 새로운 프로세스를 강제 도입했다'",
+      "not_when": "합리적 이유 설명 후 변화 추진; 의견 수렴 과정 거친 변화",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N05-02",
+      "label_name": "준비 없는 변화 추진",
+      "macro": "N05",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "계획과 자원 없이 변화만 강조",
+      "when": "준비 없이 급작스러운 변화 지시 | 예시: '오늘부터 당장 새로운 시스템 씁니다', '교육도 없이 내일부터 바꿔요'",
+      "not_when": "충분한 준비와 교육 지원 후 변화 도입",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N05-03",
+      "label_name": "변화 반대 억압",
+      "macro": "N05",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "변화를 거부하고 반대자를 탄압",
+      "when": "혁신 시도를 묵살, 변화 반대자 옹호 | 예시: '변화 시도한 팀원을 질책했다', '혁신 제안을 무시하고 기존 방식을 고집했다'",
+      "not_when": "신중한 검토 후 변화 속도 조절; 합리적 이유로 현상 유지",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N06-01",
+      "label_name": "목표 불명확 전달",
+      "macro": "N06",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "모호하고 이해하기 어려운 목표 제시",
+      "when": "구체적이지 않은 지시, 모호한 기대치 | 예시: '잘 해주세요', '알아서 하세요', '열심히 하면 되죠', '대충 감 잡아서 해봐요', '뭔가 좀 만들어와요'",
+      "not_when": "의도적으로 자율성을 부여하는 경우; SMART 목표 설정 상황",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N06-02",
+      "label_name": "우선순위 불명확",
+      "macro": "N06",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "중요도와 우선순위를 명시하지 않음",
+      "when": "모든 일을 긴급으로 지시, 우선순위 혼재 | 예시: '이것도 급하고 저것도 급해요', '다 최우선입니다', '우선순위를 정해주지 않고 모두 즉시 처리 요구'",
+      "not_when": "실제 긴급 상황에서 우선순위 지시; 명확한 우선순위 제시",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N07-01",
+      "label_name": "성과만으로 평가",
+      "macro": "N07",
+      "penalty": 0.4,
+      "weight": 0.5,
+      "definition": "과정과 성장을 무시하고 결과만 중시",
+      "when": "과정과 노력을 무시하고 결과만으로 평가 | 예시: '결과가 나쁘면 과정은 의미 없어요', '노력은 상관없고 성과만 봅니다', '열심히 했어도 결과가 없으면 소용없어요'",
+      "not_when": "결과와 과정을 균형 있게 평가; 공정한 성과 평가",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N07-02",
+      "label_name": "공개적 질책",
+      "macro": "N07",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "공개된 장소에서 망신을 줌",
+      "when": "회의 중 공개적 비난, 타인 앞에서 질책 | 예시: '전체 회의에서 특정 팀원을 망신줬다', '공개석상에서 개인 실수를 과도하게 비난했다', '팀원을 다른 사람들 앞에서 깎아내렸다'",
+      "not_when": "1:1 피드백; 건설적 공개 피드백; 사실에 기반한 팀 리뷰",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N08-01",
+      "label_name": "직접 책임 전가",
+      "macro": "N08",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "critical": true,
+      "definition": "실패의 책임을 타인에게 직접 떠넘김",
+      "when": "상사 타인에게 결정 책임 떠맡기기, 나는 결정 안 함 | 예시: '이건 내 결정이 아닙니다 위에서 한 거예요', '제가 결정한 게 아니에요', '결정은 내가 했지만 잘못되면 팀원 책임이라 했다'",
+      "also_known_as": "회피, 떠맡기기, 제가 결정할 수 없습니다",
+      "not_when": "적절한 권한 위임; 팀 결정 존중",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N08-02",
+      "label_name": "책임 회피 발언",
+      "macro": "N08",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "모호한 표현으로 책임을 회피",
+      "when": "다 같이를 명분으로 책임 회피, 문제 생기면 제 탓 | 예시: '책임질 일 생기면 회피했다', '결정을 미루고 책임을 피했다', '문제가 생기자 자신의 잘못이 아니라고 했다'",
+      "also_known_as": "팀 결정으로 위장한 개인 회피",
+      "not_when": "팀과 함께 책임 공유; 투명한 책임 구조 설명",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N08-03",
+      "label_name": "의사결정 지연",
+      "macro": "N08",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "필요한 결정을 계속 미룸",
+      "when": "중요한 결정을 계속 연기, 결정 회피 | 예시: '좀 더 지켜봅시다', '아직 결정하기 이릅니다', '계속 결정을 미뤘다', '중요한 사안을 결정하지 않고 방치했다'",
+      "not_when": "신중한 검토가 필요한 상황; 충분한 정보 수집 후 결정",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N09-01",
+      "label_name": "공로 독점",
+      "macro": "N09",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "타인의 성과를 본인 성과로 포장",
+      "when": "팀 성과를 개인 성과로 발표, 타인 공로 묵살 | 예시: '팀 전체의 성과를 혼자 한 것처럼 보고했다', '부하직원 아이디어를 본인 것처럼 발표했다', '공로를 독점했다'",
+      "not_when": "팀 성과를 팀의 것으로 정당하게 공유",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N09-02",
+      "label_name": "타인 업적 가로채기",
+      "macro": "N09",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "타인의 아이디어와 성과를 도용",
+      "when": "부하직원 아이디어를 본인 것처럼 발표 | 예시: '팀원이 낸 아이디어를 자신의 것처럼 경영진에 보고했다', '출처를 밝히지 않고 타인 아이디어를 가로챘다'",
+      "not_when": "출처를 밝히며 타인 아이디어 소개; 협업 결과물 공유",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N10-01",
+      "label_name": "실행 부진",
+      "macro": "N10",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "계획만 세우고 실제 실행하지 않음",
+      "when": "계획만 반복, 실제 실행 움직임 없음 | 예시: '계획만 계속 세우고 실행을 안 했다', '회의만 하고 아무것도 진행되지 않았다', '말만 하고 실행이 없었다'",
+      "not_when": "신중한 계획 수립 후 실행; 단계적 실행 진행",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N10-02",
+      "label_name": "마감 무시",
+      "macro": "N10",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "약속된 기한을 지키지 않음",
+      "when": "마감 기한을 반복적으로 지키지 않음 | 예시: '항상 마감을 지키지 않았다', '데드라인을 계속 넘겼다', '약속한 일정을 반복적으로 어겼다'",
+      "not_when": "불가피한 일정 변경 시 사전 소통; 합리적 재조정",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N11-01",
+      "label_name": "경청 거부",
+      "macro": "N11",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "타인의 말을 듣지 않고 차단",
+      "when": "대화 중 끼어들기, 말을 끝까지 듣지 않음 | 예시: '팀원 말을 항상 중간에 끊었다', '발언 기회를 빼앗았다', '내 말만 하고 타인 말은 듣지 않았다'",
+      "not_when": "효율적 회의 진행을 위한 시간 관리; 적절한 개입",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N11-02",
+      "label_name": "의견 폄하",
+      "macro": "N11",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "타인의 의견을 무시하고 폄하",
+      "when": "팀원 의견을 가치 없는 것으로 치부 | 예시: '그런 의견은 도움이 안 돼요', '쓸데없는 말 말고 일이나 하세요', '그 생각은 아무 의미 없어요'",
+      "not_when": "합리적 근거로 의견 검토 후 판단",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N12-01",
+      "label_name": "공감 결여",
+      "macro": "N12",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "타인의 감정과 상황에 공감하지 않음",
+      "when": "어려운 상황에서도 무감각, 감정적 배려 없음 | 예시: '개인 사정은 업무와 별개입니다', '감정을 업무에 끌어들이지 마세요', '힘들어도 그건 본인 문제입니다'",
+      "not_when": "전문적 경계 유지; 업무 집중 독려",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N12-02",
+      "label_name": "정서적 무관심",
+      "macro": "N12",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "팀원의 정서적 필요를 무시",
+      "when": "개인적 어려움에도 불구하고 무관심 | 예시: '팀원이 힘들다고 해도 신경 쓰지 않았다', '개인 문제는 알아서 해결하세요', '어려움을 말해도 무시했다'",
+      "not_when": "프라이버시 존중하며 업무와 개인 생활 균형 지원",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N12-03",
+      "label_name": "심리적 압박",
+      "macro": "N12",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "심리적 안전감을 해치는 행동",
+      "when": "부하직원을 심리적으로 압박, 협박 | 예시: '잘못하면 어떻게 될지 알죠', '이렇게 하지 않으면 불이익이 생길 겁니다', '심리적으로 두렵게 만들었다'",
+      "not_when": "명확한 기준과 결과를 알리는 피드백; 정당한 성과 관리",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N14-01",
+      "label_name": "자기 이익 우선",
+      "macro": "N14",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "팀보다 개인 이익을 우선시",
+      "when": "팀 보호라면서 실제로는 개인 이익 회피 보호 | 예시: '팀을 위한다고 했지만 실제론 자신의 이익이었다', '팀원 희생을 통해 본인 성과를 챙겼다'",
+      "also_known_as": "제가 불리해지면, 나만 손해",
+      "not_when": "진정한 팀 이익을 위한 결정; 팀원 보호 행동",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N14-02",
+      "label_name": "공로 독점",
+      "macro": "N14",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "타인의 성과를 본인이 가로챔",
+      "when": "팀원의 성과를 본인 성과로 보고 | 예시: '팀원이 한 일을 자신이 한 것처럼 경영진에 보고했다', '공로를 혼자 가져갔다'",
+      "not_when": "팀 성과를 팀의 것으로 정당하게 공유",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "deprecated",
+      "deprecated": true,
+      "superseded_by": "N09-01"
+    },
+    {
+      "label_id": "N14-03",
+      "label_name": "팀 희생 강요",
+      "macro": "N14",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "개인이나 조직을 위해 팀원을 희생시킴",
+      "when": "개인적 목표 달성을 위해 팀원 희생 강요 | 예시: '내 성과를 위해 팀원을 희생시켰다', '개인 목표를 위해 팀원에게 과중한 업무를 부담시켰다'",
+      "not_when": "팀 전체 목표를 위한 개인별 역할 조정; 공정한 업무 분배",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N15-01",
+      "label_name": "의견 무시",
+      "macro": "N15",
+      "penalty": 0.4,
+      "weight": 0.5,
+      "definition": "제시된 의견을 검토 없이 무시",
+      "when": "팀원 의견을 듣지 않고 무시 | 예시: '의견은 필요 없어요', '말해봐야 소용없어요', '그냥 시키는 대로 하세요'",
+      "not_when": "의견 수렴 후 합리적 결정; 효율적 회의 진행",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N15-02",
+      "label_name": "발언 차단",
+      "macro": "N15",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "말할 기회를 주지 않고 차단",
+      "when": "회의 중 발언 기회 박탈, 끼어들기 | 예시: '발언권을 주지 않았다', '회의에서 특정 팀원을 배제했다', '말을 시작하자마자 끊었다'",
+      "not_when": "효율적 회의 시간 관리; 발언 기회 균등 분배",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N15-03",
+      "label_name": "공개적 비난",
+      "macro": "N15",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "critical": true,
+      "definition": "공개된 장소에서 망신을 줌",
+      "when": "회의나 공개 석상에서 인격 모독적 비난 | 예시: '전체 회의에서 특정 팀원을 망신줬다', '공개석상에서 개인 실수를 과도하게 비난했다', '타인 앞에서 인격을 모독했다'",
+      "not_when": "사실 기반의 건설적 팀 피드백; 1:1 피드백",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N15-04",
+      "label_name": "실수 처벌",
+      "macro": "N15",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "실수를 인간적으로 처벌",
+      "when": "실수한 팀원을 징계하거나 괴롭힘 | 예시: '실수하면 바로 징계했다', '실수를 빌미로 괴롭혔다', '한 번의 실수로 과도한 처벌을 내렸다'",
+      "not_when": "개선 중심의 피드백; 합리적 성과 관리",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N15-05",
+      "label_name": "불신 조장",
+      "macro": "N15",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "팀원들을 서로 불신하게 만듦",
+      "when": "팀원 간 갈등 유발, 의심 조장, 불신 분위기 형성 | 예시: '팀원들끼리 서로 불신하게 만들었다', '팀원 간 경쟁과 갈등을 부추겼다', '서로 의심하게 만드는 발언을 했다'",
+      "not_when": "건전한 경쟁 독려; 팀 협력 강화",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N15-06",
+      "label_name": "보복 암시",
+      "macro": "N15",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "불이익을 주겠다고 암시",
+      "when": "반대 의견 제시자에게 불이익 암시, 보복 위협 | 예시: '반대하면 어떻게 될지 알죠', '이의를 제기하면 불이익이 있을 겁니다', '암묵적으로 보복을 암시했다', '안 하면 해고하겠습니다'",
+      "not_when": "의견 불일치 시 합리적 토론; 피드백 문화",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N17-01",
+      "label_name": "상황 무시 강경 대응",
+      "macro": "N17",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "맥락과 상황을 무시하고 무조건 강경",
+      "when": "상황과 조건 무시하고 윽박지름 | 예시: '상황이 어떻든 결과를 내야 해요', '변명하지 마세요', '이유가 어떻든 안 되는 건 안 돼요'",
+      "not_when": "긴급 상황에서 명확한 지시; 합리적 기준 제시",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N18-01",
+      "label_name": "불안 조장 발언",
+      "macro": "N18",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "근거 없는 불안감을 확산",
+      "when": "위기 상황에서 패닉 발언, 공포 조장 | 예시: '이제 다 끝났습니다', '이 상태면 팀이 해산될 수 있어요', '최악의 상황을 과도하게 강조해 팀에 공포를 조장했다'",
+      "not_when": "현실적 위기 상황을 팀에 전달; 침착한 상황 공유",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N18-02",
+      "label_name": "위기 과장",
+      "macro": "N18",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "실제보다 위기를 과장하여 표현",
+      "when": "작은 문제를 큰 위기로 과장 | 예시: '사소한 실수를 회사가 망할 것처럼 과장했다', '작은 문제를 큰 위기로 부풀렸다', '실제보다 심각하게 표현해 팀을 불안하게 했다'",
+      "not_when": "실제 위기 상황의 적절한 심각성 전달",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N19-01",
+      "label_name": "독단 결정",
+      "macro": "N19",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "타인 의견 없이 일방적 결정",
+      "when": "충분한 정보 공유 없이 본인 의견만으로 독단적 결정 | 예시: '아무도 모르게 혼자 결정했다', '팀원 의견 없이 일방적으로 결정했다', '정보 공유 없이 독단적으로 처리했다'",
+      "not_when": "신속한 의사결정이 필요한 위기 상황에서 빠른 판단; 권한 범위 내 독립적 결정",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N21-01",
+      "label_name": "디지털 거부",
+      "macro": "N21",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "디지털 도구와 변화를 전면 거부",
+      "when": "새로운 디지털 도구 도입 거부, 기존 방식 고집 | 예시: '새로운 시스템은 필요 없어요', '예전 방식이 최고예요', '새로운 도구 배우기 싫어요'",
+      "not_when": "특정 도구의 합리적 비용 편익 분석 후 거부; 점진적 전환 계획",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N22-01",
+      "label_name": "실패 은폐",
+      "macro": "N22",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "실패를 숨기고 정보를 조작",
+      "when": "실패한 사실을 숨기거나 축소 보고 | 예시: '실패를 보고하지 않았다', '나쁜 결과를 감췄다', '실패 사실을 왜곡해서 보고했다'",
+      "not_when": "적절한 맥락과 함께 실패 공유; 개선 방안 포함한 실패 보고",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N22-02",
+      "label_name": "책임 회피 학습 차단",
+      "macro": "N22",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "실패로부터 배우는 기회를 차단",
+      "when": "실패 분석을 금지, 책임 추궁만 함 | 예시: '왜 실패했는지 분석하지 말고 그냥 다시 하세요', '실패 원인 찾는 시간에 일이나 해요', '책임자만 찾고 개선은 안 했다'",
+      "not_when": "실패 원인 분석 후 개선 방안 수립; 학습 조직 문화",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N23-01",
+      "label_name": "혁신 아이디어 차단",
+      "macro": "N23",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "새로운 시도와 아이디어를 억압",
+      "when": "혁신적 아이디어를 즉시 차단, 현상 유지 강요 | 예시: '그런 아이디어는 우리 문화에 맞지 않아요', '지금 방식이 제일 좋아요', '새로운 아이디어를 즉시 묵살했다'",
+      "not_when": "신중한 검토 후 현실적 이유로 아이디어 보류",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N24-01",
+      "label_name": "과도한 통제",
+      "macro": "N24",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "모든 것을 직접 챙기려 함",
+      "when": "모든 결정을 본인이 직접 하려고 함, 마이크로매니지먼트 | 예시: '모든 걸 직접 결재해야 해요', '팀원에게 아무것도 맡길 수 없어요', '사소한 것도 제가 결정해야 합니다'",
+      "not_when": "적절한 수준의 품질 관리; 중요한 결정의 최종 승인",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N26-01",
+      "label_name": "실험 실패 처벌",
+      "macro": "N26",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "definition": "실험과 도전 중 실패를 처벌",
+      "when": "새로운 시도 중 실패에 대해 징계, 실험 실패 처벌 | 예시: '실험 결과가 나쁘다고 팀원을 징계했다', '파일럿 프로젝트 실패로 불이익을 줬다', '새로운 시도의 실패를 용납하지 않았다'",
+      "not_when": "반복되는 동일 실수에 대한 관리; 의도적 태만에 대한 처리",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N27-01",
+      "label_name": "자원 독점",
+      "macro": "N27",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "자원을 본인이나 특정인에게만 집중",
+      "when": "예산 인력 등 자원을 독점적으로 배분 | 예시: '자신의 프로젝트에만 자원을 몰아줬다', '다른 팀의 자원을 빼앗았다', '불공정하게 자원을 배분했다'",
+      "not_when": "전략적 우선순위에 따른 자원 배분; 합리적 기준의 자원 관리",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N28-01",
+      "label_name": "정보 은폐",
+      "macro": "N28",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "critical": true,
+      "definition": "중요한 정보를 의도적으로 숨김",
+      "when": "중요한 의사결정 정보를 의도적으로 은폐 | 예시: '팀원에게 알릴 필요 없는 정보라고 판단해 숨겼다', '중요한 사안을 일부러 공유하지 않았다', '의사결정 과정을 불투명하게 했다'",
+      "not_when": "기밀 정보의 적절한 관리; 단계적 정보 공개",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N30-01",
+      "label_name": "말과 행동 불일치",
+      "macro": "N30",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "말한 것과 실제 행동이 다름",
+      "when": "약속한 것을 지키지 않음, 말과 행동 불일치 | 예시: '한 약속을 지키지 않았다', '말과 실제 행동이 달랐다', '공언한 것과 반대로 행동했다', '언행이 일치하지 않아 신뢰를 잃었다'",
+      "not_when": "불가피한 상황 변화로 인한 계획 수정; 사전 소통 후 변경",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N31-01",
+      "label_name": "차별 행동",
+      "macro": "N31",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "definition": "특정인을 차별하고 불공정하게 대우",
+      "when": "성별 학벌 연차 등으로 차별적 대우 | 예시: '특정 출신 학교 팀원만 챙겼다', '성별에 따라 업무 기회를 다르게 줬다', '차별적 발언을 했다'",
+      "not_when": "역할과 책임에 따른 정당한 차등; 역량 기반 평가",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N33-01",
+      "label_name": "부당행위 묵인",
+      "macro": "N33",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "부당한 행위를看见하고도 방치",
+      "when": "부당한 지시나 행위를 보고도 묵인 | 예시: '부당한 일이 일어나도 모른 척했다', '잘못된 것을 알면서도 눈을 감았다', '부하직원의 부당 행위를 방치했다'",
+      "not_when": "사실 확인 중인 경우; 적절한 절차를 통해 처리하는 경우",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N33-02",
+      "label_name": "문제 회피",
+      "macro": "N33",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "해결해야 할 문제를 고의로 피함",
+      "when": "중요한 문제를 직면하지 않고 회피 | 예시: '해결해야 할 문제를 피했다', '어려운 대화를 계속 미뤘다', '중요한 사안을 회피하고 방치했다'",
+      "not_when": "적절한 시기를 기다리는 전략적 판단; 정보 수집 후 대응",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N34-01",
+      "label_name": "데이터 조작",
+      "macro": "N34",
+      "penalty": 0.8,
+      "weight": 0.9,
+      "critical": true,
+      "definition": "의도적으로 데이터를 조작하거나 위조",
+      "when": "실적을 부풀리기 위해 데이터 조작 | 예시: '성과 수치를 실제보다 높게 보고했다', '데이터를 왜곡해서 좋은 결과처럼 보이게 했다', '숫자를 조작해서 보고했다'",
+      "not_when": "데이터 해석 방법의 차이; 합리적 지표 선택",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.3,
+        "innovation": 1.0
+      },
+      "role": "anchor"
+    },
+    {
+      "label_id": "N35-01",
+      "label_name": "도구 남용",
+      "macro": "N35",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "리더십 도구를 부당하게 사용",
+      "when": "감시 도구를 부당하게 사용, 통제 목적 | 예시: '팀원을 과도하게 감시했다', '개인 정보를 무단으로 수집했다', '감시를 빌미로 팀원을 통제했다'",
+      "not_when": "정당한 업무 모니터링; 보안 목적의 합리적 도구 사용",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N37-01",
+      "label_name": "AI 부정 사용",
+      "macro": "N37",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "definition": "AI를 편향되거나 부정하게 사용",
+      "when": "AI 결과를 조작하거나 편향되게 활용 | 예시: 'AI 분석 결과를 선택적으로 사용했다', 'AI를 이용해 편향된 결론을 도출했다', 'AI 결과를 왜곡해서 보고했다'",
+      "not_when": "AI 도구의 적절한 비판적 검토; 결과 해석 시 맥락 고려",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N03-04",
+      "label_name": "편애/소외",
+      "macro": "N03",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "특정 팀원만 편애하고 나머지를 소외시키는 행동",
+      "when": "특정인 편애, 차별적 대우, 소외감 조성 | 예시: 'A씨만 특별 대우했다', '특정 팀원만 챙기고 나머지는 무시했다', '편애로 인해 팀 분열이 발생했다'",
+      "not_when": "성과에 따른 차등 보상이나, 역량 기반 업무 배정",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N05-04",
+      "label_name": "사회적 무책임 변화",
+      "macro": "N05",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "사회적 책임을 무시한 채 변화를 강행하는 행동",
+      "when": "사회적 책임 무시, 윤리적 고려 없는 변화 | 예시: '사회적 영향은 고려하지 않겠습니다', '윤리적 문제는 나중에 생각합시다', '비용 절감만을 위해 인력을 구조조정했다'",
+      "not_when": "사회적 책임을 고려한 변화나, 윤리적 검토 후 진행하는 경우",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.2
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N06-03",
+      "label_name": "관료적/경직적 리더십",
+      "macro": "N06",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "관료적이고 경직된 방식으로 리더십을 행사하는 행동",
+      "when": "관료적 태도, 경직된 운영, 형식적 절차 | 예시: '절차를 무시하면 안 됩니다', '규정대로만 하세요', '형식을 지키는 것이 중요합니다'",
+      "not_when": "유연한 운영이나, 실용적 접근을 하는 경우",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N13-01",
+      "label_name": "회복력 저하 행동",
+      "macro": "N13",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "위기나 실패 후 회복하지 못하고 좌절하는 행동",
+      "when": "회복 실패, 지속적 좌절, 포기 | 예시: '이번 실패로 팀이 완전히 무너졌다', '위기 이후 회복할 동력이 없다', '좌절에서 벗어나지 못하고 있다'",
+      "not_when": "실패를 딛고 다시 시작하거나, 빠르게 회복하는 경우",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N15-07",
+      "label_name": "과잉보호/구제행동",
+      "macro": "N15",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "팀원을 과도하게 보호하여 성장 기회를 차단하는 행동",
+      "when": "과잉보호, 구제 행동, 성장 차단 | 예시: '팀원이 실패할까봐 두렵습니다', '모든 것을 대신 처리해드렸습니다', '실수하면 안 되니까 제가 다 하겠습니다'",
+      "not_when": "적절한 지원과 독립의 균형을 맞추는 경우",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "orphan"
+    },
+    {
+      "label_id": "N16-01",
+      "label_name": "이해관계자 무시",
+      "macro": "N16",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "중요한 이해관계자의 의견과 필요를 무시하는 행동",
+      "when": "이해관계자 무시, 고객 무시, 파트너 무시 | 예시: '고객 의견은 중요하지 않습니다', '파트너사 걱정은 하지 않아도 됩니다', '이해관계자 의견을 듣지 않았다'",
+      "not_when": "이해관계자 의견을 수렴하거나, 관계를 관리하는 경우",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N24-02",
+      "label_name": "미세관리",
+      "macro": "N24",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "사소한 것까지 직접 관리하려는 과도한 통제 행동",
+      "when": "미세관리, 과도한 간섭, 사소한 통제 | 예시: '매일매일 보고해주세요', '이메일 하나도 제가 확인하겠습니다', '모든 것을 직접 결재해야 합니다'",
+      "not_when": "적절한 수준의 관리나, 중요한 사안만 확인하는 경우",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "orphan"
+    },
+    {
+      "label_id": "N25-01",
+      "label_name": "문화적 감수성 부족",
+      "macro": "N25",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "다양한 문화적 배경을 이해하지 못하고 무감각하게 대하는 행동",
+      "when": "문화적 무감각, 다양성 무시, 글로벌 감수성 부족 | 예시: '우리 방식대로만 하세요', '문화적 차이는 중요하지 않습니다', '다양성은 필요 없습니다'",
+      "not_when": "문화적 차이를 존중하거나, 다양성을 포용하는 경우",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.2
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N38-01",
+      "label_name": "수동적 예외 관리",
+      "macro": "N38",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "문제가 발생할 때까지 기다리다가 수동적으로 대응하는 행동",
+      "when": "수동적 대응, 사후 처리, 늦은 개입 | 예시: '문제가 생기면 그때 가서 해결합시다', '보고가 올 때까지 기다리겠습니다', '사후 처리하겠습니다'",
+      "not_when": "선제적으로 모니터링하거나, 능동적으로 개입하는 경우",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N38-02",
+      "label_name": "방임형 리더십",
+      "macro": "N38",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "팀원을 방치하고 리더십 역할을 수행하지 않는 행동",
+      "when": "방임, 무관심, 리더십 부재 | 예시: '알아서 하세요', '관여하지 않겠습니다', '팀원에게 모든 것을 맡기고 신경 쓰지 않았다'",
+      "not_when": "자율성을 부여하되 지원하는 경우, 적절한 위임을 하는 경우",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N38-03",
+      "label_name": "권력 독점",
+      "macro": "N38",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "의사결정 권력을 독점하고 공유하지 않는 행동",
+      "when": "권력 독점, 의사결정 독점, 권한 비공유 | 예시: '모든 결정은 제가 합니다', '권한을 나눌 수 없습니다', '의사결정을 독점적으로 행사했다'",
+      "not_when": "권한을 위임하거나, 참여적 의사결정을 하는 경우",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.1,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N39-01",
+      "label_name": "이기적 리더십",
+      "macro": "N39",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "자신의 이익만 추구하고 팀원을 희생시키는 행동",
+      "when": "자기 이익 추구, 팀원 희생, 이기적 행동 | 예시: '제 성과가 중요합니다', '팀원 희생은 감수해야 합니다', '개인적 이익을 위해 팀을 이용했다'",
+      "not_when": "팀의 이익을 우선하거나, 희생적 행동을 하는 경우",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N39-02",
+      "label_name": "위장 섬김 리더십",
+      "macro": "N39",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "表面上은 섬기는 척하지만 실제로는 통제하려는 행동",
+      "when": "위장된 섬김, 이중적 행동, 통제적 지원 | 예시: '도와드린다고 했지만 실제로는 통제했다', '섬김을 가장한 지배적 행동', '표면적으로는 지원하지만 실제로는 간섭했다'",
+      "not_when": "진정으로 팀원을 지원하거나, 진심어린 섬김을 하는 경우",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N39-03",
+      "label_name": "나르시시즘 리더십",
+      "macro": "N39",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "definition": "자신을 과도하게 과시하고 타인을 이용하는 나르시시즘적 행동",
+      "when": "자기 과시, 타인 이용, 과도한 자기 중심 | 예시: '나 없이는 불가능합니다', '내가 모든 것을 이끌었다', '팀 성과를 혼자 차지했다'",
+      "not_when": "겸손한 태도를 보이거나, 팀의 성과를 인정하는 경우",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N39-04",
+      "label_name": "학대적 감독",
+      "macro": "N39",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "definition": "팀원을 학대하고 괴롭히는 행동",
+      "when": "괴롭힘, 학대, 인격 모독 | 예시: '팀원을 공개적으로 모욕했다', '지속적으로 괴롭혔다', '인격을 모독하는 발언을 했다'",
+      "not_when": "건강한 피드백이나, 엄격하지만 존중하는 태도",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N40-01",
+      "label_name": "방어적/비진정성 리더십",
+      "macro": "N40",
+      "penalty": 0.5,
+      "weight": 0.6,
+      "definition": "비판에 방어적으로 반응하고 진정성 없는 태도를 보이는 행동",
+      "when": "방어적 반응, 비진정성, 자기 합리화 | 예시: '제가 한 것은 맞습니다', '비판을 받아들이지 않겠습니다', '자신의 실수를 인정하지 않았다'",
+      "not_when": "피드백을 수용하거나, 실수를 인정하는 경우",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N40-02",
+      "label_name": "도덕적 위선",
+      "macro": "N40",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "도덕적 기준을 말로는 강조하지만 행동은 다른 위선적 태도",
+      "when": "도덕적 위선, 말과 행동 불일치, 이중 잣대 | 예시: '윤리를 강조하면서 자신은 비윤리적이었다', '말과 행동이 달랐다', '다른 기준을 적용했다'",
+      "not_when": "말한 대로 실천하거나, 일관된 윤리적 기준을 적용하는 경우",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N41-01",
+      "label_name": "비윤리적/부패 리더십",
+      "macro": "N41",
+      "penalty": 0.7,
+      "weight": 0.8,
+      "definition": "비윤리적이거나 부패한 방식으로 리더십을 행사하는 행동",
+      "when": "비윤리적 행동, 부패, 뇌물 | 예시: '비윤리적인 방법을 사용했다', '뇌물을 받았다', '부당한 이익을 취했다'",
+      "not_when": "윤리적 기준을 준수하거나, 투명한 의사결정을 하는 경우",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N41-02",
+      "label_name": "전략적 맹목",
+      "macro": "N41",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "전략적 상황을 인식하지 못하고 맹목적으로 행동하는 행동",
+      "when": "전략적 무지, 상황 판단 실패, 맹목적 실행 | 예시: '전략은 중요하지 않습니다', '상황을 고려하지 않았다', '맹목적으로 기존 방식을 고수했다'",
+      "not_when": "전략적 사고를 하거나, 상황에 맞게 대응하는 경우",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N41-03",
+      "label_name": "무모한 위험 감수",
+      "macro": "N41",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "충분한 검토 없이 무모하게 위험을 감수하는 행동",
+      "when": "무모한 위험, 검토 부족, 성급한 결정 | 예시: '위험을 감수하더라도 밀어붙이겠습니다', '검토 없이 결정했다', '무모한 도전을 강요했다'",
+      "not_when": "신중한 검토 후 위험을 관리하는 경우",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.2
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N42-01",
+      "label_name": "권위주의적 리더십",
+      "macro": "N42",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "권위주의적 방식으로 팀을 통제하고 지배하는 행동",
+      "when": "권위적 통제, 일방적 지시, 의견 무시 | 예시: '내 말대로 하세요', '의견은 필요 없습니다', '명령에 복종해야 합니다'",
+      "not_when": "민주적 리더십이나, 참여적 의사결정을 하는 경우",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    },
+    {
+      "label_id": "N43-01",
+      "label_name": "사회적 무책임",
+      "macro": "N43",
+      "penalty": 0.6,
+      "weight": 0.7,
+      "definition": "사회적 책임을 무시하고 이익만 추구하는 행동",
+      "when": "사회적 책임 무시, 이익 우선, 윤리 무시 | 예시: '사회적 영향은 고려하지 않겠습니다', '이익이 우선입니다', '사회적 책임을 다하지 않았다'",
+      "not_when": "사회적 책임을 다하거나, 윤리적 경영을 하는 경우",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "role": "discriminative"
+    }
+  ]
+}

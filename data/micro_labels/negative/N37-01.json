@@ -1,0 +1,15 @@
+{
+  "label_id": "N37-01",
+  "label_name": "AI 부정 사용",
+  "macro": "N37",
+  "penalty": 0.7,
+  "weight": 0.8,
+  "definition": "AI를 편향되거나 부정하게 사용",
+  "when": "AI 결과를 조작하거나 편향되게 활용",
+  "not_when": "AI를 윤리적이고 투명하게 활용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

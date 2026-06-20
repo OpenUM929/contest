@@ -1,0 +1,4624 @@
+[
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "제가 책임지고 즉각 대응 방안하겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "제가 책임지고 즉시 복구 방안하겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "위기 상황에서 즉각 처방을 내리겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "지체 없이 대응책 작업을 시작합시다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "지금 이 순간 즉시 대응책에 나서겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "우리 팀은 지체 없이 대응 작업을 시작합시다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "시스템 오류 상황에서 즉각 방향을 내리겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "팀원 모두 신속하게 방안 지시를 내리겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "앞으로 시간이 없으니 즉시 결론하겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "팀원 모두 시간이 없으니 당장 결론하겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "팀원 모두 긴급하니 즉시 지시하겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "데이터 유실 상황에서 지체 없이 대응 방안을 내리겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "지금 긴급하니 지체 없이 행동하겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "임원는 긴급 상황에서 지체 없이 방안 계획을 세웠다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "리더는 데이터 유실 직후 당장 대응책 지시를 취했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "리더는 장애 발생 상황에서 즉각 행동 방안을 제시했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "본부장는 긴급 상황에서 지체 없이 복구 계획을 세웠다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "리더는 긴급 상황에서 지체 없이 실행 계획을 세웠다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "본부장는 위기 상황 직후 신속하게 방안 지시를 취했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "팀장는 위기 순간에 신속하게 결단을 날렸다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "부장는 불확실성 속에서도 곧바로 결론을 날렸다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "임원는 시스템 오류 직후 즉각 조치을 날렸다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "임원는 긴급 회의에서 신속하게 방향을 정했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "리더는 시스템 오류 직후 지체 없이 복구 방안을 날렸다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "리더는 시스템 오류 직후 당장 처방을 날렸다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "책임자는 긴급 상황에서 지체 없이 지시 계획을 세웠다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "긴급 상황 속 리더는 팀을 이끌며 즉각 결단을 날렸다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "현장에 모인 팀원들 앞에서 임원는 바로 조치를 지시했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "비상 대응실에서 과장는 신속하게 지시 계획을 세웠다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "상황실에 긴장감이 감돌았고 임원는 즉시 지시 계획을 제시했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "비상벨이 울린 후 임원는 신속하게 대응 팀을 소집했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "책임자는 위기의 순간에 팀을 이끌며 곧바로 실행에 나섰다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "위기가 고조되자 책임자는 즉각 방향을 제시했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "비상벨이 울린 후 팀 리더는 당장 대응 팀을 소집했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "회의실에서 팀장는 빠르게 처방을 날렸다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "비상 대응실에서 프로젝트 매니저는 신속하게 대응 계획을 세웠다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "장애 상황이 벌어지자 임원는 즉시 현장으로 달려갔다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "운영센터에 긴장감이 감돌았고 과장는 즉시 대응 계획을 제시했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "지금 이 순간 시간이 핵심 자원인 상황입니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "우리 모두에게 결단의 순간이 다가왔습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "우리 모두에게 지금이 바로 결정의 순간입니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "즉각적인 판단이 팀을 구할 것입니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "지금 이 순간 빠른 실행이 필요한 시점입니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "우리 모두에게 지체는 곧 실패를 의미합니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "우리 팀은 지체는 곧 실패를 의미합니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "신속한 결단이 성패를 가를 것입니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "혁신을 위해 즉각적인 행동이 요구됩니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "우리 모두에게 망설임은 더 큰 위기를 부릅니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "모두에게 시간의 흐름을 거스를 수 없습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "지체 없이 방향을 잡아야 할 때입니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "모두 미루지 말고 천천히 조치합시다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "지금 이 순간 장기 검토 끝에 처방하겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "모두의 의견을 수렴한 후에 행동하겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "여러 의견을 충분히 들은 후에 처방하겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "direct_speech",
+    "text": "지금 장기 검토 끝에 처방하겠습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "임원는 장기적인 검토를 통해 늦게 대응 방안을 정했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "본부장는 의견 수집에만 집중하고 방향은 미뤘다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "본부장는 여러 차례 검토 끝에 늦게 대응 방안을 날렸다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "본부장는 의견 수집에만 집중하고 결론은 미뤘다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "indirect_report",
+    "text": "팀장는 의견 수집에만 집중하고 처방은 미뤘다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "긴급 상황임에도 팀장는 다음 회의를 기다렸다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "사무실에서 책임자는 판단을 미루고 추가 논의를 요청했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "장애 발생 후에도 디렉터는 장기 검토를 시작했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "데이터 유실 후에도 임원는 장기 검토를 시작했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "scene_description",
+    "text": "비상 대응실에서 디렉터는 충분한 검토를 거쳐 늦게 지시했다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "지금 이 순간 의견 수렴이 우선입니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "이 순간 천천히 생각해봐야 할 때입니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "대응 방안은 미루고 대화를 이어가야 합니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "서두르는 것은 오히려 위험할 수 있습니다."
+  },
+  {
+    "label_id": "M19-01",
+    "label_name": "신속한 의사결정",
+    "style": "euphemism",
+    "text": "시간을 두고 대응 방안하는 것이 중요합니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "위기를 돌파하기 위해 대응책하겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "문제 해결을 위해 지금 복구하겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "긴급 사태를 막기 위해 지금 당장 움직입시다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "위기를 분석하고 즉시 해결하겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "데이터 유실 상황에서 곧바로 대응하겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "문제 발생 직후 즉시 조치하겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "문제 해결을 위해 지금 방안하겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "네트워크 장애 대응을 위해 제가 직접 나서겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "모두 함께 장애 신고 복구를 즉시 시작합니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "위기를 돌파하기 위해 행동하겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "문제 해결을 위해 지금 행동하겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "위기 상황입니다 신속하게 방안합시다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "위기 상황입니다 신속하게 지시합시다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 시스템 오류 직후 직접 로그를 분석했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "책임자는 장애를 분석하고 즉시 해결책을 낸었다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "책임자는 위기 상황에서 즉각 행동를 취했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "과장는 오류 발생 직후 현장으로 달려갔다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "부장는 긴급 상황에서 위기 대응 반을 소집했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "팀장는 돌발 상황 복구를 즉시 지시했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "부장는 데이터 유실 복구를 즉시 지시했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "부장는 이슈를 해결하기 위해 복구 팀을 이끌었다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "디렉터는 위기 발생 시 즉각 대응 팀을 소집했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 위기 상황에서 침착하게 지시에 나섰다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "팀장는 오류를 분석하고 즉시 해결책을 낸었다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "책임자는 네트워크 장애가 발생하자 즉시 현장을 통제했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "책임자는 돌발 상황에서 팀을 신속하게 이끌었다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "장애가 보고되자 리더는 즉시 상황실로 향했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "본사에서 책임자는 이슈를 발견하고 즉시 대응에 나섰다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "데이터 유실 직후 리더는 개발 팀과 함께 문제를 파악했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "네트워크 장애가 발생하자 팀 리더는 복구 팀을 소집했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "긴급 사태가 보고되자 리더는 즉시 상황실로 향했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "긴급 상황이 벌어지자 임원는 관제실를 누볐다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "서버 다운 직후 부장는 신속하게 복구를 시작했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "돌발 상황가 커지자 프로젝트 매니저는 외부 지원을 요청했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "위기 상황가 발생하자 팀 리더는 대응 팀을 소집했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "위기가 고조되는 비상 대응실에서 디렉터는 복구를 지시했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "과장는 돌발 상황 속에서도 팀의 중심을 잡았다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "서버 다운이 발생하자 팀장는 팀을 소집했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "급류를 거슬러 올라가야 할 순간입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "문제의 심장부로 들어가야 할 때입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "이 순간 지금이 가장 중요한 고비입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "평정심을 잃지 않고 상황을 다스려야 합니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "어두운 터널의 끝을 밝혀야 할 때입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "성공을 위해 문제의 불씨를 즉시 꺼야 합니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "폭풍우 속에서 배를 이끄는 것이 지금의 과제입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "어두운 구름을 걷어내야 할 때입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "도약을 위해 빠른 수습이 상황을 구할 것입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "위기는 기회라는 말이 있습니다 지금이 그때입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "급변하는 상황 속에서 닻을 내리지 말아야 합니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "어려운 상황일수록 중심을 잡아야 합니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "장애 사항를 회피하기 위해 다른 일을 하겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "시스템 오류 대응은 다른 부서에 맡기겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "장애를 막기 위해 지금은 아무것도 하지 않겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "장애 발생 직후에도 대응을 미루겠습니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "direct_speech",
+    "text": "데이터 유실가 확인되면 나중에 보고하세요."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "팀 리더는 긴급 상황에서도 천천히 움직였다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "임원는 서버 다운 직후에도 평시 업무만 했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "책임자는 돌발 상황에서 대응을 최소화했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "리더는 돌발 상황에서 대응을 최소화했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "indirect_report",
+    "text": "과장는 장애를 분석만 하고 해결은 미뤘다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "관제실에서 부장는 위기 대응 매뉴얼을 펼치지 않았다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "위기 상황 직후 책임자는 대응 팀과 함께 커피를 마셨다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "위기가 고조되는 현장에서 리더는 평온한 척했다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "돌발 상황 속에서 과장는 책상 앞에 앉아만 있었다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "scene_description",
+    "text": "본부장는 위기를 해결하기 위해 아무런 조치도 취하지 않았다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "위기의 늪에서 빠져나가지 않는 것이 안전합니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "어려운 상황일수록 가만히 있는 것이 상책입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "조직 전체에 지금이 고비가 아니라 휴식기입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "도약을 위해 지금은 잠시 숨을 돌릴 때입니다."
+  },
+  {
+    "label_id": "M20-01",
+    "label_name": "위기 대응 및 문제 해결",
+    "style": "euphemism",
+    "text": "급변하는 상황 속에서 닻을 내리는 것이 좋습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "클라우드 시스템을 빠르게 익혀 업무 효율을 높이겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "최신 기술을 빠르게 습득하여 업무에 도입하겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "새로운 기술을 익혀 팀의 디지털 역량을 높이겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "AI 도구 사용법을 팀에 공유하겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "최신 기술을 빠르게 습득하여 업무 프로세스에 도입하겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "새로운 데이터 분석 툴을 학습하여 고객 대응에 적용했습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "데이터 분석 툴을 빠르게 익혀 업무 효율을 높이겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "신기술 도입에 발맞춰 데이터 분석 툴을 빠르게 학습하고 있습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "기술 변화 속에서 최신 기술을 민첩하게 활용하겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "디지털 툴을 빠르게 익혀 업무 효율을 높이겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "신규 플랫폼 도입을 위해 먼저 배우고 적용하겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "클라우드 시스템 사용법을 팀에 공유하겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "변화하는 시장 속에서 디지털 툴을 민첩하게 활용하겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "팀 리더는 협업 플랫폼을 빠르게 익혀 업무 효율을 높였다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 새로운 기술을 익혀 팀의 디지털 역량을 높였다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "리더는 협업 플랫폼을 배우는 데 주저하지 않았다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 새로운 환경 속에서 디지털 툴을 민첩하게 활용했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "팀 리더는 새로운 환경 속에서 협업 플랫폼을 민첩하게 활용했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "팀장는 새로운 기술을 익혀 팀의 디지털 역량을 높였다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "팀장는 디지털 도구를 적극적으로 학습했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "과장는 업무 혁신에 대응하기 위해 AI 도구을 학습했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "팀 리더는 디지털 도구를 적극적으로 학습했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 최신 기술을 빠르게 습득하여 업무에 도입했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "팀 리더는 기술 변화에 민첩하게 적응했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "임원는 데이터 분석 툴 사용법을 익혀 팀에 전파했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "리더는 디지털 역량 강화를 위해 AI 도구을 도입했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "임원는 디지털 툴을 테스트하며 새로운 기능을 파악했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "사무실 한켠에서 본부장는 자동화 도구 튜토리얼을 돌려봤다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "리더는 최신 기술 매뉴얼을 펼쳐놓고 밤늦게 학습했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 데이터 분석 툴을 익힌 뒤 팀원들에게 시범을 보였다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "책임자는 새로운 소프트웨어 시연회에서 적극적으로 질문했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 신규 플랫폼 매뉴얼을 펼쳐놓고 밤늦게 학습했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "팀원들이 퇴근한 후 팀 리더는 AI 도구을 혼자 익혔다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "사무실 한켠에서 임원는 새로운 소프트웨어 튜토리얼을 돌려봤다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "팀 리더는 신규 플랫폼을 테스트하며 새로운 기능을 파악했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "변화하는 시장의 흐름 속에서 과장는 새로운 기술을 탐구했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "임원는 데이터 분석 툴 업데이트 소식에 바로 반응했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "디지털 전환에 대비해 과장는 디지털 스킬을 갈고닦았다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "성장을 위해 변화에 적응하는 자가 살아남습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "모두에게 기술 학습은 끝이 없는 여정입니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "함께하는 동료들에게 기술 학습은 끝이 없는 여정입니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "지금 이 순간 새로운 도구는 효율의 열쇠입니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "지금 이 순간 새로운 기술은 성장의 디딤돌입니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "새로운 물결에 올라타야 할 때입니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "우리 팀은 기술 학습은 끝이 없는 여정입니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "모두에게 기술의 속도를 따라잡아야 합니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "디지털 전환은 선택이 아닌 필수입니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "팀원들과 함께 기술 학습은 끝이 없는 여정입니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "이 순간 학습의 손을 놓아서는 안 됩니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "우리 팀은 기술의 물결에 몸을 맡겨야 합니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "즉시 새로운 기술은 나와 상관없습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "당장 데이터 분석 툴을 거부하겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "디지털 전환은 우리 팀에 맞지 않습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "함께 새로운 기술은 나와 상관없습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "direct_speech",
+    "text": "앞으로 협업 플랫폼을 배우기 싫습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "책임자는 신기술 도입의 흐름을 거스르려 했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "책임자는 데이터 분석 툴을 거부하고 기존 방식만 고집했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "팀 리더는 신기술 도입에 무관심했고 학습도 하지 않았다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "비상 대응실에서 책임자는 디지털 전환을 방해했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "indirect_report",
+    "text": "팀 리더는 신규 플랫폼 사용법을 익히려 하지 않았다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "신기술 도입의 흐름 속에서 팀장는 고개를 돌렸다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "과장는 데이터 분석 툴 매뉴얼을 책상 서랍에 처박아두었다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "본부장는 최신 기술 업데이트 소식에 고개를 저었다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "사무실 한켠에서 과장는 구식 방법으로 일만 했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "scene_description",
+    "text": "팀 리더는 자동화 도구 관련 이메일을 삭제했다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "모두에게 학습하지 않아도 괜찮습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "기술의 물결에 몸을 맡기지 않겠습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "이 순간 디지털 역량은 중요하지 않습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "성공을 위해 학습하지 않아도 괜찮습니다."
+  },
+  {
+    "label_id": "M21-01",
+    "label_name": "학습 및 디지털 민첩성",
+    "style": "euphemism",
+    "text": "지금 이 순간 새로운 기술은 불필요한 짐입니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "무엇이 잘못됐는지 점검하여 개선합시다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "지금 이 순간 시행착오를 재도전합시다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "모두 함께 문제를 배움으로 전환합시다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "구성원 전체의 오류를 지지하고 회복합시다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "이번 실수가 다음 성공의 발판입니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "지금 문제는 성장을 위한 과정입니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "모두 구성원을 보호하며 다시 도전합시다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "즉시 우리는 문제를 극복할 수 있습니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "지금 난관를 인정하고 앞으로 나아갑시다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "모두 함께 난관에서 배운 점을 정리핵봅시다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "반드시 동료의 오류를 격려하며 회복합시다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "시행착오에서 배운 점을 정리핵봅시다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "지금 이 순간 좌절를 인정하고 앞으로 나아갑시다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "본부장는 시행착오를 분석하여 팀에게 배움을 전달했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "디렉터는 포기하지 않고 다시 시도하도록 독려했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "부장는 파트너을 감싸주며 재도전을 이끌었다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 이번 경험을 팀의 자산으로 삼았다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "디렉터는 팀원을 감싸주며 재도전을 이끌었다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "팀 리더는 좌절감를 인정하고 앞으로 나아갔다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "과장는 난관를 성장 과정으로 받아들였다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "리더는 이번 경험을 팀의 자산으로 삼았다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "과장는 난관를 인정하고 앞으로 나아갔다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "책임자는 좌절감를 분석하여 팀에게 배움을 전달했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "과장는 이번 난관를 다음 성공의 발판으로 삼았다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "리더는 실패를 성장 과정으로 받아들였다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "디렉터는 다시 일어서는 팀을 옆에서 지지했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "리더는 실수를 극복하기 위해 새로운 계획을 세웠다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "과장는 시행착오를 극복하기 위해 새로운 계획을 세웠다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "리더는 시행착오 직후 팀원의 어깨를 토닥였다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "팀원들이 좌절할 때 리더는 희망의 메시지를 전했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "팀원들이 좌절할 때 디렉터는 희망의 메시지를 전했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "부장는 문제 보고서를 펼쳐 팀과 함께 되새겼다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "시행착오 소식이 전해지자 부장는 침착하게 대응했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "문제의 그늘 아래 팀 리더는 팀을 이끌어 밖으로 나왔다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "실수의 잔해 속에서 팀 리더는 새로운 가능성을 발견했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "실수 소식이 전해지자 리더는 침착하게 대응했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "임원는 실패를 교훈 삼아 팀원들과 함께 웃었다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "팀원들이 좌절할 때 책임자는 희망의 메시지를 전했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "미래를 위해 낙하산은 떨어져야 펼쳐집니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "지금 이 순간 어둠 속에서도 별은 빛납니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "팀원들과 함께 겨울이 지나야 봄이 옵니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "조직 전체에 겨울이 지나야 봄이 옵니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "모두에게 진흙 속에서도 연꽃은 피어납니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "도자기는 깨지고 나서야 진가를 알 수 있습니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "성장을 위해 어둠 속에서도 별은 빛납니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "깊은 골짜기를 지나야 높은 산에 오릅니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "파도는 부딪혀야 더 큰 파도를 만듭니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "앞으로 나아가기 위해 땅을 파야 샘물이 솟습니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "성장을 위해 쇠는 두드려야 강해집니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "지금 이 순간 구성원을 질책하겠습니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "지금 이 순간 다시 시도하지 마세요."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "모두 함께 실패는 능력 부족의 증거입니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "우리는 팀원의 시행착오를 비난하겠습니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "direct_speech",
+    "text": "모두 함께 난관는 능력 부족의 증거입니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "디렉터는 실패를 용납하지 않는 분위기를 조성했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "본부장는 팀을 질책하고 분위기를 얼어붙게 했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "디렉터는 팀이 다시 시도하는 것을 막았다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "프로젝트룸에서 과장는 재도전을 허락하지 않았다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "indirect_report",
+    "text": "부장는 오류를 덮어버리고 잊으라고 했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "좌절감 이후 리더는 팀을 모아 질책만 했다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "팀원들이 좌절할 때 디렉터는 냉소적인 말을 내뱉었다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "디렉터는 좌절를 인정하는 메모를 찢어버렸다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "팀장는 실수 보고서를 서랍에 처박았다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "scene_description",
+    "text": "과장는 시행착오를 인정하는 메모를 찢어버렸다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "지금 이 순간 낙하산은 떨어지면 끝입니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "함께하는 동료들에게 땅을 파면 구덩이만 남습니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "폭풍 후에도 하늘은 여전히 흐립니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "조직 전체에 낙하산은 떨어지면 끝입니다."
+  },
+  {
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "style": "euphemism",
+    "text": "우리 모두에게 땅을 파면 구덩이만 남습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "블루오션에서의 성장 가능성을 확인하겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "신규 시장에 대한 탐색을 시작하겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "고객 인터뷰을 활용해 글로벌 시장 기회를 찾겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "변화할 수 있는 영역이 어디인지 살펴봅시다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "데이터를 기반으로 새로운 혁신 기회를 발굴하겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "새로운 트렌드를 분석해서 기회를 포착하겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "새로운 시장에 대한 탐색을 시작하겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "신규 시장 진출 가능성을 검토하겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "디지털 시장를 시장 조사를 통해 가능성을 찾겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "혁신 기회를 놓치지 않도록 주시하겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "트렌드를 분석하여 새로운 사업 기회를 찾겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "고객 인터뷰을 통해 숨은 기회를 찾겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "빅데이터을 통해 숨은 기회를 찾겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "과장는 새로운 트렌드를 분석해서 기회를 포착했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "디렉터는 기술 동향을 살펴보아 새로운 도약 기회를 발굴했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "임원는 트렌드를 분석하여 새로운 사업 기회를 찾았다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "부장는 기술 예측을 활용해 디지털 시장 기회를 찾았다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "임원는 경쟁 분석을 기반으로 기회를 분석했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "팀 리더는 고객 인터뷰을 기반으로 기회를 분석했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "과장는 새로운 시장에 대한 탐색을 주도했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "책임자는 고객 니즈를 파악하여 새로운 사업 기회를 찾았다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "팀장는 디지털 시장에서의 성장 가능성을 확인했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "본부장는 트렌드 리포트을 활용해 잠재 시장 기회를 찾았다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 글로벌 시장를 탐색하는 팀을 꾸렸다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "과장는 신흥 시장에 대한 탐색을 주도했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "본부장는 경쟁사를 분석하여 새로운 혁신 기회를 발굴했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "디렉터는 시장 분석을 업데이트하며 디지털 시장 기회를 추적했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 기술 예측을 업데이트하며 새로운 시장 기회를 추적했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "과장는 빅데이터을 업데이트하며 신규 시장 기회를 추적했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "부장는 업계 보고서를 통해 신규 시장를 확인했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "부장는 컨퍼런스에서 신흥 시장 기회를 엿봤다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "디렉터는 글로벌 뉴스를 챙기며 잠재 시장를 찾았다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "책임자는 팀원들과 글로벌 시장 브레인스토밍을 이어갔다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "디렉터는 경쟁사 동향을 살피며 새로운 시장를 예의주시했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "디렉터는 밤늦게까지 기술 예측을 보며 신규 시장를 연구했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "본부장의 책상 위에는 잠재 시장 관련 자료가 쌓여 있었다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 신흥 시장 관련 기사에 밑줄을 그으며 연구했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "리더는 업계 보고서를 통해 잠재 시장를 확인했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "변화를 위해 새로운 땅을 개척해야 할 때입니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "우리 모두에게 시장의 지도를 다시 그려야 합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "조직 전체에 미지의 영역에 발을 디뎌야 합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "팀원들과 함께 시장의 지도를 다시 그려야 합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "모두에게 기회는 움직이는 자에게 열립니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "변화의 파도에서 기회를 찾아야 합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "함께하는 동료들에게 시장의 틈새를 발굴해야 합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "혁신을 위해 미지의 영역에 발을 디뎌야 합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "혁신을 위해 변화의 바람을 타야 합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "이 순간 트렌드의 흐름을 읽어야 합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "함께하는 동료들에게 기회는 움직이는 자에게 열립니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "팀원들과 함께 미래의 문을 두드려야 합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "반드시 미래 시장는 우리와 무관합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "지금 이 순간 잠재 시장 진출은 포기하겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "우리 모두 새로운 시도는 금지합니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "우리 모두 시장 변화는 무시하겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "direct_speech",
+    "text": "모두 함께 새로운 트렌드를 따르지 않겠습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "과장는 글로벌 시장에서 기회는 없다고 단정했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "팀 리더는 트렌드 분석을 하지 않았다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "과장는 시장 조사를 시간 낭비로 여겼다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "본부장는 트렌드 리포트을 쓸모없다며 폐기했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "indirect_report",
+    "text": "디렉터는 블루오션 탐색을 중단시켰다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "부장는 고객 인터뷰를 거부하며 새로운 시장를 닫아버렸다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "팀장는 잠재 시장 트렌드 모니터링 대시보드를 삭제했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "본부장는 시장 분석을 화면에서 닫아버렸다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "부장의 책상 위에는 기존 시장 자료만 쌓여 있었다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "scene_description",
+    "text": "팀 리더는 팀원들의 잠재 시장 제안을 묵살했다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "시장의 지도는 그대로 두는 것이 좋습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "우리 모두에게 새로운 지평은 열리지 않습니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "이 순간 혁신의 불씨는 꺼도 됩니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "새로운 물줄기는 찾지 않아도 됩니다."
+  },
+  {
+    "label_id": "M22-01",
+    "label_name": "혁신 기회 탐색_L22",
+    "style": "euphemism",
+    "text": "지금 이 순간 트렌드의 흐름은 무시해도 됩니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "실험 프로젝트에 필요한 자원을 지원하겠습니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "실패핵도 괜찮으니 실험 프로젝트를 시도하세요."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "지금 당장 도전 과제를 승인하겠습니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "불확실성를 감수하고 혁신 목표에 도전하겠습니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "업무에서 혁신을 위해 리스크를 감수합시다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "사업에서 혁신을 위해 리스크를 감수합시다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "팀원 모두 새로운 시도를 두려워하지 마세요."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "팀원이 자유롭게 실험할 수 있게 하겠습니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "획기적인 목표를 향해 용기 있게 나아갑시다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "프로토타입에 필요한 자원을 지원하겠습니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "동료의 실험적 시도를 적극 지원하겠습니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "분야에서 혁신을 위해 리스크를 감수합시다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "높은 목표를 향해 용기 있게 나아갑시다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "리더는 혁신 목표를 설정하고 팀을 독려했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "본부장는 장벽를 줄이면서도 도전을 멈추지 않았다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "본부장는 파트너이 자유롭게 실험할 수 있게 지원했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 도전적인 방향으로 사업를 확장했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 파트너의 실험적 시도를 적극 지원했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "리더는 실패를 용인하며 실험 프로젝트를 시도하게 했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "디렉터는 리스크를 감수하고 과감한 목표에 도전했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "본부장는 팀이 자유롭게 실험할 수 있게 지원했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "디렉터는 파트너이 자유롭게 실험할 수 있게 지원했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "팀 리더는 팀원들이 새로운 시도를 두려워하지 않게 했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "과장는 실패를 용인하며 실험 프로젝트를 시도하게 했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "부장는 장벽를 줄이면서도 도전을 멈추지 않았다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "책임자는 파트너의 실험적 시도를 적극 지원했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "임원는 도전 과제 결과를 기다리며 팀을 응원했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "본부장는 파일럿 프로젝트 실험 공간을 마련했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "과장는 장벽를 직접 떠안고 팀을 보호했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 회의실에서 높은 목표를 적으며 팀을 독려했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "임원는 도전 과제를 위한 자원을 직접 확보했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "과장는 획기적인 목표를 향해 달리는 팀의 선두에 섰다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "책임자는 분야에서의 도전을 백지에 그려 설명했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 베타 프로젝트 기획서에 승인 도장을 찍었다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "임원는 시범 사업를 위한 자원을 직접 확보했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "팀장는 팀원이 실패핵도 괜찮다고 말하며 격려했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "팀장는 시험 운영 기획서에 승인 도장을 찍었다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 베타 프로젝트 결과를 기다리며 팀을 응원했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "변화를 위해 새로운 시도는 미래의 씨앗입니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "새로운 길은 두려움 없이 걸어야 합니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "도약을 위해 실험은 혁신의 산파역입니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "혁신을 위해 모험은 성장의 또 다른 이름입니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "미래를 위해 시행착오는 지혜의 어머니입니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "안전지대를 벗어나야 본물을 찾을 수 있습니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "우리 팀은 모험심을 잃지 말아야 합니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "앞으로 나아가기 위해 도전의 물결에 올라타야 합니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "성장을 위해 도전의 문을 두드려야 합니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "도전하지 않으면 아무것도 변하지 않습니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "이 순간 리스크는 보상의 다른 이름입니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "모두에게 새로운 시도는 미래의 씨앗입니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "지금 이 순간 도전를 감수하는 것은 묪습니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "새로운 목표는 무리입니다 포기하세요."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "앞으로 실패를 절대 용납하지 않겠습니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "분야에서 새로운 시도는 불필요합니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "direct_speech",
+    "text": "프로젝트에서 새로운 시도는 불필요합니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "디렉터는 실험을 금지하는 지시를 내렸다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "본부장는 안전한 목표만 설정하고 도전을 막았다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "팀원들 앞에서 팀장는 난관를 회피하도록 강요했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "디렉터는 난관를 감수하지 않으려 했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "indirect_report",
+    "text": "부장는 기존 방식을 고수하며 변화를 거부했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "업무 공간에서 과장는 시범 사업 예산을 삭감했다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "본부장는 장벽를 감수하지 않겠다는 공문을 냈다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "과장는 프로토타입 기획서를 휴지통에 버렸다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "디렉터는 파일럿 프로젝트 결과를 기다리지 않고 중단시켰다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "scene_description",
+    "text": "디렉터는 획기적인 목표를 향해 나아가는 팀을 끌어모았다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "성장을 위해 안전지대가 최고의 보호막입니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "조직 전체에 안전지대가 최고의 보호막입니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "지금 이 순간 모험은 불필요한 도박입니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "미래를 위해 리스크는 패배의 다른 이름입니다."
+  },
+  {
+    "label_id": "M22-02",
+    "label_name": "실험 및 도전 장려",
+    "style": "euphemism",
+    "text": "변화를 위해 물음표는 불안의 시작입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "과거를 정리하며 미래를 준비하겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "리더십에서의 교훈을 소중히 여기겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "성찰을 통해 더 나은 리더가 되겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "우리 팀은 배움을 멈추지 않겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "매일 일상을 실행하며 성찰하겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "과거 결정을 돌아보며 개선점을 찾겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "지금 당장 자기 성찰의 시간을 가집시다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "매월 자신을 돌아보는 시간을 갖겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "매주 자신을 돌아보는 시간을 갖겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "반성을 통해 더 나은 리더가 되겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "팀 운영에서의 실수를 되돌아보겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "과거를 되새기며 미래를 준비하겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "지금 당장 업무에서의 실수를 되돌아보겠습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 경험에서 배운 점을 정리하여 팀에 전달했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "리더는 교육 없이는 성장이 없다고 강조했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "임원는 배움을 멈추지 않고 성장했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "팀 리더는 지속적으로 향상를 추구했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "과장는 과거 결정을 돌아보며 개선점을 찾았다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "리더는 배움 없이는 성장이 없다고 강조했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "책임자는 배움을 멈추지 않고 성장했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "팀 리더는 팀 운영에서의 교훈을 소중히 여겼다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "리더는 돌아봄을 통해 더 나은 리더가 되었다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "팀 리더는 업무에서의 교훈을 소중히 여겼다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "책임자는 배움을 통해 개선를 이루었다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "본부장는 매주 프로젝트를 적용하며 성찰했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "과장는 팀 운영에서의 실수를 되돌아보며 반성했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "임원는 리더십에서의 실수를 메모하며 되뇌었다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "디렉터는 리더십 회고록을 팀과 함께 읽었다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "임원는 교육 세미나에 앉아 눈을 반짝였다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "본부장는 팀원들과 자기 성찰 모임을 가졌다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "책임자는 일상 회고록을 팀과 함께 읽었다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "임원는 업무에서의 실수를 메모하며 되뇌었다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "부장는 일상의 성공담과 실패담을 정리했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "부장는 매주 조용한 공간에서 성찰의 시간을 가졌다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "부장는 배움 동아리를 직접 만들어 이끌었다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "임원는 매월 조용한 공간에서 성찰의 시간을 가졌다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "임원는 연구 동아리를 직접 만들어 이끌었다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "리더는 화이트보드에 향상 계획을 세웠다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "함께하는 동료들에게 지혜는 성찰의 열매입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "팀원들과 함께 학습은 인생의 산소입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "함께하는 동료들에게 지속적인 학습이 미래를 밝힙니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "변화를 위해 성장은 자기와의 약속입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "모두에게 발전은 멈추지 않는 시계입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "우리 팀은 배움의 문은 항상 열려 있습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "팀원들과 함께 경험은 최고의 스승입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "되돌아보는 것은 앞으로 나아가는 것입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "팀원들과 함께 과거는 미래의 교과서입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "지금 이 순간 배움의 샘은 마르지 않습니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "함께하는 동료들에게 거울 앞에 서는 용기가 필요합니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "도약을 위해 성장은 자기와의 약속입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "우리는 일상에서의 실수는 묻어두세요."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "우리는 리더십에서의 실수는 묻어두세요."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "모두 함께 일상에서의 실수는 묻어두세요."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "모두 함께 자기 성찰을 하지 마세요."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "direct_speech",
+    "text": "팀원 모두 프로젝트에서의 교훈은 무시하세요."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "회의에서 임원는 배움을 시간 낭비로 여겼다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "팀원들 앞에서 리더는 일상에서의 교훈을 무시했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "과장는 과거를 잊고 반복하기만 했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "팀 리더는 프로젝트에서의 교훈을 무시했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "indirect_report",
+    "text": "본사에서 디렉터는 반성을 완전히 무시했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "본사에서 임원는 매일 일기를 쓰지 않았다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "책임자는 진보 목표를 책상에서 떼어냈다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "임원는 업무의 실패담을 듣기를 거부했다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "책임자의 책상 위에는 공부 서적 대신 잡지만 있었다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "scene_description",
+    "text": "책임자의 책상 위에는 배움 서적 대신 잡지만 있었다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "되돌아보는 것은 뒤로 가는 것입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "미래를 위해 배움의 샘은 말라도 됩니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "앞으로 나아가기 위해 성장은 끝이 있는 여정입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "이 순간 성장은 자기와의 전쟁입니다."
+  },
+  {
+    "label_id": "M22-03",
+    "label_name": "성찰/학습 지향",
+    "style": "euphemism",
+    "text": "앞으로 나아가기 위해 학습은 인생의 짐입니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "프로젝트를 혁신할 새로운 아이디어를 찾읍시다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "지금 이 순간 기존과 다른 방법을 적용하겠습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "새로운 관점으로 프로세스를 바라보겠습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "새로운 방식를 수집하여 프로젝트를 개선하겠습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "혁신적인 업무 방식을 도입하겠습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "조직 내에서 새로운 아이디어를 적극 발굴하겠습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "아이디어 공모 시간을 만들어 새로운 방식를 모읍시다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "브레인스토밍을 통해 창의적 접근를 수집하겠습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "지금 이 순간 새로운 접근법을 시도핵봅시다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "혁신적인 프로세스 방식을 도입하겠습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "현장의 시스템을 바꿀 획기적 방안를 기다리고 있습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "프로세스에 새로운 아이디어를 적용해 성과를 내겠습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "지금 이 순간 독창적 해결책를 실험핵보겠습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "리더는 독창적 해결책를 적극적으로 발굴했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 디자인 씽킹을 통해 획기적 방안를 발굴했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "리더는 창의적 접근를 수집하여 제품를 개선했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "부장는 획기적 방안를 실험하여 가능성을 확인했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "팀 리더는 새로운 접근법을 시도하여 성과를 냈다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "부장는 시스템에 획기적 방안를 적용해 성과를 냈다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "리더는 프로젝트의 서비스를 바꿀 혁신안을 제시했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "팀 리더는 혁신 세션 시간을 만들어 팀의 아이디어를 모았다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "리더는 혁신적인 업무 방식을 도입하여 효율을 높였다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "팀장는 새로운 아이디어를 실험하여 가능성을 확인했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "과장는 프로젝트의 제품를 바꿀 혁신안을 제시했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "본부장는 혁신적인 방법를 실험하여 가능성을 확인했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "부장는 디자인 씽킹을 통해 새로운 방식를 발굴했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "부장는 혁신적인 방법이 나오자 즉시 시스템에 적용해봤다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "임원는 브레인스토밍 보드에 창의적 접근를 적어 붙였다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "디렉터는 회사 회의에서 독창적 해결책를 발표했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "부장는 아이디어 공모 중 획기적 방안를 발견하고 눈을 반짝였다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "임원는 독창적 해결책를 실험하기 위해 작은 공간을 꾸몄다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "과장는 현장의 구석구석에서 새로운 아이디어를 찾아다녔다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "팀 리더는 새로운 방식를 적은 수첩을 항상 품에 지녔다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "부장는 독창적 해결책를 현실로 만들기 위해 예산을 따로 냈다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "임원는 팀 게시판에 독창적 해결책를 모으는 종이를 붙였다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "부장는 현장의 구석구석에서 획기적 방안를 찾아다녔다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "책임자는 독창적 해결책가 나오자 즉시 제품에 적용해봤다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "팀 리더는 시스템의 낡은 방식을 새로운 방식로 바꿔놨다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "변화를 위해 창의의 불꽃을 지펴야 합니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "지금 이 순간 창의력은 성장의 원동력입니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "변화를 위해 새로운 시각이 문제를 풉니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "팀원들과 함께 아이디어는 미래의 화폐입니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "변화를 위해 생각의 날개를 펼쳐야 합니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "도약을 위해 혁신은 끊임없는 질문에서 나옵니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "도약을 위해 창의는 어둠 속의 등불입니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "혁신을 위해 새로운 시각이 문제를 풉니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "미래를 위해 아이디어는 조직의 산소입니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "우리 팀은 새로운 시각이 문제를 풉니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "새로운 길은 생각의 전환에서 열립니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "우리 모두에게 혁신의 물줄기를 틀어야 합니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "우리는 아이디어 캠프은 시간 낭비입니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "팀원 모두 창의적 접근는 받지 않겠습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "조직 내에서 새로운 시도는 불필요합니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "팀원 모두 아이디어 제안은 금지입니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "direct_speech",
+    "text": "우리는 아이디어 공모은 시간 낭비입니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "본부장는 회사 내에서 새로운 시도를 불필요하다고 했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "과장는 프로세스가 현재 방식이 최선이라고 주장했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "리더는 새로운 관점을 위험하다고 판단했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "팀 리더는 프로젝트가 현재 방식이 최선이라고 주장했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "indirect_report",
+    "text": "부장는 프로젝트 내에서 새로운 시도를 불필요하다고 했다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "팀 리더는 회사의 구석구석에서 획기적 방안를 쫓아냈다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "임원는 디자인 씽킹 보드에 적힌 혁신적인 방법를 지워버렸다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "임원는 프로젝트 문제를 낡은 시각으로만 그려냈다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "본부장는 혁신 세션 보드에 적힌 새로운 아이디어를 지워버렸다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "scene_description",
+    "text": "팀장는 회사의 구석구석에서 새로운 아이디어를 쫓아냈다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "혁신을 위해 아이디어는 유한한 자원입니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "성공을 위해 혁신은 끊임없는 질문에서 죽습니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "변화를 위해 혁신의 물줄기는 막아야 합니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "모두에게 생각의 날개를 접어야 합니다."
+  },
+  {
+    "label_id": "M23-01",
+    "label_name": "혁신 아이디어 발굴",
+    "style": "euphemism",
+    "text": "우리 모두에게 혁신은 끊임없는 질문에서 죽습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "파트너의 창의적 사고를 지원하겠습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "지금 이 순간 어떤 창의적 생각든 환영합니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "부서의 독창적 의견를 모아 혁신을 이끌겠습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "제품에 대한 창의적 생각를 제시해주세요."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "브레인스토밍을 정기적으로 운영하겠습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "부서 내에서 혁신안를 마음껏 내세요."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "부서의 새로운 관점를 모아 혁신을 이끌겠습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "즉시 혁신 세션 시간을 만들었습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "팀원의 창의적 사고를 지원하겠습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "동료의 아이디어를 적극 수렴하겠습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "지금 당장 어떤 아이디어든 환영합니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "앞으로 혁신 세션 시간을 만들었습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "팀의 창의적 생각를 적극 수렴하겠습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "디렉터는 어떤 제안든 환영하며 분위기를 조성했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "본부장는 어떤 아이디어든 환영하며 분위기를 조성했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "과장는 혁신 세션을 통해 제안 수집을 장려했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "팀 리더는 아이디어 제안 시스템을 통해 새로운 관점 제안을 장려했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "팀 리더는 아이디어 캠프을 통해 제안 공유 문화를 정착시켰다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "책임자는 창의적 사고 워크숍을 통해 혁신안 제안을 장려했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "리더는 아이디어 캠프을 통해 독창적 의견 발굴을 장려했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "팀장는 프로세스에 대한 혁신안를 꾸준히 받았다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "디렉터는 파트너이 자유롭게 독창적 의견를 내게 했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "리더는 팀이 자유롭게 새로운 관점를 내게 했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "디렉터는 혁신 세션을 통해 새로운 관점 수집을 장려했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "부장는 부서의 창의적 생각를 모아 혁신을 이끌었다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "팀 리더는 서비스에 대한 새로운 관점를 꾸준히 받았다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "과장는 프로젝트 구석에 독창적 의견 게시판을 만들었다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "본부장는 시스템 개선을 위한 창의적 생각 상자를 설치했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "팀장는 팀원 앞에서 혁신안를 내는 것을 독려했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "디렉터는 프로세스에 대한 제안를 수집하는 앱을 도입했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "책임자는 창의적 사고 워크숍 보드에 새로운 관점를 적어 붙였다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "팀장는 창의적 사고 워크숍 보드에 제안를 적어 붙였다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "책임자는 동료이 혁신안를 낼 때 웃음으로 화답했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "책임자는 파트너 앞에서 혁신안를 내는 것을 독려했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "부장는 창의적 생각를 낼 수 있는 시간을 일과에 반영했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "디렉터는 제품에 대한 아이디어를 수집하는 앱을 도입했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "과장는 아이디어 제안 시스템 결과를 정리하며 창의적 생각를 분류했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "책임자는 혁신 세션 보드에 창의적 생각를 적어 붙였다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "변화를 위해 새로운 시각이 세상을 넓힙니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "성장을 위해 새로운 관점은 빛을 발합니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "함께하는 동료들에게 창의는 영혼의 산소입니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "앞으로 나아가기 위해 창의의 샘은 흘러야 합니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "우리 모두에게 새로운 시각이 세상을 넓힙니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "모두에게 제안의 문은 활짝 열어야 합니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "지금 이 순간 아이디어는 성장의 원동력입니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "앞으로 나아가기 위해 제안은 미래의 씨앗입니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "우리 모두에게 아이디어는 성장의 원동력입니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "우리 모두에게 생각의 불꽃을 지펴야 합니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "도약을 위해 창의력은 조직의 바다입니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "성장을 위해 창의력은 조직의 바다입니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "즉시 창의적 사고 워크숍은 중단합니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "프로젝트의 새로운 관점는 무시하겠습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "서비스에 대한 혁신안는 불필요합니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "프로젝트에 대한 새로운 관점는 불필요합니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "direct_speech",
+    "text": "파트너이 혁신안를 내기 어렵게 하겠습니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "책임자는 제안를 내지 못하게 분위기를 얼어붙게 했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "팀장는 업무 개선을 위한 독창적 의견를 사절했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "리더는 프로세스에 대한 혁신안를 불필요하다고 했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "디렉터는 혁신 세션 시간을 폐지했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "indirect_report",
+    "text": "팀 리더는 업무에 대한 아이디어를 불필요하다고 했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "부장는 프로세스에 대한 독창적 의견를 수집하는 앱을 삭제했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "본부장는 시스템 개선을 위한 창의적 생각 상자를 치웠다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 회사 회의에서 독창적 의견를 낸 팀원을 질책했다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "과장는 조직 구석에 창의적 생각 금지 포스터를 붙였다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "scene_description",
+    "text": "팀장는 프로젝트의 독창적 의견를 한 권의 책으로 불태웠다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "성장을 위해 제안은 미래의 독입니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "모두에게 아이디어는 성장의 발목잡이입니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "미래를 위해 아이디어는 성장의 발목잡이입니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "변화를 위해 혁신은 끊임없는 망상에서 나옵니다."
+  },
+  {
+    "label_id": "M23-02",
+    "label_name": "아이디어 발굴 장려",
+    "style": "euphemism",
+    "text": "미래를 위해 창의의 샘은 말라야 합니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "우리 모두 표준 절차를 지키겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "우리 팀은 업무의 표준을 유지하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "팀원 모두 업무의 표준을 확보하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "앞으로 안정적 업무를 유지하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "우리는 프로세스 안정성을 확보하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "반드시 시스템을 점검하고 보완하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "우리 팀은 운영 기준를 철저히 지키겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "안정성을 해치는 변화는 삼가겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "즉시 예측 가능한 기준을 강화하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "예측 가능한 운영을 위해 시스템을 세우겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "우리 모두 안정적 인프라를 유지하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "우리 모두 환경의 가이드라인를 준수합시다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "즉시 인프라의 운영 기준를 준수합시다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "과장는 안정성을 해치는 변화를 삼갔다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "팀 리더는 환경의 매뉴얼를 준수했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 표준 운영 절차를 철저히 준수합시다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "팀 리더는 환경의 가이드라인를 준수했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "팀 리더는 시스템을 철저히 확보하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "상황실에서 팀장는 표준 절차를 준수합시다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "본부장는 위험를 최소화하는 환경를 만들었다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 안정적 시스템을 유지했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "부장는 오류를 최소화하는 업무를 만들었다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "업무 시간에 과장는 견고한 기준을 지키겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "팀장는 인프라의 표준을 유지하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "팀원들 앞에서 임원는 문제를 사전에 관리했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "팀장는 리스크를 최소화하는 환경를 만들었다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "임원는 안정적 기준을 상황실에 게시했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "본부장는 체계적인 기준을 사무실에 게시했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "임원는 인프라의 위험를 줄이기 위해 야근을 했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "과장는 신뢰할 수 있는 운영을 위해 운영를 정비했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "팀 리더는 일관된 기준을 본사에 게시했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "부장는 체계적인 운영을 위해 시스템을 정비했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "본부장는 문제를 사전에 차단하는 시스템을 만들었다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 인프라의 리스크를 줄이기 위해 야근을 했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "회의실에서 리더는 신뢰할 수 있는 프로세스를 점검했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "팀장는 장애를 사전에 차단하는 시스템을 만들었다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "현장에 시스템을 준수하는 표지판을 붙였다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 시스템 변화를 신중하게 검토했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "팀원들과 함께 안정은 성장의 토대입니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "미래를 위해 틀을 지켜야 질서가 생깁니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "변화를 위해 변화보다 안정이 우선입니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "모두에게 균형 잡힌 물결을 유지해야 합니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "모두에게 든든한 둑을 쌓아야 합니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "성장을 위해 안정적인 토양에서 꽃이 핍니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "배는 안전한 항구에 머물러야 합니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "미래를 위해 표준은 신뢰의 다른 이름입니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "함께하는 동료들에게 안전한 다리를 놓아야 합니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "미래를 위해 예측 가능한 리듬이 힘입니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "변화를 위해 안전한 다리를 놓아야 합니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "우리 모두에게 안정은 성장의 토대입니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "모두 함께 업무 안정성은 중요하지 않습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "모두 함께 안정성을 해치는 변화를 환영합니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "모두 프로세스의 표준을 무시하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "반드시 가이드라인를 점검하지 않겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "direct_speech",
+    "text": "당장 무분별한 변화를 추구하겠습니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "팀장는 프로세스의 표준 운영 절차를 위반했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "비상 대응실에서 팀장는 표준 절차를 어겼다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "부장는 프로세스의 표준 운영 절차를 위반했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "본사에서 본부장는 인프라의 표준을 무시했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "indirect_report",
+    "text": "임원는 장애를 최대화하는 프로세스를 만들었다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "팀장는 불확실성를 사전에 차단하는 시스템을 끄었다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "회의실에서 팀 리더는 시스템 안정성 테스트를 방해했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "비상 대응실에 매뉴얼 위반을 장려하는 포스터를 붙였다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "리더는 체계적인 운영을 위해 만들었던 인프라를 철거했다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "scene_description",
+    "text": "상황실에서 본부장는 견고한 운영를 고의로 망가뜨렸다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "변화를 위해 든든한 둑은 허물어야 합니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "혁신을 위해 위험한 다리를 놓아야 합니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "이 순간 예측 불가능한 리듬이 자유입니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "팀원들과 함께 위험한 다리를 놓아야 합니다."
+  },
+  {
+    "label_id": "M24-01",
+    "label_name": "운영 안정성 유지",
+    "style": "euphemism",
+    "text": "기초가 흔들려야 새로운 건물을 세울 수 있습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "우리 팀은 동료가 스스로 방향을 정하세요."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "함께 결정권를 담당자에게 부여하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "우리는 팀원가 결정한 것을 존중하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "이 일는 팀원가 직접 결정핵도 됩니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "팀원가 프로젝트를 이끌 수 있게 하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "반드시 결정권를 담당자에게 드리겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "반드시 권리를 동료에게 드리겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "반드시 팀원가 스스로 방향을 정하세요."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "지금 이 순간 자율권를 구성원에게 넘기겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "모두 자율권를 팀원에게 드리겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "우리는 동료가 스스로 방향을 정하세요."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "지금 이 순간 동료가 스스로 방향을 정하세요."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "구성원가 결정한 것을 존중하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "임원는 재량권를 직원에게 넘기겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "본부장는 파트너의 자율성을 보장했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "임원는 권한를 나누어 팀원에게 드리겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "팀장는 일를 파트너의 재량에 맡겼다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "부장는 일에 대한 재량권를 부여하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "팀장는 결정권를 위임하고 백업하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "부장는 결정권를 위임하고 백업하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "팀 리더는 권한를 팀원에게 넘기겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "현장에서 리더는 담당자의 판단을 믿었다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "현장에서 임원는 팀원의 자율성을 보장했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "회의에서 디렉터는 직원의 판단을 믿었다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "팀장는 의사결정 권한를 위임하고 보조하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "디렉터는 프로젝트에 대한 자율권를 위임하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "부장는 과제 문제를 담당자에게 넘기며 뒤로 물러났다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "팀장는 결정권를 나누어 각 구성원에게 배분했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "본부장는 자율권를 나누어 각 파트너에게 배분했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "리더는 직원의 선택에 대한 책임을 함께 지겠다고 했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "임원는 자율권를 상징하는 도장을 팀원에게 주었다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "부장는 구성원의 업무 보고를 듣고 고개를 끄덕였다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "과장는 권리를 나누어 각 동료에게 배분했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "리더는 직원의 책상 앞에 서서 권리를 설명했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "책임자는 업무 공간을 구성원에게 내주고 자리를 비웠다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "리더는 직원가 문제를 결정하는 모습을 지켜봤다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "책임자는 업무 일정을 구성원에게 전권을 맡겼다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "임원는 구성원가 과제를 이끄는 모습에 미소를 지었다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "혁신을 위해 팀원의 손에 미래를 맡겨야 합니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "미래를 위해 주도권은 동기부여의 열쇠입니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "혁신을 위해 자율의 날개를 펼쳐야 합니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "성장을 위해 자율은 창의력의 모태입니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "도약을 위해 주도권은 동기부여의 열쇠입니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "미래를 위해 권한은 성장의 비료입니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "성장을 위해 권한은 성장의 비료입니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "조직 전체에 자율의 날개를 펼쳐야 합니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "미래를 위해 위임은 리더의 지혜입니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "주도권을 주는 것이 진정한 리더십입니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "우리 모두에게 위임은 리더의 지혜입니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "성장을 위해 신뢰의 다리를 놓아야 합니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "담당자가 업무를 이끌 수 없게 하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "모두 함께 담당자는 결정하지 마세요."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "이 문제는 제가 직접 결정하겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "지금 당장 권한는 나누지 않겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "direct_speech",
+    "text": "일에 대한 권한는 위임하지 않겠습니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "부장는 결정권를 나누지 않고 독점했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "본부장는 동료가 상황를 주도하지 못하게 했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "본부장는 팀원가 스스로 방향을 정하지 못하게 했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "프로젝트 매니저는 담당자의 선택을 무시했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "indirect_report",
+    "text": "디렉터는 문제를 팀원의 재량에 맡기지 않았다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "디렉터는 구성원가 프로젝트를 결정하는 모습을 제지했다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "과장는 일 서류를 파트너에게서 빼앗았다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "팀 리더는 팀원가 과제를 이끄는 모습에 눈살을 찌푸렸다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "과장는 권리를 상징하는 도장을 담당자에게 주지 않았다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "scene_description",
+    "text": "프로젝트 매니저는 프로젝트 회의에서 파트너를 발표자로 세우지 않았다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "혁신을 위해 위임은 리더의 무능입니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "변화를 위해 위임은 성장의 독약입니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "지금 이 순간 믿고 맡기면 큰일 납니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "성장을 위해 믿고 맡기면 큰일 납니다."
+  },
+  {
+    "label_id": "M24-02",
+    "label_name": "권한 위임",
+    "style": "euphemism",
+    "text": "함께하는 동료들에게 자율의 날개를 꺾어야 합니다."
+  },
+  {
+    "text": "이번 실패를 통해 팀이 더 성숙해질 수 있을 것 같습니다.",
+    "label_id": "M21-02",
+    "label_name": "실패 수용 및 회복",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  }
+]

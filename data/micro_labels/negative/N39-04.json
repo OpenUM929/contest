@@ -1,0 +1,11 @@
+{
+  "label_id": "N39-04",
+  "label_name": "학대적 감독",
+  "macro": "N39",
+  "penalty": 0.7,
+  "weight": 0.8,
+  "definition": "팀원을 학대하고 괴롭히는 행동",
+  "when": "괴롭힘, 학대, 인격 모독 | 예시: '팀원을 공개적으로 모욕했다', '지속적으로 괴롭혔다', '인격을 모독하는 발언을 했다'",
+  "not_when": "건강한 피드백이나, 엄격하지만 존중하는 태도",
+  "context_weight": {"crisis": 1.0, "normal": 1.2, "innovation": 1.0}
+}

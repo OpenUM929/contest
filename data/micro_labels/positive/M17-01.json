@@ -1,0 +1,14 @@
+{
+  "label_id": "M17-01",
+  "label_name": "상황적 유연성",
+  "macro": "L17",
+  "weight": 0.7,
+  "definition": "변화에 빠르게 적응",
+  "when": "변화하는 상황, 돌발 상황, 유연한 대응",
+  "not_when": "준비 없는 변화 추진",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.1
+  }
+}

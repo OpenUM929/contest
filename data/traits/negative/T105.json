@@ -1,0 +1,33 @@
+{
+  "trait_id": "T105",
+  "trait_type": "negative",
+  "trait_name": "Risk: Manipulative Leadership",
+  "required": [
+    "N02-02",
+    "N02-03"
+  ],
+  "optional": [
+    "N02-01",
+    "N01-01",
+    "N06-02",
+    "N05-01",
+    "N05-02",
+    "N01-02"
+  ],
+  "hard_forbidden": [],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.0
+  },
+  "hybrid_eligible": false,
+  "k_trait": 1.0,
+  "description": "감정 조작·보상 과장·공포 기반 동기 유도 리더십",
+  "strengths": [],
+  "risks": [
+    "구성원 신뢰 붕괴",
+    "번아웃",
+    "허위 기대 조성"
+  ]
+}

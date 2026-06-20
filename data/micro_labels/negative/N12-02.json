@@ -1,0 +1,15 @@
+{
+  "label_id": "N12-02",
+  "label_name": "정서적 무관심",
+  "macro": "N12",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "팀원의 정서적 필요를 무시",
+  "when": "개인적 어려움에도 불구하고 무관심",
+  "not_when": "정서적 지지와 배려 제공; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

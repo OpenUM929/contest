@@ -1,0 +1,14 @@
+{
+  "label_id": "M03-02",
+  "label_name": "창의적 질문",
+  "macro": "L03",
+  "weight": 0.7,
+  "definition": "기존 관념을 깨는 창의적인 질문 던지기",
+  "when": "도전적 질문, 왜라는 질문 반복, 가정 의심",
+  "not_when": "단순 사실 확인 질문만 던짐",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

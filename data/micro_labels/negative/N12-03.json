@@ -1,0 +1,15 @@
+{
+  "label_id": "N12-03",
+  "label_name": "심리적 압박",
+  "macro": "N12",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "심리적 안전감을 해치는 행동",
+  "when": "부하직원을 심리적으로 압박, 협박",
+  "not_when": "심리적 안전감과 안정감 제공; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

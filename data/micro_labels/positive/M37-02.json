@@ -1,0 +1,14 @@
+{
+  "label_id": "M37-02",
+  "label_name": "디지털 리터러시 전파",
+  "macro": "L37",
+  "weight": 0.7,
+  "definition": "팀원들의 디지털 역량과 리터러시 향상 지원",
+  "when": "디지털 교육, 기술 전파, 리터러시 향상 프로그램",
+  "not_when": "디지털 역량 개발 방해",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.1,
+    "innovation": 1.3
+  }
+}

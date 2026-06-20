@@ -1,0 +1,15 @@
+{
+  "label_id": "N03-02",
+  "label_name": "비판 금지",
+  "macro": "N03",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "다른 의견이나 비판을 억압",
+  "when": "반대 의견을 묵살, 비판자 처벌 위협",
+  "not_when": "건설적 비판과 다양한 의견 환영; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

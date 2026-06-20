@@ -1,0 +1,15 @@
+{
+  "label_id": "N10-01",
+  "label_name": "실행 부진",
+  "macro": "N10",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "계획만 세우고 실제 실행하지 않음",
+  "when": "계획만 반복, 실제 실행 움직임 없음",
+  "not_when": "계획-실행-완수의 연속성; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

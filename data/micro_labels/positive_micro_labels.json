@@ -1,0 +1,988 @@
+{
+  "schema_version": "2026-04-v3",
+  "micro_label_mapping_version": "v2.0_full_complete_final",
+  "type": "positive",
+  "total_count": 67,
+  "documentation": {
+    "overview": "Complete Positive Micro Labels (67) - All fields filled with definition/when/not_when",
+    "design_principles": [
+      "Micro Label은 실제 행동 기반 정의",
+      "weight는 Trait 강화 기여도",
+      "confidence_weight는 NLP 신뢰도 반영",
+      "context_weight는 상황별 중요도 조정",
+      "core_label은 Trait 필수 구성 요소"
+    ],
+    "usage": {
+      "strength_formula": "weight × confidence × log(1+n)",
+      "trait_trigger": "required 조건 충족 여부 판단",
+      "hybrid_generation": "core_label 조합 기반 생성"
+    }
+  },
+  "micro_labels": [
+    {
+      "label_id": "M01-01",
+      "label_name": "명확한 비전 제시",
+      "macro": "L01",
+      "weight": 0.8,
+      "core": true,
+      "definition": "조직의 미래 방향과 목표를 명확히 제시",
+      "when": "비전 선포, 미래 방향 제시, 명확한 목표 선언",
+      "not_when": "모호한 표현, 방향성 불분명; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M01-02",
+      "label_name": "장기 방향 설정",
+      "macro": "L01",
+      "weight": 0.7,
+      "definition": "장기적 관점에서 전략적 방향 수립",
+      "when": "장기 로드맵 수립, 5년 계획 제시, 전략적 방향 설정",
+      "not_when": "단기적 대응, 임시방편; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.2
+      }
+    },
+    {
+      "label_id": "M01-03",
+      "label_name": "목표 정렬",
+      "macro": "L01",
+      "weight": 0.7,
+      "definition": "개인과 조직 목표를 일치시킴",
+      "when": "목표 공유 회의, 개인별 목표 정렬, 팀 목표 일치",
+      "not_when": "개인과 조직 목표 충돌 방치; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M01-04",
+      "label_name": "비전 공유",
+      "macro": "L01",
+      "weight": 0.6,
+      "definition": "조직 구성원과 비전을 지속적으로 공유",
+      "when": "정기적 비전 공유회, 비전 교육, 미션 전파",
+      "not_when": "비전을 문서에만 두고 소통 안 함; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M02-01",
+      "label_name": "내재적 동기 자극",
+      "macro": "L02",
+      "weight": 0.8,
+      "core": true,
+      "definition": "보상 없이도 스스로 동기부여하도록 유도",
+      "when": "자율성 부여, 의미 있는 업무 배정, 내적 동기 강조",
+      "not_when": "외부 압박이나 보상에만 의존; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M02-02",
+      "label_name": "성장 기회 제공",
+      "macro": "L02",
+      "weight": 0.7,
+      "definition": "팀원이 성장할 수 있는 기회와 환경 제공",
+      "when": "교육 기회 제공, 새로운 프로젝트 참여 기회, 멘토링",
+      "not_when": "성장 기회 차단, 동일 업무 반복 강요; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M02-03",
+      "label_name": "격려 및 인정",
+      "macro": "L02",
+      "weight": 0.6,
+      "definition": "팀원의 노력과 성취를 인정하고 격려",
+      "when": "노력 인정, 성취 축하, 긍정적 피드백, 칭찬",
+      "not_when": "성과를 당연시함, 인정 누락; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M02-04",
+      "label_name": "목표 몰입 유도",
+      "macro": "L02",
+      "weight": 0.7,
+      "definition": "목표에 집중하고 몰입할 수 있는 환경 조성",
+      "when": "몰입 환경 조성, 방해 요소 제거, 집중 시간 보장",
+      "not_when": "잦은 변경, 집중 방해; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M03-01",
+      "label_name": "문제 재정의",
+      "macro": "L03",
+      "weight": 0.7,
+      "definition": "기존 문제를 새로운 관점에서 재해석",
+      "when": "새로운 시각 제시, 문제 본질 재정의, 관점 전환",
+      "not_when": "기존 방식 고집, 틀에 박힌 사고; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.2
+      }
+    },
+    {
+      "label_id": "M03-02",
+      "label_name": "창의적 질문",
+      "macro": "L03",
+      "weight": 0.7,
+      "definition": "기존 관념을 깨는 창의적인 질문 던지기",
+      "when": "도전적 질문, 왜라는 질문 반복, 가정 의심",
+      "not_when": "단순 사실 확인 질문만 던짐; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M03-03",
+      "label_name": "새로운 접근 유도",
+      "macro": "L03",
+      "weight": 0.8,
+      "core": true,
+      "definition": "익숙하지 않은 새로운 방법론 제안",
+      "when": "새로운 방법 제안, 혁신적 접근 권장, 실험적 시도",
+      "not_when": "기존 방식에만 집착; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M04-01",
+      "label_name": "카리스마적 영향력",
+      "macro": "L04",
+      "weight": 0.8,
+      "definition": "강력한 개인적 매력으로 타인을 이끎",
+      "when": "강력한 설득, 군중을 움직이는 연설, 영향력 발휘",
+      "not_when": "권위에 의존한 통제; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M04-02",
+      "label_name": "롤모델 행동",
+      "macro": "L04",
+      "weight": 0.7,
+      "definition": "타인이 본받을 수 있는模範적 행동",
+      "when": "송선수범, 모범적 업무 태도, 윤리적 행동",
+      "not_when": "말과 행동이 다른 위선; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.0,
+        "innovation": 1.2
+      }
+    },
+    {
+      "label_id": "M05-01",
+      "label_name": "변화 필요 성명",
+      "macro": "L05",
+      "weight": 0.7,
+      "definition": "현상 유지의 한계를 지적하고 변화 필요성 역설",
+      "when": "변화 필요성 강조, 현状 타파 선언, 혁신 필요성 역설",
+      "not_when": "현状 유지 주장; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M05-02",
+      "label_name": "변화 실행 장려",
+      "macro": "L05",
+      "weight": 0.8,
+      "core": true,
+      "definition": "실제적인 변화 실행을 독려하고 지원",
+      "when": "인력·시스템·예산·교육 등 준비 완료 후 변화 실행 지원, 혁신 프로젝트 추진, 관련자 안내 후 변화 동참 촉구",
+      "not_when": "리스크 평가 없이 즉시 실행, 관련자 안내 없는 변경, 인프라·자원 미확보 상태에서 강행, 말로만 변화 강조; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M05-03",
+      "label_name": "변화 문화 조성",
+      "macro": "L05",
+      "weight": 0.7,
+      "definition": "조직 전체에 변화를 긍정하는 문화 정착",
+      "when": "실험 문화 조성, 실패 허용 분위기, 혁신 장려 문화",
+      "not_when": "변화에 대한 저항 묵인; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M06-01",
+      "label_name": "목표 설정 및 기대치 명확화",
+      "macro": "L06",
+      "weight": 0.8,
+      "core": true,
+      "definition": "구체적이고 측정 가능한 목표와 기대치 설정",
+      "when": "SMART 목표 설정, 명확한 KPI 제시, 기대치 공유",
+      "not_when": "모호한 목표, 주관적 평가; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M06-02",
+      "label_name": "세부 실행 지침",
+      "macro": "L06",
+      "weight": 0.7,
+      "definition": "목표 달성을 위한 구체적 실행 방법 제시",
+      "when": "실행 계획서 작성, 상세 프로세스 안내, 단계별 지침",
+      "not_when": "방향만 제시하고 방법은 안 알려줌; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M07-01",
+      "label_name": "구체적 피드백",
+      "macro": "L07",
+      "weight": 0.7,
+      "definition": "행동과 결과에 대해 구체적이고 건설적 피드백",
+      "when": "구체적 사례 언급, 행동 기반 피드백, 정기적 1:1",
+      "not_when": "모호한 칭찬, 인신공격성 비판; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M07-02",
+      "label_name": "성장 지향 피드백",
+      "macro": "L07",
+      "weight": 0.8,
+      "core": true,
+      "definition": "개선과 발전을 돕는 발전적 피드백",
+      "when": "개선점 제시, 미래 지향적 조언, 성장 가능성 강조",
+      "not_when": "단순 비판, 과거 실수만 지적; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M08-01",
+      "label_name": "책임 및 원칙 준수",
+      "macro": "L08",
+      "weight": 0.8,
+      "core": true,
+      "definition": "윤리적 원칙을 준수하고 책임감 있게 행동",
+      "when": "윤리적 결정, 원칙 고수, 책임지는 행동",
+      "not_when": "편의적 판단, 원칙 포기; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M08-02",
+      "label_name": "공정한 성과 인정_L08",
+      "macro": "L08",
+      "weight": 0.7,
+      "definition": "개인 업무 결과를 직접적으로 인정하고 칭찬하는 행동. 1:1 피드백, 공개 포상, 즉각적 인정 발언이 포함됨",
+      "when": "개인 업무 결과에 대해 직접적으로 인정하고 칭찬하는 경우, 1:1 피드백 또는 공개 표창, 즉각적 공로 언급",
+      "not_when": "팀 전체 성과 분배 상황, 보상 시스템 설계 맥락, 편애, 주관적 평가, 내부자 우대; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M09-01",
+      "label_name": "공정한 성과 인정_L09",
+      "macro": "L09",
+      "weight": 0.7,
+      "definition": "팀 또는 프로젝트 성과를 구성원 기여도에 따라 공정하게 분배하고 인정하는 행동. 보상 기준 수립, 기여도 산정, 성과 공유 방식이 포함됨",
+      "when": "팀 또는 프로젝트 성과를 구성원 기여도에 따라 공정하게 분배하고 인정하는 경우, 공정한 인센티브 배분, 기여도 반영 보상 체계 운영",
+      "not_when": "개인 단위 즉각적 칭찬 및 1:1 피드백 상황, 공로 독점, 불공정한 보상; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M10-01",
+      "label_name": "실행력 및 완수",
+      "macro": "L10",
+      "weight": 0.8,
+      "core": true,
+      "definition": "목표한 과업을 끝까지 완수하고 위기 시 즉각 실행",
+      "when": "마감 기한 정해 실행 지시, 긴급 복구, 문제 발생 시 즉시 대응, 장애 복구 지시, 바로 실행, 즉각 조치",
+      "not_when": "실행 방법 설명하지 않음, 계획만 반복, 지시만 하고 움직임 없음; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M10-02",
+      "label_name": "목표 지향 실행",
+      "macro": "L10",
+      "weight": 0.7,
+      "definition": "목표 달성을 위해 집중하고 실행력을 발휘",
+      "when": "목표 집중, 결과 중심 행동, 마감 준수",
+      "not_when": "목표와 무관한 활동, 산만한 실행; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "core": true
+    },
+    {
+      "label_id": "M11-01",
+      "label_name": "적극적 경청",
+      "macro": "L11",
+      "weight": 0.7,
+      "definition": "말하는 사람의 의도와 감정을 완전히 이해하려 노력",
+      "when": "눈 맞춤, 경청 자세, 상대방 말 끝까지 듣기",
+      "not_when": "말 끊기, 딴짓하며 듣기; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "core": true
+    },
+    {
+      "label_id": "M11-02",
+      "label_name": "개방적 의견 수용",
+      "macro": "L11",
+      "weight": 0.7,
+      "definition": "다양한 의견과 비판을 열린 마음으로 수용",
+      "when": "다양한 의견 환영, 비판적 피드백 수용, 건설적 반론 수용",
+      "not_when": "자기 의견만 고집, 반대 의견 거부; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M12-01",
+      "label_name": "공감 및 감정적 배려",
+      "macro": "L12",
+      "weight": 0.7,
+      "definition": "타인의 감정과 상황에 공감하고 배려",
+      "when": "공감 표현, 감정적 지지, 어려움 공유, 배려 행동",
+      "not_when": "감정 무시, 무관심; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.0
+      },
+      "core": true
+    },
+    {
+      "label_id": "M12-02",
+      "label_name": "감정적 지지",
+      "macro": "L12",
+      "weight": 0.7,
+      "definition": "정서적으로 타인을 지지하고 격려",
+      "when": "격려 메시지, 심리적 지지, 정서적 위로",
+      "not_when": "감정적 압박, 정서적 무관심; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M12-03",
+      "label_name": "심리적 안전감 조성",
+      "macro": "L12",
+      "weight": 0.6,
+      "definition": "갈등·실수·실패 상황에서 팀원이 책임을 두려워하지 않도록 직접 보호하고 안전감을 유지하는 행동",
+      "when": "갈등, 실수, 실패 상황에서 팀원이 책임을 두려워하지 않도록 보호하는 경우, 실수한 팀원 즉각 방어, 갈등 발생 시 심리적 안전 유지",
+      "not_when": "일상적 소통 환경 설계, 채널 개설, 제도 수립 맥락, 비판 묵살, 공개적 질책; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M14-01",
+      "label_name": "타인 우선 행동",
+      "macro": "L14",
+      "weight": 0.8,
+      "core": true,
+      "definition": "본인이 직접 손해나 리스크를 감수하면서 타인의 이익과 보호를 우선시하는 행동",
+      "when": "본인이 진정 손해/리스크 감수하고 타인을 위한 행동",
+      "not_when": "회피/전가하면서 팀이라 행하는 경우; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M14-02",
+      "label_name": "희생적 지원",
+      "macro": "L14",
+      "weight": 0.7,
+      "definition": "팀원 보호를 위해 본인에게 비용이나 불이익이 생기더라도 희생적으로 지원하는 행동",
+      "when": "팀 보호, 희생적 지원, 타인 위해 결정",
+      "not_when": "개인 이익 우선; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M15-01",
+      "label_name": "심리적 안전감 조성_L15",
+      "macro": "L15",
+      "weight": 0.7,
+      "definition": "발언 채널 개설, 익명 피드백 도입, 열린 회의 문화 설계 등 구조적으로 심리적 안전감을 만드는 행동",
+      "when": "발언 채널 개설, 익명 피드백 도입, 열린 회의 문화 설계 등 구조적 안전감 조성, 비난 없는 문화 제도화",
+      "not_when": "갈등·사고 발생 직후 개인 보호 대응, 실수한 특정 팀원 즉각 방어, 공포 분위기 조성, 비난 문화; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      },
+      "core": true
+    },
+    {
+      "label_id": "M15-02",
+      "label_name": "개방적 소통",
+      "macro": "L15",
+      "weight": 0.7,
+      "definition": "계층 간 장벽 없는 투명하고 자유로운 소통",
+      "when": "수평적 소통, 정보 공유, 투명한 의사결정, 열린 대화",
+      "not_when": "정보 독점, 수직적 소통만 허용; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M15-03",
+      "label_name": "적극적 의견 청취",
+      "macro": "L15",
+      "weight": 0.7,
+      "definition": "팀원들의 의견을 적극적으로 구하고 경청",
+      "when": "정기적 의견 수렴, 설문 조사, 회의 시 발언 유도",
+      "not_when": "의견 묻지 않음, 일방적 지시; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 0.9,
+        "normal": 1.2,
+        "innovation": 1.1
+      },
+      "core": true
+    },
+    {
+      "label_id": "M15-04",
+      "label_name": "정보 투명 공유",
+      "macro": "L15",
+      "weight": 0.6,
+      "definition": "중요 정보를 숨김없이 투명하게 공유",
+      "when": "정기적 정보 공유회, 투명한 지표 공개, 정보 접근성 보장",
+      "not_when": "정보 독점, 의도적 정보 은폐; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M15-05",
+      "label_name": "신뢰 형성",
+      "macro": "L15",
+      "weight": 0.6,
+      "definition": "일관된 행동으로 신뢰 관계 구축",
+      "when": "약속 이행, 일관된 행동, 신뢰 구축 활동",
+      "not_when": "말과 행동 불일치, 약속 어김; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M15-06",
+      "label_name": "심리적 보호",
+      "macro": "L15",
+      "weight": 0.8,
+      "core": true,
+      "definition": "팀원이 실수하거나 어려움에 처할 때 심리적으로 보호하고 안전감을 제공하는 행동",
+      "when": "팀 보호, 갈등 상황에서 보호",
+      "not_when": "개인 이익 우선; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M17-01",
+      "label_name": "상황적 유연성",
+      "macro": "L17",
+      "weight": 0.7,
+      "definition": "예상치 못한 상황 변화나 새로운 요구사항에 방어적 저항 없이 빠르게 적응하는 능력. 계획을 유연하게 수정하고 다양한 접근 방식을 기꺼이 시도하는 행동으로 나타남",
+      "when": "변화하는 상황, 돌발 상황, 유연한 대응",
+      "not_when": "준비 없는 변화 추진; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M18-01",
+      "label_name": "불확실성 속 안정감 제공",
+      "macro": "L18",
+      "weight": 0.7,
+      "definition": "불확실하고 모호한 상황에서 평정심 유지",
+      "when": "위기 상황 침착함, 불확실성 속 리더십, 평정심 유지",
+      "not_when": "불안 조장, 패닉 발언; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M18-02",
+      "label_name": "데이터 기반 의사결정_L18",
+      "macro": "L18",
+      "weight": 0.7,
+      "core": true,
+      "definition": "객관적 데이터를 바탕으로 합리적 의사결정",
+      "when": "데이터 분석 후 결정, 지표 기반 판단, 증거 기반 의사결정",
+      "not_when": "직감에만 의존, 근거 없는 결정; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M19-01",
+      "label_name": "신속한 의사결정",
+      "macro": "L19",
+      "weight": 0.8,
+      "core": true,
+      "definition": "위기/불확실 시 빠른 결정",
+      "when": "빠르게 결론, 즉시 결정, 위기 상황 신속 대응, 서버 다운 시 즉각 조치, 긴급 복구 지시, 불확실성 속 빠른 판단",
+      "not_when": "충분한 정보 없이 단독 결정, 관련자 의견 완전 배제, 숙려 기간 필요한 중대 사안의 즉흥 결정, 장기 검토 시; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M20-01",
+      "label_name": "위기 대응 및 문제 해결",
+      "macro": "L20",
+      "weight": 0.8,
+      "definition": "위기 상황 즉각 대응 및 문제 해결",
+      "when": "문제 발생, 긴급 상황, 서버 다운, 장애 발생, 복구 지시, 로그 분석, 즉시 대응, 위기 상황 돌파, 돌발 상황 해결",
+      "not_when": "일반 상황, 평시 업무; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M21-01",
+      "label_name": "학습 및 디지털 민첩성",
+      "macro": "L21",
+      "weight": 0.7,
+      "core": true,
+      "definition": "새로운 기술과 지식을 빠르게 습득하고 적용",
+      "when": "새로운 도구 학습, 디지털 역량 강화, 빠른 학습,技术 습득",
+      "not_when": "새로운 것 거부, 고정관념; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M21-02",
+      "label_name": "실패 수용 및 회복",
+      "macro": "L21",
+      "weight": 0.7,
+      "definition": "실패를 학습 기회로 삼고 빠르게 회복",
+      "when": "실패 감싸기, 복구 지원, 실패 분석 후 재시도, 탄력성 발휘",
+      "not_when": "실패 처벌, 실패 숨기기; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.0,
+        "innovation": 1.2
+      }
+    },
+    {
+      "label_id": "M22-01",
+      "label_name": "혁신 기회 탐색_L22",
+      "macro": "L22",
+      "weight": 0.7,
+      "core": true,
+      "definition": "새로운 비즈니스 기회와 혁신 분야를 탐색",
+      "when": "새로운 시장 탐색, 혁신 아이디어 발굴, 트렌드 분석",
+      "not_when": "기존 방식 유지, 변화 거부; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M22-02",
+      "label_name": "실험 및 도전 장려",
+      "macro": "L22",
+      "weight": 0.7,
+      "definition": "새로운 시도와 도전적 프로젝트 독려",
+      "when": "실험 프로젝트 승인, 도전적 목표 설정, 리스크 테이킹 장려",
+      "not_when": "안전만 추구, 실패에 대한 처벌; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M23-01",
+      "label_name": "혁신 아이디어 발굴",
+      "macro": "L23",
+      "weight": 0.7,
+      "core": true,
+      "when": "새로운 아이디어, 혁신적 방법",
+      "not_when": "기존 방식 유지; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "definition": "새로운 아이디어를 발굴하고 혁신적 해결책 제시",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M23-02",
+      "label_name": "아이디어 발굴 장려",
+      "macro": "L23",
+      "weight": 0.7,
+      "definition": "팀원들의 창의적 아이디어를 독려하고 지원",
+      "when": "브레인스토밍 세션, 아이디어 제안 시스템, 창의적 사고 장려",
+      "not_when": "아이디어 무시, 창의성 억압; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M24-01",
+      "label_name": "운영 안정성 유지",
+      "macro": "L24",
+      "weight": 0.7,
+      "definition": "업무 프로세스, 시스템, 팀 루틴을 일관되게 유지함으로써 예측 가능하고 안정적인 운영 환경을 만드는 행동. 변화 중에도 핵심 운영 리듬을 흔들리지 않게 지키는 것을 포함",
+      "when": "표준 운영 절차 준수, 안정적 시스템 운영, 리스크 관리",
+      "not_when": "불안정한 시스템 방치, 표준 무시; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M26-01",
+      "label_name": "실험 및 도전 장려_L26",
+      "macro": "L26",
+      "weight": 0.7,
+      "definition": "새로운 시도와 실험적 접근을 적극 권장",
+      "when": "파일럿 프로젝트, MVP 개발, 실험적 접근 허용, 빠른 프로토타이핑",
+      "not_when": "안전만 추구, 실패 묵인; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M27-01",
+      "label_name": "전략적 자원 배분",
+      "macro": "L27",
+      "weight": 0.7,
+      "definition": "목표 달성을 위해 자원을 전략적으로 배분",
+      "when": "예산 우선순위 배정, 인력 전략적 배치, 자원 최적화",
+      "not_when": "자원 낭비, 비전략적 자원 배분; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.1,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M28-01",
+      "label_name": "투명한 소통",
+      "macro": "L28",
+      "weight": 0.7,
+      "core": true,
+      "definition": "투명하고 정직한 정보 공유와 소통",
+      "when": "정직한 소통, 정보 투명 공개, 숨김없는 대화",
+      "not_when": "정보 은폐, 의도적 왜곡; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M28-02",
+      "label_name": "포용성 및 다양성 존중",
+      "macro": "L28",
+      "weight": 0.7,
+      "definition": "다양한 배경과 의견을 포용하고 존중",
+      "when": "다양성 존중, 포용적 문화, 차별 없는 환경, 다양한 의견 수용",
+      "not_when": "특정 집단 선호, 차별적 대우; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M30-01",
+      "label_name": "언행 일치 및 일관성",
+      "macro": "L30",
+      "weight": 0.7,
+      "core": true,
+      "definition": "공개적으로 약속한 내용, 선언한 가치, 제시한 방향을 실제 행동과 결정에서 일관되게 구현하는 것. 사소한 약속도 반드시 이행하고, 지키지 못할 경우 즉시 설명하는 행동 패턴",
+      "when": "말과 행동의 일치",
+      "not_when": "위조, 거짓, 속임; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M31-01",
+      "label_name": "포용성 및 다양성 존중_L31",
+      "macro": "L31",
+      "weight": 0.7,
+      "definition": "모든 구성원을 차별 없이 포용하고 다양성 존중",
+      "when": "공정한 대우, 차별 철폐, 다양성 존중, 평등한 기회",
+      "not_when": "차별적 언행, 특정 그룹 편애; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.2,
+        "innovation": 1.1
+      }
+    },
+    {
+      "label_id": "M32-01",
+      "label_name": "자기인식 및 자기성찰",
+      "macro": "L32",
+      "weight": 0.7,
+      "definition": "자신의 강점과 약점을 객관적으로 파악",
+      "when": "자기 성찰 시간, 피드백 수용, 약점 인정, 성찰적 사고",
+      "not_when": "자기 과신, 비판 거부; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M32-02",
+      "label_name": "자기성찰 및 개선",
+      "macro": "L32",
+      "weight": 0.7,
+      "definition": "자신의 행동을 성찰하고 지속적으로 개선",
+      "when": "부족함 인정, 개선 노력, 지속적 자기 개발, 반성적 사고",
+      "not_when": "변명, 책임 회피; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M33-01",
+      "label_name": "도덕적 용기",
+      "macro": "L33",
+      "weight": 0.7,
+      "core": true,
+      "when": "부당행위 대응, 원칙 수호",
+      "not_when": "개인 이익 우선; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "definition": "부당한 상황에서도 올바른 원칙을 지키기 위한 용기",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M33-02",
+      "label_name": "부당행위 대응",
+      "macro": "L33",
+      "weight": 0.7,
+      "when": "부당한 지시 거절, 원칙 수호",
+      "not_when": "누군가 손해 봄; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "definition": "부당한 지시나 행위에 대해 당당히 거절하고 대응",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      },
+      "core": true
+    },
+    {
+      "label_id": "M33-03",
+      "label_name": "압력 저항",
+      "macro": "L33",
+      "weight": 0.7,
+      "when": "상위자/갈등/압력 상황에서 저항",
+      "not_when": "누군가 희생; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "definition": "부당한 압력에 저항하고 원칙 고수",
+      "context_weight": {
+        "crisis": 1.3,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M33-04",
+      "label_name": "공정한 의사결정",
+      "macro": "L33",
+      "weight": 0.7,
+      "core": true,
+      "when": "내부 권력 대상에 대한 공정성",
+      "not_when": "자기 이익 우선; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "definition": "누구에게나 공정하고 편향 없는 의사결정",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M33-05",
+      "label_name": "책임 있는 행동",
+      "macro": "L33",
+      "weight": 0.8,
+      "core": true,
+      "when": "본인도 함께 결정에責任지고 실행",
+      "not_when": "다 같이 = 내가 결정 안 함 (개인 회피); 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "definition": "자신의 결정에 책임을 지고 주도적으로 행동",
+      "context_weight": {
+        "crisis": 1.2,
+        "normal": 1.0,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M34-01",
+      "label_name": "데이터 기반 의사결정_L34",
+      "macro": "L34",
+      "weight": 0.7,
+      "core": true,
+      "when": "데이터/증거 기반 결정",
+      "not_when": "감에 의존; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "definition": "객관적 데이터와 분석 결과를 바탕으로 의사결정",
+      "context_weight": {
+        "crisis": 1.1,
+        "normal": 1.2,
+        "innovation": 1.0
+      }
+    },
+    {
+      "label_id": "M35-01",
+      "label_name": "디지털 도구 활용 및 자동화",
+      "macro": "L35",
+      "weight": 0.7,
+      "definition": "디지털 기술과 자동화 도구를 적극 활용",
+      "when": "디지털 도구 도입, 자동화 프로세스 구축, 기술 활용 극대화",
+      "not_when": "디지털 거부, 수동 프로세스 고집; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M37-01",
+      "label_name": "AI 및 기술 기반 혁신 주도",
+      "macro": "L37",
+      "weight": 0.7,
+      "definition": "AI와 신기술을 활용해 조직 혁신 주도",
+      "when": "AI 도입 주도, 신기술 실험, 디지털 전환 리딩",
+      "not_when": "기술 회피, 아날로그 고집; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.0,
+        "innovation": 1.3
+      }
+    },
+    {
+      "label_id": "M37-02",
+      "label_name": "디지털 리터러시 전파",
+      "macro": "L37",
+      "weight": 0.7,
+      "definition": "팀원들의 디지털 역량과 리터러시 향상 지원",
+      "when": "디지털 교육, 기술 전파, 리터러시 향상 프로그램",
+      "not_when": "디지털 역량 개발 방해; 과거 회상 서술(~했었습니다, ~했었는데, 예전에~) 시 제외",
+      "context_weight": {
+        "crisis": 1.0,
+        "normal": 1.1,
+        "innovation": 1.3
+      }
+    }
+  ]
+}

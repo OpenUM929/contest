@@ -1,0 +1,35 @@
+{
+  "trait_id": "T106",
+  "trait_type": "negative",
+  "trait_name": "Risk: Volatile Leadership",
+  "required": [
+    "N17-01",
+    "N24-01"
+  ],
+  "optional": [
+    "N22-01",
+    "N21-01",
+    "N23-01",
+    "N26-01",
+    "N06-01",
+    "N31-01",
+    "N18-01",
+    "N18-02"
+  ],
+  "hard_forbidden": [],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.1
+  },
+  "hybrid_eligible": false,
+  "k_trait": 0.9,
+  "description": "감정 기복·과잉 통제로 혁신과 학습 문화를 억제하는 리더십",
+  "strengths": [],
+  "risks": [
+    "혁신 억제",
+    "조직 경직",
+    "학습 문화 파괴"
+  ]
+}

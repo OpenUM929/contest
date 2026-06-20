@@ -1,0 +1,15 @@
+{
+  "label_id": "N15-04",
+  "label_name": "실수 처벌",
+  "macro": "N15",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "실수를 인간적으로 처벌",
+  "when": "실수한 팀원을 징계하거나 괴롭힘",
+  "not_when": "실수를 학습 기회로 활용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

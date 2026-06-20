@@ -1,0 +1,128 @@
+{
+  "label_id": "M05-03",
+  "label_name": "변화 문화 조성",
+  "total": 6,
+  "updated": "2026-05-06 14:52:21",
+  "entries": [
+    {
+      "text": "전통적 리더십 연구 아이오와 대학 연구(권위적/민주적/자유방임적 리더십 실험) 오하이오 주립 대학 연구(구조조도 행동 vs 배려 행동) 미시간 대학 연구(직무중심형 vs 인간관계 중심형 리더십) Blake & Mouton 관리 격자 모형(생",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M03-03",
+          "label_name": "새로운 접근 유도",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "많은 개발자들이 새로운 서비스를 만드는 것을 좋아하는 만큼 좋은 팀 문화에서 일을 하는 것을 고대합니다. 이번 팀 프로젝트를 진행하기에 앞서서 팀원들과 함께 건강한 팀에 대해 이야기를 나누고 우리 팀만의 문화를 정립하는 시간을 가졌습니다. 좋은 팀 문화를 생각하기에 앞",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M03-03",
+          "label_name": "새로운 접근 유도",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M07-02",
+          "label_name": "성장 지향 피드백",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "잡다 프론트엔드 팀에 합류하여 코드 리뷰 문화를 만들었던 과정을 공유합니다.",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M01-04",
+          "label_name": "비전 공유",
+          "match_score": 1,
+          "reason": "keyword matches 1/7"
+        },
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "혹시 팀 문화 수첩에 대해 알고 계신가요?고성과 문화를 갖고 있는 팀을 만들기 위해 일상생활에서 팀 문화를 관리할 수 있도록 도와주는 책이에요. 8주 동안 나의 팀을 관찰하며, 매주 나와있는 질문을 읽고 1점에서 5점 사이의 리커트 척도로 작성하는게 이 책의 이용 가이",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M03-02",
+          "label_name": "창의적 질문",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        },
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "지난 게시글에서는 팀 문화 수첩이 무엇인지 그리고 1주차에는 어떤 내용이 있었는지를 다뤘는데요. 이번 게시글에서는 2주차부터 9주차까지의 주제 그리고 팀 문화 수첩을 해석하는 방법에 대해 다뤄보려 합니다.지난 게시글이 궁금하다면  여기를 클릭지난 1주차와 같이,",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M06-02",
+          "label_name": "세부 실행 지침",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "테오가 생각하는 잘하는 개발자라는 것은 어떤 건가요? > ㄴ 음... 저는 코딩 수준이 일정이상이 되고나면 결국 그 뒤에는 좋은 제품을 잘 만드려면 협업이 제일 중요한것 같아요. 연차가 올라갈수록 협업이나 팀 문화에 더 관심이 생기네요. 특히 스프린트를 진행해보면서 더",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M07-02",
+          "label_name": "성장 지향 피드백",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        }
+      ],
+      "status": "unverified"
+    }
+  ]
+}

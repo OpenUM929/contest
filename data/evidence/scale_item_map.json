@@ -1,0 +1,115 @@
+{
+  "schema_version": "scale-map-v1",
+  "purpose": "M7 척도-문항 대응: 각 구성개념의 *검증된 측정도구(facet)*에 우리 micro를 대응시켜, '차원 라벨'을 넘어 '검증 도구의 조작화'로 정당성을 격상. facet은 원척도의 하위차원, micros는 그에 대응하는 우리 라벨.",
+  "constructs": {
+    "transformational": {
+      "instrument": "MLQ (Multifactor Leadership Questionnaire, Bass & Avolio)",
+      "instrument_ref": {"cite": "Antonakis et al. 2003 (MLQ 9요인 검증)", "doi": "10.1016/S1048-9843(03)00030-4"},
+      "facet_map": [
+        {"facet": "Inspirational Motivation", "trait": "T09", "micros": ["M01-04", "M01-01"]},
+        {"facet": "Idealized Influence", "trait": "T09", "micros": ["M04-01", "M04-02"]},
+        {"facet": "Intellectual Stimulation", "trait": "T03", "micros": ["M03-03", "M03-02"]},
+        {"facet": "Individualized Consideration", "trait": "T07", "micros": ["M02-02", "M07-02"]}
+      ]
+    },
+    "servant": {
+      "instrument": "SL-7 / Servant Leadership Questionnaire (Liden et al. 2008, 7차원)",
+      "instrument_ref": {"cite": "Liden et al. 2008 (SLQ)", "doi": "10.1016/j.leaqua.2008.01.006"},
+      "facet_map": [
+        {"facet": "Helping subordinates grow & succeed", "trait": "T07", "micros": ["M02-02", "M07-02"]},
+        {"facet": "Emotional healing", "trait": "T11", "micros": ["M29-01", "M12-01"]},
+        {"facet": "Putting subordinates first", "trait": "T11", "micros": ["M14-01", "M14-02"]}
+      ]
+    },
+    "empowering": {
+      "instrument": "Empowering Leadership Questionnaire (Ahearne et al. 2005) + Psychological Empowerment (Spreitzer 1995)",
+      "instrument_ref": {"cite": "Ahearne, Mathieu & Rapp 2005", "doi": "10.1037/0021-9010.90.5.945"},
+      "facet_map": [
+        {"facet": "Providing autonomy from constraints", "trait": "T15", "micros": ["M49-02"]},
+        {"facet": "Fostering participation / delegation", "trait": "T15", "micros": ["M49-01"]},
+        {"facet": "Enhancing meaningfulness / coaching", "trait": "T15", "micros": ["M27-01", "M02-02"]}
+      ]
+    },
+    "participative": {
+      "instrument": "Path-Goal Leadership Questionnaire (participative subscale, House)",
+      "instrument_ref": {"cite": "Xu et al. 2017 (AMJ)", "doi": "10.5465/amj.2013.0427"},
+      "facet_map": [
+        {"facet": "Consultation", "trait": "T02", "micros": ["M11-01"]},
+        {"facet": "Joint decision-making / information sharing", "trait": "T02", "micros": ["M15-03", "M28-01"]}
+      ]
+    },
+    "authentic": {
+      "instrument": "ALQ (Authentic Leadership Questionnaire, Walumbwa et al. 2008)",
+      "instrument_ref": {"cite": "Walumbwa et al. 2008", "doi": "10.1177/0149206307308913"},
+      "facet_map": [
+        {"facet": "Internalized moral perspective", "trait": "T13", "micros": ["M33-01"]},
+        {"facet": "Relational transparency", "trait": "T13", "micros": ["M30-01"]}
+      ]
+    },
+    "ethical": {
+      "instrument": "Ethical Leadership Scale (ELS, Brown, Treviño & Harrison 2005)",
+      "instrument_ref": {"cite": "Brown et al. 2005", "doi": "10.1016/j.obhdp.2005.03.002"},
+      "facet_map": [
+        {"facet": "Moral person", "trait": "T13", "micros": ["M33-01"]},
+        {"facet": "Moral manager (norm enforcement)", "trait": "T13", "micros": ["M33-02"]}
+      ]
+    },
+    "initiating_structure": {
+      "instrument": "LBDQ (Leader Behavior Description Questionnaire, Ohio State) — Initiating Structure",
+      "instrument_ref": {"cite": "Judge, Piccolo & Ilies 2004 (메타)", "doi": "10.1037/0021-9010.89.1.36"},
+      "facet_map": [
+        {"facet": "Role clarification / structuring", "trait": "T01", "micros": ["M01-01", "M36-01"]},
+        {"facet": "Task execution & monitoring", "trait": "T06", "micros": ["M44-02", "M10-01"]},
+        {"facet": "Planning / resource structuring", "trait": "T10", "micros": ["M27-01", "M10-02"]}
+      ]
+    },
+    "ambidextrous": {
+      "instrument": "Ambidextrous Leadership Scale (opening/closing, Rosing et al. 2011)",
+      "instrument_ref": {"cite": "Rosing, Frese & Bausch 2011", "doi": "10.1016/j.leaqua.2011.07.014"},
+      "facet_map": [
+        {"facet": "Closing behaviors (exploitation/alignment)", "trait": "T12", "micros": ["M24-01", "M28-01"]},
+        {"facet": "Opening behaviors (exploration)", "trait": "T12", "micros": ["M28-02"]}
+      ]
+    },
+    "toxic_destructive": {
+      "instrument": "Toxic Leadership Scale (Schmidt 2008, 5 subscales)",
+      "instrument_ref": {"cite": "Schmidt 2008 (TLS)", "doi": ""},
+      "facet_map": [
+        {"facet": "Authoritarianism", "trait": "T102", "micros": ["N15-03", "N19-01"]},
+        {"facet": "Narcissism", "trait": "T104", "micros": ["N04-01", "N09-01"]},
+        {"facet": "Unpredictability", "trait": "T106", "micros": ["N17-01"]}
+      ]
+    },
+    "abusive_supervision": {
+      "instrument": "Abusive Supervision Questionnaire (Tepper 2000, 15-item)",
+      "instrument_ref": {"cite": "Tepper 2000 (AMJ)", "doi": "10.5465/1556375"},
+      "facet_map": [
+        {"facet": "Sustained hostility / ridicule", "trait": "T107", "micros": ["N40-01"]},
+        {"facet": "Belittling / safety violation", "trait": "T107", "micros": ["N15-01", "N15-03"]}
+      ]
+    },
+    "behavioral_integrity": {
+      "instrument": "Behavioral Integrity Scale (Simons 2002/2007)",
+      "instrument_ref": {"cite": "Simons 2002 (Organization Science)", "doi": "10.1287/orsc.13.1.18.543"},
+      "facet_map": [
+        {"facet": "Word-deed misalignment", "trait": "T103", "micros": ["N30-01"]},
+        {"facet": "Transparency violation", "trait": "T103", "micros": ["N28-01", "N34-01"]}
+      ]
+    },
+    "laissez_faire": {
+      "instrument": "MLQ — Passive-Avoidant (Laissez-faire subscale)",
+      "instrument_ref": {"cite": "Antonakis et al. 2003 (MLQ)", "doi": "10.1016/S1048-9843(03)00030-4"},
+      "facet_map": [
+        {"facet": "Avoidance / inaction", "trait": "T101", "micros": ["N08-01", "N08-02"]}
+      ]
+    },
+    "dark_triad": {
+      "instrument": "Dark Triad (SD3/Dirty Dozen 계열, Paulhus & Williams 2002)",
+      "instrument_ref": {"cite": "Paulhus & Williams 2002", "doi": "10.1016/S0092-6566(02)00505-6"},
+      "facet_map": [
+        {"facet": "Narcissism", "trait": "T104", "micros": ["N04-01"]},
+        {"facet": "Machiavellianism", "trait": "T105", "micros": ["N02-02", "N02-03"]}
+      ]
+    }
+  }
+}

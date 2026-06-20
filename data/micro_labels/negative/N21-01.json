@@ -1,0 +1,15 @@
+{
+  "label_id": "N21-01",
+  "label_name": "디지털 거부",
+  "macro": "N21",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "디지털 도구와 변화를 전면 거부",
+  "when": "새로운 디지털 도구 도입 거부, 종이 문서 고집",
+  "not_when": "디지털 도구 적극 수용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "label_id": "M10-02",
+  "label_name": "목표 지향 실행",
+  "macro": "L10",
+  "weight": 0.7,
+  "definition": "목표 달성을 위해 집중하고 실행력을 발휘",
+  "when": "목표 집중, 결과 중심 행동, 마감 준수",
+  "not_when": "목표와 무관한 활동, 산만한 실행",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.0
+  },
+  "core": true
+}

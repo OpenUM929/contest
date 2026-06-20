@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 - 리더십 분석 시스템</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .auth-container {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .auth-box {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            width: 100%;
+            max-width: 420px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        .auth-logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .auth-logo span {
+            font-size: 3rem;
+        }
+        .auth-logo h1 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-top: 10px;
+        }
+        .auth-tabs {
+            display: flex;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        .auth-tab {
+            flex: 1;
+            padding: 12px;
+            text-align: center;
+            cursor: pointer;
+            font-weight: 600;
+            color: #666;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            transition: all 0.3s;
+        }
+        .auth-tab.active {
+            color: #667eea;
+            border-bottom-color: #667eea;
+        }
+        .auth-form {
+            display: none;
+        }
+        .auth-form.active {
+            display: block;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #333;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        .form-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        .auth-error {
+            background: #fff5f5;
+            border: 1px solid #ff6b6b;
+            color: #d63031;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+        .auth-success {
+            background: #f0fff4;
+            border: 1px solid #51cf66;
+            color: #2f9e44;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+        }
+        .btn-full {
+            width: 100%;
+            padding: 14px;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <div class="auth-logo">
+                <span>📊</span>
+                <h1>리더십 분석 시스템</h1>
+            </div>
+            
+            <div class="auth-tabs">
+                <div class="auth-tab active" data-tab="login">로그인</div>
+                <div class="auth-tab" data-tab="register">회원가입</div>
+            </div>
+            
+            <div class="auth-error" id="authError"></div>
+            <div class="auth-success" id="authSuccess"></div>
+            
+            <!-- 로그인 폼 -->
+            <form class="auth-form active" id="loginForm">
+                <div class="form-group">
+                    <label for="loginUsername">아이디 (이메일)</label>
+                    <input type="text" id="loginUsername" name="username" required placeholder="example@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">비밀번호</label>
+                    <input type="password" id="loginPassword" name="password" required placeholder="비밀번호">
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">로그인</button>
+            </form>
+            
+            <!-- 회원가입 폼 -->
+            <form class="auth-form" id="registerForm">
+                <div class="form-group">
+                    <label for="registerUsername">아이디 (이메일)</label>
+                    <input type="text" id="registerUsername" name="username" required placeholder="example@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">비밀번호</label>
+                    <input type="password" id="registerPassword" name="password" required placeholder="비밀번호">
+                </div>
+                <div class="form-group">
+                    <label for="registerPasswordConfirm">비밀번호 확인</label>
+                    <input type="password" id="registerPasswordConfirm" name="password_confirm" required placeholder="비밀번호 확인">
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">회원가입</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Tab switching
+        document.querySelectorAll('.auth-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                const tabName = this.dataset.tab;
+                
+                document.querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.auth-form').forEach(f => f.classList.remove('active'));
+                
+                this.classList.add('active');
+                document.getElementById(tabName + 'Form').classList.add('active');
+                
+                document.getElementById('authError').style.display = 'none';
+                document.getElementById('authSuccess').style.display = 'none';
+            });
+        });
+        
+        // Login
+        document.getElementById('loginForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('loginUsername').value;
+            const password = document.getElementById('loginPassword').value;
+            
+            const errorEl = document.getElementById('authError');
+            
+            try {
+                const response = await fetch('/api/auth/login', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({username, password})
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    window.location.href = '/';
+                } else {
+                    errorEl.textContent = data.message;
+                    errorEl.style.display = 'block';
+                }
+            } catch (error) {
+                errorEl.textContent = '로그인 중 오류가 발생했습니다.';
+                errorEl.style.display = 'block';
+            }
+        });
+        
+        // Register
+        document.getElementById('registerForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('registerUsername').value;
+            const password = document.getElementById('registerPassword').value;
+            const passwordConfirm = document.getElementById('registerPasswordConfirm').value;
+            
+            const errorEl = document.getElementById('authError');
+            const successEl = document.getElementById('authSuccess');
+            
+            if (password !== passwordConfirm) {
+                errorEl.textContent = '비밀번호가 일치하지 않습니다.';
+                errorEl.style.display = 'block';
+                successEl.style.display = 'none';
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/auth/register', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({username, password})
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    successEl.textContent = '회원가입 성공! 로그인 페이지로 이동합니다.';
+                    successEl.style.display = 'block';
+                    errorEl.style.display = 'none';
+                    
+                    setTimeout(() => {
+                        document.querySelector('[data-tab="login"]').click();
+                    }, 1500);
+                } else {
+                    errorEl.textContent = data.message;
+                    errorEl.style.display = 'block';
+                    successEl.style.display = 'none';
+                }
+            } catch (error) {
+                errorEl.textContent = '회원가입 중 오류가 발생했습니다.';
+                errorEl.style.display = 'block';
+                successEl.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

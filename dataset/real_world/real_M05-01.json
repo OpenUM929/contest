@@ -1,0 +1,65 @@
+{
+  "label_id": "M05-01",
+  "label_name": "변화 필요 성명",
+  "total": 3,
+  "updated": "2026-05-06 14:52:21",
+  "entries": [
+    {
+      "text": "사내 강연을 듣고 가볍게 정리한 리더십 편린리더십에 대한 여러 고민이 많지만, 오늘 세미나로 확실히 느낀 것은 '변화를 만들어 갈 수 있는 역량' 이다.평소 생각하던 성과란 발휘한 영향력의 크기와도 비슷한 결이 있어서 신기했다. 송파구에서 유명해진 말 이끌거나, 따르거",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M02-02",
+          "label_name": "성장 기회 제공",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        },
+        {
+          "label_id": "M04-01",
+          "label_name": "카리스마적 영향력",
+          "match_score": 1,
+          "reason": "keyword matches 1/7"
+        },
+        {
+          "label_id": "M05-01",
+          "label_name": "변화 필요 성명",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "과거의 집권적 관리의 경우에 지휘는 명령이라는 형태를 취하지만, 오늘날 분권적 관리에서는 지휘가 동기부여라는 형태로 변화함 (자발적 업무수행)목적조화의 원칙 : 조직구성원의 목적과 조직의 목적의 조화명령통일의 원칙직접감독의 원칙감독기술의 원칙리더십 : 특정한 집단의 목",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M02-01",
+          "label_name": "내재적 동기 자극",
+          "match_score": 2,
+          "reason": "keyword matches 2/8"
+        },
+        {
+          "label_id": "M05-01",
+          "label_name": "변화 필요 성명",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "&lt;기사: AI시대엔 베낄 정답이 없다, 한국 위기는 리더쉽의 위기>https&#x3A;//n.news.naver.com/mnews/article/025/0003437657",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M05-01",
+          "label_name": "변화 필요 성명",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    }
+  ]
+}

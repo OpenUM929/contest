@@ -1,0 +1,14 @@
+{
+  "label_id": "M15-02",
+  "label_name": "개방적 소통",
+  "macro": "L15",
+  "weight": 0.7,
+  "definition": "계층 간 장벽 없는 투명하고 자유로운 소통",
+  "when": "수평적 소통, 정보 공유, 투명한 의사결정, 열린 대화",
+  "not_when": "정보 독점, 수직적 소통만 허용",
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

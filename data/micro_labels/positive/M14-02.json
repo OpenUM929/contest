@@ -1,0 +1,13 @@
+{
+  "label_id": "M14-02",
+  "label_name": "희생적 지원",
+  "macro": "L14",
+  "weight": 0.7,
+  "when": "팀 보호, 희생적 지원, 타인 위해 결정",
+  "not_when": "개인 이익 우선",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

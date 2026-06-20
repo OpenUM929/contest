@@ -1,0 +1,14 @@
+{
+  "label_id": "M15-05",
+  "label_name": "신뢰 형성",
+  "macro": "L15",
+  "weight": 0.6,
+  "definition": "일관된 행동으로 신뢰 관계 구축",
+  "when": "약속 이행, 일관된 행동, 신뢰 구축 활동",
+  "not_when": "말과 행동 불일치, 약속 어김",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.1,
+    "innovation": 1.0
+  }
+}

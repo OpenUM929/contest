@@ -1,0 +1,15 @@
+{
+  "label_id": "N06-01",
+  "label_name": "목표 불명확 전달",
+  "macro": "N06",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "모호하고 이해하기 어려운 목표 제시",
+  "when": "구체적이지 않은 지시, 모호한 기대치",
+  "not_when": "명확하고 측정 가능한 목표 전달; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

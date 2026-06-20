@@ -1,0 +1,15 @@
+{
+  "label_id": "M23-01",
+  "label_name": "혁신 아이디어 발굴",
+  "macro": "L23",
+  "weight": 0.7,
+  "core": true,
+  "when": "새로운 아이디어, 혁신적 방법",
+  "not_when": "기존 방식 유지",
+  "definition": "새로운 아이디어를 발굴하고 혁신적 해결책 제시",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.1,
+    "innovation": 1.3
+  }
+}

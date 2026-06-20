@@ -1,0 +1,16 @@
+{
+  "label_id": "N14-01",
+  "label_name": "자기 이익 우선",
+  "macro": "N14",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "팀보다 개인 이익을 우선시",
+  "when": "팀 보호라면서 실제로는 개인 이익/회피 보호",
+  "also_known_as": "제가 불리해지면, 나만 손해",
+  "not_when": "팀과 조직의 이익을 최우선; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

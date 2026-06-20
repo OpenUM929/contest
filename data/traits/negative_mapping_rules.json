@@ -1,0 +1,338 @@
+{
+  "schema_version": "2026-04-v2",
+  "negative_mapping_version": "v1.1",
+  "documentation": {
+    "overview": "본 매핑은 Negative Label(Nxx)을 Trait 평가 엔진의 Hard/Soft Forbidden 및 Risk Amplifier로 연결하기 위한 규칙 정의이다.",
+    "design_principles": [
+      "Hard Forbidden은 해당 Trait을 즉시 무효화하거나 강한 감점을 적용한다.",
+      "Soft Forbidden은 패널티 기반 점수 감소로 반영된다.",
+      "Risk Amplifier는 특정 Risk Trait을 강화시키는 역할을 한다.",
+      "Critical Negative Label은 조직 붕괴 수준 리스크로 간주한다."
+    ],
+    "hard_forbidden_definition": "해당 Label이 일정 threshold 이상 발생 시 Trait 제거 또는 강제 Risk Trait 전환",
+    "soft_forbidden_definition": "label penalty 값을 기반으로 Trait strength 감소",
+    "risk_amplifier_definition": "특정 Negative Label이 누적될 경우 Risk Trait의 strength를 증가시킴",
+    "critical_labels": [
+      {
+        "label": "N08",
+        "reason": "책임 전가는 조직 신뢰 붕괴 유발"
+      },
+      {
+        "label": "N15",
+        "reason": "심리적 안전 파괴는 팀 성과 직접 저해"
+      },
+      {
+        "label": "N28",
+        "reason": "투명성 위반은 윤리 리스크"
+      },
+      {
+        "label": "N34",
+        "reason": "데이터 조작은 시스템 신뢰 붕괴"
+      }
+    ]
+  },
+  "mapping_policy": {
+    "default_soft_penalty": 0.3,
+    "critical_penalty": 0.6,
+    "hard_forbidden_threshold_labels": [
+      "N08",
+      "N15",
+      "N28",
+      "N34"
+    ]
+  },
+  "trait_negative_rules": [
+    {
+      "trait_id": "T01",
+      "trait_name": "Strategic Decisive Leader",
+      "logic": "결단형 리더는 책임 회피 및 독단과 충돌",
+      "hard_forbidden": [
+        "N08",
+        "N19"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N06",
+          "penalty": 0.3
+        },
+        {
+          "label": "N10",
+          "penalty": 0.4
+        }
+      ]
+    },
+    {
+      "trait_id": "T02",
+      "trait_name": "Collaborative Leader",
+      "logic": "협업형 리더는 공감 결여 및 심리적 안전 파괴와 강하게 충돌",
+      "hard_forbidden": [
+        "N11",
+        "N15"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N12",
+          "penalty": 0.4
+        },
+        {
+          "label": "N14",
+          "penalty": 0.3
+        }
+      ]
+    },
+    {
+      "trait_id": "T03",
+      "trait_name": "Innovative Leader",
+      "logic": "혁신형 리더는 혁신 방해 및 변화 저항과 충돌",
+      "hard_forbidden": [
+        "N23"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N21",
+          "penalty": 0.4
+        },
+        {
+          "label": "N22",
+          "penalty": 0.3
+        }
+      ]
+    },
+    {
+      "trait_id": "T04",
+      "trait_name": "Crisis Manager",
+      "logic": "위기 대응형은 불안 조장 및 실행 방해와 충돌",
+      "hard_forbidden": [
+        "N18"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N17",
+          "penalty": 0.3
+        },
+        {
+          "label": "N10",
+          "penalty": 0.4
+        }
+      ]
+    },
+    {
+      "trait_id": "T05",
+      "trait_name": "Analytical Leader",
+      "logic": "분석형 리더는 데이터 조작과 직접 충돌",
+      "hard_forbidden": [
+        "N34"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N06",
+          "penalty": 0.3
+        }
+      ]
+    },
+    {
+      "trait_id": "T06",
+      "trait_name": "Execution Driver",
+      "logic": "실행형 리더는 실행 방해와 직접 충돌",
+      "hard_forbidden": [
+        "N10"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N06",
+          "penalty": 0.3
+        }
+      ]
+    },
+    {
+      "trait_id": "T07",
+      "trait_name": "Coaching Leader",
+      "logic": "코칭형 리더는 이기적 행동과 충돌",
+      "hard_forbidden": [
+        "N14"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N07",
+          "penalty": 0.3
+        }
+      ]
+    },
+    {
+      "trait_id": "T08",
+      "trait_name": "Emotional Intelligence Leader",
+      "logic": "공감형 리더는 공감 결여와 직접 충돌",
+      "hard_forbidden": [
+        "N12"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N11",
+          "penalty": 0.4
+        }
+      ]
+    },
+    {
+      "trait_id": "T09",
+      "trait_name": "Visionary Leader",
+      "logic": "비전형 리더는 비전 왜곡 및 동기 조작과 충돌",
+      "hard_forbidden": [
+        "N01"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N02",
+          "penalty": 0.4
+        }
+      ]
+    },
+    {
+      "trait_id": "T10",
+      "trait_name": "Risk: Avoidant",
+      "logic": "회피형 리스크는 목표 모호화, 실행 방해, 불안 조장에 의해 강화됨",
+      "risk_amplifier": [
+        "N06",
+        "N10",
+        "N18"
+      ]
+    },
+    {
+      "trait_id": "T11",
+      "trait_name": "Risk: Authoritarian",
+      "logic": "권위주의 리스크는 경청 거부, 심리적 안전 파괴, 포용성 위반에 의해 강화됨",
+      "risk_amplifier": [
+        "N11",
+        "N15",
+        "N31"
+      ]
+    },
+    {
+      "trait_id": "T12",
+      "trait_name": "Balanced Leader",
+      "logic": "균형형 리더는 언행 불일치 및 투명성 위반에 의해 약화됨",
+      "soft_forbidden": [
+        {
+          "label": "N30",
+          "penalty": 0.3
+        },
+        {
+          "label": "N28",
+          "penalty": 0.5
+        }
+      ]
+    },
+    {
+      "trait_id": "T13",
+      "trait_name": "Ethical Courageous Leader",
+      "logic": "윤리형 리더는 언행 불일치, 투명성 위반, 부당행위 묵인과 직접 충돌",
+      "hard_forbidden": [
+        "N30",
+        "N33",
+        "N28"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N34",
+          "penalty": 0.6
+        },
+        {
+          "label": "N14",
+          "penalty": 0.4
+        }
+      ]
+    },
+    {
+      "trait_id": "T14",
+      "trait_name": "Learning Agile Leader",
+      "logic": "학습형 리더는 디지털 거부, 혁신 차단, 실패 처벌과 직접 충돌",
+      "hard_forbidden": [
+        "N21",
+        "N23",
+        "N26"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N22",
+          "penalty": 0.5
+        },
+        {
+          "label": "N03",
+          "penalty": 0.4
+        }
+      ]
+    },
+    {
+      "trait_id": "T_RISK_INTEGRITY",
+      "trait_name": "Risk: Integrity Violation",
+      "logic": "정직성 위반 Risk는 긍정 Trait 발동 자체를 억제하는 방향으로 작용",
+      "hard_forbidden": [],
+      "soft_forbidden": [
+        {
+          "label": "N34",
+          "penalty": 0.6
+        },
+        {
+          "label": "N28",
+          "penalty": 0.5
+        }
+      ]
+    },
+    {
+      "trait_id": "T_RISK_NARCISSISM",
+      "trait_name": "Risk: Narcissistic Leadership",
+      "logic": "자기애 리더십은 공감·협업·공정성 관련 모든 Positive Trait을 무효화",
+      "hard_forbidden": [
+        "N04",
+        "N09"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N08",
+          "penalty": 0.5
+        },
+        {
+          "label": "N14",
+          "penalty": 0.4
+        }
+      ]
+    },
+    {
+      "trait_id": "T_RISK_MANIPULATIVE",
+      "trait_name": "Risk: Manipulative Leadership",
+      "logic": "조작형 리더십은 신뢰·동기·비전 관련 Positive Trait을 억제",
+      "hard_forbidden": [
+        "N02",
+        "N01"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N06",
+          "penalty": 0.4
+        },
+        {
+          "label": "N05",
+          "penalty": 0.3
+        }
+      ]
+    },
+    {
+      "trait_id": "T_RISK_VOLATILE",
+      "trait_name": "Risk: Volatile Leadership",
+      "logic": "감정 기복·통제형 리더십은 혁신·분석·코칭 Positive Trait을 억제",
+      "hard_forbidden": [
+        "N17",
+        "N24"
+      ],
+      "soft_forbidden": [
+        {
+          "label": "N22",
+          "penalty": 0.4
+        },
+        {
+          "label": "N23",
+          "penalty": 0.5
+        }
+      ]
+    }
+  ]
+}

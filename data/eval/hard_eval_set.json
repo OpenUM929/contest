@@ -1,0 +1,56 @@
+{
+  "schema_version": "2026-06-v1",
+  "purpose": "맥락 의존 hard 케이스 — 단문·고립 학습데이터가 담지 못하는 영역에서 분류기 한계를 측정",
+  "categories": {
+    "mirror_flip": "표면 행동은 유사하나 맥락이 극성을 뒤집음 (M↔N)",
+    "reversal": "긍정 진술 후 '하지만 실제로는' 역접으로 의미 반전",
+    "cross_sentence_intent": "복수 문장 — 진짜 의도가 뒤 문장에 드러남",
+    "past_tense_exclusion": "과거 회상 서술 — not_when 규칙상 트리거 제외 (gold=null=거부해야)",
+    "negation": "부정 형태소(~하지 않았다)로 의미 반전",
+    "hub_disambiguation": "공유 hub 행동 + 변별 단서 → 특정 라벨"
+  },
+  "cases": [
+    {"id": "H01", "category": "mirror_flip", "text": "시간이 없어 제가 바로 결론 내리고 팀에 즉시 지시했습니다.", "gold": "M19-01", "hard_reason": "신속 결정(긍정)"},
+    {"id": "H02", "category": "mirror_flip", "text": "팀원 의견은 묻지도 않고 제가 혼자 결정해서 그냥 밀어붙였습니다.", "gold": "N19-01", "hard_reason": "독단(부정) — H01과 표면 유사"},
+    {"id": "H03", "category": "mirror_flip", "text": "이번 성과는 전적으로 담당자 A님 덕분이라고 경영진에 알렸습니다.", "gold": "M09-01", "hard_reason": "공정한 공로 인정"},
+    {"id": "H04", "category": "mirror_flip", "text": "팀이 다 같이 한 일인데 보고할 때는 제 성과로만 정리했습니다.", "gold": "N09-01", "hard_reason": "공로 독점 — H03과 미러"},
+    {"id": "H05", "category": "mirror_flip", "text": "결정 배경과 나쁜 소식까지 숨김없이 모두 공유했습니다.", "gold": "M28-01", "hard_reason": "투명한 소통"},
+    {"id": "H06", "category": "mirror_flip", "text": "불리한 지표는 빼고 좋은 숫자만 골라서 공유했습니다.", "gold": "N28-01", "hard_reason": "정보 은폐 — H05와 미러"},
+    {"id": "H07", "category": "mirror_flip", "text": "실수해도 괜찮으니 자유롭게 의견 주세요, 비난하지 않겠습니다.", "gold": "M15-01", "hard_reason": "심리적 안전"},
+    {"id": "H08", "category": "mirror_flip", "text": "또 그런 의견 내면 다음 평가 때 각오하라고 했습니다.", "gold": "N15-06", "hard_reason": "보복 암시 — 안전 파괴"},
+
+    {"id": "H09", "category": "reversal", "text": "팀원들의 의견을 충분히 듣겠다고 했지만, 실제로는 이미 정해둔 결론대로 진행했습니다.", "gold": "N19-01", "hard_reason": "표면 경청 → 실제 독단"},
+    {"id": "H10", "category": "reversal", "text": "공정하게 평가하겠다고 공언했지만, 정작 친한 팀원에게만 좋은 등급을 줬습니다.", "gold": "N07-01", "hard_reason": "표면 공정 → 실제 편파"},
+    {"id": "H11", "category": "reversal", "text": "혁신을 장려한다면서도, 막상 새 아이디어를 가져가면 늘 안 된다고 잘랐습니다.", "gold": "N23-01", "hard_reason": "표면 혁신장려 → 실제 차단"},
+    {"id": "H12", "category": "reversal", "text": "투명하게 공유한다고 말은 했지만, 핵심 정보는 끝까지 본인만 쥐고 있었습니다.", "gold": "N28-01", "hard_reason": "표면 투명 → 실제 은폐"},
+    {"id": "H13", "category": "reversal", "text": "책임은 자기가 지겠다더니, 문제가 터지자 곧장 담당자 탓으로 돌렸습니다.", "gold": "N08-01", "hard_reason": "표면 책임 → 실제 전가"},
+    {"id": "H14", "category": "reversal", "text": "성장을 돕겠다고 했지만 실제로는 똑같은 잡무만 반복해서 시켰습니다.", "gold": "N03-01", "hard_reason": "표면 성장지원 → 실제 기회박탈"},
+
+    {"id": "H15", "category": "cross_sentence_intent", "text": "회의에서는 다들 자유롭게 말하라고 했다. 그런데 반대 의견을 낸 사람은 회의 후 따로 불려가 질책을 받았다.", "gold": "N15-02", "hard_reason": "1문장 긍정, 2문장에 발언 차단 의도"},
+    {"id": "H16", "category": "cross_sentence_intent", "text": "겉으로는 늘 팀을 먼저 챙긴다고 말한다. 하지만 승진 기회가 오자 팀원 공을 가로채 본인이 챙겼다.", "gold": "N09-02", "hard_reason": "타인업적 가로채기 — 의도가 뒤에"},
+    {"id": "H17", "category": "cross_sentence_intent", "text": "새로운 시도를 응원한다고 말한다. 정작 한 번 실패하자 그 담당자를 공개적으로 망신 줬다.", "gold": "N26-01", "hard_reason": "실험 실패 처벌"},
+    {"id": "H18", "category": "cross_sentence_intent", "text": "데이터를 근거로 결정한다고 강조한다. 그러나 원하는 결론에 맞춰 수치를 조정하라고 지시했다.", "gold": "N34-01", "hard_reason": "데이터 조작 — 의도가 뒤 문장"},
+    {"id": "H19", "category": "cross_sentence_intent", "text": "팀원들을 믿고 맡긴다고 한다. 하지만 매시간 진행 상황을 보고하게 하고 사소한 것까지 다시 지시했다.", "gold": "N24-02", "hard_reason": "미세관리 — 위임 가장"},
+
+    {"id": "H20", "category": "past_tense_exclusion", "text": "예전에는 제가 모든 걸 혼자 결정했었습니다.", "gold": null, "hard_reason": "과거 회상 — 현재 행동 아님, 거부해야"},
+    {"id": "H21", "category": "past_tense_exclusion", "text": "신입 때는 팀 의견을 무시하곤 했었는데 말이죠.", "gold": null, "hard_reason": "과거 회상 — N15 표면어휘지만 거부"},
+    {"id": "H22", "category": "past_tense_exclusion", "text": "과거에 우리 팀은 비전을 자주 공유했었습니다.", "gold": null, "hard_reason": "과거 회상 — M01 표면이지만 거부"},
+    {"id": "H23", "category": "past_tense_exclusion", "text": "그때만 해도 데이터 없이 직감으로 밀어붙였었죠.", "gold": null, "hard_reason": "과거 회상 거부"},
+
+    {"id": "H24", "category": "negation", "text": "팀원이 어렵다고 했지만 저는 별다른 공감을 표현하지 않았습니다.", "gold": "N12-01", "hard_reason": "공감 결여 — 부정 형태소"},
+    {"id": "H25", "category": "negation", "text": "마감이 다가왔지만 끝까지 실행에 옮기지 못했습니다.", "gold": "N10-01", "hard_reason": "실행 부진 — 부정"},
+    {"id": "H26", "category": "negation", "text": "반대 의견이 나와도 끝까지 듣지 않고 말을 잘랐습니다.", "gold": "N11-01", "hard_reason": "경청 거부 — 부정"},
+    {"id": "H27", "category": "negation", "text": "약속한 것을 결국 지키지 않았습니다.", "gold": "N30-01", "hard_reason": "언행 불일치 — 부정"},
+    {"id": "H28", "category": "negation", "text": "위기 상황에서 어떤 결정도 내리지 못하고 미뤘습니다.", "gold": "N08-03", "hard_reason": "의사결정 지연 — 부정"},
+
+    {"id": "H29", "category": "hub_disambiguation", "text": "장애가 터지자 즉시 복구를 지시하고, 동시에 향후 3년 기술 로드맵 방향까지 다시 제시했습니다.", "gold": "M01-02", "hard_reason": "실행(hub)+장기방향 → 비전 단서"},
+    {"id": "H30", "category": "hub_disambiguation", "text": "빠르게 실행하면서도 한정된 예산을 핵심 과제에 전략적으로 우선 배분했습니다.", "gold": "M27-01", "hard_reason": "실행(hub)+자원배분 앵커 → T10"},
+    {"id": "H31", "category": "hub_disambiguation", "text": "성과를 끝까지 밀어붙이되, 무엇보다 목표 달성 자체에 강하게 집착했습니다.", "gold": "M44-02", "hard_reason": "실행(hub)+성취지향 앵커 → T06"},
+    {"id": "H32", "category": "hub_disambiguation", "text": "팀원 감정을 살피면서, 동시에 제 약점을 솔직히 인정하고 성찰했습니다.", "gold": "M32-01", "hard_reason": "공감(hub)+자기인식 앵커 → T08"},
+    {"id": "H33", "category": "hub_disambiguation", "text": "팀원 이야기를 경청하고, 번아웃 징후가 보이는 팀원의 웰빙을 직접 챙겼습니다.", "gold": "M29-01", "hard_reason": "경청(hub)+팀웰빙 앵커 → T11"},
+
+    {"id": "H34", "category": "mirror_flip", "text": "상황이 바뀌자 기존 계획을 유연하게 수정해 대응했습니다.", "gold": "M17-01", "hard_reason": "상황적 유연성"},
+    {"id": "H35", "category": "mirror_flip", "text": "상황이 완전히 달라졌는데도 원래 방식만 고집하며 밀어붙였습니다.", "gold": "N17-01", "hard_reason": "상황무시 강경 — H34와 미러"},
+    {"id": "H36", "category": "reversal", "text": "다양성을 존중한다고 늘 말하지만, 실제 중요한 자리에는 늘 같은 사람만 앉혔습니다.", "gold": "N31-01", "hard_reason": "표면 포용 → 실제 차별"}
+  ]
+}

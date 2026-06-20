@@ -1,0 +1,15 @@
+{
+  "label_id": "N10-02",
+  "label_name": "마감 무시",
+  "macro": "N10",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "약속된 기한을 지키지 않음",
+  "when": "마감 기한을 반복적으로 지키지 않음",
+  "not_when": "약속된 기한 엄수; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

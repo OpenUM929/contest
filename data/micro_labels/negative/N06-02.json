@@ -1,0 +1,15 @@
+{
+  "label_id": "N06-02",
+  "label_name": "우선순위 불명확",
+  "macro": "N06",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "중요도와 우선순위를 명시하지 않음",
+  "when": "모든 일을 긴급로 지시, 우선순위 혼재",
+  "not_when": "명확한 우선순위와 중요도 표시; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

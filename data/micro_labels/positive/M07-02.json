@@ -1,0 +1,15 @@
+{
+  "label_id": "M07-02",
+  "label_name": "성장 지향 피드백",
+  "macro": "L07",
+  "weight": 0.8,
+  "core": true,
+  "definition": "개선과 발전을 돕는 발전적 피드백",
+  "when": "개선점 제시, 미래 지향적 조언, 성장 가능성 강조",
+  "not_when": "단순 비판, 과거 실수만 지적",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

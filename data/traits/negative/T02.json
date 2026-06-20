@@ -1,0 +1,47 @@
+{
+  "trait_id": "T02",
+  "trait_type": "positive",
+  "trait_name": "Collaborative Leader",
+  "required": [
+    "M11-01",
+    "M15-01",
+    "M15-03"
+  ],
+  "optional": [
+    "M11-02",
+    "M12-01",
+    "M12-02",
+    "M15-02",
+    "M15-04",
+    "M15-05",
+    "M15-06",
+    "M14-02"
+  ],
+  "hard_forbidden": [
+    "N11-01",
+    "N11-02",
+    "N15-03",
+    "N04-02"
+  ],
+  "soft_forbidden": [
+    {
+      "label": "N19-01",
+      "penalty": 0.3
+    }
+  ],
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.1
+  },
+  "hybrid_eligible": true,
+  "k_trait": 1.1,
+  "description": "팀워크와 소통 중심의 협력형 리더",
+  "strengths": [
+    "팀 결속",
+    "갈등 완화"
+  ],
+  "risks": [
+    "결정 지연"
+  ]
+}

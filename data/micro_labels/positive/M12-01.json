@@ -1,0 +1,15 @@
+{
+  "label_id": "M12-01",
+  "label_name": "공감 및 감정적 배려",
+  "macro": "L12",
+  "weight": 0.7,
+  "definition": "타인의 감정과 상황에 공감하고 배려",
+  "when": "공감 표현, 감정적 지지, 어려움 공유, 배려 행동",
+  "not_when": "감정 무시, 무관심",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.0
+  },
+  "core": true
+}

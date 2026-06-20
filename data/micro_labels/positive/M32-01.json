@@ -1,0 +1,14 @@
+{
+  "label_id": "M32-01",
+  "label_name": "자기인식 및 자기성찰",
+  "macro": "L32",
+  "weight": 0.7,
+  "definition": "자신의 강점과 약점을 객관적으로 파악",
+  "when": "자기 성찰 시간, 피드백 수용, 약점 인정, 성찰적 사고",
+  "not_when": "자기 과신, 비판 거부",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

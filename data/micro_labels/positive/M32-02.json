@@ -1,0 +1,14 @@
+{
+  "label_id": "M32-02",
+  "label_name": "자기성찰 및 개선",
+  "macro": "L32",
+  "weight": 0.7,
+  "definition": "자신의 행동을 성찰하고 지속적으로 개선",
+  "when": "부족함 인정, 개선 노력, 지속적 자기 개발, 반성적 사고",
+  "not_when": "변명, 책임 회피",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

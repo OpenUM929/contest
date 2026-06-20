@@ -1,0 +1,38 @@
+{
+  "trait_id": "T104",
+  "trait_type": "negative",
+  "trait_name": "Risk: Narcissistic Leadership",
+  "required": [
+    "N04-01",
+    "N09-01"
+  ],
+  "optional": [
+    "N08-03",
+    "N02-01",
+    "N14-03",
+    "N09-02",
+    "N27-01",
+    "N14-02",
+    "N11-01",
+    "N11-02",
+    "N12-01",
+    "N12-02",
+    "N12-03"
+  ],
+  "hard_forbidden": [],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  },
+  "hybrid_eligible": false,
+  "k_trait": 1.0,
+  "description": "자기 과대평가·착취 기반 자기애적 리더십",
+  "strengths": [],
+  "risks": [
+    "조직 착취",
+    "불공정 문화",
+    "인재 이탈"
+  ]
+}

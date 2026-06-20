@@ -1,0 +1,14 @@
+{
+  "label_id": "M01-02",
+  "label_name": "장기 방향 설정",
+  "macro": "L01",
+  "weight": 0.7,
+  "definition": "장기적 관점에서 전략적 방향 수립",
+  "when": "장기 로드맵 수립, 5년 계획 제시, 전략적 방향 설정",
+  "not_when": "단기적 대응, 임시방편",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.1,
+    "innovation": 1.2
+  }
+}

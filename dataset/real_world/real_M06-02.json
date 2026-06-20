@@ -1,0 +1,52 @@
+{
+  "label_id": "M06-02",
+  "label_name": "세부 실행 지침",
+  "total": 2,
+  "updated": "2026-05-06 14:52:21",
+  "entries": [
+    {
+      "text": "사전 질문 의사결정을 할때: 개인적 편향 조심하기 자기 인식의 3단계 1 기본적 자기 인식: 강점, 약점, 가치관, 성격 특성에 대한 이해 2 상황적 자기 인식: 다양한 맥락에서의 반응과 행동 패턴 인식 3 메타 인지적 자기 인식: 자신의 사고 과정을 객관적으로 관찰하는 능력 PM의 제품 의사결정 렌즈 이해 자신의 제품 철학 명료화하기 어떤 제품에 ...",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M02-01",
+          "label_name": "내재적 동기 자극",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M03-02",
+          "label_name": "창의적 질문",
+          "match_score": 1,
+          "reason": "keyword matches 1/9"
+        },
+        {
+          "label_id": "M06-02",
+          "label_name": "세부 실행 지침",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    },
+    {
+      "text": "지난 게시글에서는 팀 문화 수첩이 무엇인지 그리고 1주차에는 어떤 내용이 있었는지를 다뤘는데요. 이번 게시글에서는 2주차부터 9주차까지의 주제 그리고 팀 문화 수첩을 해석하는 방법에 대해 다뤄보려 합니다.지난 게시글이 궁금하다면  여기를 클릭지난 1주차와 같이,",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M05-03",
+          "label_name": "변화 문화 조성",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        },
+        {
+          "label_id": "M06-02",
+          "label_name": "세부 실행 지침",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    }
+  ]
+}

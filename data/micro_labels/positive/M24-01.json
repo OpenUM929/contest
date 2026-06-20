@@ -1,0 +1,14 @@
+{
+  "label_id": "M24-01",
+  "label_name": "운영 안정성 유지",
+  "macro": "L24",
+  "weight": 0.7,
+  "definition": "안정적인 운영 환경과 프로세스 유지",
+  "when": "표준 운영 절차 준수, 안정적 시스템 운영, 리스크 관리",
+  "not_when": "불안정한 시스템 방치, 표준 무시",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.1,
+    "innovation": 1.0
+  }
+}

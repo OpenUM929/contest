@@ -1,0 +1,15 @@
+{
+  "label_id": "N22-01",
+  "label_name": "실패 은폐",
+  "macro": "N22",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "실패를 숨기고 정보를 조작",
+  "when": "실패한 사실을 숨기거나 축소 보고",
+  "not_when": "실패를 투명하게 공유하고 학습; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.1
+  }
+}

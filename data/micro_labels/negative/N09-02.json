@@ -1,0 +1,15 @@
+{
+  "label_id": "N09-02",
+  "label_name": "타인 업적 가로채기",
+  "macro": "N09",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "타인의 아이디어와 성과를 도용",
+  "when": "부하직원 아이디어를 본인 것처럼 발표",
+  "not_when": "아이디어 출처를 명확히 밝힘; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

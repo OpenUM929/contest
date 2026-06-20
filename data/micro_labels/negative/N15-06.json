@@ -1,0 +1,15 @@
+{
+  "label_id": "N15-06",
+  "label_name": "보복 암시",
+  "macro": "N15",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "불이익을 주겠다고 암시",
+  "when": "반대 의견 제시자에게 불이익 암시",
+  "not_when": "다양한 의견을 환영; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

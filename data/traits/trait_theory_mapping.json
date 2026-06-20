@@ -1,0 +1,181 @@
+{
+  "schema_version": "2026-04-v3",
+  "description": "Trait ↔ 리더십 이론 매핑 테이블 v3.0 - 외부 검증을 위한 이론 기반 매핑",
+  "purpose": "외부 검증 대응 (논문 / HR / 감사), 모델 신뢰성 확보",
+  "reference_theories": [
+    "Transformational Leadership",
+    "Servant Leadership",
+    "Ethical Leadership",
+    "Adaptive Leadership",
+    "Ambidextrous Leadership",
+    "Data-Driven Decision Making",
+    "Dark Triad Research",
+    "Authentic Leadership",
+    "Hogan Development Survey (HDS)"
+  ],
+  "validation_statement": "본 모델은 Transformational, Servant, Ethical Leadership 이론을 기반으로, 행동 단위(Micro Label)와 패턴 매칭을 통해 동적 성향을 추론하도록 재구성한 응용 모델이다.",
+  "trait_mappings": [
+    {
+      "trait_id": "T01",
+      "trait_name": "Strategic Decisive Leader",
+      "primary_theory": "Ethical Leadership",
+      "secondary_theory": "Servant Leadership",
+      "evidence": "도덕성 + 구성원 보호",
+      "differentiation": "기존 이론의 정적 분류를 동적 패턴으로 변환"
+    },
+    {
+      "trait_id": "T02",
+      "trait_name": "Collaborative Leader",
+      "primary_theory": "Ethical Leadership",
+      "secondary_theory": null,
+      "evidence": "규범, 책임",
+      "differentiation": "행동 단위 기반 원칙 준수 측정"
+    },
+    {
+      "trait_id": "T03",
+      "trait_name": "Innovative Leader",
+      "primary_theory": "Ethical Leadership",
+      "secondary_theory": null,
+      "evidence": "신뢰 형성 핵심 요소",
+      "differentiation": "상황별 일관성 패턴 분석"
+    },
+    {
+      "trait_id": "T04",
+      "trait_name": "Crisis Manager",
+      "primary_theory": "Servant Leadership",
+      "secondary_theory": null,
+      "evidence": "공감 중심",
+      "differentiation": "공감 행동의 구체적 관찰 단위"
+    },
+    {
+      "trait_id": "T05",
+      "trait_name": "Analytical Leader",
+      "primary_theory": "Servant Leadership",
+      "secondary_theory": "Transformational Leadership",
+      "evidence": "안전감 → 혁신 기반",
+      "differentiation": "심리적 안전감을 혁신의 선행조건으로 모델링"
+    },
+    {
+      "trait_id": "T06",
+      "trait_name": "Execution Driver",
+      "primary_theory": "Transformational Leadership",
+      "secondary_theory": null,
+      "evidence": "개별적 배려",
+      "differentiation": "코칭 행동을 개별 관찰 단위로 분해"
+    },
+    {
+      "trait_id": "T07",
+      "trait_name": "Coaching Leader",
+      "primary_theory": "Servant Leadership",
+      "secondary_theory": null,
+      "evidence": "이타성",
+      "differentiation": "이타적 행동의 구체적 관찰"
+    },
+    {
+      "trait_id": "T08",
+      "trait_name": "Emotional Intelligence Leader",
+      "primary_theory": "Transactional Leadership",
+      "secondary_theory": null,
+      "evidence": "성과 중심 실행",
+      "differentiation": "실행 행동을 패턴 기반으로 측정"
+    },
+    {
+      "trait_id": "T09",
+      "trait_name": "Visionary Leader",
+      "primary_theory": "Transactional Leadership",
+      "secondary_theory": "Ethical Leadership",
+      "evidence": "결과 책임",
+      "differentiation": "책임과 윤리의 복합 패턴"
+    },
+    {
+      "trait_id": "T12",
+      "trait_name": "Balanced Leader",
+      "primary_theory": "Adaptive Leadership",
+      "secondary_theory": null,
+      "evidence": "불확실성 대응",
+      "differentiation": "불확실성 속 안정화 행동 측정"
+    },
+    {
+      "trait_id": "T13",
+      "trait_name": "Ethical Courageous Leader",
+      "primary_theory": "Adaptive Leadership",
+      "secondary_theory": null,
+      "evidence": "상황 대응",
+      "differentiation": "상황별 접근법 조정 패턴"
+    },
+    {
+      "trait_id": "T14",
+      "trait_name": "Learning Agile Leader",
+      "primary_theory": "Transformational Leadership",
+      "secondary_theory": null,
+      "evidence": "변화 촉진",
+      "differentiation": "변화 주도 행동의 구체적 관찰"
+    },
+    {
+      "trait_id": "T101",
+      "trait_name": "Risk: Avoidant",
+      "primary_theory": "Passive Leadership",
+      "secondary_theory": null,
+      "evidence": "책임 회피",
+      "differentiation": "회피 행동 패턴 측정"
+    },
+    {
+      "trait_id": "T102",
+      "trait_name": "Risk: Authoritarian",
+      "primary_theory": "Authoritarian Leadership",
+      "secondary_theory": null,
+      "evidence": "통제 중심",
+      "differentiation": "통제 행동의 구체적 관찰"
+    },
+    {
+      "trait_id": "T103",
+      "trait_name": "Risk: Integrity Violation",
+      "primary_theory": "Authentic Leadership",
+      "secondary_theory": null,
+      "evidence": "언행 불일치",
+      "differentiation": "신뢰 파괴 행동 패턴 측정"
+    },
+    {
+      "trait_id": "T104",
+      "trait_name": "Risk: Narcissistic Leadership",
+      "primary_theory": "Dark Triad Research",
+      "secondary_theory": "Destructive Leadership",
+      "evidence": "Paulhus & Williams (2002), Rosenthal & Pittinsky (2006) - 자기 과대평가·착취",
+      "differentiation": "나르시시즘 학술 구인을 행동 단위 Micro Label로 분해"
+    },
+    {
+      "trait_id": "T105",
+      "trait_name": "Risk: Manipulative Leadership",
+      "primary_theory": "Dark Triad Research",
+      "secondary_theory": "Abusive Supervision",
+      "evidence": "Paulhus & Williams (2002) Machiavellianism - 조작, 냉소, 허위 약속",
+      "differentiation": "마키아벨리즘 핵심 행동을 감정 압박·보상 조작 레이블로 운용화"
+    },
+    {
+      "trait_id": "T106",
+      "trait_name": "Risk: Volatile Leadership",
+      "primary_theory": "Hogan Development Survey (HDS)",
+      "secondary_theory": "Destructive Leadership",
+      "evidence": "Hogan & Hogan (2001) Excitable·Cautious derailers - 과잉 통제, 혁신 억제",
+      "differentiation": "HDS Moving Away/Against 행동을 혁신 억제·학습 파괴 레이블로 통합"
+    }
+  ],
+  "theory_comparison": {
+    "structure": {
+      "traditional": "유형(고정)",
+      "this_model": "패턴(동적)"
+    },
+    "input": {
+      "traditional": "설문",
+      "this_model": "행동 텍스트"
+    },
+    "result": {
+      "traditional": "고정 분류",
+      "this_model": "상황 기반 추론"
+    },
+    "interpretation": {
+      "traditional": "단일 유형",
+      "this_model": "복합 / Hybrid 허용"
+    }
+  }
+}

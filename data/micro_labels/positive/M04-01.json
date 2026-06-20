@@ -1,0 +1,14 @@
+{
+  "label_id": "M04-01",
+  "label_name": "카리스마적 영향력",
+  "macro": "L04",
+  "weight": 0.8,
+  "definition": "강력한 개인적 매력으로 타인을 이끎",
+  "when": "강력한 설득, 군중을 움직이는 연설, 영향력 발휘",
+  "not_when": "권위에 의존한 통제",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.1
+  }
+}

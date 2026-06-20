@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "keyword_weight_map": [
+    {
+      "keywords": ["비전", "방향", "전략"],
+      "target_traits": ["T01"],
+      "weight": 0.9
+    },
+    {
+      "keywords": ["혁신", "아이디어", "새로운", "실험"],
+      "target_traits": ["T03"],
+      "weight": 1.2
+    },
+    {
+      "keywords": ["실행", "추진"],
+      "target_traits": ["T06"],
+      "weight": 0.5
+    },
+    {
+      "keywords": ["공감", "경청", "이해", "존중"],
+      "target_traits": ["T02"],
+      "weight": 0.7
+    },
+    {
+      "keywords": ["윤리", "공정", "투명"],
+      "target_traits": ["T08"],
+      "weight": 0.3
+    }
+  ]
+}

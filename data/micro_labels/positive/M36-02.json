@@ -1,0 +1,10 @@
+{
+  "label_id": "M36-02",
+  "label_name": "양손잡이 리더십",
+  "macro": "L36",
+  "weight": 0.7,
+  "definition": "기존 사업의 안정성과 새로운 혁신을 동시에 추구하는 행동",
+  "when": "탐색과 활용의 균형, 이중 전략, 안정과 혁신의 공존 | 예시: '기존 사업을 안정화하면서 동시에 새로운 기회를 탐색합시다', 'exploitation과 exploration을 병행하겠습니다'",
+  "not_when": "한쪽에만 치우치거나, 균형을 잃는 경우",
+  "context_weight": {"crisis": 1.0, "normal": 1.1, "innovation": 1.3}
+}

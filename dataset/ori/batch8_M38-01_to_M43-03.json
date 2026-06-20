@@ -1,0 +1,4622 @@
+[
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그 말씀에 진심으로 귀 기울이겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "지금까지의 상황을 충분히 이해했습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "귀가 열린 사람은 팀원의 마음까지 들을 수 있습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "진심으로 귀 기울이면 마음도 전해집니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "리더의 귀는 팀의 온도를 재는 체온계와 같습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그는 경청과 공감으로 신뢰를 쌓아갔다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "제가 먼저 다 들은 후에 같이 해결책을 찾아봐요.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "회의실에서 그는 모두의 의견을 경청하며 고개를 끄덕였다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "귀를 여는 사람에게 마음이 열립니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "상대의 말을 다 들은 후에 입을 여는 것이 예의입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "진심으로 듣는 것이 가장 값진 선물입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "공감 없는 대화는 메아리 치는 벽과 같습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "상대의 이야기에 귀 기울이면 관계가 깊어집니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "당신의 의견을 존중하며 끝까지 듣겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "면담실에서 그는 조용히 차를 따르며 상대를 기다렸다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "1대1 면담에서 그는 상대의 말에 깊이 몰입했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "경청은 가장 깊은 공감의 표현입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그런 상황이셨군요, 많이 답답하셨겠어요.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "상대방의 말을 끝까지 경청하고 공감의 뜻을 표했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "경청하며 고개를 숙이는 그의 모습에 신뢰가 느껴졌다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "동료의 고민을 들으며 진심으로 위로했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "상사는 부하의 말끝을 기다리며 고개를 끄덕였다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "공감 없는 조언은 관계를 멀어지게 할 뿐입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "동료의 어려움을 경청하고 공감하며 대화를 나눴다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "당신의 이야기를 끝까지 듣고 싶습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "리더의 귀 기울임이 팀의 안전망이 됩니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "마음을 여는 열쇠는 상대의 이야기를 존중하는 것입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "팀장은 팀원의 어려움을 듣고 깊이 공감하며 대화를 이어갔다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그는 팀원의 말을 중간에 끊지 않고 다 들었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "상대의 말을 존중할 때 비로소 신뢰가 쌓입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그는 상대방의 눈을 보며 진심으로 듣고 있었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "이야기 들으니 상황이 정말 어려우셨네요.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "대화 중 그는 공감의 미소를 지으며 귀 기울였다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "상사는 부하의 이야기에 귀 기울이며 공감을 표시했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "어떤 말씀이든 편하게 해 주세요, 다 듣겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그는 상대의 말을 다 들은 뒤 공감하며 답했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그는 상대방의 말에 깊이 몰입하며 공감했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "공감하는 눈빛 한 번이 천 마디 말보다 값집니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그런 마음 가지셨을 거라 생각했어요.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "리더는 구성원의 이야기에 진심으로 공감했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그 입장이라면 저도 같은 생각이 들 것 같아요.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "당신의 이야기에 진심으로 귀 기울이고 있습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그의 눈빛은 상대방의 말에 온전히 집중해 있었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그는 팀원의 말끝을 기다리며 인내심을 보였다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그런 감정이 들 만한 상황이었습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그 마음 충분히 이해합니다, 더 얘기해 주세요.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "대화 내내 공감의 표정을 잃지 않던 그의 모습이 인상 깊었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "말을 아끼고 귀를 여는 것이 지혜로운 소통입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그 감정 온전히 공감합니다, 함께 고민해요.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "말씀 다 들었어요, 정말 힘드셨겠네요.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "상대의 이야기를 듣기보다 반박 준비를 했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "귀는 열었지만 마음은 닫혀 있던 대화였다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "듣는 척하며 시계만 바라보는 모습이 보였다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "표면적으로는 공감했지만 실제론 무관심했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "공감은 커녕 자신의 의견만 관철시켰다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그는 듣는 척하며 메일 답장을 하고 있었다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "팀장은 듣는 척하며 이미 결정한 내용을 전달했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "경청인 척하며 다른 일을 처리하고 있었다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "경청하는 듯하더니 갑자기 해결책을 제시했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "고개만 끄덕이며 귀 기울이지는 않았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "상대의 감정을 무시한 채 자기 의견을 관철했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "공감의 말을 건넸지만 눈빛은 차가웠다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "말을 다 듣기도 전에 판단을 내렸다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "상대의 말을 끊고 자신의 경험담만 늘어놓았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "경청하는 표정으로 상대를 배려한 척만 했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그런가요, 그런데 제가 보기엔 이렇게 하세요.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "말씀 다 들었어요, 그래서 제 결론은 이렇습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "말은 다 들었는데 공감 없이 평가만 내렸다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "그는 고개를 끄덕이며도 딴생각을 하고 있었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-01",
+    "label_name": "경청과 공감 소통",
+    "text": "상대의 감정은 외면한 채 조언만 쏟아냈다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "지금 이 순간에만 귀를 여는 것이 존중입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "대화 중 그는 창밖을 보지 않고 상대를 응시했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "딴생각이 들면 잠시 숨을 고르고 다시 들으세요.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 이 자리에 전부를 두고 경청했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "지금 이 시간만큼은 오직 경청하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "다른 일은 잠시 잊고 이 자리에 집중하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 회의 내내 핸드폰을 내려놓고 경청했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "이 순간을 온전히 담아야 진심이 전해집니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 팀원의 말에 집중하며 연신 고개를 끄덕였다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "지금 이 자리에 온전히 집중하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 현재 대화에만 온전히 집중하며 듣고 있었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "온전한 집중은 대화의 가장 큰 선물입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "면담 내내 그는 문 앞을 서성이지 않았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "이 순간 당신의 말에만 귀 기울이겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "지금 여기서의 이야기에만 귀 기울이겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "지금 당신의 이야기에만 주의를 기울입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "지금 이 순간에만 마음을 두고 듣겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "이 자리에서의 당신 말에 집중하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "이 순간 당신의 목소리에만 귀를 기울이겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "이 순간에만 몰입하면 진짜 이야기가 들립니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "대화 내내 그의 시선은 발언자에게 고정되어 있었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "지금 이 시간만큼은 오직 이곳에 머물러야 합니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "현재 대화에 몰입해서 함께 하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "집중의 힘은 대화의 질을 결정짓습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "회의 중 그는 다른 회의실 소리에 귀를 기울이지 않았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 현재 순간에 온전히 집중하며 경청했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "현재에 집중하는 것이 가장 예의 바른 경청입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "현재에 머무는 것이 가장 깊은 배려입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "현재를 놓치면 대화의 반을 놓치는 셈입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "팀원의 이야기에만 몰입하며 고개를 끄덕였다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "집중하는 귀는 상대의 숨소리까지 들을 수 있습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "다른 일은 잠시 내려놓고 이 대화에 집중합니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "한눈 팔지 않는 자세가 곧 경청입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "상대방의 말을 들으며 그는 고개를 갸웃거렸다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "다른 생각은 잠시 접어두고 듣겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "팀원 발표 중 그는 노트북을 닫고 몰입했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "회의실에서 그는 모든 전자기기를 꺼두었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "이 자리에 몰입할 때 비로소 상대가 느껴집니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "지금 여기에 마음이 머물 때 비로소 소통이 시작됩니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 팀원 말하는 동안 메모에만 집중했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그의 자세는 지금 이 순간에만 몰입해 있었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "상대방 말할 때 그는 다른 생각을 하지 않았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "대화의 깊이는 집중의 깊이와 비례합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그의 눈빛은 대화 상대에게만 향해 있었다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "현재를 붙잡아야 진짜 이야기를 듣게 됩니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "이 순간의 당신에게만 관심을 두겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "이 순간에만 집중해서 이야기 나눠요.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "지금 여기에 제 전부를 두고 경청합니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "현재 대화에만 마음을 모으는 그의 태도가 인상 깊었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "대화하는 내내 그의 시선은 화면이 아닌 사람에게 향했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 이야기를 들으며 다른 보고서를 쓰고 있었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "상대방의 말이 귀로 들어오지 않는 듯했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 경청인 척하며 메일함을 정리했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "대화 중 그는 계속해서 핸드폰 알림을 확인했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 대화 중 메신저 답장을 하느라 정신이 없었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 대화 중에도 계속해서 핸드폰을 만졌다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 고개를 끄덕이며도 문서를 넘기고 있었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "경청하는 표정을 지으며 다른 업무를 생각했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 듣는 척하며 노트북 화면을 훑어보고 있었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "대화 내내 그의 손은 키보드를 두드리고 있었다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "한 귀로 듣고 한 귀로 흘리는 태도가 역력했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 고개를 끄덕이며도 모니터 속 데이터만 보고 있었다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "말은 듣고 있다고 했지만 시선은 모니터에 고정됐다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 이야기를 들으면서도 다른 회의를 걱정했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "듣고 있어요, 근데 이 메일도 같이 봐야 해서요.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "상대의 말이 귓가를 스쳐도 머릿속엔 다른 일이었다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "말씀 중이신데 잠시만 메시지 확인할게요.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "그는 듣는 척하며 다른 사람에게 메시지를 보냈다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "고개만 끄덕이며 실제론 멀티태스킹 중이었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M38-02",
+    "label_name": "현재집중/경청",
+    "text": "표면적으로는 듣고 있었지만 눈빛은 멍했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 핵심 인재들의 성장 로드맵을 직접 챙겼다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "멘토링의 씨앗은 장기후 거목이 됩니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "차세대를 준비하지 않으면 조직은 공백에 노출됩니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "성장 계획을 세우고 주기적으로 점검하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 차세대 리더를 위한 실전 프로젝트를 기획했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "역량 개발을 위한 외부 교육을 적극 지원했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "인재 육성을 위한 예산을 별도로 확보했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "핵심 업무를 후계자에게 단계적으로 인계했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "차세대 리더 양성을 위해 집중 투자하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 승계 준비를 위해 역량 평가를 도입했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "오늘의 투자가 내일의 리더를 만듭니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "승계 계획에 따라 후보자들을 교육시켰다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "핵심 인재는 키워야 남고, 방치하면 떠납니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "승계 계획은 조직의 생명줄과 같습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "리더의 진짜 유산은 키워낸 인재입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "차세대 인재 양성에 회사 자원을 집중하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 팀원들의 역량 개발을 위해 연간 계획을 수립했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 후계자 양성을 위해 단계별 교육을 설계했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "핵심 인재를 위한 멘토링 프로그램을 새로 기획했습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "리더의 성공은 키워낸 사람의 수로 평가됩니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "팀원의 커리어 경로를 함께 설계하는 시간을 갖겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "후계자 육성을 위한 연간 교육 계획을 수립했습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "리더십 개발 교육에 참여시켜 드리겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 팀원의 성장을 최우선 과제로 삼았다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "당신의 다음 단계 성장을 위해 멘토를 연결해드리겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "이번에 후계자 양성 프로그램을 시작하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "리더십 역량을 강화할 기회를 제공하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "나무를 키우듯 인재를 가꾸는 것이 장기 과제입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "팀 내 승계 체계를 구축해서 안정성을 높였다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "당신의 역량을 키울 수 있는 프로젝트를 배정하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "성장의 계단을 함께 쌓는 것이 리더십입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 후계자의 독립 업무 수행을 체계적으로 지도했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "후계자 양성은 리더의 가장 중요한 의무입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "후계자 육성을 위한 맞춤형 교육을 준비했습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "인재를 키우는 자만이 다음 무대를 준비합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "오늘의 육성이 내일의 경쟁력이 됩니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "차기 리더 후보를 발굴해서 집중 육성했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "승계 준비를 위해 핵심 인재를 집중 육성하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "팀원의 장기 성장을 위해 승계 프로그램을 운영합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "차세대 인재를 육성하는 데 회사 역량을 모았다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "차세대 리더를 위해 체계적인 육성 계획을 세웠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 팀원별 성장 계획을 분기별로 점검했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "차세대 리더를 육성하기 위한 멘토링 프로그램을 시작했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "팀원별 성장 로드맵을 함께 작성해봅시다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "인재 육성은 장기 투자이자 조직의 보험입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 팀원들의 커리어 경로를 함께 고민했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "오늘의 육성이 내일의 승계를 보장합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 후계자 육성 회의를 매월 주관했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "인재 육성 프로그램의 성과를 정기적으로 공유했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "팀 내 승계 계획을 수립해서 공유하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "인재 육성 프로그램을 시작한 척만 하고 방치했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 후계자 교육을 형식적으로만 진행했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "팀원의 성장 요청을 외면하고 현업만 강조했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "팀원의 성장 기회를 반복적으로 차단했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "후계자 얘기는 아직 이르니 나중에 생각합시다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "육성 계획은 있었으나 실행은 전혀 되지 않았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 팀원의 역량 향상에 투자하는 것을 아까워했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 팀원들의 역량 개발에 돈을 아꼈다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "팀원 성장은 알아서 해야죠, 저도 바쁩니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 인재 육성을 경영의 사치품으로만 여겼다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 승계 준비를 개인의 몫으로만 여겼다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 인재 육성에 예산을 전혀 할당하지 않았다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 핵심 인재의 이직을 사전에 방지하지 못했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 후계자 양성에 무관심한 태도를 보였다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "승계 계획이 없어 핵심 업무 인계가 지연됐다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "그는 차세대 육성 회의에 불참하는 일이 잦았다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "승계 계획 없이 업무를 일방적으로 진행했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "후계자 양성은 남의 일처럼 외면당했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "인재 육성은 말로만 하고 예산은 집행하지 않았다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M39-01",
+    "label_name": "인재 육성 및 승계 계획",
+    "text": "팀원들의 교육 신청을 매번 거절했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 조기 경보 체계를 구축해서 예외를 통제했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "성과 지표를 주기적으로 확인하며 추적하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "조짐이 보이자마자 즉시 팀을 소집했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "작은 이탈도 놓치지 않는 눈이 프로젝트를 지킵니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 문제 발생 전에 개입해서 사전에 조치했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "조기 경보 체계를 구축해서 예외를 통제하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "마일스톤 단위로 리스크를 사전에 점검하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 주간 리뷰에서 이탈 징후를 미리 포착했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "조짐을 읽는 자만이 위기를 막을 수 있습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "이탈 조짐이 보이면 즉시 개입하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "지표를 보는 눈이 예외를 읽는 능력입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "예외는 발견되는 순간부터 관리가 시작됩니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "정기 점검 체계로 목표 이탈을 방지했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "일일 업데이트로 예외 상황을 신속히 캐치하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "사전 감지가 없으면 사후 대응은 무의미합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "조기 개입이 가장 효과적인 리스크 관리입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "정기적인 모니터링이 가장 값싼 보험입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "주요 업무의 진행 상황을 주 3회 점검했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "목표 대비 진행률을 주 2회 점검하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "능동적 개입을 위해 경고 신호를 설정하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 팀의 목표 이탈 가능성을 정기 분석했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 능동적 개입을 위해 경계값을 사전 설정했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "지표 모니터링으로 잠재적 리스크를 선제 대응했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "점검의 빈도가 프로젝트의 안정도를 결정합니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "능동적 개입은 리더의 예방 주사와 같습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "사전 점검이 프로젝트의 안전벨트입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "이상 징후에 대한 자동 보고 시스템을 도입했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "지표 모니터링으로 잠재적 리스크를 선제 대응하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "마일스톤 단위로 리스크를 사전에 점검했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 예외 관리 프로세스를 체계화했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "프로젝트 상태를 실시간으로 모니터링하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "예상 밖의 상황을 능동적으로 감지하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "편차 데이터를 분석해서 조기에 개입하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "편차가 발생하면 바로 보고 체계를 가동하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "작은 편차도 방치하면 큰 사고가 됩니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 예외 상황을 자동 알림으로 신속히 감지했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "목표 달성 여부를 상시 체크하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 핵심 지표를 매일 확인하며 모니터링했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "정기 모니터링으로 문제를 사전에 방지하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "능동적 관리는 문제의 불씨를 미리 끄는 것입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "이상 징후를 조기에 발견해서 대응하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 편차 데이터를 분석해서 조기에 개입했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "성과 대시보드를 통해 예외를 능동적으로 관리했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "성과 대시보드를 통해 예외를 능동적으로 관리하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "능동적 감시가 조직의 면역 체계입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "목표 이탈 가능성을 미리 파악하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "주요 마일스톤마다 점검 미팅을 열겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "예외 관리는 미래를 미리 보는 안목입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "성과 추적 회의를 매주 열어 사전에 대응했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "사전 점검 한 번이 사후 수습 열 번보다 값집니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "문제가 생긴 줄도 모르고 다른 업무를 보고 있었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 문제가 생긴 후에야 보고서를 받아봤다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 모니터링을 숫자 나열로만 여기고 분석하지 않았다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 사전 점검 회의를 취소하는 일이 잦았다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "예외 상황을 사전에 차단하지 못하고 당했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 주간 리포트를 쌓아두기만 하고 분석하지 않았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "능동적 모니터링 없이 문제 발생만 기다렸다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 목표 이탈에 대해 아무런 대비가 없었다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "문제가 터지고 나서야 팀을 소집했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "지표를 거의 확인하지 않아서 이탈을 놓쳤다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "이탈 징후가 보여도 무시하고 넘어갔다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "사후 대응만 반복하며 예방 의식은 전혀 없었다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 문제가 커진 후에야 뒤늦게 개입했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "조짐은 있었지만 개입 시기를 놓쳤다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "예외를 사전에 감지하지 못하고 당했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 대시보드를 확인하는 일이 한 달에 한 번이었다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 예외 관리를 사후 보고로만 인식했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "목표 이탈을 뒤늦게 발견해서 수습이 늦었다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "그는 주간 점검을 형식적으로만 대충 진행했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-01",
+    "label_name": "예외 관리 (능동적)",
+    "text": "문제가 터지고 나서야 알게 됐습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "보상의 공정성은 리더의 신뢰를 좌우합니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 보상 체계의 신뢰도를 높이는 데 힘썼다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "평가 결과에 따른 보상을 차질없이 집행하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과에 따라 보상이 달라지는 것이 공정합니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "보상 규모를 객관 데이터에 따라 결정했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과 기반 보상 체계를 안정적으로 운영했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과에 따른 보상이 팀의 공정성을 높였다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "목표 달성 시 약속한 성과급을 지급하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "보상 기준을 사전에 명확히 문서로 공유하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 약속한 보너스를 조건 충족 후 즉시 지급했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과와 보상의 균형이 팀의 미래를 결정합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 인센티브를 차질없이 지급했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과급 지급에서 기준을 투명하게 적용했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 보상을 이행하는 것이 리더의 기본 의무입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과 기반 보상이 조직의 활력을 높입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "보상은 객관적 평가 결과에 따라 주겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "목표 초과 달성 시 보너스를 지급하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 성과 평가를 공정하게 진행하고 보상을 이행했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 인센티브를 KPI 달성 후 즉시 이행했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "조건 없는 보상은 동기를 약화시킬 수 있습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 성과에 따라 공정하게 보상을 차등 지급했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "보상의 공정성은 팀의 신뢰를 지탱하는 버팀목입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "공정한 보상을 위해 평가 기준을 문서화합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "KPI 달성률에 비례해서 보상을 결정하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "조걸부 보상 기준을 팀원 모두와 합의했습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 인센티브를 지키지 않으면 신뢰가 무너집니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과에 맞게 보상 규모를 확정하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "보상 기준의 투명함이 동기를 만듭니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "보상 기준을 사전에 명확히 문서로 공유했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 공정한 평가를 통해 보상을 배분했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "객관적 지표에 근거해서 보상을 결정하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "공정한 보상은 최고의 성과 관리 도구입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "조걸부 보상이 동기 부여로 이어졌다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 인센티브는 반드시 이행하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 보상 기준을 투명하게 적용하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과급 지급에서 기준을 투명하게 적용하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속 이행이 보상 체계의 생명줄입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과에 따라 공정하게 보상을 차등 지급하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 객관적 지표에 근거해서 보상을 결정했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 보상은 반드시 이행되어야 합니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "조걸부 보상은 목표에 방향성을 부여합니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과에 따라 공정하게 인센티브를 차등 지급합니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 목표 달성 여부를 확인한 뒤 보상을 집행했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과 기반 보상 체계를 명확히 공지하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 팀원들에게 보상 기준을 투명하게 설명했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "조걸부 보상 약속을 팀원 모두가 신뢰했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "보상의 근거를 투명히 밝히는 것이 공정입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "공정한 보상이 팀원의 충성도를 높입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 인센티브를 KPI 달성 후 즉시 이행하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "달성 조건을 미리 공유하고 그에 따르겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "보상 약속이 공기처럼 흩어지고 말았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "KPI를 달성해도 보상은 커피 쿠폰 수준이었다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 약속한 보상을 다음 분기로 미루기만 했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 보너스가 입으로만 전달되고 끝났다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 성과와 무관하게 보상을 동일하게 나눴다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 보너스가 회사 사정으로 갑자기 사라졌다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과급 지급은 약속과 달리 임의로 처리됐다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과와 무관하게 친한 사람에게 보상을 몰아줬다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "보상 기준을 미리 안 알려주고 제멋대로 결정했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 성과 높은 팀원과 낮은 팀원의 보상을 같이 했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과급을 마음대로 삭감하고 근거를 대지 않았다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 보상을 정치적으로 활용해서 불공정하게 배분했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 보상 체계를 협박 수단으로 악용했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "조건 달성 후에도 보상 지급을 미루기만 했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "성과급은 약속했는데 지급 기준이 갑자기 바뀌었습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 보상 약속을 입에만 달고 이행은 안 했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 보상 이행을 개인의 재량으로 처리했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 보상 기준을 투명하게 공개하지 않았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "그는 보상 기준을 번복해서 팀원들을 실망시켰다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M40-02",
+    "label_name": "조걸부 보상",
+    "text": "약속한 인센티브를 이행하지 않고 핑계를 댔다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신의 감정이 판단에 미친 영향을 돌아봤다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "저의 한계를 인정하고 보완하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 인식의 깊이가 팀의 신뢰로 이어졌다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신을 아는 것이 타인을 이해하는 지름길입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "저는 세부사항을 놓치는 약점이 있습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 평가 보고서에서 약점을 숨기지 않았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "객관적인 자기 평가가 변화의 촉매가 됩니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "제 감정이 격해져서 판단이 흐려졌던 것 같습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "성찰의 깊이가 리더의 높이를 결정합니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 편향을 인식하고 극복하려 노력했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 결정 스타일을 객관적으로 분석했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "제 성격상 급한 면이 있어서 조심하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 인식이 개선의 첫걸음임을 실천했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 인식은 끝없는 대화의 시작입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 인식 없는 리더십은 눈먼 질주와 같습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "감정 조절 실패를 인정하고 피드백을 구했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신의 성향이 팀에 미친 영향을 깊이 성찰했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "저의 부족함을 솔직하게 인정하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "제 강점은 전략적 사고이고 약점은 실행입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "제 판단에 편향이 있었음을 인정합니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "제가 성급하게 결정한 부분을 인정합니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신의 실수를 거울 삼아 성찰하는 태도를 보였다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신의 그림자를 인정할 때 비로소 성장합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신의 약점을 솔직히 인정하고 개선 계획을 세웠다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "감정 조절이 필요하다는 것을 느꼈습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 객관적 자기 평가를 통해 역량을 진단했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "저의 감정 변화를 정확히 파악하고 대응하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "스스로를 객관적으로 평가하는 연습을 하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "저를 돌아보는 시간을 매일 갖겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 정기적으로 자신의 강약점을 점검했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "스스로를 있는 그대로 받아들이겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "내면을 들여다보는 용기가 리더의 자산이 됩니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신의 약점을 받아들이면 팀이 더 강해집니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 감정 변화를 정확히 파악하고 대응했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신의 감정을 인정할 때 비로소 통제가 가능합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 인식 훈련을 통해 리더십을 성찰했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 성찰 일기를 쓰며 자신을 들여다봤다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신의 한계를 아는 것이 진짜 강함입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "제 감정이 팀에 미친 영향을 성찰하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "감정을 읽는 눈은 자기 안에서부터 열립니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "스스로를 아는 것이 진정한 리더의 자격입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 한계를 아는 만큼 팀을 신뢰했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신을 속이면 팀도 속일 수밖에 없습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 인식은 리더십의 나침반과 같습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "거울 앞에서 자신을 보는 용기가 필요합니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 실패 원인을 남 탓이 아닌 자신에서 찾았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 감정 상태를 팀원에게 솔직히 털어놨다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "저의 부족한 점을 객관적으로 바라보겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "제 결정 스타일을 객관적으로 분석해보겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 강점을 팀에 맞게 활용했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 인식이 부족해서 감정적 결정을 반복했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 모든 책임을 외부 요인으로 돌렸다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신이 완벽하다고 믿어 의심치 않았다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "제 결정은 항상 옳았고 문제는 실행 탓입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신을 객관적으로 보려는 노력이 전혀 없었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 감정을 통제하지 못하고 남에게 화를 냈다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 모든 실패를 팀원에게 돌리기만 했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자기 합리화에만 몰두해서 개선이 없었다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 과신 때문에 피드백을 거부했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 거울을 보지 않고 남의 얼굴만 비판했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "저는 실수를 한 적이 없습니다, 다 환경 탓입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신의 실수를 숨기고 남에게 책임을 전가했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 약점을 절대 인정하려 하지 않았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자신의 문제를 보려 하지 않고 남만 탓했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 감정 폭발을 통제할 의지가 없었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 한계를 인정하는 것을 굴욕으로 여겼다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "그는 자신의 잘못을 인정하는 것을 약함으로 여겼다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 성찰의 시간을 전혀 갖지 않았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "성찰 없이 자신의 행동을 정당화만 했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-01",
+    "label_name": "자기인식",
+    "text": "자기 과신이 팀의 혁신을 가로막고 있었다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "다양한 시각에서 정보를 수집해서 분석했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "한쪽 귀만 열면 편향된 판단이 생깁니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "정보의 균형이 깨지면 신뢰도 무너집니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "모든 관점을 존중하고 공정하게 판단하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 의사결정 전에 반드시 반대 의견을 들었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "한쪽으로 기울어진 저울은 무게를 재지 못합니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "정보의 편향 가능성을 스스로 점검했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "귀를 여러 방향으로 열어야 편향이 줄어듭니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "다양한 시각에서 정보를 수집해서 분석하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "양측의 주장을 균형 있게 비교 검토했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 이해관계자들의 다양한 목소리를 들었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "양측의 주장을 균형 있게 검토하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "편향을 인식하고 의도적으로 균형을 맞추겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "양쪽의 의견을 공정하게 듣고 중재하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "찬반 양쪽 의견을 모두 듣고 판단하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "편향 없는 정보 처리는 리더의 양심입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 모든 관점을 공정하게 반영한 보고서를 썼다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "다양한 출처의 정보를 교차 분석해서 신뢰도를 높였다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "다양한 이해관계자의 목소리에 귀 기울이겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "균형적 정보 처리가 공정한 결정으로 이어졌다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "객관적 자료와 주관적 의견을 모두 고려하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 편향 없이 객관적 데이터를 처리했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "정보의 균형이 깨지면 결정도 기울어집니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 내부와 외부 의견을 균등하게 반영했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "정보의 출처와 편향성을 함께 점검하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "여러 관점의 보고서를 교차 검증해서 판단했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "반대 의견도 귀한 자료가 될 수 있습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "한쪽 의견만 듣는 결정은 불공정의 씨앗입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "다양한 시각이 모여야 전체 그림이 완성됩니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "모든 관점의 자료를 공정하게 수집하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "상반된 의견도 존중하며 검토하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "한쪽 편만 듣지 않고 양쪽을 공정히 살피겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "데이터와 현장감을 함께 고려한 판단을 내렸다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 찬반 양쪽의 의견을 모두 경청하고 정리했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "여러 관점의 데이터를 비교 분석하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "균형 잡힌 시각이 공정한 결정의 출발점입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "상반된 의견을 조화롭게 정리하는 능력을 보였다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "공정한 판단은 정보의 균형에서 시작됩니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 다른 부서의 반대 의견도 존중하며 수용했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "다른 부서의 의견도 함께 들어보겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "균형 잡힌 시각이 없으면 공정성도 사라집니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "모든 관점은 그 자체로 가치 있는 단서입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "다양한 목소리를 들을 때 비로소 진실이 보입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 한쪽 의견에 치우치지 않고 중재했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 균형 잡힌 결정을 위해 추가 자료를 요청했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "객관적 근거와 현장 의견을 모두 반영했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "다양한 시각에서 정보를 수집하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "모든 관점을 균형 있게 고려할 때 진실이 보입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "균형 잡힌 시각으로 문제를 바라보겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "균형적 분석이 없으면 정답은 왜곡됩니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "한쪽 귀만 열고 다른 쪽은 의도적으로 막았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "반대 의견을 적극적으로 차단하고 무시했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 다양한 관점을 배제하고 독단적으로 처리했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "다른 부서의 의견을 무시하고 내부 결정만 내렸다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 자신의 선입견에 맞는 자료만 골라냈다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "한쪽 의견에 치우쳐서 객관성을 잃었다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "객관적 자료보다 자신의 편향을 더 신뢰했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "저는 A 의견만 맞다고 생각해서 다른 건 안 들었습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "정보 수집에서 반대편 의견은 일부러 제외했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 반대 의견을 위협으로만 여기고 차단했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 편향된 정보를 근거로 팀원을 설득했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 균형 잡힌 시각 대신 편파적 결정을 내렸다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 편향된 자료만 보고 결정을 내렸다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "유리한 정보만 골라서 보고서를 조작했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 자기 확증을 위한 정보만 찾아다녔다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "반대 의견은 귀찮으니 우리 쪽 자료만 보겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 균형적 분석 없이 직감만 믿고 결정했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 균형을 포기하고 자신의 직감만 따랐다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "정보 처리에 편향이 심해서 공정성이 결여됐다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M41-02",
+    "label_name": "균형적 정보처리",
+    "text": "그는 자신에게 유리한 정보만 선택적으로 수집했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 워라밸을 보장하는 방안을 마련하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 행복이 최고의 성과 지표입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 팀원의 필요를 먼저 파악하고 정책을 세웠다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 조직 목표와 팀원 필요의 균형을 추구했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 성장이 우리 팀의 최우선 가치입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심의 문화가 팀의 지속가능성을 만듭니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 필요를 조직 목표보다 앞세우는 태도를 보였다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "사람을 먼저 생각하는 리더십이 지속가능합니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 필요를 최우선으로 하는 그의 태도가 신뢰를 줬다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 직원 만족도 조사를 정기적으로 실시했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "당신의 필요가 무엇인지 먼저 듣고 싶습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 팀원의 소리를 경영 회의에 반영했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심 정책을 도입해서 복지를 강화하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 팀원의 필요를 무시하지 않고 정책에 담았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심의 문화가 진짜 혁신을 만듭니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원의 필요를 먼저 묻는 문화를 팀에 정착시켰다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 필요를 채우는 것이 리더의 첫째 의무입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심의 결정을 위해 의견을 수렴하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "조직의 목표는 사람을 통해 이루어집니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 소리를 경영에 반영하는 체계를 만들겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "당신의 성장 기회를 적극적으로 지원하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 필요를 채워줄 때 충성도가 생깁니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "당신의 커리어 목표를 존중하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 팀원의 개인 사정을 고려해서 일정을 조정했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원의 필요를 먼저 묻는 문화를 정착시키겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "당신의 필요를 외면하는 리더는 실패합니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 성장 기회를 적극적으로 지원했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 커리어 목표를 존중해서 프로젝트를 배정하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심은 비용이 아니라 투자입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 직원 중심의 리더십을 일관되게 실천했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원의 소리를 듣는 귀가 경쟁력의 원천입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심의 리더십이 팀을 살립니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원의 건강과 성장이 조직의 자산이라 생각합니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 업무 부담을 줄이기 위해 프로세스를 개선했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "당신의 업무 부담을 줄이는 방향으로 개선하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "사람을 먼저 두면 성과는 따라옵니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심의 복지 제도를 새로 도입했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 성장 없이는 조직의 성장도 없습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 필요를 최우선으로 고려해서 일정을 잡겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "사람에 대한 관심이 경영의 기본입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원이 만족해야 진짜 성과가 나온다고 믿습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심의 결정으로 팀 만족도를 높이겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원을 소모품으로 보는 조직은 오래가지 못합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 필요를 먼저 파악하고 정책을 세우겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 커리어 목표를 존중해서 프로젝트를 배정했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심의 결정으로 팀 만족도를 높였다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원의 필요가 곧 조직의 나침반입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 직원의 건강을 최우선으로 두고 정책을 바꿨다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심성이 팀의 충성도를 높이는 원동력이 됐다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 워라밸 보장을 위해 업무를 재배분하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "조직 목표가 직원의 필요를 압도하는 문화였다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "조직 목표가 먼저고 개인 필요는 나중에 생각합시다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 워라밸 요구를 업무 효율 저하로만 봤다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원의 필요보다 상사 눈치가 우선이었다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 직원 중심을 말하면서 정작 자신은 특혜를 누렸다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 직원 중심이 아닌 자기 중심 리더십을 폈었다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 건강 악화에도 업무 강도를 줄이지 않았다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 팀원의 소리를 형식적으로만 듣고 무시했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 필요를 알려 해도 정책에 반영되지 않았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "조직 목표를 위해 팀원의 필요를 희생시켰다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 필요를 알면서도 전혀 지원하지 않았다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원의 필요는 실적 달성의 장애물로만 여겼다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "직원 중심은 입에만 달고 실제로는 주주 중심이었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "팀원 필요는 중요하지만 실적이 우선입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 팀원의 필요를 경영 비용으로만 여겼다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 팀원의 개인 사정을 고려하지 않고 강요했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 팀원의 커리어 목표에 전혀 관심이 없었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 직원 중심 정책을 홍보용으로만 사용했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 사람보다 숫자를 먼저 계산하는 리더였다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M42-01",
+    "label_name": "직원 중심성",
+    "text": "그는 팀원의 성장 요청을 거절하고 현업만 강조했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여의 깊이가 조직의 몰입도를 결정합니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "의견을 낸 사람에게 그 결과를 반드시 설명하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여 속에서 팀원의 주인의식이 깨어납니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여를 유도하는 그의 태도가 팀의 자율성을 키웠다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "민주적 의사결정으로 팀의 몰입도를 높이겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "모두의 목소리가 균등하게 반영된 방안을 채택했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "당신의 의견이 이 결정에 반영되도록 하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "일방적 결정은 팀의 창의성을 죽입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여형 회의를 통해 집단 지성을 활용하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 의사결정 과정을 투명하게 공개했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "모두가 주인의식을 갖도록 참여 기회를 확대하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여적 문화 덕분에 팀원들이 적극적으로 나섰다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여의 폭이 조직의 혁신 속도를 결정합니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "팀원들이 직접 참여해 만든 규칙이 효과를 봤다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "팀원의 의견이 실제로 반영된 사례를 공유했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "모두의 목소리가 균등하게 반영되게 하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "팀원의 참여가 높은 결정이 실행도 잘 됐다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "모두가 주인이면 변화도 저항 없이 일어납니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여형 회의를 통해 다양한 아이디어를 수렴하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "모두가 함께 만드는 방향으로 의사결정하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "모두의 목소리가 균등하게 반영되도록 하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "팀원들의 참여를 독려해서 집단 지성을 활용하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "모두의 목소리가 모여야 완전한 그림이 됩니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "함께 만든 규칙은 스스로 지키게 됩니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 일방적 결정을 지양하고 협의를 우선시했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "집단 지성을 활용한 결정이 혁신으로 이어졌다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "투명한 과정이 없으면 참여는 허상입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "당신의 한마디가 이 팀의 방향을 바꿀 수 있습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 모든 안건을 팀원과 상의한 후에 실행에 옮겼다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "팀원의 참여가 높을수록 결정의 질이 올라갑니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "팀원들의 참여를 적극 유도하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 참여적 리더십으로 팀의 주인의식을 높였다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "민주적 의사결정이 팀의 몰입도를 높였다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 민주적 절차로 중요한 안건을 결정했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 팀원들의 의견을 충분히 수렴한 뒤 결정했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "당신의 한마디가 우리의 방향을 바꿀 수 있습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 참여형 워크숍을 통해 팀의 방향을 함께 정했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "함께 만드는 결정이 팀의 힘을 키웁니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여적 문화가 혁신의 토양이 됩니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여를 유도하는 것이 진짜 리더의 힘입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여하는 팀원이 주인이 되는 조직입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "의견을 듣고 반영하는 것이 약속의 증거입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "민주적 절차로 중요한 안건을 결정하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 발언권을 보장해서 소외되는 사람이 없게 했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "함께 만드는 결정이 가장 강한 동기가 됩니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "이 결정은 모두의 의견을 들은 후 내리겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 의견 수렴 후 결과를 피드백하는 체계를 만들었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "의사결정 과정을 투명하게 공개하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여적 문화를 위해 발언권을 보장하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여형 회의를 통해 다양한 아이디어를 모았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 민주적 절차를 이용해 책임만 분산시켰다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "팀원의 의견은 참고만 하고 원래 계획대로 진행했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여는 유도했지만 권한은 한 사람에게만 있었다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "의견은 들었는데 결정은 이미 남겨진 거라서요.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "민주적 절차의 가면을 쓴 일방통행이었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 팀원의 참여를 유도한 척하곤 일방적으로 결정했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 의견 수렴 후에도 결정 배경을 숨겼다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여를 유도한 후 팀원의 의견은 무시했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여는 시키겠지만 결정은 제가 하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 집단 지성이 아닌 개인 독단으로 결정했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "의견은 들었지만 실제로는 전혀 반영되지 않았다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "민주적 절차는 형식이고 실권은 자신에게 남겼다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "참여를 장려한 듯하더니 갑자기 지시를 내렸다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "의견 수렴은 했지만 이미 정해진 답이었다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 참여적 리더십을 입에 달고 독단을 실천했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 참여형 회의를 했지만 결정은 독단적으로 내렸다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "의사결정에 참여만 시키고 반영은 하지 않았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 참여를 시키고서 결과를 공유하지 않았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 협의하는 척하며 자신의 뜻만 관철시켰다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-01",
+    "label_name": "참여적 리더십",
+    "text": "그는 팀원의 목소리를 들은 척만 하고 넘어갔다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스 관리 대시보드를 구축하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스가 명확하면 책임도 명확해집니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "체계적인 조정이 팀의 생산성을 극대화합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "업무 단계별 체크리스트를 도입하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "잘 짜인 프로세스가 팀의 박자를 맞춥니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "역할 분담표를 만들어 책임 소재를 명확히 했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 체계적인 관리 체계를 구축해서 혼란을 줄였다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "팀 간 조율을 체계화해서 혼란을 줄이겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스가 명확하면 갈등도 줄어듭니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "팀 간 업무 조율을 위해 정기 미팅을 열겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "체계적인 조정이 팀의 속도를 결정합니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "업무 흐름을 시각화해서 모두가 이해하게 하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 프로세스 변경 시 팀원 모두와 사전 협의했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스는 조직의 신경계와 같습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 프로세스 개선을 통해 효율을 높였다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "팀 내 역할 분담을 명확히 하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "업무 조율의 체계화가 팀의 생산성을 끌어올렸다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스를 개선해서 효율을 높이겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "조율 회의를 통해 갈등을 사전에 방지하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "표준 절차가 없으면 혼란이 반복됩니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "팀 간 업무 조율 미팅을 매주 정례화했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 업무 프로세스를 표준화해서 팀에 공유했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 업무 단계별 체크리스트를 개발해서 적용했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "업무 흐름을 정리하는 것이 전쟁의 지도를 그리는 것입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "조정 없는 팀은 악단이 아닌 잡음입니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "업무 흐름을 정리해서 중복 작업을 없앴다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "체계적인 조정으로 일정 차질을 막겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "체계적인 관리가 에너지 낭비를 줄입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 조율 회의로 팀 간 갈등을 사전에 방지했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "업무 흐름을 정리해서 중복을 없애겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "체계적인 관리 체계를 수립하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스 변경 시 팀 모두와 사전 협의하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "체계적인 조정으로 프로젝트 일정 차질을 막았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 표준 절차를 준수하는 문화를 정착시켰다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "업무의 길을 정리하면 사람이 달립니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "조율의 미학이 팀의 하모니를 만듭니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 팀 간 의존성을 분석해서 병목을 제거했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스 관리 체계가 업무 품질을 높였다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "조율은 팀의 숨구멍을 확보하는 일입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "잘 관리되는 흐름이 결과를 보장합니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "표준 프로세스를 준수하는 문화를 정착시키겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "역할 분담표를 명확히 해서 책임 소재를 구분하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스 관리 대시보드로 현황을 한눈에 볼 수 있게 했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "표준 절차를 도입해서 일관된 품질을 확보했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 프로세스 이슈를 조기에 발견해서 조정했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 업무 흐름도를 그려서 팀에 이해를 도왔다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "업무 프로세스를 표준화해서 문서화하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "조정 능력 덕분에 부서 간 협업이 원활해졌다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "팀 간 의존성을 분석해서 병목을 제거하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "표준 절차를 만들어 일관성을 확보하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "역할 분담이 모호해서 책임 소재가 불분명했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 표준 절차를 무시하고 예외를 남발했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "팀 간 조율 없이 일을 진행해서 혼란이 커졌다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스 변경을 팀원과 협의 없이 단독 결정했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 프로세스 관리의 필요성을 인식하지 못했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스가 없어 같은 일을 여러 번 반복했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "조율 없이 진행되다 보니 업무가 뒤엉켰다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 프로세스 관리 대시보드를 구축하지 않았다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "프로세스는 번거로우니 대충 넘어갑시다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 체계적인 관리 없이 비효율을 방치했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 조율 회의를 취소하고 독단적으로 밀어붙였다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "체계 없는 관리가 팀의 혼란을 키웠다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 업무 흐름을 정리하려 하지 않고 내버려뒀다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "조율은 시간 낭비니 각자 알아서 하세요.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 체계적인 조정 없이 일정이 계속 지연됐다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "표준 절차가 없어 팀원마다 일하는 방식이 달랐다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 업무 프로세스를 무시하고 제멋대로 진행했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "팀 간 조율 없이 각자도생하는 분위기였다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "비체계적인 운영으로 프로젝트가 엉망이 됐다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-02",
+    "label_name": "조정/프로세스 관리",
+    "text": "그는 프로세스를 사람을 통제하는 도구로만 악용했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 파트너사와 공동 프로젝트를 성공적으로 기획했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "파트너십을 통해 시장 경계를 넓히겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "경계 없는 협력이 혁신의 원천이 됩니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "혼자 가면 빨리 가도 함께 가면 멀리 갑니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부의 시선이 내부의 성찰을 이끕니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "네트워크는 조직의 신경망과 같습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "네트워크는 조직의 보이지 않는 자산입니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 전문가를 자문위원으로 초빙하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 외부 전문가와 협업해서 팀 역량을 확장했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "파트너십은 혼자서는 못 하는 일의 열쇠입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 네트워크를 활용해서 새로운 기회를 창출했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 전문가 네트워크를 팀원들과 공유하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "네트워크의 깊이가 기회의 너비를 결정합니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 인맥이 조직의 경쟁력으로 연결됐다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "네트워크를 통해 산업 트렌드를 파악하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "파트너사와 공동 프로젝트를 기획하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 네트워킹이 팀의 시야를 넓히는 데 기여했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 업계 네트워킹 행사에 팀원과 함께 참여했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "파트너십을 통해 시장 경계를 넓히는 데 성공했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 인사이트를 내부에 적극 도입하겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "네트워크가 넓을수록 기회의 파이도 커집니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "업계 네트워킹 행사에 팀원과 함께 참여하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "네트워킹을 통해 새로운 파트너를 발굴하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 협력은 조직의 지평을 넓히는 통로입니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 경계 확장을 위해 적극적인 대외 활동을 펼쳤다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "경계를 넓히는 것이 성장의 시작입니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 다양한 파트너와의 관계를 체계적으로 관리했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부와의 연결이 조직의 호흡을 넓힙니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 전문가와 협업해서 역량을 확장하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 파트너와의 교류를 정례화하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 전문가를 자문위원으로 초빙해서 조언을 구했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "네트워크를 활용해서 새로운 기회를 찾겠습니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 네트워크를 조직의 중요한 자산으로 만들었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 기관과의 협력을 통해 시야를 넓히겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "경계 확장을 위해 적극적인 대외 활동을 하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 경계를 확장하는 전략을 경영진에 제안했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 네트워크를 조직의 자산으로 만들겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "경계를 확장하는 용기가 새로운 시장을 만듭니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 인사이트가 내부의 답습을 깨뜨립니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 파트너와의 교류를 정례화해서 시너지를 냈다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 협력으로 내부 역량의 부족함을 보완하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "닫힌 울타리 안에선 새로운 풍경이 보이지 않습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "대외 협력을 통해 조직의 역량을 확장하겠습니다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 네트워크를 통해 산업 트렌드를 빠르게 파악했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "경계를 확장하기 위한 전략적 제휴를 모색하겠습니다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 협력으로 내부 역량의 부족함을 효과적으로 보완했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 경계 확장을 위한 전략적 제휴를 모색했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부의 바람이 내부의 변화를 만듭니다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 인사이트를 내부에 적극 도입해서 혁신을 이끌었다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "닫힌 문은 외부의 손으로 열 때가 많습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 네트워크를 구축하는 데 시간을 쓰지 않았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 외부 시장을 위협이 아닌 기회로 보지 않았다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "파트너사와의 관계를 소홀히 해서 기회를 놓쳤다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 파트너십 기회를 거절하고 고립을 택했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "네트워크를 개인의 재산으로만 여기고 공유하지 않았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부는 신경 쓸 필요 없고 우리끼리만 하면 됩니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 전문가의 도움을 받을 생각을 하지 않았다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "경계 확장 없이 내부 시장에만 안주했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 외부 협력 제안을 반복적으로 거절했다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 경계 확장에 무관심해서 시장이 좁아졌다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 교류를 시간 낭비로 여기며 회피했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "협업 기회를 무시하고 경쟁으로만 대응했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 외부와의 벽을 높여 조직을 고립시켰다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 네트워크 구축의 중요성을 인식하지 못했다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 외부 트렌드를 파악하려 하지 않았다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "내부 역량만으로는 부족함을 외면했다.",
+    "style": "euphemism"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 네트워킹 행사에 참여하려 하지 않았다.",
+    "style": "direct_speech"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "파트너사와의 협업은 귀찮으니 안 하겠습니다.",
+    "style": "indirect_report"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "그는 외부 파트너의 제안을 일방적으로 거절했다.",
+    "style": "scene_description"
+  },
+  {
+    "label_id": "M43-03",
+    "label_name": "외부 네트워킹/경계 확장",
+    "text": "외부 전문가 초빙을 비용 낭비로만 여겼다.",
+    "style": "euphemism"
+  }
+]

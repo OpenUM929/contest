@@ -1,0 +1,15 @@
+{
+  "label_id": "N04-02",
+  "label_name": "권위 과시",
+  "macro": "N04",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "지위를 이용한 위압적 행동",
+  "when": "직급을 내세워 압박, 권위적으로 명령",
+  "not_when": "수평적 소통과 권위 없는 리더십; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

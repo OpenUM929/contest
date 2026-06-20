@@ -1,0 +1,15 @@
+{
+  "label_id": "M08-01",
+  "label_name": "책임 및 원칙 준수",
+  "macro": "L08",
+  "weight": 0.8,
+  "core": true,
+  "definition": "윤리적 원칙을 준수하고 책임감 있게 행동",
+  "when": "윤리적 결정, 원칙 고수, 책임지는 행동",
+  "not_when": "편의적 판단, 원칙 포기",
+  "context_weight": {
+    "crisis": 1.3,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

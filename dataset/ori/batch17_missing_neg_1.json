@@ -1,0 +1,5602 @@
+[
+  {
+    "text": "리더는 팀원의 노력을 인정하고 동기를 부여했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 감정적 압박에 서로를 의심하게 되었다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들이 자발적으로 헌신하도록 분위기를 조성했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀을 위해서라면 당신은 희생하셔야 합니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원의 양심을 이용해 업무를 강요했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이렇게 하지 않으면 팀 전체가 피해를 봅니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원 앞에서 다른 팀원과 비교하며 수치를 줬다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "정당한 업무 요청으로 팀원이 스스로 성과를 내게 했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원에게 불필요한 죄책감을 주지 않았습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀원들에게 공동체 의식을 강조하며 압박했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원은 자신이 없으면 팀이 안 돌아간다는 착각을 강요당했다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "당신 때문에 팀이 망가지고 있습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀원들에게 죄책감을 심어주며 통제했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원의 정서적 안정을 고려하며 업무를 지시했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원의 감정을 존중하며 건강한 피드백을 주었습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 감정적으로 팀원을 압박하여 일을 시켰습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들의 양심을 자극하여 업무를 유도했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀 전체의 실패를 개인의 탓으로 돌렸습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더의 말에 팀원은 죄책감에 몸서리를 쳤다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들에게 고마움을 강요하며 일을 시켰습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "못하면 우리 팀 전체가 피해를 봅니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 팀원에게 자신의 어려움을 떠넘기며 눈물을 흘렸다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "당신의 태도가 팀을 해치고 있습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원의 감정을 존중하면서 업무를 요청했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정당한 업무 범위 내에서 요구사항을 명확히 했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원에게 건강한 도전 목표를 제시했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원에게 팀의 실패가 개인 탓이라고 주장했다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀의 어려움을 개인에게 전가하며 협박했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "당신만 혼자 열심히 일 안 하고 있어요.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정당한 피드백을 통해 팀원이 개선할 수 있게 했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀의 단결을 위해 감정적으로 호소했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정당한 성과 관리를 통해 팀원이 발전하게 했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들이 서로를 위해 희생하길 기대했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원은 자신 때문에 팀이 망한다는 죄책감에 눌려 있었다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "명확한 기준과 공정한 평가로 팀원이 신뢰했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원의 업무를 객관적으로 평가했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "이렇게 하지 않으면 회사가 어려워집니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이렇게 하지 않으면 모두가 당신 탓입니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들에게 의리를 강조하며 업무를 맡겼습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "일을 안 하면 당장 해고할 수밖에 없습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 당신 때문에 힘들어하고 있습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "당신 하나 때문에 전체 진도가 밀립니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원들에게 죄책감을 무기로 삼았습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 정당한 업무 요청을 명확히 전달했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들에게 희생정신을 요구했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원에게 적절한 업무를 공정하게 배분했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 팀원에게 혼자만 게으르다고 손가락질했다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 감정적인 압박으로 팀원들을 복종시켰습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "이 일 안 하면 가족도 생각하셔야 합니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 회의에서 특정 팀원을 빛의 밖으로 내몰았다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "건설적인 피드백을 통해 팀원이 성장하게 했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들이 서로 미안해하게 만들며 통제했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원에게 필요한 업무를 차별 없이 요청했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "명확한 기준에 따른 성과 피드백을 제공했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 감정적 협박으로 팀원의 자율성을 박탈했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원은 팀을 위해 자신을 희생해야 한다고 느꼈다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원들에게 소속감을 호소했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원들이 팀을 생각하며 일하도록 만들었습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원의 사정을 고려하여 업무를 조정했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과 기준을 투명하게 공유하고 팀원이 이해했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원에게 무리한 감정적 부담을 주지 않았습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원들에게 책임감을 강조했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원의 죄책감을 자극하여 업무를 강요했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 서로를 원망하도록 리더가 조장했다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀의 문제를 한 사람에게 몰아붙였습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원을 희생양으로 삼아 분위기를 조성했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원들에게 고마움을 강요하며 업무를 부과했다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이 일을 맡기지 않으면 팀이 위험해집니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원의 사정을 무시하고 감정적으로 몰아세웠습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들이 팀을 위해 헌신하도록 설득했습니다.",
+    "label_id": "N02-03",
+    "label_name": "감정적 압박",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "조직은 건설적인 반대 의견조차 무시했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "조직은 다양한 의견을 원천 차단했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 비판이 팀을 해친다고 팀원들을 설득했다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들의 비판을 듣고 정책을 수정했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들이 화합을 위해 목소리를 낮추길 원했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 비판하는 팀원을 직무에서 제외했다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비판은 모두 사내 정치로 규정하겠습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회사는 비판적 의견을 억압하는 분위기를 조성했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀 내에서 비판을 금지하는 규칙을 만들었습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비판하는 사람은 이 팀에 필요 없습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 비판을 팀의 에너지 낭비라고 여겼습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 반대 의견을 낸 팀원을 죄인처럼 다뤘다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들의 다양한 의견을 존중하고 수용했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 다양한 의견 수렴으로 혁신적인 결과를 냈습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 토론을 통해 최적의 결정을 내렸습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 반대 의견을 사전에 조율하도록 권했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들이 같은 목소리만 내게 만들었습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "누가 비판하면 그 사람이 책임집니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들이 자유롭게 의견을 제시할 수 있게 했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비판적인 말 하면 어떻게 될지 아십니까.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 다른 의견을 제시한 팀원을 따돌렸습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "반대 의견은 앞으로 절대 안 받겠습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들에게 오직 긍정만 말하라고 강조했다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 반대 의견을 정치적으로 매도했다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들의 반대 의견을 존중하여 더 나은 방향을 선택했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들의 비판을 숙고하고 실행에 옮겼습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "반대 의견도 존중하며 최선의 결정을 찾았습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 자유롭게 의견을 내고 존중받았습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 반대 의견을 내자 리더는 눈살을 찌푸렸다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들이 비판하지 못하도록 겁을 줬습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이 팀에서는 앞으로 비판을 용납하지 않습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들에게 건설적인 대화를 독려했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 비판은 생존을 위협한다고 느꼈다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 비판적 피드백을 환영하고 개선했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들에게 팀의 미래를 위해 긍정적으로 말하라고 했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원의 비판을 성장의 기회로 삼았습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들에게 문제 제기보다는 실행을 강조했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "비판은 팀 분열을 조장하는 행동입니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 비판하는 팀원에게 불이익을 주었습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들에게 내부 비판은 외부로 나가지 않게 했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들이 비판보다는 협력을 강조하도록 했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 회의에서 말하기를 두려워했다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원들에게 긍정적인 분위기를 유지하길 바랐습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "반대 말하면 반드시 불이익이 따릅니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 건설적인 비판을 수용하고 개선에 반영했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 의견을 수렴하여 더 나은 결과를 도출했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들에게 낙관적인 태도를 유지하도록 설득했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 반대 의견을 묵살하고 처벌을 위협했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 비판을 적폐로 규정하고 팀을 통제했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "비판하는 사람은 전부 퇴출 대상입니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 자신의 의견이 처벌로 이어진다고 느꼈다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "누가 반대하면 바로 질책하고 문책하겠습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들이 문제보다는 해결책을 말하도록 유도했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "왜 자꾸 반기를 들어 올리시는 거예요.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀 내 화합을 위해 비판을 자제하길 요청했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 비판을 통해 팀의 약점을 보완했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "왜 자꾸 불필요한 문제를 제기하십니까.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이 팀에서는 긍정적인 말만 해야 합니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "비판적 피드백을 통해 업무 프로세스를 개선했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 비판하면 눈치를 보게 되었다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 반대 의견을 문제 삼아 팀원을 질책했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "반대 의견을 경청 후 합리적인 결정을 내렸습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 비판자를 퇴출시키겠다고 협박했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 입을 다물고 고개만 끄덕였다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "반대 의견도 포용하는 열린 문화를 만들었습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "회사는 의견 불일치를 불화로 규정했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀 내 비판 문화를 장려하고 보상했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "건설적인 반대 의견을 통해 실수를 방지했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의에서 비판적 발언을 한 팀원은 다음부터 배제되었다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "비판을 장려하는 분위기 속에서 팀이 성장했습니다.",
+    "label_id": "N03-02",
+    "label_name": "비판 금지",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 인사 평가를 빌미로 팀원들을 겁을 줬다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들에게 비전을 제시하고 자발적 참여를 이끌었습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀원들이 스스로를 위협받게 느끼도록 만들었습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "목표 달성을 위해 필요한 지원과 자원을 제공했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 실적 부진 팀원에게 불이익을 암시했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들에게 긍정적인 피드백을 주며 동기를 높였습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들의 성과를 인정하고 칭찬했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패하면 팀 전체가 해산되는 것입니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 눈빛만으로도 실패를 용납하지 않는다는 것을 보였다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 고용 안정성을 담보하지 않는 환경을 조성했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "결과를 못 내놓으면 잘릴 수 있습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 불가능한 목표를 두려움으로 뒷받침했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 기회를 놓치면 커리어가 끝입니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들의 잠재력을 믿고 격려했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "명확한 성과 기준을 제시하고 팀원들이 노력하게 만들었습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회사는 연봉 삭감을 암시하며 팀을 몰아세웠습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 정당한 보상과 인정으로 팀원들을 동기부여했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "결과를 내놓지 않으면 불이익이 따릅니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 해고 위협에 떨며 업무에 매달렸다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더의 협박적인 태도에 팀원들은 불안에 떨었다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 프로젝트 실패하면 전원 직무 배치입니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들에게 도전적인 환경을 조성했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과가 없으면 제 발로 나가야 합니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 연봉 삭감 위협에 불안에 떨었다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "결과가 안 나오면 어떻게 될지 아시죠.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들에게 신뢰를 주고 자율성을 보장했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실적이 떨어지면 어떻게 될지 아실 겁니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 생존을 담보로 팀을 강하게 압박했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "건설적인 목표 설정으로 팀원들이 자발적으로 성과를 냈습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들의 한계를 시험하겠다고 협박했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 긍정적인 도전 정신으로 팀을 이끌었습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과에 따른 공정한 보상 체계를 마련하여 동기부여했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 건강한 경쟁을 통해 팀원들의 동기를 부여했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 말 없이 해고 가능성에 대한 공포를 안고 있었다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들의 노력을 인정하고 격려했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들의 긴장감을 높이기 위해 강한 메시지를 던졌습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 두려움을 동기로 삼아 팀을 통제했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 결과를 강조하며 해고를 시사했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 회의실에서 실적이 안 나오면 정리해고가 있다고 말했다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 고용 불안을 이용해 팀원을 움직였습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의 말미에 팀장은 실패한 팀은 해체된다고 경고했다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "이번 달 실적 못 내시면 정리해고 대상이십니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 어두운 분위기 속에서 압박감을 느꼈다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 결과를 강조하며 팀원들에게 경각심을 불러일으켰습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "건강한 도전 목표를 설정하여 팀원들이 성장하게 했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회사는 성과 기반 인사를 명분으로 공포를 조성했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 실패 시 징계가 따른다고 협박했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들에게 목표 달성의 중요성을 강하게 전달했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 지독한 성과 압박에 숨이 막혔다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 실적 보고서를 들이밀며 팀원을 윽박지르고 있었다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들이 성과에 집착하게 두려움을 이용했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "자율과 책임을 부여하여 팀원들이 주도적으로 일하게 했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 생존 경쟁을 강조하며 팀을 움직였습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "의미 있는 업무를 부여하여 팀원들이 몰입하게 했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과를 못 내놓으면 다음은 해고 대상입니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "목표 달성 못 하면 연봉 삭감입니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원들의 의견을 존중하며 협력적 분위기를 만들었습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 실적을 내놓지 않으면 불이익이 있다고 겁을 줬습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회사는 실적이 안 나오면 인사불이익이 있다고 위협했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들에게 공정한 기회와 보상을 약속하여 동기를 부여했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "건강한 피드백 문화를 통해 팀원들이 발전하게 했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과 안 나오면 인사불이익이 생깁니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 구조조정 가능성을 시사하며 팀을 위협했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원들의 성장 기회를 제공하며 동기를 부여했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패한 팀은 구조조정 대상이 됩니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들에게 실패의 두려움을 조장했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더의 말에 팀원들은 고용 불안을 느꼈다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 해고를 암시하며 팀원들을 협박했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "조직은 팀 해산 가능성을 말하며 팀을 압박했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 성과 문화를 만들겠다고 강하게 압박했습니다.",
+    "label_id": "N02-01",
+    "label_name": "공포 기반 동기 유도",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더의 메시지와 행동 사이에 간극이 컸습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "디지털 전환을 강조하는 리더의 서류함은 종이로 가득 찼다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의실에서의 리더와 실무 공간에서의 리더는 전혀 다른 사람이었다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "변화를 말씀하시면서도 행동은 안정을 추구하셨습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "현실적 제약으로 기존 방식을 유지하되 미래 변화를 계획했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "변화를 장려하신다면서 반대 의견은 무시하십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 혁신을 말하면서도 혁신 제안은 즉시 묵살했다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 무대 위에서는 변화의 아이콘이지만 현실에서는 보수주의자였다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더의 일관된 행동 덕분에 팀 방향성이 명확했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "조직은 개방을 강조하면서 정보는 독점했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 약속한 변화를 단계별로 실천하여 신뢰를 얻었습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 혁신을 강조하고 실제로도 새로운 시스템을 도입했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀워크를 강조하면서 개인 경쟁만 부추기십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 변화를 이야기하고 단계별로 실행에 옮겼습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "변화를 강조하면서도 구체적인 변화 계획을 세우고 실천했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "전략적으로 기존 방식을 유지하며 팀원들에게 명확히 설명했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "디지털 전환을 강조하면서 종이 문서만 요구하십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 말과 행동의 일관성을 유지하며 팀을 이끌었습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 투명성을 강조하면서 정보를 은폐했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "혁신하자고 말하면서 항상 예전 방식만 고집하십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "말과 행동이 일치하여 팀원들이 신뢰했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 이중적인 메시지를 팀에 던졌습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 회의에서는 새로운 방식을 말하고 개인적으로는 예전 방식을 고집했다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 혁신의 필요성을 말하면서도 혁신을 거부했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 큰 변화를 약속하면서도 작은 움직임도 보이지 않았습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "속도를 강조하시면서 결재는 느리게 하십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들에게 새로운 시도를 권장하면서 실제로는 막았습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 협업을 강조하고 실제로 팀워크를 장려했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과보다 과정을 중시한다면서 평가는 결과만 보십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "고객 중심을 말씀하시면서 내부 프로세스만 중요하게 여기십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 책임 경영을 외치면서 문제가 생기면 회피했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 약속한 대로 행동하여 일관성을 보였습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "변화를 외치는 리더의 뒤에서는 전통적인 방법만 사용되었다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 새로운 방향을 이야기하면서도 옛길을 걸었습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 혁신을 말하고 실제로도 혁신 프로젝트를 주도했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 이상을 말하고 현실은 다른 방식으로 움직였습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들에게 방향을 제시하면서도 스스로는 반대 길로 갔습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 디지털 시대를 외치면서 아날로그 방식만 고집했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 리더의 이중적인 태도에 피로를 느꼈다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "열린 소통을 말씀하시면서 회의는 일방적으로 진행하십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회사는 변화를 강조하면서 행동은 전혀 달라지지 않았습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들에게 자율을 말씀하시면서 모든 것을 통제하십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더의 말과 행동이 어긋나 팀의 신뢰가 흔들렸습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 혁신을 강조하시면서도 익숙한 길을 택하셨습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 혁신을 외치면서도 구태의연한 방식을 고수했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "말과 행동의 일치로 팀 내 신뢰가 형성되었습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 속도를 강조하면서 모든 결정을 지연시켰습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "윤리를 강조하면서 실제로는 불투명한 결정을 하십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더의 말과 행동이 같아 팀원들이 따르기 쉬웠습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "말과 행동이 항상 일치하여 팀원들이 혼란스럽지 않았습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 리더의 행동이 말과 정반대라고 수군거렸다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들과 협의하여 기존 방식 유지 이유를 투명하게 설명했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더의 언행이 조화롭지 않아 팀원들이 혼란스러웠습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "현실적 제약을 고려하되 변화 의지를 행동으로 보였습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 혁신을 말하고 실제 예산을 배정하여 실행했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더의 말은 앞으로 가라고 하지만 행동은 뒤로 돌아가는 것 같았다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "조직은 소통을 강조하면서 실제로는 소통 채널을 차단했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 앞으로 나아가자고 하면서도 제자리를 맴돌았습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회사는 고객 중심을 외치면서 내부 편의만 챙겼습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더의 말과 행동이 정반대라서 팀원들이 혼란스러웠습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새로운 시도를 하자고 하시면서 실제로는 전통적 방법만 쓰십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "글로벌 마인드를 강조하면서 국내 시장만 바라보십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 리더의 말과 행동이 다르다는 것을 느꼈다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 리더의 말과 행동 불일치를 인지하고 불신하기 시작했다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 회의에서 혁신을 외쳤지만 실제 업무는 예전 그대로였다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "전략적 판단 하에 기존 방식을 유지하는 것을 팀이 이해했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 협업을 강조하면서 실제로는 경쟁을 부추겼습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 역량 개발을 말하면서 교육 기회는 제공하지 않았습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 고객 중심을 말하고 실제 고객 피드백을 적극 반영했습니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "변화를 이야기하시면서 행동은 전혀 변하지 않으십니다.",
+    "label_id": "N01-03",
+    "label_name": "방향성 불일치",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "특정 팀원에게만 보너스를 지급하고 나머지는 제외했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "A씨만 특별하게 차별적으로 대우했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 보상 기준이 공정하다고 인정했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "특정 팀원만 칭찬하고 나머지는 철저히 외면했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "소외된 팀원들은 구석에서 서로를 바라봤다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "편애를 받는 팀원만 웃고 나머지는 침묵했다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀원들의 역량에 따라 기회를 다르게 제공했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "나머지 팀원은 전혀 기회를 주지 않고 방치했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "A씨만 승진 기회를 주고 나머지는 완전히 배제했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀 내에서 공정한 문화를 조성했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 역량이 뛰어난 팀원에게 더 많은 책임을 맡겼습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 역량과 성과를 고려하여 업무를 공정하게 배분했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀 내에서 공정한 평가와 보상 문화를 확립했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "특정 팀원만 회식에 불러먹고 나머지는 제외했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀 내에서 우수 인재를 발탁하여 중용했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀원들에게 성과에 따른 차등 보상을 적용했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 특정인만 편애되는 것을 눈치챘다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "A씨 실수는 봐주고 다른 사람은 혼내는 것이 일상입니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "역량 기반으로 업무를 배분하여 팀원들이 이해했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 모든 팀원에게 성장 기회를 균등하게 주었습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 중요 프로젝트에 적합한 인물을 선택했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "특정인에게만 교육 기회를 제공하고 나머지는 배제했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직은 특정인 중심으로 자원을 배분하여 갈등을 유발했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 모든 팀원에게 공정한 기회를 제공했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직은 특정인에게만 보상을 집중하여 불공정함을 드러냈습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 A씨만 미소를 지으며 칭찬했다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 특정 팀원에게만 귀띔으로 정보를 줬다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 특정 팀원에게만 비밀 정보를 공유했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들에게 균등한 교육 기회를 제공했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "나머지 팀원은 업무에서 철저히 소외되었습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 특정 팀원에게만 커피를 사줬다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 일부 팀원만 챙기고 나머지는 방치했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 모든 팀원의 의견을 귀 기울여 들었습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들에게 역량에 맞는 기회를 공정하게 주었습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 특정 팀원만 성장시키고 나머지는 버려두었습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과 기반 보상이 투명하게 운영되어 팀원들이 신뢰했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "A씨 의견만 듣고 다른 팀원의 말은 귀담아듣지 않았습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회사는 특정인에게만 중요 프로젝트를 배정했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 편애로 인해 팀워크가 깨졌다고 느꼈다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 성과에 따른 공정한 차등 보상을 적용했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "특정 팀원만 챙기고 나머지는 완전히 무시했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 특정인의 실수는 넘어가고 다른 사람은 혼냈다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 핵심 인력에게 집중하여 성과를 극대화했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 특정 팀원의 실수는 봐주고 다른 사람은 질책했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 소외된 팀원들의 목소리를 듣지 않았습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 핵심 멤버에게 더 많은 관심을 쏟았습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 역량 기반으로 업무를 배분했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "편애로 인해 팀 내에 분열이 심각하게 발생했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀 내에서 차별적인 대우를 일삼았습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 편애가 아닌 공정성을 느끼며 일했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 편애가 팀을 망치고 있다고 속으로 불만을 터뜨렸다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀 내에서 편애로 분위기를 흐렸습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 성과가 좋은 팀원에게 더 많은 기회를 주었습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 핵심 인재에게 집중하여 팀 역량을 키웠습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회사는 특정인에게만 기회를 집중하여 소외감을 조성했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀의 효율을 위해 역량에 맞게 기회를 주었습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 기회 배분이 역량에 따른 것이라고 공감했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "역량에 맞는 업무를 배분하여 팀 효율이 높아졌습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 모든 팀원에게 공평한 업무 기회를 제공했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 특정 팀원에게만 시간을 할애했다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 특정인에게만 중요 업무를 몰아줬다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과에 따라 보상 차이가 있었지만 기준이 투명했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "B씨에게만 중요한 업무를 맡기고 다른 사람은 제쳐뒀습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 특정 팀원만 편애하여 팀 내 불만이 커졌습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 특정인을 차별하지 않고 공정하게 대우했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀 내에서 차등 지원을 통해 효율을 높였습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 공정한 기준에 따라 보상 차등을 적용했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "역량 기반 평가를 통해 공정한 인사를 진행했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "소외된 팀원은 점점 회의에 참여하지 않게 되었다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들 사이에 불신을 조장했습니다.",
+    "label_id": "N03-04",
+    "label_name": "편애/소외",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 보상 약속의 투명성을 유지하여 신뢰를 얻었습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 실제로 이행 가능한 보상만을 약속했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 승진 약속이 빈말이라는 것을 경험으로 알았다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 화려한 인센티브로 팀을 이끌었습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더의 보장은 서면으로 남은 적이 없었다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 과장된 보상으로 팀의 사기를 돋웠습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 보너스를 언급하며 팀원들을 설득하려 했다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 프로젝트 성공하면 바로 승진시켜 드립니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더의 약속은 시간이 지날수록 희석되었다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들에게 과장되지 않은 현실적인 보상을 약속했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 보상을 미끼로 팀원들을 끌었습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더의 약속은 항상 공기처럼 가벼웠다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 과장된 승진 약속에 회의적인 눈초리를 보냈다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀원들에게 꿈을 꾸게 만들었습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 과장된 보상 제도에 실망했다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 실현 불가능한 승진을 약속하고 지키지 않았습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 현실적인 보상을 약속하고 예산도 미리 확보했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 승진을 미끼로 팀원들을 현혹시켰습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들에게 성과의 달콤함을 맛보게 해주겠다고 했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 승진을 보장하면서도 인사 조건은 숨겼습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 약속의 무게를 가볍게 여기며 팀원들을 이용했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 보상 약속을 서면으로 남기고 이행했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "결과 내시면 원하는 부서로 이동시켜 드립니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 성과에 따른 큰 보상을 이야기했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과가 좋으면 전원 특별 포상하겠습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회사는 과장된 인센티브를 제시하고 약속을 어겼습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 실현 불가능한 해외 연수를 약속하고 취소했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이번에만 잘하면 승진은 확실한 겁니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 회의에서 화려한 보상을 약속했지만 팀원들은 믿지 않았다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회사는 보상을 약속하면서도 예산 부족을 핑계로 회피했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "약속한 스톡옵션을 법적 절차에 따라 정확히 부여했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과가 나오면 연봉 2배로 올려드리겠습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "잘하면 특별 보너스를 약속하겠습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들에게 미래의 보상을 환상적으로 그렸습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 보상 약속이 지켜지지 않을 것을 알고 있었다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "프로젝트 끝나면 해외 연수 보내드립니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 약속이 지켜지지 않는다는 것을 몸소 체감했다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "잘하면 바로 임원 승진을 약속하겠습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원들에게 장밋빛 미래를 약속했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 공정한 성과 평가를 통해 약속한 보상을 지급했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "프로젝트 성공하면 파트너 지분을 드리겠습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "조직은 거짓 보상으로 팀원들을 이용했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "보상 조건을 명확히 공개하고 공정하게 적용했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 보상 약속이 허풍임을 알면서도 일했다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "이번에 성공하면 해외 근무 기회 드리겠습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 약속한 보상을 계획대로 정확히 지급했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 보너스를 약속하면서도 실제로는 지급하지 않았습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 과장된 포상 계획을 세우고 실행하지 않았습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "투명한 인센티브 기준을 마련하고 팀원들이 신뢰했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 약속한 승진을 성과에 맞춰 공정하게 진행했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 실현 가능한 보상을 약속하고 정확히 이행했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들에게 약속한 보상을 시간 내에 모두 이행했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원들과 약속한 보상을 철저히 지켰습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 보상을 약속하면서도 실제로는 이행하지 않았습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과가 나오면 프로모션을 보장하겠습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "보상 이행 여부를 정기적으로 점검하고 팀원들에게 알렸습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들에게 명확한 기준과 일정으로 보상을 약속하고 지켰습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들의 기대를 높이는 보상을 언급했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 스톡옵션을 이야기하며 팀원들을 현혹했다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "투명하게 조건을 밝힌 인센티브 제도를 운영했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "회사는 과장된 보상 제도를 홍보하고 실제로는 다른 기준을 적용했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 미래 보상을 통해 현재의 어려움을 달래려 했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들에게 희망의 끈을 던졌습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속한 보너스를 정확한 기준에 따라 지급했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 스톡옵션을 약속하고 말을 바꿨습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들에게 거짓된 희망을 심어주었습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 리더의 보상 약속이 항상 지켜진다고 믿었습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 리더의 보상 약속이 공정하다고 인정했습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과 좋으면 부장 자리 약속하겠습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과를 내시면 스톡옵션 드리겠습니다.",
+    "label_id": "N02-02",
+    "label_name": "보상 과장 약속",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원의 질문에 성실히 답변했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이해 못 하면 그냥 따르기만 하면 됩니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 질문을 반항으로 규정하고 질책했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들의 탐구심을 존중하고 지원했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의에서 질문을 한 팀원은 다음부터 입을 닫았다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "조직은 궁금증을 억압하는 문화를 조성했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "질문하지 말고 결과만 당장 가져오세요.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 질문하는 팀원에게 냉소적인 반응을 보였다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 질문하는 팀원을 무시하고 업무를 시켰습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 질문을 꺼내자 리더는 한숨을 쉬었다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회사는 질문을 통제하며 일방적 업무를 강요했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "질문 많은 사람은 업무 이해도가 낮습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "왜 자꾸 질문하세요 시키는 대로 하세요.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 질문 시간을 따로 마련해 팀의 이해를 도왔습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "질문할 시간에 지금 맡은 일이나 하세요.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 질문을 혼란의 원인으로 규정했다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "효율적 회의 진행을 위해 질문 시간을 별도로 마련했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "시키는 대로만 정확히 따르라고 하세요.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들에게 문제 해결 능력을 키우라고 말했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "질문하는 것은 모두 반항으로 간주합니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의 시간에 질문을 받아 팀의 혼란을 줄였습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들이 질문하지 못하게 하지 않았습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 적절한 타이밍에 질문을 요청하고 답변했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "질문을 장려하여 팀의 이해도를 높였습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들이 궁금한 점을 자유롭게 물을 수 있게 했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원의 질문에 답하지 않고 업무를 시켰다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "질문을 통해 팀원들의 이해도를 확인했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원의 탐구 활동을 지원했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들에게 스스로 판단하도록 맡겼습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원의 질문을 시간 낭비로 여겼습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 궁금한 것을 참고 넘어가야 했다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "질문을 장려하여 팀원들이 능동적으로 일하게 했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 질문보다는 실행을 우선시했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "궁금한 거 생기면 그냥 참고 넘기세요.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 질문을 통해 업무 품질을 높였습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원이 질문하면 눈치를 주었습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들이 스스로 답을 찾도록 유도했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 궁금증을 삼키고 업무만 수행했다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들에게 빠른 실행을 독려했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원들에게 독립적인 업무 수행을 강조했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 탐구를 시도하는 팀원을 제지했다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "앞으로 질문은 전혀 필요하지 않습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "조직은 질문을 허용하지 않는 관행을 고수했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 질문을 허용하지 않는 분위기를 만들었습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 탐구보다는 결과 산출을 중시했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들의 궁금증을 억누르고 통제했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 질문을 한 팀원을 무능하다고 낙인찍었다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원들에게 업무에 집중하도록 독려했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "질문을 통해 업무 프로세스를 개선했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 리더 앞에서는 질문하지 않기로 했다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원들의 질문을 적극적으로 환영했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원의 질문을 무능함의 증거로 몰았습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 질문을 의존심의 표현으로 여겼습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원들이 스스로 해결하길 기대했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "질문하는 것은 모두 시간 낭비입니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들이 질문하지 못하도록 분위기를 조성했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 이해가 안 가도 그냥 따를 수밖에 없었다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 질문에 귀 기울이고 명확히 답변했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "왜 자꾸 똑같은 말을 되묻는 거예요.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "효율적으로 질문과 답변 시간을 관리했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 질문하는 팀원에게 불이익을 주었습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "왜 다른 사람과 다르게 질문하시나요.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "효율적인 질문 관리로 회의 시간을 단축했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 질문하면 불이익이 있다는 것을 알았다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "질문하면 업무 능력이 떨어져 보입니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원들에게 적극적인 탐구를 권장했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들에게 자율 학습을 장려했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회사는 탐구 활동을 원천 차단했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원의 질문을 학습 기회로 활용했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원들이 질문을 최소화하길 원했습니다.",
+    "label_id": "N03-03",
+    "label_name": "질문 억제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 아이디어를 내지 않기로 묵계를 맺었다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀원들에게 변화는 천천히 해야 한다고 말했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그런 아이디어는 우리에게 필요 없어요.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 제안을 검토하고 대안을 함께 찾았습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 혁신 제안을 시도조차 하지 않고 거부했다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 현재 방식이 최적이라고 판단했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "새로운 시도는 우리 조직과 맞지 않습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "현실적 한계를 설명하며 팀원이 이해하게 했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 새로운 아이디어를 경청하고 피드백을 주었습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 혁신적 제안을 들을 의지가 없었습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제안할 시간에 지금 맡은 일이나 하세요.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀원들에게 현재 업무에 집중하도록 독려했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "새로운 아이디어 내지 마시고 기존 방식을 따르세요.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 아이디어를 수용할 수 없는 이유를 명확히 했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원의 새로운 관점에 귀를 막고 있었다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀원의 아이디어에 귀를 닫았습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 현실적 이유를 들어 팀원이 공감하게 했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 팀원들에게 현재 프로세스를 따르도록 권했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "검토 과정을 투명하게 공개하여 팀원이 납득했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원의 혁신적 제안을 진지하게 고려했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원의 제안에 대해 공정한 평가를 내렸습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원의 새로운 관점을 묵살했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 아이디어를 긍정적으로 평가하면서도 실행은 미뤘습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 제안을 폄하하며 팀원의 의욕을 꺾었다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "아이디어를 내놔도 소용이 없을 거예요.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "제안을 거절하면서도 팀원의 의욕을 살렸습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀원의 제안을 가치 없는 것으로 치부했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원의 아이디어에 귀를 기울이고 존중했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 눈빛은 기대에서 실망으로 바뀌었다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "검토 후 합리적인 판단으로 제안을 처리했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원의 제안서를 읽지도 않고 서랍에 넣었다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 새로운 제안이 항상 묵살된다는 것을 알았다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그런 걸 검토할 시간이 현재 없습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 제안을 꺼내자 리더는 고개를 저었다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 아이디어 제안 공간을 원천 봉쇄했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "제안은 필요 없고 지시만 따르시면 됩니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "현실적 제약을 설명하며 제안을 보류했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "아이디어 제안은 앞으로 받지 않겠습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 제안을 고맙게 여기면서도 받아들이지 않았습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 제안을 들어보겠다고 하면서도 실제로는 묵살했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 새로운 아이디어를 현재 상황과 맞지 않다고 보았습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "검토도 하지 않고 바로 거절했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "아이디어를 낸 팀원은 다음 회의에서 입을 닫았다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "새로운 제안을 들을 생각이 없습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 아이디어를 수용할 수 없는 현실적 제약을 설명했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회사는 새로운 아이디어를 검토 없이 거절했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그런 생각은 이전에도 결국 실패했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 제안 거절 이유를 구체적으로 설명했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의에서 아이디어를 낸 팀원의 표정이 어두워졌다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 제안을 검토하고 개선안을 함께 논의했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회사는 혁신 제안을 제출받지 않았습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀원의 창의적 제안을 시도 없이 기각했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "아이디어 회의에서 리더는 모든 제안을 기각했다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 제안에 대해 건설적인 피드백을 제공했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 아이디어 제안을 시간 낭비로 여겼습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원의 제안을 나중에 검토하겠다고 미뤘습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 혁신보다 안정성을 중시했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 화이트보드에 적힌 아이디어를 지워버렸다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원의 혁신적 제안을 즉시 차단했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 아이디어를 존중하며 대안을 제시했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "조직은 새로운 시도를 독려하는 척하면서 막았습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "현실적 제약으로 수용 불가능함을 투명하게 설명했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "조직은 변화를 위한 제안을 체계적으로 무시했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들에게 현실적인 접근을 강조했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "제안을 검토 후 구체적인 이유를 설명하며 거절했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 새로운 방식의 도입을 조심스러워했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 팀원의 제안을 충분히 검토한 후 합리적으로 거절했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 팀원들에게 기존 방법을 고수하도록 안내했습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "혁신은 현재 우리 업무의 우선순위가 아닙니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새로운 방식은 당분간 도입할 계획이 없습니다.",
+    "label_id": "N03-01",
+    "label_name": "아이디어 무시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 자원과 역량을 충분히 고려하여 공정한 목표를 제시했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "신입사원 혼자서 일주일 만에 다 만들라고 지시하셨습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "업무량을 본 직원은 이것은 할 수 없는 일이라고 속으로 생각했다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 분기 매출을 한 달 만에 300퍼센트나 올리세요.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비전이 크다고 들었는데 현실과는 너무 거리가 있었습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회사는 한 달 만에 시장 점유율을 두 배로 올리라고 강요했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 준비 없이 글로벌 진출을 이번 분기에 하라고 했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더가 인력 대비 다섯 배 이상의 업무량을 무리하게 요구했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "오늘부터 시스템 전면 교체를 하루 만에 끝내야 합니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "업무시간을 하루 네 시간 줄이고 성과는 두 배로 하라 합니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 팀원들이 공감할 수 있는 현실적인 목표를 제시했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "큰 그림을 그린다는 말에 숨 막히는 업무량이 따랐습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 시장 데이터도 없이 공격적인 목표를 선언했다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "역량 기반으로 현실적이며 도전적인 목표를 합의했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 리더의 목표를 듣고 무언의 압박을 느꼈습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "역량보다 높지 않으면서도 발전적인 목표를 설정했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 자원 없이 불가능한 목표만 계속해서 내놓았습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "전문가의 검토를 거쳐 달성 가능한 높은 목표를 세웠습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "현실적인 근거를 갖고 목표를 세웠으며 팀이 공감했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 인력을 절반 줄이면서 업무량은 두 배로 올렸습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 이상을 말하면 현실은 팀원들의 몫이 되었습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "전문가 없이 AI 시스템을 일주일 안에 구축하라고 합니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 성장을 위해 무리한 목표가 필요하다고 말했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직은 전문 인력이 부족한 상태에서 초대형 프로젝트를 요구했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "경쟁사 오 년 연구 성과를 한 달에 따라잡으라고 지시했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀의 역량을 고려한 현실적이고 달성 가능한 목표를 세웠습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 예산과 인력을 고려하지 않고 무리한 계획만 내놓았습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 현실성과 도전성의 균형을 잘 맞춘 목표를 제시했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회사는 시장 현실과 동떨어진 매출 목표를 하향 없이 내렸습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장은 불가능한 수치를 화이트보드에 적었고 팀원들은 할 말을 잃었다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "도전적이지만 자원과 일정이 충분히 확보된 계획을 세웠습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀의 자원을 고려하여 무리하지 않는 목표를 설정했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "과거 성과 데이터를 바탕으로 합리적인 목표를 제시했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "현실적 근거를 바탕으로 높은 목표를 설정하고 팀과 함께 달성했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "예산 없이 해외 진출을 이번 달 안에 하라고 하십니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 불가능한 데드라인을 몇 번이나 재차 강조했다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상부는 불가능한 데드라인으로만 팀을 계속 몰아세웠습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀의 피드백을 반영하여 현실적인 일정을 조정했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "전체 회의에서 리더는 근거 없는 높은 수치를 강조하며 박수를 요구했다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 도전 정신을 강조하며 팀원들을 압박했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "오전 회의에서 리더는 팀의 의견을 묻지 않고 무리한 계획을 밀어붙였다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "내일까지 3개월치 업무를 단번에 모두 처리하세요.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 기적을 기대하며 팀을 몰아세웠습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 도전적인 목표라고 표현했지만 팀은 불가능하다고 느꼈습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들과 충분히 논의하여 현실적인 KPI를 설정했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 예산과 인력을 무시하고 거대한 계획을 성급하게 세웠다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "인력과 예산을 충분히 지원하고 도전적인 목표를 제시했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀의 잠재력을 믿는다며 현실을 완전히 무시했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 현실성 없는 목표를 받고 동기가 크게 떨어졌다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀에 도전적 목표라기보다 현실과 동떨어진 수치가 주어졌습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "데스크 위에 놓인 계획서에는 실현 불가능한 일정이 가득했다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "과거와 비교해 도전적이지만 달성 가능한 목표를 내놓았습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "고객사 백 곳을 내일까지 모두 방문하라고 지시했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 팀 역량을 무시한 채 과도한 목표만 제시했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "비전을 제시하면서도 실현 가능한 단계별 계획을 함께 세웠습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 기술적 검토 없이 무리한 일정을 강요했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이번 주 안에 6개월 분량의 프로젝트를 모두 끝내야 합니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "인력을 하나도 추가하지 않고 업무량을 5배로 늘리겠습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "휴가 중인 팀원까지 소환해서 긴급 목표를 갑자기 내렸습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들과 협의하여 달성 가능한 구체적인 계획을 세웠습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "목표가 높다는 말은 현실성이 없다는 뜻이었습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "시장 분석과 전문가 자문을 통해 현실적인 목표를 수립했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "시장 상황을 분석하고 현실적인 성장 목표를 제시했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "큰 꿈을 이야기하는 회의 끝에 팀원들만 고통받았습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "앞으로 나아가자는 말 뒤에 눈덩이처럼 불어난 업무가 있었습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원 두 명으로 경쟁사 열 명 분량 업무를 하라고 하십니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이메일에 담긴 목표를 확인한 팀원들은 현실성이 없다는 것을 직감했다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "전략 회의에서 현실과 동떨어진 목표가 제시되자 모두가 침묵했다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "할당된 업무량을 본 팀원들은 서로 눈치만 보고 있었다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 항상 근거 없는 높은 목표를 강요하는 것으로 유명했습니다.",
+    "label_id": "N01-01",
+    "label_name": "비현실적 목표 제시",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 도전적인 비전을 제시하며 팀을 이끌었습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "전략 발표에서 구체성 없는 장밋빛 전망만 쏟아져 나왔다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 리더의 비전이 현실을 왜곡한다고 생각했다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "데이터 기반으로 현실적이면서도 도전적인 비전을 세웠습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 성과 없이 앞날이 밝다고만 반복해서 말했다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "5년 후에 우리 회사 모두가 부자가 될 거라고 합니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 실현 가능성이 없는 미래를 홍보하기 바빴습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비전은 높았지만 실행 계획이 구체적이어서 팀이 믿었습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비전이 화려할수록 현실은 팀원의 몫이 되었습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 과장된 비전으로 투자자와 팀원을 속였습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 제품이 출시되면 모든 경쟁사가 문을 닫을 겁니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "전체 회의에서 리더는 근거 없는 글로벌 1위 달성을 외쳤다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비전 설명에 팀원들은 믿음보다 걱정이 앞섰다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그는 장밋빛 전망으로 팀을 포장하려 했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "내년에 매출이 10배로 늘 거라고 근거 없이 확신합니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더는 도전적이지만 달성 가능한 미래를 그렸습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "미래를 밝게 그린다는 말에 현실은 사라졌습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직은 시장 점유율을 과장하며 비전을 제시했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 비전과 실행 계획의 일관성을 유지했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "투명한 데이터를 근거로 팀에 비전을 공유했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "미래가 밝다는 말에 팀원들은 의구심을 품었습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 리더의 비전이 공기처럼 가볍다고 느꼈다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 팀을 향해 밝은 미래를 약속하며 사기를 띄웠습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 공감할 수 있는 현실적인 단계별 목표를 제시했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회사는 성과 데이터 없이 장밋빛 미래만 말했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 현실과 동떨어진 성장 이야기를 반복해서 들려줬습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 근거 없이 내년에 IPO를 한다고 공언했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이번 프로젝트만 성공하면 시장을 독점할 수 있습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리는 곧 애플을 뛰어넘는 기업이 될 겁니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리 팀이 곧 세계 최고의 팀이 될 거라고 합니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "현실적 기반 위에서 팀원들이 공감할 수 있는 비전을 제시했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 구체적인 실행 계획 없이 거창한 비전만 말했다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀원들과 협의하여 실현 가능한 비전을 수립했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 달성 가능한 목표를 단계별로 제시했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "과거 성과를 바탕으로 합리적인 성장 비전을 세웠습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더는 팀의 의견을 반영하여 현실적인 비전을 세웠습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "현실적 근거를 갖고 팀에 비전을 제시하여 신뢰를 얻었습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 시장 데이터를 바탕으로 현실적인 5년 비전을 제시했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원들에게 멋진 미래를 약속했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리는 산업의 미래를 완전히 주도하게 될 것입니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 시장 근거를 제시하며 신뢰할 수 있는 비전을 그렸습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회사는 시장 현실을 무시하고 비현실적인 비전만 제시했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 검증되지 않은 기술로 산업을 바꾼다고 과장했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 화려한 슬라이드를 보이며 과장된 미래를 그렸다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "비전 선포식에서 팀원들은 현실성 없는 계획에 의문을 품었다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들과 충분히 논의하여 현실 기반의 비전을 설정했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 낙관적인 비전으로 팀의 사기를 올리려 했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "구체적인 실행 계획과 함께 달성 가능한 목표를 제시했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "이 기술이 곧 산업 전체를 완전히 바꿀 것이라고 합니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "전문가 컨설팅을 거쳐 현실적인 비전을 수립했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 비전을 제시하면서 현실적 어려움도 솔직히 말했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "시장 트렌드를 분석하여 현실적인 전략을 제시했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 제품이 내년에 세계 1위가 될 것이라고 장담합니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "그는 지나치게 낙관적인 전망으로 팀원들을 현혹했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 큰 꿈을 이야기하며 팀원들을 고무시켰습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더는 팀원들에게 환상적인 미래를 제시했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "비전이 크다는 것은 현실성이 부족하다는 뜻이었습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 실현 불가능한 목표를 비전이라고 포장했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 회사가 글로벌 리더가 될 거라고 확신에 차서 말합니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의실에 걸린 비전 포스터는 현실과 너무 동떨어져 있었다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이 기술이 혁명을 일으킬 거라고 근거 없이 단언합니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "3년 안에 IPO를 한다고 근거 없이 약속했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "3년 안에 전 세계에서 인정받는 기업이 된다고 합니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 비전과 현실 사이의 균형을 잘 맞췄습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 리더의 비전이 공허하다고 속으로 생각했다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그는 낙관론을 무기로 삼아 팀원들을 조종했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 시장 트렌드를 무시하고 비현실적인 청사진만 제시했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 근거 없이 글로벌 1위를 당장 약속했습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "리더는 도표를 조작하며 과장된 성장률을 보여주었다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "큰 그림을 보여주는 리더의 말에 팀원들은 현혹되었습니다.",
+    "label_id": "N01-02",
+    "label_name": "비전 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  }
+]

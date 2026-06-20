@@ -1,0 +1,15 @@
+{
+  "label_id": "N07-01",
+  "label_name": "성과만으로 평가",
+  "macro": "N07",
+  "penalty": 0.4,
+  "weight": 0.5,
+  "definition": "과정과 성장을 무시하고 결과만 중시",
+  "when": "과정과 노력을 무시하고 결과만으로 평가",
+  "not_when": "과정-결과 균형 잡힌 평가; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

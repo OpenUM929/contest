@@ -1,0 +1,15 @@
+{
+  "label_id": "M34-01",
+  "label_name": "데이터 기반 의사결정_L34",
+  "macro": "L34",
+  "weight": 0.7,
+  "core": true,
+  "when": "데이터/증거 기반 결정",
+  "not_when": "감에 의존",
+  "definition": "객관적 데이터와 분석 결과를 바탕으로 의사결정",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

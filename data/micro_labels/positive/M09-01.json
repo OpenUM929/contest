@@ -1,0 +1,14 @@
+{
+  "label_id": "M09-01",
+  "label_name": "공정한 성과 인정_L09",
+  "macro": "L09",
+  "weight": 0.7,
+  "definition": "팀원의 성과를 정확히 인정하고 보상",
+  "when": "기여도 반영 보상, 공정한 공로 분배, 성과 공유",
+  "not_when": "공로 독점, 불공정한 보상",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "label_id": "N35-01",
+  "label_name": "도구 남용",
+  "macro": "N35",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "리더십 도구를 부당하게 사용",
+  "when": "감시 도구를 부당하게 사용, 통제 목적",
+  "not_when": "도구를 지원과 생산성 목적으로 사용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

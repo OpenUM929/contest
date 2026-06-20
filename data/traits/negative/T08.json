@@ -1,0 +1,35 @@
+{
+  "trait_id": "T08",
+  "trait_type": "positive",
+  "trait_name": "Emotional Intelligence Leader",
+  "required": [
+    "M12-01",
+    "M14-01",
+    "M11-01"
+  ],
+  "optional": [
+    "M12-02",
+    "M12-03"
+  ],
+  "hard_forbidden": [
+    "N12-01",
+    "N12-02",
+    "N12-03"
+  ],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.0
+  },
+  "hybrid_eligible": true,
+  "k_trait": 1.2,
+  "description": "감정 이해 기반 리더",
+  "strengths": [
+    "관계 형성",
+    "심리 안정"
+  ],
+  "risks": [
+    "결단력 부족"
+  ]
+}

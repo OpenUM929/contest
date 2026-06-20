@@ -1,0 +1,15 @@
+{
+  "label_id": "N01-02",
+  "label_name": "비전 과장",
+  "macro": "N01",
+  "penalty": 0.4,
+  "weight": 0.5,
+  "definition": "실현 불가능한 미래상을 과장하여 제시",
+  "when": "근거 없는 낙관적 전망, 실현 불가능한 약속",
+  "not_when": "현실적 근거 기반의 비전 제시; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.1,
+    "innovation": 1.3
+  }
+}

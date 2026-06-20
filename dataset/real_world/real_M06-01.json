@@ -1,0 +1,21 @@
+{
+  "label_id": "M06-01",
+  "label_name": "목표 설정 및 기대치 명확화",
+  "total": 1,
+  "updated": "2026-05-06 14:52:21",
+  "entries": [
+    {
+      "text": "안녕하세요. 오늘은 이력서 전형에 대해 이야기 나눠보고자 합니다. 현재 채용시장은 과거와는 비교할 수 없는 경쟁률을 자랑하고 있어, 이력서에서도 더 높은 기준이 요구되고 있습니다. 이 포스팅에서는 시장에서 요구하는 이력서의 기준과 대부분의 지원자가 어떤 사유로 탈락",
+      "source": "velog",
+      "candidates": [
+        {
+          "label_id": "M06-01",
+          "label_name": "목표 설정 및 기대치 명확화",
+          "match_score": 1,
+          "reason": "keyword matches 1/8"
+        }
+      ],
+      "status": "unverified"
+    }
+  ]
+}

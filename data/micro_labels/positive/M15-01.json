@@ -1,0 +1,15 @@
+{
+  "label_id": "M15-01",
+  "label_name": "심리적 안전감 조성_L15",
+  "macro": "L15",
+  "weight": 0.7,
+  "definition": "팀원이 심리적으로 안전함을 느끼는 환경 조성",
+  "when": "안전한 발언 환경, 비난 없는 문화, 실수 허용 분위기",
+  "not_when": "공포 분위기 조성, 비난 문화",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.1,
+    "innovation": 1.0
+  },
+  "core": true
+}

@@ -1,0 +1,14 @@
+{
+  "label_id": "M02-03",
+  "label_name": "격려 및 인정",
+  "macro": "L02",
+  "weight": 0.6,
+  "definition": "팀원의 노력과 성취를 인정하고 격려",
+  "when": "노력 인정, 성취 축하, 긍정적 피드백, 칭찬",
+  "not_when": "성과를 당연시함, 인정 누락",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

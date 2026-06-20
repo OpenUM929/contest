@@ -1,0 +1,15 @@
+{
+  "label_id": "N15-01",
+  "label_name": "의견 무시",
+  "macro": "N15",
+  "penalty": 0.4,
+  "weight": 0.5,
+  "definition": "제시된 의견을 검토 없이 무시",
+  "when": "팀원 의견을 듣지 않고 무시",
+  "not_when": "모든 의견을 경청하고 고려; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

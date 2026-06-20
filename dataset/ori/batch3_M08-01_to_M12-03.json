@@ -1,0 +1,5602 @@
+[
+  {
+    "text": "이번 일은 제가 직접 책임지겠습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어려운 상황에서도 원칙을 지키며 프로젝트를 마무리했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의실에서 팀장이 단호하게 규정대로 처리하겠다고 선언했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "원칙을 지키는 일은 비록 힘들어도 반드시 지켜야 할 몫이다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "규정에 맞지 않는 방식은 사용하지 않겠습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더가 모든 결과를 자신의 어깨에 지고 팀을 보호했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 지켜보는 가운데 책임감 있게 한 걸음 앞으로 나섰다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "윤리적 기준이 흔들리지 않도록 매 순간 경계를 놓지 않았다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "책임지는 태도야말로 팀을 이끄는 리더의 진짜 자세다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 결정은 원칙을 기준으로 내리겠습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비록 손해가 발생해도 원칙대로 진행하겠습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상사의 압력에도 원칙을 지키며 반대 의견을 제시했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 책임감 있는 행동에 대해 깊은 신뢰를 보였다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문제가 생긴 순간 책임을 남에게 돌리지 않고 스스로 해결에 나섰다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "원칙 없는 성과는 결국 팀을 부정하는 길입니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "그는 항상 윤리적 기준을 지키며 일을 처리하는 모습을 보여주었다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "어떤 유혹이 와도 원칙의 선은 절대 넘지 않았다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회식 자리에서도 공과 사를 구분하며 원칙을 지키는 모습이 인상 깊었다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임을 지는 것이 두렵지 않은 리더가 진정한 리더라고 생각합니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "내일까지 보고서의 모든 책임은 제가 지겠습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 실수해도 책임을 덜어주고 원칙을 지키도록 이끌었다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "경영진의 시선에도 흔들리지 않고 원칙을 고수하는 모습이 팀의 귀감이 되었다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "윤리적인 판단이 때로는 느리게 보이지만 결국 가장 빠른 길이다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "서류 위조 제안을 단호하게 거절하며 원칙을 지키는 태도를 보였다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이번 계약도 규정대로 투명하게 진행하겠습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 먼저 솔선수범하며 원칙을 지켜 팀의 기준을 세웠다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "어떤 상황에서도 책임지지 않고 넘어갈 수 있는 사람은 리더가 될 수 없다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "예산을 줄이자는 요구에도 품질을 포기하지 않겠다고 원칙을 밝혔다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "내부 감사에서 원칙 준수가 확인될 때 팀원들은 안심할 수 있었다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "나는 항상 내가 한 말은 책임질 수 있는 방식으로 행동합니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀을 위한 결정이라면 책임은 나의 몫이며 원칙은 나의 기준이다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "업무 처리 과정에서 발생한 실수에 대해 투명하게 인정하고 보완책을 마련했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "시험 기간에도 원칙을 지키며 공정하게 업무를 분배했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임은 공유할 수 있지만 결국 누군가는 지어야 할 무게입니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "외부 협력사의 부당한 요구에도 원칙을 지키며 거절 의사를 전달했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "개인의 이익이 손해라도 팀의 원칙을 지키는 길을 택했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임을 지는 일이 힘들어도 그 무게만큼 신뢰가 쌓입니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "윤리위원회에서도 원칙을 준수한 결과라고 인정받았습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회사 기강을 세우는 데 필요한 것은 책임을 지는 사람이다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들이 지켜보는 앞에서 원칙을 지키며 모범을 보이는 것이 진짜 리더십이다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "어떤 일이든 책임을 지고 마무리하는 것이 나의 직업 윤리입니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "경쟁사의 부정 행위에 휘둘리지 않고 원칙을 고수하는 모습을 보였다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과가 좋지 않아도 원칙을 지켜 처리한 것에 후회는 없습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이번 사태에 대한 모든 책임은 제가 지겠습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공정한 처신은 원칙을 지키는 자의 몫이며 책임은 그에 따른 자세다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "책임을 지는 일이 어려워도 그만큼 신뢰가 쌓입니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "원칙을 지키지 않는 성과는 결국 무너지는 모래성일 뿐이다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "고객 클레임이 들어와도 원칙에 따라 공정하게 처리하겠다고 밝혔다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새로운 정책이라도 원칙에서 벗어나지 않도록 신중히 검토했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "책임지지 않으면서 이야기하는 사람은 팀을 망칠 수 있습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "원칙을 이야기하면서 편법은 조용히 사용하겠습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 책임지겠지만 결과는 팀원들에게 돌리겠습니다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "원칙은 중요하지만 이번만은 눈감아 달라고 부탁했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "책임을 지는 척하면서 실제로는 책임을 회피하는 모습을 보였다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "규정은 맞추는 척하면서 비선 실무는 따로 돌렸다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "윤리적 결정을 이야기하면서 실제로는 개인 이익을 먼저 챙겼다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임은 나누는 게 좋지만 이번에는 네 탓으로 돌리겠다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "원칙을 지키는 듯 말하면서 뒤로는 다른 방식으로 처리했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들에게 원칙을 강조하면서 본인은 예외를 적용했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "원칙은 좋지만 이번엔 좀 빠르게 넘어가는 게 어떨까요.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임을 지겠다고 하면서 사실은 다른 사람에게 미루고 있었다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "윤리 기준을 말하면서 규정 어긋나는 계약을 승인했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "내가 책임진다고 하지만 결과적으로는 모두가 혼란에 빠졌다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "원칙을 지키는 게 좋지만 이번 상황에서는 좀 유연해야 한다고 주장했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임을 지는 척 발표만 하고 실제 보고는 다른 사람에게 넘겼다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "규정에 맞추려다 보니 오히려 팀원들이 불편해졌다고 핑계를 댔다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "책임을 지겠다고 했지만 문제가 생기자 뒤로 물러섰다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "원칙을 언급하면서 정작 본인은 예외를 요구했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "윤리 교육을 받았지만 실무에서는 원칙을 무시하는 모습을 보였다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "원칙을 강조하면서도 실제로는 편법을 사용했다.",
+    "label_id": "M08-01",
+    "label_name": "책임 및 원칙 준수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "평가 기준을 사전에 투명하게 공유하겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모두에게 동일한 기준을 적용하겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과에 따라 공정하게 보상하겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "왜 이런 평가를 했는지 근거를 설명드리겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 공정한 평가에 대해 긍정적인 반응을 보였다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "인센티브 배분 과정에서 객관적 지표를 철저히 활용했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "공정성이 무너지면 팀의 동기가 깨진다는 것을 잘 알고 있습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "평가 기준을 숨기지 않고 모두에게 투명하게 공개했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 성과 평가는 미리 정한 기준에 따라 진행됩니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "누구에게나 같은 잣대를 적용하는 것이 리더의 도리다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과를 인정하는 방식에서 공정성이 가장 중요한 요소이다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "인센티브를 받는 과정이 투명하게 공개되자 팀원들의 신뢰가 높아졌다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과 공유회에서 누구나 볼 수 있게 평가 근거를 제시했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "공정한 인정이 팀원들의 사기를 유지하는 비결이라고 생각합니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "각자의 역할에 맞는 공정한 보상을 약속드리겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 성과를 평가할 때 개인 감정을 배제하고 객관적 기준을 세웠다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "보상의 근거를 명확히 밝혀 팀원들이 이해할 수 있게 했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "공정한 평가를 위한 지표는 미리 합의를 거쳤습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과 인정에서 주관은 최소화하고 객관적 데이터를 최우선으로 삼았다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원 모두가 인정하는 기준으로 성과를 평가하겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "특정인에게만 유리하게 적용되는 기준은 만들지 않겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "공정한 성과 인정이 팀의 신뢰를 만드는 기초입니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "평가 결과를 발표할 때 투명하게 근거를 제시했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "같은 기준을 다른 사람에게 다르게 적용하지 않겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "인센티브를 나눌 때 특정 팀원에게 더 많이 주는 일은 없을 것입니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "누구나 평가 근거를 확인할 수 있도록 문서화했습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과 인정에서 공정성을 지키는 리더가 진정으로 존경받는다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "이번 평가도 미리 공지된 기준에 따라 객관적으로 진행되었다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "보상을 결정할 때 편견은 배제하고 데이터에 근거했습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "공정한 기준이 없으면 성과 인정은 무의미해집니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "모든 팀원에게 동일한 기회와 동일한 잣대를 제공하겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "투명하게 공개된 기준은 팀원들의 불만을 줄여주었다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과 인정에서 공정성은 타협할 수 없는 원칙입니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 납득할 수 있는 평가 근거를 만들어 드리겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "기준 없는 칭찬은 오히려 팀을 해치는 독이 됩니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "보상 결정 과정을 모두에게 투명하게 공개하겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과 인정은 숫자와 근거가 말해주게 해야 합니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "공정한 평가는 팀원들이 목표에 집중할 수 있게 하는 힘이 됩니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "모두가 볼 수 있는 평가 기준을 문서로 정리해서 배포했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원 각자의 기여도를 정확히 파악해 공정하게 반영하겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공정한 성과 인정이 없으면 팀의 단결은 무너진다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "인센티브는 성과에 비례해서만 배분됩니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "평가를 할 때는 누구나 같은 절차를 거치게 합니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공정한 인정이 팀의 신뢰를 쌓는 가장 확실한 방법입니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "모든 평가 항목은 미리 합의된 기준에 따릅니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과를 인정할 때 기준을 숨기면 신뢰가 무너집니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공정한 평가가 이루어지는 팀에서 팀원들은 더 열심히 일한다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "보상을 받는 근거는 누구나 확인할 수 있어야 합니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과 인정에서 편파는 절대 용납하지 않겠습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공정한 기준은 팀원들에게 동등한 기회를 보장합니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "기준은 공유했지만 실제 평가는 마음대로 진행했습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "평가 기준은 있지만 내가 좋아하는 팀원에게 더 높게 줬습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "공정한 인센티브를 약속하면서 특정인에게 몰아줬다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과를 인정하는 척하면서 실제로는 편애를 하고 있었다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "평가 기준을 말하면서도 주관적 감정으로 팀원을 판단했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과에 따라 보상하겠다고 하면서 가까운 팀원에게 유리하게 배분했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "투명한 평가를 하겠다고 했지만 근거는 숨겼습니다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "공정하게 인정하겠다면서도 기준 없이 임의로 결정했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "모두에게 같은 기준을 적용한다고 하면서도 실제로는 내부자를 우대했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과 인정을 공정하게 하겠다고 하면서 숨겨진 기준을 따로 적용했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "인센티브 배분에서 객관적 지표를 말하면서도 감정으로 판단했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "투명하게 공유한 평가 기준과 실제 평가 결과가 전혀 달랐다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "공정한 성과 인정을 강조하면서도 평가는 편파적으로 진행했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "기준은 공개했지만 그 기준을 어기면서 평가를 끝냈다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과 인정에서 공정성을 이야기하면서도 사적 감정을 반영했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "보상을 공정하게 나누겠다고 하면서도 특정인에게 몰아줬다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "객관적 평가를 한다고 하면서도 숨겨진 기준으로 팀원을 평가했다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과 인정을 공정하게 하겠다고 하면서도 평가 결과는 숨겼다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들에게 공정하다고 말하면서도 실제로는 주관적 평가만 내렸다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "인센티브를 공정하게 분배하겠다고 하면서도 편파적인 결정을 내렸다.",
+    "label_id": "M08-02",
+    "label_name": "공정한 성과 인정_L08",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "이번 성과는 A씨의 탁월한 기여 덕분입니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 공로를 정확히 인정하고 싶습니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 기여를 경영진에게 알렸습니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과를 공유할 때 기여한 사람을 빠짐없이 포함했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 공로를 정확히 파악하여 보상에 반영했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 프로젝트의 성공은 팀원들의 협력 덕분이라고 밝혔다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "리더가 먼저 공로를 팀원에게 돌리는 모습이 팀에 긍정적 영향을 주었다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "각 팀원의 기여도를 구체적으로 설명하며 인정했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과 보고서에 팀원들의 이름을 명기하여 공로를 인정했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "보상을 나눌 때 기여도를 정확히 반영하여 공정하게 처리했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 기여를 인정하는 것이 리더의 가장 큰 역할 중 하나입니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "경영진 보고에서 팀원들의 기여를 적극적으로 강조했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과를 나눌 때 공로 독점은 절대 하지 않겠습니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 노력을 정확히 보상하는 것이 동기를 유지시킨다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "기여도를 정확히 측정하여 인정하지 않으면 팀이 망가집니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이번 계약 성공은 모두가 함께 이뤄낸 결과라고 전사에 알렸다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 기여를 경영진에게 정확히 전달하여 승진에 반영되게 했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "공로를 인정하는 일이 작더라도 팀원에게는 큰 힘이 됩니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과를 인정할 때는 누가 얼마나 기여했는지를 따져야 한다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 공로를 빛내주는 것이 리더의 도리입니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "보상 배분에서 기여도를 무시하면 팀의 사기가 떨어집니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이번 프로젝트의 핵심 기여자를 명확히 밝히고 보상했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 기여를 숨기고 자신의 성과처럼 보고하지 않겠습니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과를 인정하는 과정에서 기여도가 낮은 사람도 배려했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "공로를 정확히 인정하는 태도는 팀원들에게 큰 격려가 된다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 기여를 경영진에게 전달하여 성과급에 반영되게 했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과 보고에서 팀원들의 노력을 빠짐없이 기술했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "공정한 보상은 기여도를 정확히 인식하는 것에서 시작합니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 기여를 무시하고 자신의 것으로 돌리는 것은 큰 실수다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과를 인정할 때는 기여도를 정확히 따져야 합니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "기여도에 맞는 인정을 해주어 팀원들의 성취감을 높였다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀의 성과를 팀원의 노력으로 설명하며 상사에게 보고했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "공로를 독점하는 리더는 결국 팀을 잃게 됩니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과 인정에서 기여도는 객관적으로 따지는 게 중요합니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 기여를 정확히 파악하는 것이 공정한 보상의 첫걸음이다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "보상 배분에서 기여도를 고려하지 않으면 불만이 쌓입니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "이번 성과는 특정 팀원의 아이디어가 핵심이었다고 밝혔다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 기여를 인정하지 않으면 팀은 성장할 수 없습니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과를 나눌 때 기여도에 따라 차등을 두되 공정하게 처리했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공로를 인정하는 일은 리더가 반드시 챙겨야 할 의무입니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 기여를 숨기는 리더는 결국 신뢰를 잃는다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "기여도를 정확히 반영하여 보상을 설계했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과 인정에서 공정성은 기여도를 정확히 아는 것에서 출발한다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 노력을 인정하고 그에 맞는 보상을 약속했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "보상 결정 시 기여도를 정확히 반영하여 팀원들이 납득할 수 있게 했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과를 인정하는 과정에서 누구의 기여도도 빠뜨리지 않았다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공정한 인정이 팀원들에게 진정한 동기를 부여한다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 기여를 경영진에게 알려 승진 기회를 만들어 주었다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "기여도를 무시하고 일률적으로 보상하는 것은 공정하지 않다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공로를 인정할 때 기여도가 높은 사람을 먼저 생각해야 합니다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 기여를 인정하는 척하면서도 보상은 나만 챙겼다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과를 공유했다고 하면서도 핵심 기여자를 숨겼다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "공로를 인정하겠다고 하면서도 실제로는 팀원 기여를 무시했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "기여도를 정확히 파악하지 않고 무작위로 보상을 배분했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 기여를 알면서도 경영진에게는 자신의 것처럼 보고했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "공정한 보상을 약속하면서도 기여도를 반영하지 않았다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과를 인정하는 척 발표만 하고 실제로는 공로를 독점했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 기여를 인정하는 듯 말하면서도 보상은 편파적으로 줬다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과 보고서에 팀원 이름을 빠뜨리고 자신만 기재했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "보상 배분에서 기여도를 고려하지 않고 임의로 결정했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "공로를 인정하겠다고 하면서도 실제로는 불공정한 보상을 했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 기여를 알고도 경영진에게 말하지 않았다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과를 인정하는 척하면서도 기여도가 높은 팀원은 외면했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "공정한 보상을 강조하면서도 특정인에게 몰아줬다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 기여를 숨기고 자신의 공로처럼 포장했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "기여도를 반영하지 않고 일률적으로 보상을 배분했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과 인정을 이야기하면서도 팀원의 노력은 눈에 보이지 않았다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "공로를 인정하겠다고 하면서도 실제로는 공로를 독점했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 기여를 무시하고 보상은 자신에게 유리하게 배분했다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과 인정은 이야기했지만 보상은 전혀 반영되지 않았다.",
+    "label_id": "M09-01",
+    "label_name": "공정한 성과 인정_L09",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "지금 당장 시작해서 오늘 안에 결과를 만들어 봅시다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "오늘 안에 반드시 마무리해서 보고드리겠습니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "바로 실행에 옮겨 신속하게 결과를 보여드리겠습니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "즉시 조치를 취해 상황을 정상화하겠습니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "서버 장애 발생 시 복구 지시를 즉각 내렸다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문제가 발생한 즉시 팀을 소집해서 대응에 나섰다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "긴급 상황에서 팀장이 먼저 현장으로 달려가 대응했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의가 끝나자마자 실행 계획을 전달했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실행력이야말로 계획을 현실로 바꾸는 유일한 방법이다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "마감일을 반드시 지켜서 팀의 신뢰를 유지하겠습니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 주까지 완료하겠습니다. 꼭 기억하고 실천하겠습니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "계획만 세우고 행동하지 않으면 아무 소용이 없습니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "현장에서 직접 손을 대며 문제를 해결하는 모습을 보였다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "서버 장애가 발생하자마자 복구 작업에 돌입했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "목표한 과업을 끝까지 완수하는 것이 리더의 자세다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "오늘 아침 회의에서 내린 결정을 오후부터 즉시 실행했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이메일을 확인하자마자 대응 팀을 꾸려 현장으로 출동했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "계획은 아름답지만 실행이 없으면 아무것도 아니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "긴급 복구 지시를 내려 모두가 즉각 움직였다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문제가 생기자 팀장이 먼저 손을 대며 해결을 이끌었다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "마감 기한을 엄수하며 완벽하게 업무를 마무리했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들에게 지시만 하고 본인은 행동하지 않는 모습은 보이지 않았다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상황이 발생한 순간 머뭇거리지 않고 즉각 대응했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의가 끝난 후에도 바로 업무에 착수하여 목표를 달성했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실행력이 없는 리더는 팀을 이끌 수 없다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문제를 발견하자마자 즉시 조치를 취했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "장애가 발생하자 복구 작업을 즉시 개시했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "마감일을 앞두고 팀장이 직접 나서서 일을 밀어붙였다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "계획보다 중요한 것은 바로 그 계획을 실행하는 것입니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "위기 상황에서 팀장이 먼저 행동하여 팀을 이끌었다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "업무가 주어진 즉시 처리하여 신속하게 완료했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 실행을 시작하자 팀장도 곧바로 합류했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "목표를 이루기 위해서는 행동이 말보다 먼저 나와야 한다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "오늘 회의한 내용을 오늘 실행에 옮기겠습니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실행력이 강한 팀은 위기에서도 빠르게 회복한다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "문제 해결을 위해 팀장이 직접 현장에서 지시를 내렸다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "바로 실행에 옮기는 태도가 팀의 기준을 높인다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "마감을 넘기지 않기 위해 팀 전체가 즉시 움직였다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "긴급한 상황에서 팀장이 먼저 현장에 도착하여 상황을 주도했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "계획을 세우는 것도 중요하지만 바로 실행하는 게 더 중요합니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이번 목표도 마감일 안에 완수하여 성과를 보여주겠습니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들이 행동을 시작하자 팀장도 뒤따라 참여했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실행력은 리더의 말뿐 아니라 행동에서 나오는 것입니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "장애 복구를 위해 팀장이 직접 명령을 내렸다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "위기 상황에서 신속하게 대응하여 손실을 최소화했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "오늘 내로 처리하겠다는 약속을 지키기 위해 즉시 실행했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "문제를 발견하자마자 대응 방안을 즉시 실행에 옮겼다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀의 실행력을 높이기 위해 팀장이 먼저 솔선수범했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "지금 당장 시작합시다라고 말만 하고 계획만 세웠다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "바로 실행하겠다고 하면서도 실제로는 움직이지 않았다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "즉시 조치하겠습니다라고 했지만 실행 방법 설명만 반복했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "오늘 안에 끝내겠다고 하면서도 지시만 하고 직접 행동은 없었다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "마감일을 지키겠다고 하면서도 계획만 수립하고 행동은 없었다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문제를 해결하겠다고 말하면서도 실제 움직임은 전혀 없었다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "서버 복구를 지시하겠다고 하면서도 직접 나서지 않았다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "긴급 상황이라고 하면서도 현장에 가지 않고 보고만 기다렸다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실행하겠다고 하면서도 방법을 설명만 하고 실제 행동은 없었다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "마감을 맞추겠다고 하면서도 실행력은 부족하여 미뤄졌다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "계획은 완벽했지만 실행은 끝내 하지 않았다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "지금 당장 하자고 해놓고서는 본인은 책상에 앉아만 있었다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "문제를 해결하겠다고 했지만 실제로는 다른 사람에게 미뤘다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "즉시 조치하겠다고 하면서도 행동은 늦어져서 손해가 커졌다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실행을 강조하면서도 본인은 행동을 보이지 않았다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "오늘 끝내겠다고 약속하고서는 계획만 세우고 끝냈다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "긴급 복구를 하겠다고 하면서도 실제로는 손을 대지 않았다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "실행을 이야기하면서도 방법론 설명만 하고 끝냈다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "위기 상황에서 실행을 지휘하겠다고 하면서도 뒤로 물러났다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "마감일을 맞추겠다고 하면서도 계속 미뤄서 결국 지키지 못했다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "마감일을 엄수하여 목표를 달성하고 팀의 신뢰를 얻었다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실행이 없는 계획은 단순한 종이 쪼가리일 뿐입니다.",
+    "label_id": "M10-01",
+    "label_name": "실행력 및 완수",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "곧 결과로 보여드리겠습니다 기대해주세요.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모두 목표 달성에 집중해서 함께 해냅시다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "마감일을 반드시 지켜서 약속을 이행합시다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과를 내는 데 집중해서 최선을 다하겠습니다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "끝까지 포기하지 말고 반드시 해냅시다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "목표에 집중하여 불필요한 일을 최소화했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "마감일을 철저히 지키며 업무를 완수하는 모습을 보였다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀이 목표에 집중하도록 방해 요소를 적극적으로 제거했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과를 위해서라면 과감하게 우선순위를 재조정했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "결과 중심으로 일을 추진하여 팀의 생산성을 높였다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "마감일을 지키는 것이 팀의 신뢰를 만드는 방법입니다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "목표를 달성하기 위해 끝까지 밀어붙이는 것이 중요하다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과를 내는 데 집중하여 팀원들의 동기를 유발했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "목표 달성을 위해 팀의 자원을 집중적으로 배분했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "결과로 보여주는 것이 말보다 훨씬 강력하다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "마감일을 넘기지 않기 위해 철저한 일정 관리를 했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀이 목표에만 집중할 수 있도록 환경을 정리했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과를 내기 위해 지속적으로 실행을 밀어붙였다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "목표에 집중하여 불필요한 미팅을 줄이고 업무에 몰입하게 했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "결과를 최우선으로 여기며 단계별로 목표를 달성했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "마감일을 지키는 것은 리더의 기본적인 책임입니다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀이 목표에 집중하도록 리더가 먼저 방향을 제시했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과를 내는 데 필요한 자원을 집중적으로 투입했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "끝까지 해내는 태도가 팀의 문화를 만들었다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "목표 달성을 위해 팀원들이 집중할 수 있는 환경을 제공했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "결과 중심으로 업무를 재편하여 팀의 효율을 높였다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "마감일을 지키기 위해 팀 전체가 집중하여 마무리했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과를 내는 것이 팀의 존재 이유이자 목표입니다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "목표에 집중하여 팀의 방향을 흔들림 없이 유지했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "결과를 만들어내기 위해 모든 노력을 집중했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀이 목표를 달성할 수 있도록 지속적으로 동기를 부여했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "마감일을 지키는 것은 약속을 지키는 것과 같다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "목표에 집중하여 팀의 기준을 세웠다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과를 위해 불필요한 절차를 과감히 생략하고 핵심에 집중했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "끝까지 해내는 모습이 팀원들에게 모범을 보였다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "결과를 중심으로 일을 추진하여 팀원들의 집중도를 높였다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "목표를 향해 달리는 팀을 위해 리더가 방향을 잡아주었다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "마감일을 맞추기 위해 팀 전체가 한마음으로 달렸다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과를 목표로 삼아 팀원들에게 명확한 방향을 제시했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "목표에 집중하여 모든 팀원이 같은 방향을 바라보게 했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과를 내는 데 집중하여 팀원들에게 성취감을 주었다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "마감일을 반복해서 넘기는 것은 팀의 신뢰를 무너뜨린다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀이 목표에 집중할 수 있도록 리더가 먼저 실행을 보였다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과를 위해서라면 과정은 단순화하고 결과에 집중해야 한다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "끝까지 해내는 습관이 팀의 성과 문화를 만든다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "목표를 달성하기 위해 필요한 자원을 집중적으로 투입했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과 중심의 업무 방식이 팀의 생산성을 높였다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "마감일을 지키는 것은 약속을 지키는 가장 기본적인 방법이다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀이 목표에 집중하여 불필요한 논쟁을 줄이고 성과를 냈다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과를 위해 방해 요소를 제거하고 핵심 업무에 집중했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "목표에 집중합시다라고 말하면서도 과정에만 집중했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "마감일을 지키겠다고 하면서도 반복해서 연기했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "결과를 보여드리겠다고 하면서도 실행력은 전혀 없었다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과를 내겠다고 하면서도 목표 달성에 관심이 없었다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "끝까지 해냅시다라고 말하면서도 중간에 포기했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "목표에 집중하겠다고 하면서도 결과에는 무관심했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "마감일을 지키겠다고 하면서도 계속 미뤄서 결국 어겼다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "결과에 집중하겠다고 하면서도 목표와 상관없는 일만 했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과를 내겠다고 하면서도 과정에만 매몰되었다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "목표를 달성하겠다고 하면서도 중간에 방향을 잃었다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "마감일을 지키겠다고 하면서도 실행력이 부족하여 지키지 못했다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "결과를 중시하겠다고 하면서도 과정만 길게 늘어놓았다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과를 위해 집중하겠다고 하면서도 실행은 미뤄졌다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "목표에 집중하겠다고 하면서도 중간에 관심을 다른 곳으로 돌렸다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "마감일을 지키겠다고 하면서도 반복적으로 넘겼다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "결과에 집중하겠다고 하면서도 실행은 전혀 하지 않았다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과를 내겠다고 하면서도 계획만 세우고 실행은 없었다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "끝까지 해내겠다고 하면서도 중간에 다른 일로 돌아섰다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "목표 달성을 이야기하면서도 결과는 전혀 나오지 않았다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "마감일을 지키겠다고 하면서도 아무런 준비가 없었다.",
+    "label_id": "M10-02",
+    "label_name": "목표 지향 실행",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "말씀 마저 해주세요. 꼭 기억하고 실천하겠습니다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 제대로 이해했는지 한번 확인해도 될까요.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "더 말씀해주세요 저는 여기서 경청하고 있습니다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "중간에 끊지 않고 끝까지 경청했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의에서 팀장이 끝까지 경청하는 자세를 보였다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상대방의 눈을 보며 집중해서 이야기를 들었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 말을 중간에 끊지 않고 끝까지 들어주었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "경청이야말로 상대를 존중하는 가장 기본적인 자세다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상대방이 말하는 동안 고개를 끄덕이며 집중했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 의견을 끝까지 들은 후에야 답변을 시작했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "끝까지 들어보고 판단하겠습니다. 꼭 기억하고 실천하겠습니다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상대방이 말할 때는 먼저 귀를 기울이는 것이 중요합니다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 이야기를 집중해서 듣고 이해하려고 노력했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의 중 팀장이 눈을 맞추며 경청하는 모습을 보였다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상대방의 말을 끝까지 듣는 것이 의사소통의 기본입니다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 하고 싶은 말을 끝까지 들어주었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "경청하는 자세가 팀원들에게 큰 신뢰를 주었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상대방의 말을 끝까지 듣고 나서야 의견을 제시했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 집중하며 듣는 모습에 팀원들이 더 편하게 말했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "끝까지 들어보겠습니다라고 말하며 고개를 끄덕였다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상대방의 이야기를 끊지 않고 끝까지 경청하는 태도를 보였다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 의견을 경청하고 이해한 후에 답변했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "경청은 리더가 팀원에게 줄 수 있는 가장 큰 선물이다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상대방이 말하는 동안 핸드폰을 보지 않고 집중했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 말을 끝까지 들은 후 정확하게 요약해서 확인했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "끝까지 경청하는 자세가 팀의 소통 문화를 바꾸었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상대방의 이야기를 끝까지 듣는 것이 진정한 존중입니다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 눈을 맞추며 집중해서 듣는 모습에 팀원들이 감동했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "경청하는 태도가 팀원들의 참여를 높이는 열쇠입니다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상대방이 말할 때는 먼저 귀 기울이고 판단은 나중에 하자.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 이야기를 끝까지 듣고 나서야 피드백을 주었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "경청은 말하는 것보다 훨씬 어렵고 중요한 능력이다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 적극적으로 경청하는 모습에 팀원들이 더 많은 의견을 냈다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상대방의 말을 끝까지 들어야 오해가 생기지 않습니다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 말하는 동안 집중하여 듣는 태도를 보였다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "경청하는 리더가 팀원들의 신뢰를 얻는다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상대방의 말을 끝까지 듣고 나서야 제대로 이해할 수 있다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 말을 끊지 않고 끝까지 들어주는 것이 리더의 기본 자세다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "적극적 경청이 팀원들의 만족도를 높이는 핵심 요인이다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "상대방이 말하는 동안 몸을 숙이고 집중하며 듣는 모습을 보였다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 말을 끝까지 듣고 나서야 의견을 정리했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "경청은 상대방을 존중하는 가장 확실한 증거이다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 경청하는 태도로 팀원들의 다양한 의견을 수용했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "상대방의 말을 끝까지 듣는 것이 의사소통의 출발점이다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 이야기를 끝까지 경청하고 이해하려 노력했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "적극적 경청이 팀의 소통 문화를 긍정적으로 바꾸었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "상대방이 말할 때는 먼저 귀를 기울이고 나중에 말해야 합니다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 의견을 집중해서 듣는 리더가 진정으로 존경받는다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "경청하는 자세가 팀원들에게 안정감을 주었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "상대방의 이야기를 끝까지 듣고 나서야 제대로 이해할 수 있다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "말씀 마저 해주세요라고 하면서도 중간에 끊어 말했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "듣고 있습니다라고 하면서도 딴짓을 하며 듣지 않았다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "끝까지 들었다고 하면서도 중간에 말을 끊었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "경청하는 척하면서도 상대방이 말할 때 딴생각을 했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "끝까지 들어주겠다고 하면서도 중간에 끼어들어 의견을 제시했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "듣는 척하면서도 핸드폰을 만지며 집중하지 않았다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "끝까지 경청하는 척하면서도 중간에 말을 끊었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "경청하는 모습을 보이면서도 실제로는 집중하지 않았다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상대방의 말을 듣는 척하면서도 딴짓을 하고 있었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "끝까지 듣겠다고 하면서도 중간에 대답을 시작했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "경청하는 태도를 보이면서도 눈은 다른 곳을 보고 있었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "말을 끊지 않겠다고 하면서도 자꾸 끼어들었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "집중해서 듣는 척하면서도 실제로는 무관심했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "끝까지 들어주겠다고 하면서도 중간에 딴 이야기를 꺼냈다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "경청하는 척 고개를 끄덕이면서도 내용은 몰랐다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "말씀하세요라고 하면서도 중간에 말을 끊었다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "듣고 있다고 하면서도 계속 딴생각을 했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "경청하는 모습을 보이면서도 말을 끊으며 반박했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "끝까지 듣겠다고 약속하고서도 중간에 가버렸다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "끝까지 듣겠다고 하면서도 사실은 다른 생각을 했다.",
+    "label_id": "M11-01",
+    "label_name": "적극적 경청",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "혹시 다른 의견 있으신 분 계신가요.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "반대 의견도 자유롭게 말씀해주세요.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "좋은 지적입니다 바로 반영하도록 하겠습니다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비판적 시각을 환영하니 말씀해주세요.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의에서 다양한 의견을 적극적으로 수용하는 모습을 보였다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 비판적 피드백을 개방적인 태도로 받아들였다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "건설적인 반론도 존중하며 논의에 포함했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "개방적인 마음으로 팀원들의 다양한 의견을 경청했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "반대 의견을 환영하는 분위기를 조성하여 팀의 창의성을 높였다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다른 시각을 가진 사람의 의견도 끝까지 들었다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비판을 수용하는 자세가 팀의 성장을 이끈다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양한 의견이 나올 수 있도록 회의 시간을 충분히 확보했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 어려운 의견을 제시해도 먼저 경청하는 태도를 보였다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "개방적 의견 수용이 팀의 혁신을 촉진합니다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "반대 의견도 존중하며 모두가 납득할 수 있는 결론을 찾았다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "비판적 피드백을 두려워하지 않고 적극적으로 수용했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들에게 자유롭게 의견을 제시할 수 있는 기회를 제공했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "개방적인 태도로 다양한 의견을 모아 최선의 결정을 내렸다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "건설적인 반론을 장려하여 팀의 문제 해결 능력을 높였다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다른 의견을 존중하는 문화가 팀에 긍정적인 영향을 미쳤다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "비판적 시각을 환영한다고 밝히자 팀원들이 더 많은 의견을 냈다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "반대 의견도 귀 기울여 들어야 진정한 소통이 된다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들의 다양한 의견을 존중하며 팀의 결속력을 높였다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "개방적 의견 수용이 리더의 중요한 자질이다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "비판을 받아들이고 개선하는 태도를 보였다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "의견 충돌이 있어도 개방적인 태도로 해결책을 찾았다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 편하게 의견을 말할 수 있는 환경을 만들었다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "건설적인 반론을 수용하여 더 나은 방향을 찾았다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "개방적인 마음으로 팀원들의 의견을 경청하고 반영했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "비판적 피드백을 소중한 자산으로 여기는 태도를 보였다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "반대 의견도 존중하여 팀의 신뢰를 유지했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들의 다양한 의견을 수용하여 더 나은 결과를 만들어냈다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "개방적 의견 수용이 팀원들의 참여를 높이는 비결이다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "비판을 두려워하지 않고 개선의 기회로 삼았다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다른 시각에서 바라본 의견도 귀하게 여겼다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 반대 의견을 제기해도 환영하는 분위기를 조성했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "건설적인 반론을 통해 팀의 방향을 더 정교하게 다듬었다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "개방적인 태도로 다양한 의견을 모아 최적의 결정을 내렸다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "비판적 피드백을 적극적으로 수용하여 팀을 발전시켰다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "반대 의견도 존중하는 리더가 팀원들의 신뢰를 얻는다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 의견을 개방적으로 수용하여 팀의 결속을 다졌다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "개방적 의견 수용이 팀의 문제 해결 능력을 향상시킨다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "비판을 받아들이는 용기가 리더의 성장을 만든다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "다양한 의견이 나올 수 있도록 회의에서 적극적으로 유도했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들이 건설적인 반론을 제기할 수 있는 안전한 환경을 제공했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "반대 의견도 존중하며 논의를 이끌어가는 모습을 보였다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "개방적인 마음으로 팀원들의 비판적 피드백을 수용했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "비판적 시각을 환영하여 팀의 창의성을 극대화했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 다양한 의견을 경청하고 존중하는 태도를 보였다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "개방적 의견 수용이 팀의 혁신 문화를 만드는 기초이다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "다른 의견 있으신 분이라고 물으면서도 실제로는 반대를 무시했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "반대 의견도 말씀해주세요라고 하면서도 비판을 묵살했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "좋은 지적입니다라고 하면서도 반영은 하지 않았다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비판적 시각을 환영합니다라고 하면서도 동의만 요구했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양한 의견을 수용하는 척하면서도 반대 의견은 차단했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "건설적인 반론을 수용하는 척하면서도 실제로는 무시했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "개방적이라고 하면서도 비판적 피드백을 묵살했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다른 의견을 존중한다고 하면서도 동의하지 않는 사람은 외면했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "비판을 환영한다고 하면서도 실제로는 반대 의견을 차단했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "의견을 수용하는 척하면서도 결국은 자신의 의견만 관철했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "반대 의견도 들어보겠다고 하면서도 끝내 반영하지 않았다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "개방적인 태도를 보이면서도 사실은 동의만 강요했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 의견을 환영한다고 하면서도 비판은 튕겨냈다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "건설적인 반론을 수용하는 척하면서도 내용은 무시했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "반대 의견을 존중하는 척하면서도 결국에는 눈감아버렸다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "개방적이라고 말하면서도 실제로는 자신의 생각만 고집했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "비판적 피드백을 환영한다고 하면서도 듣기는커녕 화를 냈다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "다른 의견을 수용하는 척하면서도 결국 기존 방식을 고집했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "반대 의견도 존중하겠다고 하면서도 팀원들에게 동의를 강요했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "개방적인 분위기를 조성하는 척하면서도 비판은 금지했다.",
+    "label_id": "M11-02",
+    "label_name": "개방적 의견 수용",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "그동안 많이 힘드셨겠어요 정말 고생 많으셨어요.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그런 상황이라면 저도 똑같은 기분이 들었을 것 같아요.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지금 어떤 기분이신지 충분히 이해하고 있습니다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "힘든 일이 있으시면 언제든 말씀해주세요.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 감정 상태를 세심하게 살피며 배려하는 모습을 보였다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어려운 상황에 처한 팀원에게 먼저 다가가 위로의 말을 건넸다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "감정적으로 힘든 팀원에게 따뜻한 관심을 표현했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 어려움을 공감하며 함께 해결책을 찾았다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상대방의 감정을 이해하고 존중하는 태도를 보였다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 힘들어할 때 먼저 손을 내밀어 주었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "감정적 배려가 팀원들에게 큰 위로가 되었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어려운 상황에도 팀원의 감정을 헤아리며 대처했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 마음을 읽고 적절한 배려를 실천했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "공감하는 자세가 팀원들의 신뢰를 높인다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 어려움을 호소할 때 귀 기울여 들어주었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "감정적 지지가 팀원들의 동기를 회복시킨다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "힘든 팀원에게 진심 어린 공감을 표현했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상대방의 감정을 존중하며 조심스럽게 대화를 이끌었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 어려움을 내 일처럼 여기며 도왔다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "감정적 배려는 리더가 팀원에게 줄 수 있는 가장 큰 선물이다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 슬퍼할 때 곁에 있어 주며 위로했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "어려운 일이 있을 때 팀원의 감정을 먼저 헤아렸다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "공감하는 태도가 팀의 소통 문화를 긍정적으로 바꾸었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 감정 상태를 체크하며 필요한 배려를 제공했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상대방의 기분을 이해하고 그에 맞게 대응했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 힘들어할 때 책임을 다독이며 격려했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "감정적 배려가 팀원들의 심리적 안정감을 높였다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "어려운 상황에서 팀원의 감정을 먼저 생각하고 행동했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 마음을 헤아려 업무 부담을 조정해 주었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "공감하는 리더가 팀원들의 진정한 동료가 된다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 어려움을 겪을 때 함께 고민해 주었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "감정을 존중하는 태도가 팀의 분위기를 따뜻하게 만들었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 감정 상태를 고려하여 업무 분배를 조정했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상대방의 어려움을 공감하며 진심 어린 위로를 전달했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 힘든 상황에서도 정서적으로 지지해 주었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "공감하는 자세가 팀원들에게 큰 용기를 주었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 감정을 이해하고 업무 강도를 적절히 조절했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "감정적 배려가 팀의 결속력을 높이는 핵심 요인이다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 슬퍼할 때 먼저 다가가 함께 슬퍼해 주었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "어려운 상황에서도 팀원의 감정을 소중히 여기는 태도를 보였다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 마음을 읽고 필요한 배려를 적시에 제공했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "공감하는 태도가 팀원들의 만족도를 높인다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원이 힘들어할 때 업무 부담을 덜어주며 배려했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "감정을 존중하는 리더가 팀원들의 신뢰를 얻는다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 감정 상태를 고려하여 휴식을 권유했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "상대방의 기분을 헤아려 대화의 속도를 조절했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원이 어려움을 호소할 때 진심으로 공감하며 대화를 나누었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "감정적 배려가 팀의 심리적 안전감을 조성한다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 감정을 이해하고 적절한 시기에 조언을 건넸다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "많이 힘드셨겠어요라고 하면서도 딱딱한 업무만 강조했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그런 상황이면 저도 그랬을 것 같아요라고 하면서도 무관심했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지금 어떤 기분인지 이해합니다라고 하면서도 감정을 무시했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "힘든 일이 있으시면 말씀해주세요라고 하면서도 도움은 주지 않았다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 감정을 공감하는 척하면서도 업무만 밀어붙였다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어려운 상황에 처한 팀원에게 위로의 말을 건네면서도 무관심했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "감정적으로 힘든 팀원에게 관심을 표현하는 척하면서도 외면했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 어려움을 공감하는 척하면서도 해결책은 찾지 않았다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상대방의 감정을 이해한다고 하면서도 존중하지 않았다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 힘들어할 때 손을 내밀어 주는 척하면서도 실제로는 도와주지 않았다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "감정적 배려를 하는 척하면서도 팀원의 감정은 무시했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "어려운 상황에서도 팀원의 감정을 헤아리는 척하면서도 냉담했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 마음을 읽는 척하면서도 적절한 배려는 하지 않았다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "공감하는 자세를 보이면서도 실제로는 감정을 무시했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 어려움을 호소할 때 귀 기울이는 척하면서도 무관심했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "감정적 지지를 해주는 척하면서도 동기를 회복시키지 못했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "힘든 팀원에게 공감하는 척하면서도 진심은 없었다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "상대방의 감정을 존중한다고 하면서도 조심스럽게 대화하지 않았다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 어려움을 내 일처럼 여기는 척하면서도 외면했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 감정 상태를 살피며 적절한 시기에 지원을 제공했다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 기분을 헤아리는 척하면서도 업무를 밀어붙였다.",
+    "label_id": "M12-01",
+    "label_name": "공감 및 감정적 배려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "잘 될 거예요 항상 응원하고 있습니다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지금은 힘들겠지만 당신이라면 할 수 있습니다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 옆에서 함께 지켜보고 있을게요.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 어려움을 우리가 함께 이겨내 봅시다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 어려움을 겪을 때 정서적으로 지지하는 모습을 보였다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "심리적 위로를 건네며 팀원의 안정감을 높여주었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "격려 메시지를 보내 팀원의 사기를 진작시켰다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "힘든 상황에서도 팀원의 심리적 안정을 도왔다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "정서적 지지가 팀원들에게 큰 힘이 되었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 좌절할 때 곁에서 격려해 주었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "심리적 지지를 통해 팀원들의 불안감을 줄였다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "힘든 일이 있을 때 먼저 격려의 말을 건넸다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 감정 상태를 세심하게 살피며 위로했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "정서적 지지가 팀원들의 회복력을 높인다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "어려운 상황에 처한 팀원에게 따뜻한 격려를 보냈다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 힘들어할 때 먼저 다가가 심리적 지지를 제공했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "격려하는 자세가 팀원들의 신뢰를 높인다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 좌절감을 이해하고 정서적으로 받쳐 주었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "심리적 안정감을 주어 팀원들이 일에 집중할 수 있게 했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "힘든 팀원에게 응원의 메시지를 전달했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정서적 지지가 팀의 결속력을 높이는 비결이다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 어려움을 겪을 때 함께 해결책을 찾아주었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "심리적 지지를 통해 팀원들의 자신감을 회복시켰다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "힘든 상황에서도 팀원의 심리적 안정을 최우선으로 생각했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 불안감을 덜어주기 위해 정서적으로 지지했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "격려의 말 한마디가 팀원들에게 큰 위로가 되었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 힘들어할 때 업무 부담을 줄이며 지지했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "정서적 지지가 팀원들의 심리적 안전감을 높였다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "어려운 상황에서 팀원에게 용기를 북돋아 주었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 마음을 헤아려 필요한 정서적 지지를 제공했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "심리적 지지를 아끼지 않고 팀원들에게 베풀었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "힘든 팀원에게 진심 어린 격려를 전달했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "정서적 지지가 팀의 긍정적인 분위기를 만든다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 좌절할 때 먼저 다가가 함께 극복했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "심리적 지지를 통해 팀원들의 스트레스를 줄였다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "힘든 상황에서도 팀원의 정서적 안정을 도모했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 어려움을 함께 나누며 정서적으로 지지했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "격려하는 태도가 팀원들에게 큰 용기를 주었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 힘들어할 때 정서적으로 지지해 주어 다시 일어설 수 있게 했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정서적 지지가 팀원들의 만족도를 높인다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "어려운 상황에서 팀원에게 희망의 메시지를 전달했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 감정 상태를 고려하여 정서적 지지를 제공했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "심리적 지지를 통해 팀원들의 동기를 유지시켰다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "힘든 팀원에게 함께하겠다는 의지를 보였다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정서적 지지가 팀의 심리적 안전망을 구축한다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원이 어려움을 겪을 때 먼저 손을 내밀어 주었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "심리적 지지를 통해 팀원들의 불안감을 해소했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "힘든 상황에서도 팀원의 정서적 안정을 최우선으로 생각했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 좌절감을 헤아리고 정서적으로 받쳐 주었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "격려 메시지를 보내 팀원의 사기를 높여주었다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "잘 될 거예요라고 하면서도 냉담하게 대했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지금은 힘들지만 할 수 있습니다라고 하면서도 감정적 고립을 방치했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 옆에 있을게요라고 하면서도 실제로는 외면했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 어려움을 함께 이겨냅시다라고 하면서도 도움은 주지 않았다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 어려움을 겪을 때 정서적으로 지지하는 척하면서도 냉담했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "심리적 위로를 건네는 척하면서도 무관심했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "격려 메시지를 보내는 척하면서도 사기는 진작시키지 못했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "힘든 상황에서도 팀원의 심리적 안정을 도우려는 척만 했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정서적 지지를 해주는 척하면서도 실제로는 외면했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 좌절할 때 곁에서 격려하는 척하면서도 무관심했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "심리적 지지를 통해 불안감을 줄이겠다고 하면서도 방치했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "힘든 일이 있을 때 격려의 말을 건네는 척하면서도 외면했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 감정 상태를 살피는 척하면서도 위로는 하지 않았다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "정서적 지지가 회복력을 높인다고 하면서도 실제로는 지원하지 않았다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "어려운 상황에 처한 팀원에게 따뜻한 격려를 보내는 척만 했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 힘들어할 때 다가가는 척하면서도 외면했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "격려하는 자세를 보이면서도 실제로는 냉담했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 좌절감을 이해하는 척하면서도 받쳐 주지 않았다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "심리적 안정감을 주겠다고 하면서도 실제로는 고립시켰다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "심리적 지지를 하겠다고 하면서도 사실은 무관심했다.",
+    "label_id": "M12-02",
+    "label_name": "감정적 지지",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "실수해도 괜찮습니다 여기서는 안전하게 보호받습니다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어떤 말을 해도 여기서는 비난받지 않아요.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "틀린 답을 해도 괜찮으니 두려워하지 마세요.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자유롭게 의견 주세요 저는 판단하지 않겠습니다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 실수해도 비난하지 않는 분위기를 조성했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "심리적으로 안전한 환경을 만들어 팀원들이 자유롭게 발언하게 했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실수를 학습의 기회로 여기는 문화를 정착시켰다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 자유롭게 의견을 제시할 수 있도록 심리적 안전감을 제공했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "비난 없이 피드백을 주는 문화를 만들었다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 실수해도 함께 해결책을 찾는 분위기를 조성했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "심리적 안전감이 팀원들의 창의성을 높인다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자유로운 발언이 가능한 환경을 조성하여 팀의 혁신을 촉진했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실수해도 괜찮다는 메시지를 지속적으로 전달했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 편하게 의견을 말할 수 있는 안전한 공간을 만들었다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "비난 없는 문화가 팀원들의 참여를 높였다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "심리적 안전감을 조성하여 팀원들의 적극성을 이끌어냈다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 실수해도 책임을 묻지 않고 함께 개선했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자유로운 발언을 장려하여 팀의 문제 해결 능력을 높였다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "심리적 안전감이 팀의 신뢰를 만드는 기초이다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 두려움 없이 아이디어를 내는 환경을 만들었다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실수를 처벌하지 않고 배움으로 전환하는 문화를 조성했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 자유롭게 의견을 제시할 수 있도록 심리적 보호막을 제공했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "비난 없이 개선점을 논의하는 회의 문화를 정착시켰다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "심리적 안전감을 조성하여 팀원들의 심리적 안정을 도왔다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 실수해도 안전하다고 느끼게 하는 것이 중요하다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자유로운 발언이 가능한 팀은 혁신이 활발하다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 편하게 실패를 공유할 수 있는 분위기를 만들었다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "심리적 안전감이 팀원들의 동기를 유지시킨다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 실수해도 비난받지 않는다고 확신하게 했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "비난 없는 피드백 문화가 팀의 성장을 이끈다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 두려움 없이 도전할 수 있는 환경을 조성했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "심리적 안전감을 제공하여 팀원들의 참여도를 높였다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실수를 통해 배우는 문화가 팀의 학습능력을 향상시킨다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 자유롭게 의견을 제시할 수 있도록 격려했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "비난을 두려워하지 않는 팀원들의 모습이 팀의 자산이다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "심리적 안전감이 팀의 소통 문화를 긍정적으로 바꾼다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 실수해도 비난받지 않는다고 느끼게 했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "자유로운 발언을 보장하여 팀의 다양성을 존중했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 실수해도 함께 개선하는 문화를 만들었다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "심리적 안전감이 팀원들의 창의적 사고를 촉진한다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들이 편하게 의견을 제시할 수 있도록 분위기를 조성했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "비난 없이 의견을 나누는 회의가 팀의 혁신을 이끌었다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "심리적 안전감을 만들어 팀원들의 심리적 안정을 도왔다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원이 실수해도 안전하다고 느끼게 하는 것이 리더의 역할이다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "자유로운 발언이 가능한 환경에서 팀원들의 참여가 높아졌다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들이 두려움 없이 실패를 경험할 수 있도록 지지했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "심리적 안전감이 팀의 학습 문화를 만든다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원이 실수해도 비난하지 않는 분위기를 조성하여 팀원들이 안심했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "자유롭게 의견을 제시할 수 있는 환경이 팀의 경쟁력이다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들이 심리적으로 안전하다고 느끼게 하는 것이 중요하다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실수해도 괜찮습니다라고 하면서도 실수를 처벌했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어떤 말을 해도 비난받지 않아요라고 하면서도 발언 시 비난했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "틀린 답을 두려워하지 마세요라고 하면서도 틀리면 꾸중했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자유롭게 의견 주세요라고 하면서도 두려움 분위기를 조성했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 실수해도 비난하지 않는다고 하면서도 처벌했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "심리적으로 안전한 환경을 만들겠다고 하면서도 위협적인 분위기를 조성했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실수를 학습의 기회로 여기겠다고 하면서도 실수를 비난했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 자유롭게 의견을 제시할 수 있다고 하면서도 발언을 억압했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "비난 없이 피드백을 주겠다고 하면서도 공개 질책했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 실수해도 함께 해결책을 찾겠다고 하면서도 혼자 책임을 물었다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "심리적 안전감을 조성하겠다고 하면서도 실수를 처벌했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "자유로운 발언이 가능하다고 하면서도 비난으로 말렸다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실수해도 괜찮다는 메시지를 전달하는 척하면서도 처벌했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 편하게 의견을 말할 수 있다고 하면서도 겁을 줬다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "비난 없는 문화를 만들겠다고 하면서도 발언 시 비난했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "심리적 안전감을 조성하겠다고 하면서도 두려움 분위기를 조성했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원이 실수해도 책임을 묻지 않겠다고 하면서도 처벌했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "자유로운 발언을 장려한다고 하면서도 실제로는 억압했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "심리적 안전감을 제공하겠다고 하면서도 위협적인 태도를 보였다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "심리적 안전감을 약속하면서도 사실은 위협적인 분위기를 조성했다.",
+    "label_id": "M12-03",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "label_id": "N11-02",
+  "label_name": "의견 폄하",
+  "macro": "N11",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "타인의 의견을 무시하고 폄하",
+  "when": "팀원 의견을 가치 없는 것으로 치부",
+  "not_when": "모든 의견을 존중하고 검토; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

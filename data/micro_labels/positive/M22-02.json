@@ -1,0 +1,14 @@
+{
+  "label_id": "M22-02",
+  "label_name": "실험 및 도전 장려",
+  "macro": "L22",
+  "weight": 0.7,
+  "definition": "새로운 시도와 도전적 프로젝트 독려",
+  "when": "실험 프로젝트 승인, 도전적 목표 설정, 리스크 테이킹 장려",
+  "not_when": "안전만 추구, 실패에 대한 처벌",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

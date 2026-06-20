@@ -1,0 +1,15 @@
+{
+  "label_id": "N19-01",
+  "label_name": "독단 결정",
+  "macro": "N19",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "타인 의견 없이 일방적 결정",
+  "when": "충분한 정보 공유 없이 본인 의견만으로 결정",
+  "not_when": "충분한 의견 수렴 후 빠른 결정 (M19-01 긍정); 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.0
+  }
+}

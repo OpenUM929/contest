@@ -1,0 +1,14 @@
+{
+  "label_id": "M26-01",
+  "label_name": "실험 및 도전 장려_L26",
+  "macro": "L26",
+  "weight": 0.7,
+  "definition": "새로운 시도와 실험적 접근을 적극 권장",
+  "when": "파일럿 프로젝트, MVP 개발, 실험적 접근 허용, 빠른 프로토타이핑",
+  "not_when": "안전만 추구, 실패 묵인",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

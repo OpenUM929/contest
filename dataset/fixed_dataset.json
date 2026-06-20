@@ -1,0 +1,471 @@
+[
+  {
+    "text": "우리 팀의 이번 분기 목표는 신규 유입 고객의 유료 전환율을 12%까지 끌어올리는 것입니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "올해 핵심 KPI는 응답 지연 시간을 200ms 이하로 유지하여 서비스 안정성을 확보하는 것입니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "이번 프로젝트의 최종 목적지는 연말까지 국내 시장 점유율을 1위로 탈환하는 것입니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "상반기 내에 모든 운영 인프라를 클라우드 네이티브 환경으로 이관하는 작업을 완료하겠습니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "우리의 목표는 단순 판매가 아니라 월간 활성 사용자 수 100만 명을 달성하는 것입니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "3분기 종료 시점까지 고객 이탈률을 현재의 절반 수준인 5% 미만으로 방어합시다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "데이터 분석 결과에 기반하여 이번 달 광고 효율을 전월 대비 20% 개선하는 것을 목표로 삼습니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "우리가 집중해야 할 지표는 앱 다운로드 수가 아니라 실제 결제 완료 횟수입니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "이번 리뉴얼의 성공 기준은 사용자 평균 체류 시간을 3분 이상으로 높이는 것입니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "연간 목표 달성을 위해 이번 스프린트에서는 결제 오류 발생 건수 제로화를 추진합니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "상황 봐가면서 나중에 정해도 늦지 않으니 일단 하던 대로 합시다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-01"
+  },
+  {
+    "text": "열심히 하면 어떻게든 성과는 나오게 되어 있으니 최선을 다해봅시다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-01"
+  },
+  {
+    "text": "구체적인 수치는 아직 없지만 대략 전년보다 잘하는 것을 목표로 하죠.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-01"
+  },
+  {
+    "text": "우리가 무엇을 해야 할지는 각자 업무 리스트를 보면 다 나와 있습니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-01"
+  },
+  {
+    "text": "비전이 없어도 각자 맡은 일을 묵묵히 처리하는 것이 팀에 도움이 됩니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-01"
+  },
+  {
+    "text": "향후 3년 동안 우리 팀은 단순한 대행사를 넘어 자체 솔루션을 보유한 IT 기업으로 피벗할 것입니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "2030년까지 글로벌 시장에서 통용되는 오픈소스 라이브러리를 배포하는 것이 우리의 장기 비전입니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "단기적인 실적에 일희일비하지 않고 인공지능 기반의 원천 기술을 확보하는 데 향후 5년을 투자하겠습니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "우리는 기술 부채를 해결하고 확장 가능한 아키텍처를 구축하여 지속 가능한 성장 발판을 마련해야 합니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "다음 세대를 위한 에듀테크 생태계를 조성하는 것이 우리 팀이 장기적으로 나아갈 방향입니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "현재의 하드웨어 중심 사업 구조를 소프트웨어 구독 모델로 완전히 전환하는 5개년 로드맵을 실행합니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "단순 성장이 아니라 데이터가 스스로 가치를 창출하는 플랫폼 자산을 구축하는 것이 최종 지향점입니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "우리가 10년 뒤에도 시장에서 생존하기 위해 지금부터 환경 가치를 고려한 비즈니스를 준비해야 합니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "지역 단위 서비스를 넘어 전국, 더 나아가 아시아 전역을 아우르는 네트워크를 구축하는 것이 우리의 꿈입니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "당장의 수익보다는 업계에서 가장 신뢰받는 보안 표준을 확립하는 장기적인 명성을 쌓아갑시다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "일단 이번 주까지 들어온 요청 사항들부터 쳐내는 것이 급선무입니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-02"
+  },
+  {
+    "text": "먼 미래 이야기보다는 당장 내일 있을 보고 회의 준비에 집중하세요.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-02"
+  },
+  {
+    "text": "3년 뒤 일은 그때 가서 생각하고 지금은 이번 달 목표 달성만 생각합시다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-02"
+  },
+  {
+    "text": "로드맵을 짜는 시간에 코드 한 줄이라도 더 짜는 것이 팀에 이득입니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-02"
+  },
+  {
+    "text": "장기 전략은 경영진이 고민할 문제지 우리 실무진이 신경 쓸 영역이 아닙니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-02"
+  },
+  {
+    "text": "고객들이 이탈하는 근본적인 이유가 기능 부족 때문일까요, 아니면 너무 복잡한 인터페이스 때문일까요?",
+    "label_id": "M03-01",
+    "label_name": "문제 재정의",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "우리가 푸려는 문제가 정말 '속도'입니까, 아니면 사용자가 느끼는 '심리적 대기 시간'입니까?",
+    "label_id": "M03-01",
+    "label_name": "문제 재정의",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "표면적인 에러 메시지를 수정하기 전에 시스템 구조 자체가 잘못 설계된 것은 아닌지 근본부터 따져봅시다.",
+    "label_id": "M03-01",
+    "label_name": "문제 재정의",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "현상만 보고 빨리 대처하면 되지 본질이 무엇인지 따지는 건 시간 낭비일 뿐입니다.",
+    "label_id": "M03-01",
+    "label_name": "문제 재정의",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M03-01"
+  },
+  {
+    "text": "우리 지점의 이번 달 객단가 목표는 멤버십 프로모션을 활용해 전월 대비 8% 상향된 4만 5천 원을 달성하는 것입니다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "내년도 장기 렌터카 시장 점유율 15% 탈환을 위해, 이번 분기 내에 수도권 거점 정비소 50곳과의 파트너십 체결을 완료합시다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "팀장이 연간 성과 지표를 설명하며 '최선을 다해 시장 1등이 되자'는 구호 외에 구체적인 마일스톤을 제시하지 않았다.",
+    "label_id": "M01-01",
+    "label_name": "명확한 비전 제시",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-01"
+  },
+  {
+    "text": "단순한 부품 제조사를 넘어, 2030년까지 자율주행 통합 솔루션을 공급하는 '모빌리티 플랫폼 기업'으로 완전히 체질을 개선하는 5개년 비전을 실행합니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "우리는 당장의 영업 이익률보다 향후 3년 동안 독보적인 보안 원천 기술을 확보하여 업계 표준을 선점하는 장기적인 신뢰 자산 구축에 집중해야 합니다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "먼 미래의 로드맵을 구상하느라 정작 이번 주 차질이 생긴 납기 일정을 조정하는 실무 미팅은 다음으로 미뤄졌다.",
+    "label_id": "M01-02",
+    "label_name": "장기 방향 설정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-02"
+  },
+  {
+    "text": "민수 님의 개인적인 데이터 분석 역량 강화 목표는 우리 본부의 '데이터 기반 의사결정 체계 구축'이라는 분기 핵심 과제와 직접적으로 연결됩니다.",
+    "label_id": "M01-03",
+    "label_name": "목표 정렬",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "이번 개인 성과 평가 지표(KPI) 설정 시, 본인의 업무가 팀 전체의 고객 이탈률 방어 지표에 어떻게 기여하는지 논리적으로 설명해 주시기 바랍니다.",
+    "label_id": "M01-03",
+    "label_name": "목표 정렬",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "리더는 팀의 총 매출 목표만 공지했을 뿐, 각 팀원들이 담당하는 개별 프로젝트가 그 수치에 어떤 비중으로 기여하는지는 함구했다.",
+    "label_id": "M01-03",
+    "label_name": "목표 정렬",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-03"
+  },
+  {
+    "text": "매주 월요일 뉴스레터를 통해 전사 비전의 진행 상황을 투명하게 공개하고, 우리가 현재 어느 지점에 와 있는지 전 구성원에게 공유하겠습니다.",
+    "label_id": "M01-04",
+    "label_name": "비전 공유",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "팀 위키 메인 페이지에 우리의 핵심 가치와 중장기 미션을 명문화하여, 신규 입사자들이 조직의 지향점을 즉각 파악할 수 있는 환경을 만들었습니다.",
+    "label_id": "M01-04",
+    "label_name": "비전 공유",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "비전 공유 세션이라고 모였으나 리더는 본인의 과거 성공 사례만 장황하게 늘어놓았고, 팀의 미래 방향에 대해서는 언급하지 않았다.",
+    "label_id": "M01-04",
+    "label_name": "비전 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M01-04"
+  },
+  {
+    "text": "이 프로젝트는 단순한 코딩 작업이 아니라, 정보 소외 계층의 금융 접근성을 획기적으로 개선하는 사회적 가치를 실현하는 일임을 기억해 주세요.",
+    "label_id": "M02-01",
+    "label_name": "내재적 동기 자극",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "어떤 기술 스택을 도입하여 문제를 해결할지는 전적으로 담당자의 전문성을 신뢰하고 맡기겠습니다. 여러분의 자율적인 판단이 곧 우리 팀의 경쟁력입니다.",
+    "label_id": "M02-01",
+    "label_name": "내재적 동기 자극",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "이번 달 마감 기한 내에 결과물을 제출하는 분들에게는 연말 성과급 가점과 함께 3일간의 유급 특별 휴가를 지급할 예정입니다.",
+    "label_id": "M02-01",
+    "label_name": "내재적 동기 자극",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M02-01"
+  },
+  {
+    "text": "신규 해외 시장 개척 프로젝트의 TF 리더 자리를 제안합니다. 정수 님의 글로벌 역량을 실전에서 증명하고 한 단계 도약할 수 있는 최적의 기회가 될 것입니다.",
+    "label_id": "M02-02",
+    "label_name": "성장 기회 제공",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "팀원들이 외부 유료 컨퍼런스나 직무 관련 교육을 수강할 경우, 연간 200만 원 한도 내에서 비용뿐만 아니라 실제 학습 시간까지 근무로 인정해 드립니다.",
+    "label_id": "M02-02",
+    "label_name": "성장 기회 제공",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "팀 성과를 위해 지금은 새로운 기술을 배울 때가 아니라, 익숙한 기존 툴을 사용해 최대한 빠르게 작업 물량을 쳐내는 것이 중요합니다.",
+    "label_id": "M02-02",
+    "label_name": "성장 기회 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M02-02"
+  },
+  {
+    "text": "지난주 서버 장애 상황에서 당황하지 않고 침착하게 복구 절차를 수행해 주신 덕분에 데이터 손실을 최소화할 수 있었습니다. 정말 고생 많으셨습니다.",
+    "label_id": "M02-03",
+    "label_name": "격려 및 인정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "리더는 전체 회의 말미에 이번 달 고객 만족도 조사에서 가장 높은 점수를 받은 CS 담당자의 이름을 호명하며 구체적인 대응 사례를 칭찬했다.",
+    "label_id": "M02-03",
+    "label_name": "격려 및 인정",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "일 처리가 깔끔하긴 한데, 사실 이 정도 연차면 이만큼 해내는 건 조직 내에서 당연한 기대치라고 봅니다.",
+    "label_id": "M02-03",
+    "label_name": "격려 및 인정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M02-03"
+  },
+  {
+    "text": "핵심 로직 설계 기간인 이번 주만큼은 불필요한 행정 보고를 전면 생략하고, 오직 개발에만 몰입할 수 있도록 제가 타 부서의 협조 요청을 차단하겠습니다.",
+    "label_id": "M02-04",
+    "label_name": "목표 몰입 유도",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "매일 오전 9시부터 11시까지는 '디지털 노이즈 프리' 시간으로 운영하여, 회의 소집이나 메신저 대화 없이 각자의 핵심 과제에 집중하는 문화를 정착시킵시다.",
+    "label_id": "M02-04",
+    "label_name": "목표 몰입 유도",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "업무 집중도를 높이기 위해 모든 팀원은 본인의 현재 작업 화면을 실시간 스트리밍 채널에 공유하고 상호 모니터링해 주시기 바랍니다.",
+    "label_id": "M02-04",
+    "label_name": "목표 몰입 유도",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M02-04"
+  },
+  {
+    "text": "우리가 해결하려는 문제가 정말 '서버 용량 부족'일까요? 혹시 '비효율적인 데이터 쿼리 구조' 때문에 발생하는 병목 현상은 아닌지 본질을 의심해 봅시다.",
+    "label_id": "M03-01",
+    "label_name": "문제 재정의",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "고객의 불만은 '가격'이 비싸다는 것이 아니라, 지불한 가격만큼의 '심리적 케어'를 받지 못한다는 데 있을 수 있습니다. 서비스 관점을 완전히 바꿔봅시다.",
+    "label_id": "M03-01",
+    "label_name": "문제 재정의",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "팀장은 문제의 근본 원인을 분석하자는 의견을 묵살하고, 일단 겉으로 보이는 현상부터 빨리 덮는 게 우선이라며 임시방편 처리를 강요했다.",
+    "label_id": "M03-01",
+    "label_name": "문제 재정의",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M03-01"
+  },
+  {
+    "text": "만약 우리에게 익숙한 이 '결제 시스템'이 존재하지 않는 세상이라면, 고객은 물건값을 치르기 위해 어떤 혁신적인 방식을 사용하고 싶어 할까요?",
+    "label_id": "M03-02",
+    "label_name": "창의적 질문",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "경쟁사가 현재 우리보다 10배 더 많은 마케팅 예산을 쓴다고 가정할 때, 우리는 오직 '바이럴'만으로 그들의 점유율을 뺏어올 수 있는 기발한 방법이 있을까요?",
+    "label_id": "M03-02",
+    "label_name": "창의적 질문",
+    "label_type": "positive",
+    "data_type": "clean"
+  },
+  {
+    "text": "팀장은 회의 내내 '왜 이따위로밖에 생각을 못 하냐'며 팀원들의 아이디어를 비난 섞인 어조로 추궁하여 의견 제시 자체를 위축시켰다.",
+    "label_id": "M03-02",
+    "label_name": "창의적 질문",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "is_negative_of": "M03-02"
+  }
+]

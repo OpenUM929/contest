@@ -1,0 +1,154 @@
+{
+  "schema_version": "2026-04-v2",
+  "description": "Pattern Engine 규칙 정의서 v2.0 - Strength/Confidence 계산 로직",
+  "strength_calculation": {
+    "step1_raw": {
+      "formula": "Σ(Required: weight × confidence × context_weight) + Σ(Optional: weight × confidence) - Σ(Soft Forbidden: penalty × confidence)",
+      "components": {
+        "required": {
+          "formula": "weight × confidence × context_weight",
+          "description": "필수 Micro Label의 기여도 (중복 포함 누적)"
+        },
+        "optional": {
+          "formula": "weight × confidence",
+          "description": "선택 Micro Label의 기여도 (중복 포함 누적)"
+        },
+        "soft_forbidden": {
+          "formula": "penalty × confidence",
+          "description": "Soft Forbidden Micro Label의 감점 (중복 포함 누적)"
+        }
+      },
+      "duplicate_handling": {
+        "principle": "중복 허용 - 동일 Micro Label이 여러 번 등장할수록 누적 기여",
+        "note": "수확 체감은 Step 2에서 log(1+x)로 적용"
+      }
+    },
+    "step2_diminishing_returns": {
+      "formula": "Strength = log(1 + Strength_raw)",
+      "description": "수확 체감 적용 - 중복이 기여하되 체감률 적용",
+      "examples": {
+        "1회": "log(2) = 0.693",
+        "3회": "log(4) = 1.386 (1회 대비 2배)",
+        "10회": "log(11) = 2.398 (3회 대비 1.7배)"
+      }
+    },
+    "step3_normalization": {
+      "formula": "Strength_normalized = min(1.0, Strength / K_trait)",
+      "description": "Trait별 K 값으로 정규화하여 0~1 범위로 스케일링",
+      "K_trait_calculation": {
+        "formula": "K_trait = log(1 + Trait 이론 최대 Strength_raw)",
+        "rationale": "Required 개수가 다른 Trait간 공평한 정규화"
+      },
+      "trait_max_calculation": {
+        "theoretical_max_strength_raw": "Σ(Required.max_weight × 1.0 × max_context_weight) + Σ(Optional.max_weight × 1.0)",
+        "description": "모든 Required와 Optional이 100% Confidence로 등장했을 때의 최대값"
+      },
+      "examples": {
+        "Required 2개 Trait": "max_raw = 2.0 → K_trait = log(3) = 1.0986",
+        "Required 5개 Trait": "max_raw = 5.0 → K_trait = log(6) = 1.7918"
+      },
+      "result": "모든 Trait는 이론적으로 동일하게 최대 1.0까지 도달 가능"
+    },
+    "level_thresholds": {
+      "strong": 0.8,
+      "moderate": 0.5,
+      "weak": 0.0
+    }
+  },
+  "confidence_calculation": {
+    "formula": "Confidence = (volume × 0.3) + (nlp_conf × 0.5) + (consistency × 0.2)",
+    "components": {
+      "data_volume": {
+        "weight": 0.3,
+        "formula": "min(observation_count / max_expected_count, 1.0)",
+        "description": "관찰 개수 기반 점수 - 데이터 양"
+      },
+      "nlp_confidence": {
+        "weight": 0.5,
+        "formula": "average(extracted_micro_labels.confidence)",
+        "description": "NLP 추출 신뢰도 평균"
+      },
+      "consistency": {
+        "weight": 0.2,
+        "formula": "unique_contexts / total_occurrences",
+        "description": "일관성 지표 - 동일 Micro Label이 여러 맥락에서 반복 등장한 비율"
+      }
+    },
+    "level_thresholds": {
+      "high": 0.75,
+      "medium": 0.45,
+      "low": 0.0
+    },
+    "hard_conflict_override": {
+      "description": "M/N Hard Conflict 존재 시 Confidence 등급 강제 Low",
+      "force_level": "low"
+    }
+  },
+  "pattern_engine_flow": [
+    {
+      "step": 1,
+      "name": "Required 체크",
+      "rule": "모든 Required Micro Label이 존재하는지 확인",
+      "on_fail": "context가 crisis이면 Weak로 허용, 아니면 Trait 탈락"
+    },
+    {
+      "step": 2,
+      "name": "Hard Forbidden 체크",
+      "rule": "Hard Forbidden Micro Label이 존재하는지 확인",
+      "on_fail": "Trait = 0 (즉시 탈락)"
+    },
+    {
+      "step": 3,
+      "name": "M/N 충돌 플래그 확인",
+      "rule": "동일 conflict_axis에서 M과 N이 동시에 추출되었는지 확인",
+      "on_hard_conflict": "Confidence 강제 Low",
+      "on_soft_conflict": "Confidence 감산 (-0.1)"
+    },
+    {
+      "step": 4,
+      "name": "Optional 계산",
+      "rule": "존재하는 Optional Micro Label의 기여도 합산"
+    },
+    {
+      "step": 5,
+      "name": "Soft Forbidden 감점",
+      "rule": "존재하는 Soft Forbidden Micro Label의 패널티 합산"
+    },
+    {
+      "step": 6,
+      "name": "Strength 계산 (3단계)",
+      "rule": "Step 6-1: Strength_raw = Σ(Required: w×conf×ctx) + Σ(Optional: w×conf) - Σ(Soft Forbidden: penalty×conf)",
+      "rule2": "Step 6-2: Strength = log(1 + Strength_raw) - 수확 체감 적용",
+      "rule3": "Step 6-3: Strength_normalized = min(1.0, Strength / K_trait) - Trait별 K로 정규화"
+    },
+    {
+      "step": 7,
+      "name": "Confidence 계산",
+      "rule": "데이터 양(0.3) + NLP 신뢰도(0.5) + 일관성(0.2)"
+    }
+  ],
+  "nlp_extraction_modes": {
+    "mode_a": {
+      "name": "Rule-based",
+      "description": "키워드/패턴 매칭",
+      "confidence_meaning": "매칭 강도 (0~1 스케일링)",
+      "pros": "설명 가능성 높음",
+      "cons": "표현 다양성 대응 한계"
+    },
+    "mode_b": {
+      "name": "분류 모델",
+      "description": "Micro Label별 이진 분류기",
+      "confidence_meaning": "softmax 확률값",
+      "pros": "다양한 표현 대응",
+      "cons": "레이블별 학습 데이터 필요"
+    },
+    "mode_c": {
+      "name": "LLM 프롬프팅",
+      "description": "프롬프트로 Micro Label 추출 지시",
+      "confidence_meaning": "LLM 자체 확신도 or 반복 추출 일치율",
+      "pros": "빠른 프로토타이핑",
+      "cons": "재현성 불안정"
+    },
+    "recommended": "설계 단계에서 mode_c로 시작 → mode_b로 고도화"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "label_id": "N23-01",
+  "label_name": "혁신 아이디어 차단",
+  "macro": "N23",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "새로운 시도와 아이디어를 억압",
+  "when": "혁신적 아이디어를 즉시 차단, 현상 유지 강요",
+  "not_when": "혁신 아이디어를 경청하고 지원; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

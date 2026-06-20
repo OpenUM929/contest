@@ -1,0 +1,36 @@
+{
+  "trait_id": "T07",
+  "trait_type": "positive",
+  "trait_name": "Coaching Leader",
+  "required": [
+    "M02-02",
+    "M07-02"
+  ],
+  "optional": [
+    "M02-01",
+    "M02-03",
+    "M07-01",
+    "M02-04",
+    "M09-01"
+  ],
+  "hard_forbidden": [
+    "N07-02",
+    "N14-02"
+  ],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 0.8,
+    "normal": 1.2,
+    "innovation": 1.1
+  },
+  "hybrid_eligible": true,
+  "k_trait": 1.1,
+  "description": "구성원 성장을 지원하는 리더",
+  "strengths": [
+    "인재 육성",
+    "조직 성장"
+  ],
+  "risks": [
+    "성과 지연"
+  ]
+}

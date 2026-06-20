@@ -1,0 +1,7282 @@
+[
+  {
+    "text": "이번 실패를 딛고 더 강해집시다. 함께 다시 시작합시다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패 이후 조직를 재건하겠습니다. 좌절하지 마세요.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어려운 시기를 이겨내면 더 강화할 수 있습니다. 믿습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "난관는 과정일 뿐입니다. 다시 일어서겠습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 고비를 배움으로 바꿔봅시다. 다시 도전합시다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "좌절하지 말고 다시 시작합시다. 구성원들이 함께합니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "넘어졌으면 다시 일어나면 됩니다. 제가 앞장서겠습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회복하는 조직이 진짜 강한 조직입니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패가 지나가면 우리는 더 단단해질 것입니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 일을 교훈 삼아 더 나은 시스템을 만들겠습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "포기하지 마세요. 어려운 상황를 극복한 팀원들이 성과를 냅니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다시 시작하는 데 필요한 지원을 제가 하겠습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 시련가 다음 성공의 밑거름이 될 것입니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 위기 이후 팀원들의 사기를 회복시키기 위해 직접 나섰다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직 전체가 어려운 계약를 극복하고 다시 일어서는 모습을 보였다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "좌절 경험을 팀원들과 솔직하게 공유하며 회복의 신호탄을 쏘아 올렸다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 팀원들에게 어려운 상황는 도약 기회라는 메시지를 전달했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "내부 회의에서 실장가 넘어진 만큼 높이 뛸 수 있다고 격려했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "구성원들 전체가 시련 원인을 분석하고 재발 방지 대책을 세웠다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "역경 극복 사례를 공유하며 팀원들에게 용기를 불어넣었다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 먼저 자신의 실수를 인정하고 팀 분위기를 회복시켰다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "어려운 분기를 보낸 부서가 다음 목표를 다시 세우며 재건에 나섰다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 좌절를 두려워하지 않도록 본부장가 안전한 환경을 조성했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀 회식 자리에서 실장가 고생한 팀원들을 위해 감사 인사를 전했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "구성원들 전체가 이번 고비를 교훈 삼아 내부 프로세스를 개선하기로 했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 시련 상황에서도 흔들리지 않는 모습으로 팀을 이끌었다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장가 프로젝트 실패 원인을 차분히 분석하며 팀을 안정시켰다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패 소식 이후 리더가 팀원 한 명 한 명과 다독이며 대화하는 모습이 포착되었다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "좌절 보고가 끝난 자리에서 책임자가 먼저 손을 내밀며 다음 단계를 제시했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "어두운 분위기 속에서 본부장가 희망적인 비전을 제시하며 팀을 이끌었다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들 전체가 무너진 캠페인를 정리하고 새로운 마음으로 다시 시작했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "야근하던 팀원들 앞에서 매니저가 커피를 건네며 격려의 한마디를 덧붙였다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "역경가 닥친 아침, 팀장가 침착하게 업무 재편 방안을 제시했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회복 목표를 적은 화이트보드 앞에서 팀원들의 눈빛이 점차 살아났다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 복귀한 첫날, 팀원들에게 작은 성공 경험을 만들어주었다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "좌절 이후의 첫 회의에서 본부장가 웃으며 새로운 기회를 이야기했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 하나둘 의견을 내기 시작하며 회복의 동력이 생겼다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "매니저가 창밖을 보며 우리는 이겨냈던 팀이라고 힘주어 말했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "이번 프로젝트는 우리에게 값진 학비를 안겨주었습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "어두운 터널이 길수록 출구는 더 밝게 보입니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "바람이 강하게 불 때 나무 뿌리는 더 깊게 내립니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이번 경험이 우리 우리의 면역력을 키워주었습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "도자기가 깨진 자리에 금을 메우면 더 아름답습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "역경 속에서 진짜 구성원들의 색이 드러납니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "흙을 뒤집어야 새싹이 돋아나는 법입니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리는 이미 최악을 지나왔으니 앞으로는 나아갈 일만 남았습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이번 위기는 다음 버전의 성공 스토리의 서막입니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "쓴맛을 본 자가 단맛을 더 잘 압니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 리셋 버튼을 누르고 다시 시작해 봅시다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "벽에 부딪히면 그 자리가 문이 될 수도 있습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이번 실패는 없던 일로 합시다. 다시는 언급하지 마세요.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패가 왔는데 왜 아무도 예상하지 못했나요? 책임을 지세요.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "좌절 이유는 더 이상 논의하지 않겠습니다. 빨리 넘어갑시다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 난관 사실을 알면 동요할 테니 숨기는 게 낫습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 정도 고비는 그냥 넘어가는 게 상식입니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 위기 원인 분석을 회피하고 다른 주제로 회의를 돌렸다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 위기에 대해 말하려 하자 리더가 강하게 제지했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "난관가 닥쳤음에도 책임자가 아무런 조치 없이 시간을 끌었다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 난관 사실을 상부에 숨기고 정상 보고를 했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문제 발생 후 실장가 팀원들과 소통을 피하고 독자적으로 움직였다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 실패 원인을 적으려 하자 팀장가 분필로 지워버렸다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패 보고서가 쌓여 있지만 리더가 서류함에 넣어 잠갔다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "어두운 분위기 속에서 책임자가 혼자만 웃으며 지나갔다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 재건 방안을 제시했지만 본부장가 회의를 취소했다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에 남은 팀원들은 실장가 떠난 빈자리를 물끄러미 바라봤다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "물이 지나간 자리는 돌아보지 않는 게 좋습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "잠깐의 파도에 배가 흔들렸을 뿐, 항해는 계속됩니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "흙탕물도 시간이 지나면 가라앉습니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "바람이 불면 창문을 닫는 게 먼저입니다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "나무에 벌레가 생겼지만 벌레를 못 본 척합시다.",
+    "label_id": "M13-01",
+    "label_name": "회복력 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "제가 책임지겠습니다. 팀원들은 걱정하지 않아도 됩니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원을 위해 상사와 직접 맞섰습니다. 제 평가가 나빠지더라도 팀원을 지키는 게 맞습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "내가 먼저 나서겠습니다. 팀원들이 리스크를 질 필요 없습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제 몫을 줄여서라도 팀원에게 더 여유를 드리겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 힘들 때 제 업무 중 일부를 내려놓고 도와드렸습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 손해를 보더라도 팀원에게 더 좋은 기회를 주는 것이 맞습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어려운 프로젝트는 제가 맡겠습니다. 팀원들은 안전한 업무를 하세요.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 먼저 야근하겠습니다. 팀원들은 가족과 시간을 보내세요.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 잘못이라도 제가 보호하겠습니다. 제 책임입니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제 승진 기회를 포기하고 팀원에게 양보하겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 어려움을 겪을 때 제가 버퍼가 되겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상부의 압박이 오면 제가 먼저 막겠습니다. 팀원들은 안심하세요.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 직접 고객에게 사과하겠습니다. 팀원은 그 자리에 있지 마세요.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 본인의 불이익을 감수하면서 팀원의 실수를 대신 책임지고 상부에 보고했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본인의 평가가 낮아질 수 있음을 알면서도 팀원의 성장을 위해 어려운 계약를 양보했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 자신의 보너스 일부를 팀원에게 나눠주는 결정을 했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "어려운 상황에서 본부장가 먼저 나서서 팀원들을 보호하는 모습에 팀 전체가 신뢰를 갖게 됐다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 본인의 연차를 반납하고 대신 팀원에게 휴가를 양보했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본인의 커리어에 타격이 있더라도 팀원의 정당한 요구를 대신 전달했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 고객의 항의를 직접 받아내고 팀원은 뒤에서 지원만 하게 했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상사의 부당한 지시가 내려오자 리더가 팀원 대신 이의를 제기했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 실패한 계약를 책임자가 머리 숙여 상부에 책임을 지었다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 자신의 성과를 팀원 이름으로 돌리는 메일을 경영진에게 보냈다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원 보호를 위해 실장가 본인의 신용을 걸고 상부와 대립했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 직접 리스크를 안고 팀원들에게 안전한 환경을 마련했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "어려운 협상 자리에 팀장가 홀로 참석하며 팀원을 지켰다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장가 나서서 이 결정의 책임은 내가 진다고 말했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상사의 호통 소리가 들리자 리더가 팀원 앞에 가로막았다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 커피를 내려놓고 팀원의 업무 일부를 가져가는 모습이 보였다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "밤늦은 사무실에서 본부장 혼자 남아 팀원의 남은 업무를 처리했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "승진 명단에서 실장가 자신의 이름을 지우고 팀원 이름을 넣었다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "고객 민원 전화가 오자 매니저가 수화기를 먼저 들었다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 눈물을 흘리자 팀장가 대신 상부에 보고하러 갔다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 자신의 자리에서 일어나 팀원을 뒤로 밀며 문을 열어주었다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상사의 책임 추궁이 시작되자 책임자가 먼저 자리에서 일어섰다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 자신의 노트북을 닫고 팀원의 보고서를 펼쳐 보기 시작했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "위험한 현장에 실장가 먼저 들어가며 팀원들을 뒤에서 지켰다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "매니저가 본인의 월급에서 일부를 꺼내 팀원의 어려움을 돕기로 했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "배의 선장은 배가 침몰할 때 가장 마지막에 나가는 법입니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "어둠 속에서 내가 먼저 손전등을 켜겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "제가 우산이 되어드리겠습니다. 비는 저에게 내리게 두세요.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "가시밭길은 제가 먼저 걸어서 팀원들의 길을 닦겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "벽에 부딪히면 제가 먼저 충격을 받겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 안쪽으로 들어가세요. 바람막이는 제가 서겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "제 등이 먼저 젖더라도 팀원들은 마른 길을 걸어가세요.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이 무거운 짐은 제가 먼저 지겠습니다. 팀원들은 뒤에서 따라오세요.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "화살이 오면 제가 먼저 방패가 되겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 등불이 꺼지지 않도록 제가 기름을 붓겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "제 몸이 울타리가 되어 팀원들을 지키겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "물이 깊은 곳은 제가 먼저 들어가겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀을 위한다고 했지만 실제로는 자신의 성과를 먼저 챙겼다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원을 위해서라고 했지만 결국 본인 평가에 유리한 방향으로 결정했다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "말로는 팀원 우선이라고 했지만 어려운 일은 항상 팀원에게 미뤘다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원을 도와주겠다고 했지만 본인 업무가 바빠지면 바로 손을 뗐다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원을 위한다는 명목으로 결정을 내렸지만 실제 혜택은 본인에게 돌아갔다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 팀원을 위한다고 했지만 실패 책임은 팀원에게 돌렸다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 말로는 희생을 강조했지만 실제 행동은 그 반대였다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원 보호를 외치던 책임자가 위기가 오자 혼자 빠져나갔다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 팀원에게 애를 쓰라고 하면서 본인은 편한 업무만 골랐다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원을 위한 결정이라고 했지만 알고 보니 실장 보너스와 연계되어 있었다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 팀원의 어깨를 두드리며 대신 하겠다고 했지만 결국 그 자리를 떴다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "어려운 현장에서 리더는 멀리 서서 지시만 내렸다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 위험한 일을 할 때 책임자는 안전한 사무실에 남아 있었다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "상사의 질책이 쏟아지자 본부장가 팀원 뒤로 숨었다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 앞장선다고 했지만 문 앞에서 팀원을 먼저 밀었다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 먼저 나가서 배를 살펴보는 게 좋겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 모두가 희생해야 하지만 제 몫은 이번에 넘기겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "같이 가시죠. 저는 여기서 전화 좀 받고 뒤따르겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "제가 방패가 되겠습니다. 대신 이번엔 팀원이 먼저 서주세요.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들이 먼저 시험해보고 안전하면 제가 따라가겠습니다.",
+    "label_id": "M14-01",
+    "label_name": "타인 우선 행동",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "내가 불이익을 받더라도 팀원을 지키겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀을 위해 내 몫을 양보하겠습니다. 팀원들이 더 중요합니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "손해를 감수하고 팀원 편에 섰습니다. 그것이 팀장의 역할이라고 생각합니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 야근 없이 퇴근할 수 있도록 제가 남아서 마무리하겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제 시간을 써서라도 팀원이 어려움을 넘길 수 있도록 돕겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제 평가가 나빠지더라도 팀원을 위한 결정을 하겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "내 자원이 줄더라도 팀원에게 더 많은 것을 드리고 싶습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 팀원 대신 서류 작업을 맡아서 밤새 마무리했습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 부담을 줄이기 위해 제가 추가 미팅을 뛰겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 직접 어려운 고객을 만나겠습니다. 팀원은 다음 기회를 준비하세요.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원 보호를 위해 제 커리어 리스크를 감수하겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 성공할 수 있도록 제가 그림자에서 버팀목이 되겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제 휴가를 반납하고 대신 힘든 일을 맡겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 팀원 보호를 위해 경영진의 부당한 압력에 맞서며 자신의 커리어 리스크를 감수했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 본인의 주말을 반납하며 어려운 상황에 처한 팀원의 업무를 함께 처리했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 실수로 어려운 상황에 처했을 때 책임자가 자신의 신용을 걸고 대신 해결했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 자신의 서비스를 포기하고 팀원의 어려운 업무를 대신 맡았다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 연봉 협상을 위해 실장가 자신의 인센티브를 포기했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 본인의 업무 시간을 줄이고 팀원 코칭에 투자했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "어려운 분기에 팀장가 자신의 성과급을 팀원들과 나누기로 했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 팀원의 실수를 대신 보완하며 자신의 평가를 감수했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 번아웃에 빠지자 책임자가 자신의 업무를 내려놓고 돌보았다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 고객의 화를 대신 받아내며 팀원은 안전한 환경에서 일하게 했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 승진 기회를 위해 실장가 자신의 자리를 내주었다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 팀원 보호를 위해 상부와의 관계를 희생했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 어려운 상황에 처하자 팀장가 자신의 복지 포인트를 털어 도왔다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 컴퓨터를 끄고 팀원의 책상 옆에 앉아 업무를 함께 살폈다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실 문이 닫히고 리더만 남아 팀원의 보고서를 수정했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "밤늦은 사무실에서 책임자가 혼자 남아 팀원의 후속 업무를 처리했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상사가 팀원을 찾자 본부장가 먼저 일어서서 대신 방으로 안내했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 책상 위에 실장가 작성한 가이드 문서가 놓여 있었다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "매니저가 자신의 명함을 건네며 이 일은 내가 책임지겠다고 말했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "야근 중 팀장가 팀원에게 퇴근하라고 재촉하며 자신은 남았다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 복사기 앞에서 팀원 대신 수백 장의 서류를 정리했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 어려운 고객과 통화를 할 때 책임자가 옆에서 수화기를 받았다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 자신의 자리를 팀원에게 내주고 서서 일했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 실수한 계약서를 실장가 밤새 수정하며 갈아끼웠다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "매니저가 팀원의 업무 일지를 보며 어디를 도와줄지 체크했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "내 등이 타는 한이 있어도 팀원들은 그늘에서 쉬게 하겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "제가 밑바닥을 긁더라도 팀원들은 물 위를 걷게 하겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "내 가슴에 돌을 얹더라도 팀원들은 가볍게 나아가게 하겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "내가 가시밭길을 깔아서라도 팀원들은 꽃길을 걸어가게 하겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "나는 뿌리가 되어 흙속에 있겠습니다. 팀원들은 열매를 맺으세요.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "나무꾼이 내 몸을 치더라도 팀원들은 그 그늘에서 쉬게 하겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "물레방아가 돌아가려면 축은 물속에 잠겨야 합니다. 제가 그 축이 되겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "등대지기가 외롭더라도 배들은 안전하게 항해할 수 있습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "내가 타버리는 양초가 되어 팀원들의 길을 밝히겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "벽돌은 튼튼한 벽 속에 숨어 있어도 집을 지탱합니다. 제가 그 벽돌이 되겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "세탁소 다리미가 뜨거워도 옷은 구김 없이 나옵니다. 제가 그 다리미가 되겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "다리가 무너지면 사람들이 못 건너니 제가 다리가 되겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원을 위한다면서 정작 본인은 편한 자리를 차지했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어려운 일은 팀원에게 맡기고 본인은 쉬운 것만 했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원 지원을 약속했지만 본인 업무가 바빠지자 지원을 철회했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "도와드리고 싶지만 제 업무도 있어서 어렵습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원 희생이 없으면 팀 전체 성과를 낼 수 없습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 희생적 지원을 말했지만 실패 책임은 팀원에게 넘겼다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 팀원을 돕겠다고 했지만 계속 자신의 일만 바빴다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 업무를 대신 하겠다던 책임자는 결국 반만 하고 떠났다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 말로만 희생을 외치고 행동은 개인 이익을 따랐다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원 보호를 약속했던 실장가 위기가 오자 자리를 피했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 팀원에게 다가갔다가 핸드폰을 보고 다시 제 자리로 돌아갔다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "어려운 업무가 쌓인 책상 앞에서 리더는 멀리 서서 바라만 봤다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 팀원의 어깨를 두드렸지만 실제 도움은 주지 않았다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 어려워하자 본부장는 창밖을 보며 이번에 배우라고 했다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "야근하는 팀원 옆에서 실장는 퇴근 준비를 하며 인사만 남겼다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 먼저 불을 시험해보고 안전하면 제가 갈게요.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "모두가 다치는 건 피해야 하니 이번엔 팀원이 대신 다쳐주세요.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "같은 배를 탄 만큼 팀원이 노를 젓고 저는 휴식하겠습니다.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원이 몸으로 부딪히면 그 자리가 길이 되겠죠.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "제가 도와드리겠지만 이번에는 팀원의 몫을 넘겨받기가 어렵네요.",
+    "label_id": "M14-02",
+    "label_name": "희생적 지원",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "여기서는 어떤 말도 안전합니다. 솔직하게 말씀해주세요.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실수해도 함께 해결합니다. 혼자 떠안지 않아도 됩니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "틀려도 괜찮습니다. 이 팀에서는 틀린 답도 환영합니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자유롭게 의견 주세요. 어떤 말도 판단 없이 듣겠습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 팀에서는 솔직함이 가장 큰 강점입니다. 불편한 이야기도 해주세요.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실수를 숨기지 않아도 됩니다. 빨리 알려줄수록 더 빨리 해결할 수 있습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "여기서는 질문이 많은 사람이 더 성장합니다. 부끄러워하지 마세요.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 팀에서 잘못된 의견이란 없습니다. 모든 의견이 우리를 발전시킵니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패를 두려워하지 마세요. 실패는 배움의 과정입니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "누구든 이 자리에서 편하게 생각을 말할 수 있습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실수를 보고하는 팀원에게 고맙다고 말하고 싶습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "여기서는 비난보다 배움이 먼저입니다. 걱정하지 마세요.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어떤 의견이라도 존중받을 수 있는 공간을 만들겠습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 실수를 보고한 팀원에게 고맙다고 말하며 빠른 공유가 더 중요하다는 문화를 만들었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 두려움 없이 의견을 말할 수 있는 환경이 만들어지자 창의적인 아이디어가 쏟아지기 시작했다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 실수를 통보한 팀원을 오히려 칭찬하며 안전한 문화를 강조했다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 숨기지 않고 문제를 공유하는 문화가 정착되었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 팀원들에게 실수는 성장의 밑거름이라며 안심시켰다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "구성원들 전체가 실수를 덮지 않고 솔직하게 드러내는 분위기가 조성되었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 발언 권장을 위해 회의 구조를 바꿔 모두가 말할 수 있게 했다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 틀린 답도 자신 있게 말할 수 있는 팀 문화가 만들어졌다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 질문을 많이 하는 팀원을 칭찬하며 학습 문화를 조성했다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 실패를 자랑처럼 이야기하며 교훈을 공유하는 문화가 생겼다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 반대 의견도 환영한다고 여러 번 강조하여 팀원들의 불안이 줄었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "구성원들 전체가 서로를 판단하지 않고 지지하는 분위기를 만들었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 실수를 정리한 후 팀원에게 보너스 포인트를 줬다는 소문이 나왔다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장가 먼저 자신의 실수를 이야기하며 분위기를 풀었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 떨리는 목소리로 의견을 내자 팀장이 미소를 지으며 고개를 끄덕였다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "화이트보드에 실패 사례가 적히고 팀원들이 함께 해결책을 적었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 팀원의 메모를 읽고 이 의견이 팀을 살릴 수 있다고 말했다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실수한 팀원의 책상에 팀장이 따뜻한 메모를 남겼다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의가 끝난 후 팀장이 말없이 발언하지 못한 팀원에게 귀를 기울였다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 하나둘 문제를 꺼내자 팀장이 감사 인사를 건넸다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 회의실 문에 실수를 환영합니다 스티커를 붙였다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실수 보고가 올라오자 팀장은 손을 들어 팀원의 용기를 칭찬했다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "어두운 표정으로 들어온 팀원이 안심하고 웃으며 회의를 나갔다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 질문하는 팀원에게 칭찬 배지를 달아주었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 실패 원인을 적은 포스트잇을 벽에 붙이고 웃었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "이 팀은 실수도 집안일처럼 나누어 갖는 곳입니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀에서는 돌멩이도 금으로 만드는 마법이 있습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "여기서는 넘어지면 바닥이 포근합니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실수는 우리 팀의 영양분입니다. 두려워하지 마세요.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이 팀에서는 잘못된 길도 지도가 됩니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀의 벽은 실수로 긁어도 흔적을 남기지 않습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실수는 연필자국이니 지우개가 있습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀은 실패를 숙성시키는 와인창고입니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "여기서는 돌아가는 길도 탐험으로 인정됩니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실수는 우리 팀의 씨앗입니다. 봄이 오면 꽃이 핍니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이 팀에서는 틀린 답도 새로운 문제를 만드는 씨앗입니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀의 바닥은 트램펄린입니다. 높이 뛰세요.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실수하면 모두 앞에서 해명해야 합니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "틀린 말을 하면 팀 회의가 흐트러지니 확신이 없으면 침묵하세요.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실수는 개인 책임입니다. 팀 전체에 민폐입니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "왜 그런 생각을 했어요? 그 판단이 맞다고 생각했어요?",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실수를 숨기면 더 큰 벌을 받습니다. 빨리 자백하세요.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 실수를 두려워해 문제를 숨기는 문화가 형성됐다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 팀원의 실수를 공개 질책하며 다른 팀원들도 겁을 먹었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 실수를 보고하지 않아 문제가 커졌다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 반대 의견을 낸 팀원을 불러내 따로 압박했다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 말을 아끼게 되자 팀의 소통이 끊어졌다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 손을 들자 팀장이 눈살을 찌푸리며 왜 그런 말을 하냐고 물었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "화이트보드에 실수 목록이 적히고 팀원 이름이 붉게 표시되었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실수한 팀원의 책상에 경고장이 놓여 있었다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 팀장이 팀원의 의견을 끊으며 잘못됐다고 외쳤다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 실수를 적은 쪽지를 서로 몰래 넘겼다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "우리 팀에서는 한 번 찍힌 자국은 지워지지 않습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "실수는 돌아갈 수 없는 강을 건너는 것입니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "이 팀에서는 실수가 낙인이 됩니다. 조심하세요.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "실수는 물이 새는 보트입니다. 곧 가라앉습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀의 바닥은 얼음입니다. 미끄러지면 빠져나갈 수 없습니다.",
+    "label_id": "M15-01",
+    "label_name": "심리적 안전감 조성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "의사결정 과정을 투명하게 공유하겠습니다. 왜 이 결정을 했는지 설명드리겠습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "누구나 자유롭게 의견을 낼 수 있는 소통 문화를 만들겠습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "정보를 숨기지 않겠습니다. 좋은 것도 나쁜 것도 함께 공유합시다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "수평적으로 소통합시다. 직급에 상관없이 누구나 말할 수 있습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 어떤 채널을 통해서도 소통할 수 있도록 열린 창구를 만들었습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 알고 있는 것을 팀원들도 알아야 합니다. 정보 격차를 없애겠습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "숨기는 것 없이 솔직하게 소통하는 것이 우리 팀 문화입니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "열린 문 정책을 실시하겠습니다. 언제든지 제 방으로 오세요.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "수직적 소통만 하면 안 됩니다. 서로의 생각을 자유롭게 나눠야 합니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "좋은 소식만 전하는 게 아니라 어려운 현실도 함께 나누겠습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 회의록은 팀 전체와 공유하겠습니다. 숨김없이 말입니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 의사결정을 내린 이유를 팀원 누구에게나 설명할 의무가 있습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 궁금해하는 정보는 적극적으로 공개하겠습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 좋은 소식뿐만 아니라 나쁜 소식도 팀 전체와 투명하게 공유하는 문화를 만들었다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직 전체가 동일한 정보를 갖고 일할 수 있도록 정기적으로 공유 미팅을 운영했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀 슬랙 채널을 공개로 운영해서 누구나 대화 내용을 볼 수 있도록 했습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 정보를 숨기지 않고 팀원들과 투명하게 소통하는 원칙을 세웠다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들 전체가 의사결정 배경을 이해할 수 있도록 실장가 정기 브리핑을 진행했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 언제든 경영진과 소통할 수 있는 파이프라인을 열었다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 팀원들에게 회사 현황을 솔직하게 전달하며 신뢰를 쌓았다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직 전체가 정보에 대한 접근 권한을 동등하게 갖도록 정책을 바꿨다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 수직적 소통의 벽을 허물고 모두가 대화할 수 있는 문화를 만들었다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 서로의 업무 진행 상황을 투명하게 공유하는 시스템을 도입했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 정기적으로 타운홀 미팅을 열어 누구든 질문할 수 있게 했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "구성원들 전체가 정보 독점 없이 서로의 인사이트를 나누는 문화가 조성되었다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 의사결정 과정을 기록한 문서를 모두에게 열람하게 했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 회의실 문을 열어두고 팀원 누구나 들어올 수 있게 했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀 공유 드라이브에 모든 문서가 정리되어 있어 누구나 접근할 수 있었다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 커피 한 잔을 들고 팀원 자리에 앉아 이런저런 이야기를 나눴다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "모니터에 전사 현황 대시보드가 떠 있어 팀원 모두가 볼 수 있었다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 팀 메신저에 정보를 먼저 공유하고 개인 메신저는 뒤로 미뤘다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 원탁에 둘러앉아 서로의 의견을 편하게 이야기했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장가 사무실 한쪽에 열린 라운지를 만들어 자유로운 대화를 유도했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀 회의에서 팀장이 먼저 어려운 소식을 차분히 전달했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 서로의 일정을 공유 캘린더에 투명하게 올렸다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 복도에서 팀원과 만날 때마다 정보를 나누며 인사를 건넸다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀 공지판에 경영진 회의 내용이 요약되어 붙어 있었다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "매니저가 점심시간에 팀원들과 함께 앉아 수다를 떨며 소통했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "우리 팀은 유리창 같은 곳입니다. 안과 밖이 서로 보입니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 팀의 산소입니다. 호흡을 막지 마세요.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀은 원탁입니다. 누구나 같은 각도로 대화할 수 있습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "소통은 물과 같습니다. 막으면 썩습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀의 문은 안쪽으로만 열립니다. 누구든 들어올 수 있습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 햇빛입니다. 숨기면 곰팡이가 핍니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀은 정원입니다. 소통이 물을 주는 행위입니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀은 거울방입니다. 모든 것이 비치어야 합니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "대화는 다리입니다. 왕래가 없으면 무너집니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 음악입니다. 모두가 들을 수 있게 틀어야 합니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀은 개방형 주방입니다. 누구나 요리 과정을 볼 수 있습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "소통은 팀의 맥박입니다. 맥박이 멈추면 위험합니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "중요한 정보는 리더만 알면 됩니다. 팀원에게는 필요한 것만 전달합니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의사결정 배경은 알 필요 없습니다. 결과만 따르세요.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 정보는 일부에게만 공유합니다. 나머지는 몰라도 됩니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "나쁜 소식은 팀원을 불안하게 만드니 리더만 알고 있겠습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "수직적으로 보고하세요. 옆자리 팀원과 이야기하지 마세요.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 중요한 의사결정을 소수에게만 공유하고 나머지는 통보했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 의사결정 배경을 알고 싶어했지만 팀장은 거절했다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 정보를 독점하여 팀원들은 상황 파악이 늘 뒤늦었다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리 전체에 공유해야 할 내용이 제한된 인원에게만 흘러갔다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 수직적 소통만 고집하여 팀원들의 불만이 쌓였다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 문을 닫고 소수와 회의를 한 뒤 팀원들에게는 요약만 알렸다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 물어본 문서를 팀장이 서랍에 넣어 잠가버렸다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실 블라인드가 내려지고 팀원 대부분은 밖에서 기다렸다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀 공유 폴더에 접근 권한이 제한되었다는 메시지가 떴다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 중요한 이메일을 팀원에게는 전달하지 않았다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "우리 팀은 금고 같은 곳입니다. 중요한 것은 안쪽에 있습니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "소통은 계단입니다. 위에서 아래로만 내려옵니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 백지입니다. 내용은 위에서 채워줍니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 소금입니다. 적당량만 뿌려야 맛이 납니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀은 성벽입니다. 안팎이 엄격히 구분되어야 합니다.",
+    "label_id": "M15-02",
+    "label_name": "개방적 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "여러분의 의견을 듣고 싶습니다. 모두 한마디씩 해주세요.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원 의견 조사를 정기적으로 진행하겠습니다. 솔직하게 답해주세요.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의견이 없으신 분 있나요? 조용하신 분들도 한 말씀씩 부탁드립니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 어떻게 생각하는지가 가장 중요합니다. 여러분의 목소리를 듣겠습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀 운영 방식에 대해 팀원들의 의견을 먼저 듣고 방향을 정하겠습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "반대 의견이나 불만 사항도 적극적으로 수렴하겠습니다. 편하게 말씀해주세요.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "결정 전에 반드시 팀원 의견을 먼저 수렴하는 것이 저의 원칙입니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들의 의견이 곧 팀의 방향입니다. 말씀해주세요.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의견이 없는 사람은 없습니다. 부담 갖지 마세요.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 목소리를 듣기 위해 제가 먼저 귀를 기울이겠습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "오늘은 팀장이 말하지 않겠습니다. 팀원들이 이야기하세요.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "설문이든 대화든 어떤 방식으로든 의견을 주세요.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의견은 다양할수록 좋습니다. 하나의 목소리가 아니라 여러 목소리를 원합니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 분기마다 익명 설문을 통해 팀원들의 불만과 개선 사항을 적극적으로 수집했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 목소리를 낼 수 있도록 회의 구조 자체를 바꿔서 발언 기회를 균등하게 만들었다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 팀원들에게 매주 정기적으로 1:1 미팅을 제안하며 의견을 청취했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들의 의견이 반영된 정책이 나오자 팀의 참여도가 높아졌다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 팀원들의 의견을 기록하고 추진 상황을 투명하게 공유했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "구성원들 전체가 의견 수렴을 중시하는 문화 속에서 다양한 아이디어가 쏟아졌다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 팀원의 작은 의견 하나도 무시하지 않고 꼼꼼히 기록했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 적극적으로 의견을 내기 시작하자 팀의 문제 해결이 빨라졌다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 팀원 의견을 경영진 전달의 중요한 근거로 활용했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리 전체가 의견 수렴을 통해 공감대를 형성하고 결정에 참여했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 의견을 낸 팀원에게 적극적인 피드백을 주며 참여를 장려했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 의견을 제안하는 게 당연한 팀 문화가 자리 잡았다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 팀원의 목소리를 대변하며 경영진과 소통하는 역할을 했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장가 먼저 입을 다물고 팀원들을 돌아보며 손짓했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 팀원 각자의 책상에 의견 카드를 남겨서 의견을 수집했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "화이트보드에 팀원들이 적은 의견 포스트잇이 가득 채워졌다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 팀원의 메모를 읽으며 고개를 끄덕이고 필기를 했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "조용하던 팀원이 한마디 하자 팀장이 박수를 쳤다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "매니저가 팀원 개개인에게 커피를 건네며 이런저런 의견을 물었다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀 회의에서 팀장이 의사결정을 미루고 팀원 의견을 더 듣기로 했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 원탁에 앉아 서로의 의견을 편하게 주고받았다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 익명 의견함을 설치하고 정기적으로 확인했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 의견을 내자 팀장이 감사하다고 말하며 기록을 남겼다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 팀원의 의견을 프로젝트 방향에 직접 반영했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀 회의록에 팀원 의견이 빠짐없이 정리되어 있었다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들의 목소리가 나침반입니다. 방향을 정할 때 꼭 참고하겠습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀은 오케스트라입니다. 악기 하나하나의 음색이 모여 하모니를 만듭니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "의견은 팀의 물줄기입니다. 막으면 흐르지 않습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀은 포럼입니다. 다양한 주장이 서로를 돋보이게 합니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 말 한마디가 팀의 나비효과가 될 수 있습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀은 마을회관입니다. 누구든 마이크를 잡을 수 있습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "의견 수렴은 씨앗을 모으는 일입니다. 많을수록 풍성해집니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 목소리가 바람이 되어 팀의 돛을 움직입니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀은 재판정이 아닙니다. 모두가 변호사가 될 수 있습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 의견은 퍼즐 조각입니다. 하나라도 빠지면 그림이 안 됩니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀은 색판입니다. 다양한 색이 섞여야 진한 색이 됩니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "의견은 연료입니다. 많이 모을수록 멀리 갈 수 있습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "의견 수렴은 형식적으로 진행하고 실제로는 이미 결정된 사항을 통보했다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의견은 있으면 나중에 말하세요. 지금은 진행합시다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원 의견은 참고만 합니다. 결정은 제가 합니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "설문을 진행했지만 결과를 공유하지 않았고 반영된 내용도 없었다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의견을 내지 마세요. 시간 낭비입니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 의견을 냈지만 무시됐다는 걸 알게 되면서 점점 침묵하게 됐다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 형식적으로 설문을 하고 결과는 서랍에 넣어두었다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들의 의견이 모아졌지만 팀장은 아무런 피드백도 주지 않았다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 의견을 수렴한 척하고 원래 계획을 그대로 밀어붙였다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 모여 의견을 냈지만 회의 결과는 팀장의 뜻대로 결정되었다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 손을 들자 팀장은 이야기 중인 주제로 돌아갔다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 설문지를 받아가더니 서랍에 쌓아두었다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들의 의견이 적힌 포스트잇이 쓰레기통에 버려져 있었다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 팀원의 말을 끊으며 다음 안건으로 넘어갔다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 팀원들이 의견을 말하자 팀장은 시계만 보았다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들의 목소리는 에코입니다. 들리지만 반응은 없습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "의견은 비입니다. 내리지만 땅은 마릅니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀은 전시관입니다. 보기만 하고 만지지는 마세요.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "의견 수렴은 사진 촬영입니다. 찍고 나면 앨범에 넣어둡니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 말은 바람소리입니다. 들리지만 잡히지 않습니다.",
+    "label_id": "M15-03",
+    "label_name": "적극적 의견 청취",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "전사 지표를 팀원 모두와 공유하겠습니다. 같은 정보를 가지고 일해야 합니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 결정을 왜 내렸는지 배경까지 설명드리겠습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "정보를 숨기지 않겠습니다. 팀원이 알아야 더 좋은 판단을 할 수 있습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "매주 팀 대시보드를 공개해서 누구나 현황을 볼 수 있도록 했습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회사 상황이 어렵더라도 정확한 정보를 팀원과 공유하는 것이 신뢰를 유지하는 방법입니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 알고 싶은 정보는 언제든 접근할 수 있도록 공개 채널로 운영하겠습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "분기 성과를 팀 전체와 공유하며 잘된 것과 부족한 것을 솔직하게 이야기했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "숨기는 정보가 없어야 팀이 같은 방향으로 움직일 수 있습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 보고 자료는 팀 공유 폴더에 업로드하겠습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 데이터에 직접 접근할 수 있도록 권한을 열겠습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 분기 실적은 팀 전체에 투명하게 공개하겠습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의사결정에 쓰인 자료는 누구나 볼 수 있게 하겠습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "경영진 회의 내용 중 팀원과 관련된 부분은 요약해서 공유하겠습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 좋은 소식과 나쁜 소식 모두를 팀원들과 투명하게 공유하는 원칙을 지켰다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직 전체가 동일한 정보에 접근할 수 있도록 내부 위키를 구축했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 의사결정 배경을 팀 노션에 기록해두어 누구든 언제나 확인할 수 있도록 했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 정보를 원할 때마다 팀장이 적극적으로 문서를 공유했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들 전체가 데이터에 기반한 대화를 할 수 있도록 실장가 정보 접근성을 높였다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 정기적으로 경영 현황 브리핑을 통해 팀원들의 정보 격차를 줄였다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 숨김없이 정보를 공유하는 문화가 팀장의 솔선수범으로 자리 잡았다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 업무 진행 상황을 실시간으로 공유하여 팀원들의 불확실성을 해소했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "부서 전체가 투명한 정보 공유를 통해 서로의 업무를 이해하게 되었다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 정보 독점을 피하고 모든 팀원에게 균등한 접근 기회를 주었다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 의사결정에 필요한 자료를 직접 찾아볼 수 있게 되었다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 팀원들에게 솔직하게 현재 상황을 전달하며 신뢰를 구축했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀 전체가 투명한 정보 공유를 통해 협업의 효율이 크게 높아졌다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀 공유 화면에 실시간 매출 현황이 떠 있어 누구나 볼 수 있었다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "리더가 서류 한 장을 복사하여 팀원 모두의 책상에 나누어 주었다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 원탁에 앉아 같은 보고서를 펼쳐놓고 대화했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 서랍에 넣어둔 자료를 꺼내 팀원 모두에게 펼쳐 보였다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀 메신저에 팀장이 데이터 파일을 올리고 모두에게 공유했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 공용 모니터 앞에 모여 현황판을 함께 바라봤다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장가 팀 공지판에 분기 결산표를 붙이며 설명했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실 중앙에 투명한 현황 보드가 설치되어 있었다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 개인 메신저로 전달하던 정보를 팀 채널로 전환했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 정보에 자유롭게 접근하며 서로 질문하고 답하는 모습이 보였다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 경영진 회의록을 익명 처리 후 팀 전체에 배포했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원 한 명이 모르는 데이터를 묻자 팀장이 즉시 폴더를 열어 보여주었다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "정보는 햇빛입니다. 모든 구석까지 비추어야 합니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀은 투명한 수족관입니다. 누구나 안을 볼 수 있어야 합니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "데이터는 물과 같습니다. 막으면 썩습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보 공유는 다리입니다. 양쪽이 다 봐야 견고합니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀은 유리온실입니다. 안에서 무슨 일이 일어나는지 보여야 합니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 팀의 산소입니다. 골고루 나눠 쉬어야 합니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원은 등대의 불빛입니다. 정보가 닿아야 제 역할을 합니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 음식입니다. 나눠 먹어야 팀이 성장합니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀은 오픈 키친입니다. 요리 과정이 보여야 신뢰가 생깁니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 씨앗입니다. 모두에게 뿌려야 꽃이 핍니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀은 등산대입니다. 지도를 모두 봐야 정상에 갈 수 있습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 거울입니다. 투명해야 제대로 비춥니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원에게는 요약본만 드리겠습니다. 원본은 볼 필요 없습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 보고서는 기밀입니다. 팀원은 접근하지 마세요.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의사결정 배경은 알려드릴 수 없습니다. 결과만 확인하세요.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 알면 동요할 수 있으니 숨기는 게 낫습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 정보를 일부에게만 공유하고 팀원 대부분은 소외되었다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 정보를 요구했지만 팀장은 보안 문제를 이유로 거절했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 의사결정 배경을 숨겨 팀원들은 납득하지 못했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리 전체와 공유해야 할 지표가 본부장 개인 파일에만 있었다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 서로 다른 정보를 가지고 일을 해 혼란이 커졌다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 서류를 가방에 넣고 지퍼를 채웠다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀 공유 폴더에 자물쇠 아이콘이 떴다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 모니터를 가리키자 팀장은 그 창을 닫았다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장의 서랍에 기밀 문서가 쌓여 있었다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 데이터를 물었지만 팀장은 커피를 마시며 침묵했다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "우리 팀은 금고입니다. 내용물은 안쪽에만 있습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "정보는 독입니다. 팀원에게 많이 주면 중독됩니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀은 피라미드입니다. 위에서만 아래를 볼 수 있습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "정보는 칼입니다. 아이들에게는 위험합니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 관객입니다. 무대 뒤는 볼 필요 없습니다.",
+    "label_id": "M15-04",
+    "label_name": "정보 투명 공유",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "말한 것은 반드시 지킵니다. 약속을 지키는 리더가 되겠습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "일관된 행동으로 신뢰를 쌓겠습니다. 예측 가능한 리더가 되겠습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "약속한 보상은 반드시 이행하겠습니다. 약속은 신뢰의 기초입니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 한 말은 책임지겠습니다. 언행일치가 저의 원칙입니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지킬 수 없는 약속은 하지 않겠습니다. 신뢰는 행동으로 보여드리겠습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "매주 화요일 1:1 미팅을 약속했고 한 번도 빠진 적이 없습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 공언한 목표는 끝까지 책임지고 이루겠습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원에게 약속한 교육 기회는 반드시 제공하겠습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제 결정이 일관성 있게 유지되도록 노력하겠습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원과의 약속을 가장 우선으로 처리하는 게 저의 습관입니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "말과 행동이 다르면 신뢰가 무너집니다. 저는 그렇지 않겠습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "약속을 어긴 적이 없습니다. 앞으로도 그럴 일이 없을 것입니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 기대하는 바를 충족시키는 것이 신뢰 형성의 시작입니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 약속을 지키는 모습을 보이자 팀원들의 불안감이 줄었다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 한 번 약속한 일은 반드시 실천하며 팀원들의 신뢰를 얻었다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 언행일치를 보이자 팀원들이 팀장의 말에 귀를 기울이기 시작했다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리 전체가 팀장의 일관된 행동을 보며 안정감을 느꼈다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 약속한 보상을 제때에 이행하여 팀원들의 동기가 높아졌다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 예측 가능한 리더십을 보이자 팀원들이 능동적으로 움직였다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 말과 행동이 다르지 않다는 것을 시간이 지나며 증명했다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 팀장의 신뢰를 언급하며 팀에 대한 긍정적인 평가를 내렸다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 지키지 못할 약속은 아예 하지 않는 원칙을 세웠다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리 전체가 팀장의 약속 이행을 보며 조직에 대한 신뢰가 높아졌다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 작은 약속도 소홀히 하지 않는 모습을 일관되게 보였다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 팀장에게 약속을 요청하는 것이 두렵지 않아졌다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 언행일치를 통해 팀원들과의 관계를 단단하게 만들었다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 달력에 표시한 약속을 지키기 위해 다른 일정을 미뤘다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 책상 위에 팀장이 약속한 보고서가 놓여 있었다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 매주 같은 요일에 팀원과의 미팅 자리를 확보했다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 기대하던 교육 기회가 팀장의 노력으로 실현되었다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 약속한 시간에 정확히 회의실에 들어서는 모습이 보였다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 팀장의 말을 신뢰하고 업무에 집중하는 모습이 포착되었다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장가 팀원의 메일에 약속 이행 여부를 구체적으로 답했다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀 공지에 적힌 내용이 팀장의 행동과 정확히 일치했다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 약속을 지키기 위해 주말에도 사무실에 남아 업무를 봤다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 팀장의 일관성을 언급하며 팀에 대한 자부심을 보였다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 팀원과의 약속을 지키기 위해 상사의 요청을 정중히 거절했다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "매니저의 책상 위에는 팀원과의 약속 목록이 항상 놓여 있었다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "약속은 나무의 뿌리입니다. 뿌리가 튼튼해야 나무가 자랍니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "신뢰는 돌담입니다. 한 번 무너지면 다시 쌓기 어렵습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 화살입니다. 한 번 쏘면 목표에 닿아야 합니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장의 말은 등대입니다. 흔들리면 배들이 길을 잃습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "신뢰는 명함입니다. 행동으로 인증해야 유효합니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 꽃입니다. 가꾸지 않으면 시듭니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장의 행동은 시계입니다. 일정하게 움직여야 신뢰가 갑니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "신뢰는 다리입니다. 말과 행동이 연결되어야 통과합니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 계약서입니다. 서명하면 반드시 이행해야 합니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장의 말은 마침표입니다. 끝까지 책임져야 의미가 있습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "신뢰는 음악의 리듬입니다. 일정해야 하모니가 됩니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 씨앗입니다. 심으면 돋아나야 합니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 상황에 따라 바뀔 수 있습니다. 너무 집착하지 마세요.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "말은 그때그때 다릅니다. 지금은 상황이 달라졌습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "약속은 제가 기억하지 못하면 없는 겁니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "보상은 다음에 하겠습니다. 지금은 여유가 없습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원에게 약속한 건 팀원이 잘못 이해한 겁니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 약속한 보상을 잊은 채 다음 업무만 이야기했다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 말은 번지게 하지만 행동은 따라오지 않았다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 팀장의 약속을 믿고 기다렸지만 결국 허사였다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 약속한 일을 팀원이 상기시키자 팀장은 딴소리를 했다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장의 언행 불일치가 반복되자 팀원들의 불신이 커졌다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 약속한 날짜가 지났지만 서류는 팀장 서랍에 그대로 있었다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 약속을 상기시키자 팀장은 커피를 마시며 피했다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자의 달력에는 약속이 빨간색으로 취소선이 그어져 있었다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 메일함에 약속 이행에 대한 답은 한 달째 없었다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 약속한 보상 대신 다른 걸로 바꿔서 제시했다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "약속은 연기입니다. 보이지만 잡히지 않습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장의 말은 구름입니다. 모양이 계속 바뀝니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 파도입니다. 밀려왔다가 다시 물러갑니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장의 말은 새장의 문입니다. 열어두지만 나가면 잡습니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 미끄럼틀입니다. 내려가기만 합니다.",
+    "label_id": "M15-05",
+    "label_name": "신뢰 형성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "제가 팀원을 보호하겠습니다. 실수해도 괜찮아요 제가 책임집니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "외부 압박으로부터 팀을 지키겠습니다. 심리적으로 안전한 환경을 만들겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 어려움에 처했을 때 제가 울타리가 되겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 심리적 안전은 제가 지키겠습니다. 누구도 팀원을 해치지 못합니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 실수해도 외부의 비난은 제가 막겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 정신적 스트레스를 줄이는 게 제 우선순위입니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 마음 편하게 일할 수 있도록 제가 보호막이 되겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "외부에서 팀원을 공격하면 제가 먼저 방패가 되겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 자존감을 지키는 것이 리더의 중요한 역할입니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 불이익을 받지 않도록 제가 최전선에서 지키겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 심리적으로 안전하다고 느낄 때 최고의 성과가 나옵니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어떤 상황에서도 팀원의 인격을 보호하는 게 제 원칙입니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 번아웃 징후를 먼저 알아채고 보호 조치를 취하겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 팀원을 보호하기 위해 외부의 부당한 요구를 단호히 거절했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 압박을 받자 리더가 대신 상부와 협상하며 팀원을 지켰다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 팀원의 심리적 안전을 최우선으로 두고 업무 환경을 개선했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 어려움을 겪을 때 본부장가 먼저 나서서 보호막이 되었다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 팀원의 번아웃을 조기에 파악하고 업무 부담을 줄여주었다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 외부에서 비난을 받자 매니저가 공개적으로 팀원을 옹호했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 팀원의 정신적 건강을 챙기며 정기적으로 컨디션 체크를 했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 갈등 상황에 처하자 리더가 중재자 역할을 하며 팀원을 보호했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 팀원의 실수를 외부로부터 숨기고 내부에서 해결했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 심리적 부담을 줄이기 위해 본부장가 외부 미팅을 대신 참석했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 팀원에게 쏟아지는 업무를 버퍼링하여 팀원을 지켰다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 위협을 느끼자 매니저가 즉시 상황에 개입하여 보호했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 팀원의 정서적 안정을 위해 상담 프로그램을 도입했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 팀원 앞에 서서 외부의 부당한 요구를 막아섰다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 책상 위에 팀장이 남긴 응원 메모가 놓여 있었다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 팀원과의 1:1에서 힘든 일이 있냐며 세심하게 물었다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "외부 고객의 항의가 들어오자 팀장이 수화기를 먼저 들었다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 팀원의 업무 부담을 줄이기 위해 일부 업무를 가져갔다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 힘든 상황을 이야기하자 팀장이 차를 끓여주었다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장가 팀원의 컴퓨터 화면을 보고 업무 과다를 알아채서 조치했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "어려운 프로젝트가 끝난 후 팀장이 팀원들에게 휴식을 권했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 눈물을 흘리자 팀장이 면티슈를 건네며 옆에 앉았다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 팀원의 번아웃 징후를 보고 상부에 업무 조정을 요청했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 갈등 상황에서 실장가 중재하며 방패 역할을 했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "매니저가 팀원의 실수로 상사에게 불려 간 팀원 대신 회의에 참석했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 내 품의 새입니다. 바깥 바람이 닿지 않게 하겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 마음은 연꽃입니다. 진흙 속에서도 깨끗하게 지키겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 우산 살입니다. 비가 와도 팀원들은 젖지 않게 하겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 등불입니다. 바람이 불어도 꺼지지 않게 지키겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 둥지입니다. 팀원들이 안전하게 쉴 수 있도록 하겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 자존감은 유리그릇입니다. 깨지지 않게 조심스럽게 다루겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 방패입니다. 날아오는 화살은 제가 막겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 꽃봉오리입니다. 늦봄의 서리가 닿지 않게 하겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 울타리입니다. 팀원들이 안전하게 뛰놀 수 있게 하겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 마음은 모래성입니다. 물결이 밀려와도 무너지지 않게 지키겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 돌담입니다. 바람이 불어도 팀원들은 그늘에서 쉴 수 있습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 어린 나무입니다. 폭풍이 와도 뿌리를 지키겠습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 어려움은 팀원이 알아서 해결해야 합니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "외부 압박은 팀원이 직접 경험해봐야 성장합니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 실수는 팀원이 책임지세요. 제가 대신할 수 없습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 심리 상태는 개인의 문제입니다. 업무에 집중하세요.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원을 보호하는 것은 리더의 의무가 아닙니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 팀원의 어려움을 외면하고 업무 성과만 따졌다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 심리적으로 힘들다고 하자 리더는 약한 태도라고 비판했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 팀원을 외부 압박에 노출시키고 아무런 조치도 취하지 않았다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 실수가 외부로 알려지자 본부장는 팀원을 버렸다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 팀원의 번아웃을 감추며 업무를 강요했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 눈물을 흘리자 팀장은 서류를 정리하며 못 본 척했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "외부 압박이 쏟아지자 리더는 팀원 뒤로 숨었다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 책상 위에는 업무 지시서만 쌓여 있었다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 팀원의 번아웃을 알면서도 야근을 요구했다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 갈등 상황에 처하자 실장는 회의를 취소하고 나갔다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원은 연습용 인형입니다. 맞아야 실력이 늡니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 풍선입니다. 바람이 불어야 하늘로 올라갑니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 관망자입니다. 팀원이 스스로 극복해야 합니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 씨앗입니다. 추위를 겪어야 싹이 튑니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 마음은 철판입니다. 때려도 소리가 나지 않습니다.",
+    "label_id": "M15-06",
+    "label_name": "심리적 보호",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "고객사와 정기 미팅을 통해 신뢰를 쌓겠습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "파트너사와의 관계를 더욱 공고히 하겠습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양한 이해관계자의 의견을 수렴하겠습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "외부 고객의 목소리를 직접 듣고 반영하겠습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "파트너와의 협업을 위해 정기적인 소통 채널을 만들겠습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "내부 팀뿐만 아니라 외부 이해관계자도 챙기겠습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "고객 만족도를 높이기 위해 직접 방문하겠습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "파트너사의 니즈를 먼저 파악하는 게 우리의 경쟁력입니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이해관계자와의 신뢰는 꾸준한 대화에서 나옵니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "외부 팀과의 관계를 소홀히 하면 내부도 흔들립니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "고객사 담당자와의 개인적 신뢰를 구축하겠습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "협력사와의 관계를 장기적으로 관리하겠습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "내부와 외부 모두와 균형 잡힌 관계를 유지하겠습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 고객사 담당자와의 정기 미팅을 소화하며 신뢰를 쌓았다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 파트너사와의 협업 과정에서 적극적으로 관계를 돌보았다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "부서가 외부 이해관계자들과의 소통을 강화하며 시너지를 냈다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 다양한 이해관계자의 의견을 수집하여 업무에 반영했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들가 고객 만족도를 높이기 위해 외부 방문을 늘렸다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 협력사와의 갈등을 중재하며 관계를 회복했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀가 내부 업무와 외부 관계를 균형 있게 관리하는 모습을 보였다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더가 외부 고객의 피드백을 직접 듣고 개선안을 제시했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "부서가 파트너사와의 신뢰를 바탕으로 장기 계약을 체결했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 이해관계자들과의 네트워킹 행사를 직접 기획했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들가 고객사의 요구사항을 신속하게 파악하여 대응했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 외부 이해관계자와의 미팅을 우선순위에 두었다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀가 협력사와의 관계를 돌보지 않으면 업무 효율이 떨어진다는 점을 인식했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 고객사 로비에서 기다리며 명함을 정리했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "파트너사 회의실에서 리더가 양측의 의견을 조율하고 있었다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 고객 담당자와 커피를 마시며 업무 외 이야기를 나눴다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "협력사 방문 후 본부장가 감사 문자를 보내는 모습이 보였다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 고객사 연락처를 직접 저장하며 담당자를 기억하려 했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "구성원들가 외부 파트너와의 회의를 위해 회의실을 특별히 꾸몄다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장가 협력사 대표와 악수를 나누며 장기 협력을 약속했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "고객사에서 보낸 선물에 리더가 답례 문자를 썼다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 이해관계자 지도를 그리며 관계를 체계적으로 관리했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "파트너사와의 미팅에서 본부장가 상대방 의견을 경청했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 고객 불만 접수 후 직접 전화로 사과와 해결책을 전달했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "구성원들가 외부 이해관계자와의 연례 행사에 적극 참여했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "고객사는 팀의 거울입니다. 관계를 돌봐야 제대로 비춥니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "파트너사는 팀의 이웃입니다. 울타리를 넘어 인사를 나눠야 합니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이해관계자는 팀의 뿌리입니다. 뿌리가 튼튼해야 나무가 자랍니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "외부 관계는 팀의 물줄기입니다. 막으면 흐르지 않습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "고객은 팀의 스승입니다. 피드백을 듣고 배워야 합니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "파트너사는 팀의 동반자입니다. 손을 잡고 함께 가야 합니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이해관계자는 팀의 우산입니다. 서로를 돌봐야 비를 막을 수 있습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "외부 관계는 팀의 다리입니다. 왕래가 없으면 무너집니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "고객사는 팀의 거울입니다. 어떻게 대하면 그대로 비춰집니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "파트너사는 팀의 반쪽입니다. 서로를 채워야 완전해집니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이해관계자는 팀의 돛입니다. 바람을 함께 잡아야 멀리 갑니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "외부 관계는 팀의 숨입니다. 막으면 질식합니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "외부 이해관계자는 우리가 신경 쓸 필요 없습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "내부 팀원만 잘하면 됩니다. 외부는 알아서 하겠죠.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "파트너사와의 미팅은 시간 낭비입니다. 메일로 충분합니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "고객 불만은 상담팀이 처리할 일입니다. 제가 나설 필요 없습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "외부 관계는 영업팀의 몫입니다. 저는 내부만 관리합니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 외부 이해관계자와의 미팅을 계속 미루며 소홀했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직가 내부 업무만 바빠 외부 관계가 소원해졌다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 고객사의 피드백을 무시하고 내부 판단만 내렸다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리가 파트너사의 요구를 외면하며 갈등이 커졌다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 외부 관계를 개인의 영역으로 치부하며 팀과 공유하지 않았다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 고객사 전화를 받고 귀찮다는 표정으로 끊었다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "파트너사 대표가 찾아오자 리더는 다른 사람에게 대접을 맡겼다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 협력사 명함을 서랍에 넣고 다시 꺼내지 않았다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "고객사 이메일에 본부장는 답을 하지 않았다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들가 외부 미팅을 취소하고 내부 회의만 반복했다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "외부 관계는 팀의 정원사입니다. 관리하지 않으면 잡초만 납니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "파트너사는 팀의 이웃집인데 인사도 없이 지나갔습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "고객은 팀의 등불인데 켜지 않으면 어두워집니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "협력사는 팀의 다리인데 왕래가 끊겼습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "이해관계자는 팀의 거울인데 먼지를 쌓아 비추지 않습니다.",
+    "label_id": "M16-01",
+    "label_name": "이해관계자 관계 구축",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "상황이 바뀌었으니 계획을 수정합시다. 유연하게 대응합시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "예상치 못한 일이 생겼습니다. 유연하게 대응합시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "환경이 변했으니 방향을 바꿉시다. 빠르게 적응합시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "돌발 상황에도 침착하게 대처하겠습니다. 계획을 조정하겠습니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "변화는 기회입니다. 유연하게 받아들이겠습니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "계획대로 안 되면 새로운 길을 찾으면 됩니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "유연성이 우리의 강점입니다. 상황에 맞게 움직입시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "고정관념을 버리고 현재 상황에 집중합시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "변화하는 시장에 맞춰 우리도 빠르게 적응하겠습니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "예정보다 중요한 건 현재입니다. 즉각 대응합시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "유연한 사고가 필요한 순간입니다. 새로운 시도를 해봅시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상황이 달라졌으면 판단도 달라져야 합니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "경직된 계획보다 유연한 실행이 중요합니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 돌발 상황에 즉각 대응하며 팀의 혼란을 최소화했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직가 급변하는 시장 환경에 빠르게 적응하여 생존 공간을 확보했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 예정된 계획을 과감히 수정하고 새로운 방향을 제시했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "외부 요인이 변하자 본부장가 즉각 업무 프로세스를 바꿨다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들가 유연한 업무 방식을 도입하여 변화에 잘 대응했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 팀원들에게 상황이 변했으니 유연하게 움직이라고 지시했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "예기치 못한 난관에 팀장가 침착하게 대안을 찾아냈다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직가 기존 방식을 탈피하여 새로운 접근법으로 문제를 해결했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 돌발 상황에서도 팀의 핵심 목표를 유지하며 대응했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "변화가 닥치자 본부장가 팀원들을 안심시키고 방향을 전환했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들가 경쟁사의 움직임에 맞춰 전략을 신속하게 조정했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 유연한 근무 제도를 도입하여 위기를 극복했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "계획에 차질이 생기자 팀장가 대체 방안을 즉시 실행에 옮겼다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 화이트보드의 계획표를 지우고 새로운 일정을 적기 시작했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 리더가 돌발 상황 보고를 받고 잠시 생각에 잠겼다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 당황할 때 책임자가 침착하게 새로운 로드맵을 그렸다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 전화를 받고 눈썹을 찡그리더니 바로 전략을 수정했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "야근 중 예정이 바뀌자 실장가 피자를 시키며 팀을 다독였다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "프로젝트 방향이 바뀌자 매니저가 팀원들의 혼란을 막았다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장가 고객 요구가 변했다며 새로운 제안서를 뽑았다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 기존 안을 고수할 때 리더가 새 시나리오를 펼쳤다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "위기 상황에서 책임자가 유연하게 대응하는 모습에 팀이 안정되었다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 공항에서 돌아와 바로 회의를 소집했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "긴급 메일이 도착하자 실장가 팀 채팅에 대응 방안을 올렸다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "매니저가 계획서를 접고 팀원들과 브레인스토밍을 시작했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "물은 돌아가면서 흐르는 법입니다. 유연하게 움직입시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "바람이 방향을 바꾸면 돛도 돌려야 합니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "강물은 암초를 피해서 흐릅니다. 우리도 그렇게 합시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "나무는 바람이 불면 스스로 몸을 휘어 넘어갑니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새는 바람의 흐름을 이용해 더 높이 납니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "뱀은 장애물을 만나면 돌아가는 법입니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "물고기는 물결을 거슬러 가지 않고 함께 헤엄칩니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "구름은 바람 따라 모양을 바꾸지만 하늘을 지킵니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "갈대는 바람에 몸을 맡기지만 뿌리는 꼿꼿합니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "연은 바람이 불면 줄을 풀어 더 높이 띄웁니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "지혜로운 선원은 파도를 이용해 항해합니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "도자기는 불의 온도에 맞춰 형태를 완성합니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "계획은 절대 바뀌지 않습니다. 어떤 상황이 와도 그대로 갑시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상황이 변해도 원래 계획대로 해야 합니다. 규칙은 규칙입니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "유연성은 필요 없습니다. 원칙이 먼저입니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "돌발 상황은 무시하세요. 계획을 고수합시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "변화는 혼란만 야기합니다. 기존 방식을 유지합시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 돌발 상황에도 기존 계획을 고수하며 팀원들을 불안하게 했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "시장 환경이 급변했음에도 리더는 경직된 대응만 내놓았다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 변화를 거부하여 부서는 기회를 놓쳤다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 대안을 제시했지만 본부장는 원래 계획대로 밀어붙였다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 상황 변화를 무시하고 보고서만 반복했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 화이트보드의 계획표를 손으로 가리며 수정을 금지했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "돌발 상황 보고가 올라오자 리더는 서류함에 넣어버렸다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 새 방안을 제시하자 책임자는 고개를 저었다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 예정된 일정표를 벽에 붙이며 절대 지키라고 했다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 실장가 변화를 언급한 팀원을 꾸짖었다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "바위는 바람이 불어도 제자리입니다. 우리도 그렇게 합시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "나무는 뿌리를 움직이지 않습니다. 우리도 뿌리를 지킵시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "고목은 가지를 안 뻗어도 오래 삽니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "돌담은 물이 새도 그대로 두는 법입니다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "기차는 선로를 바꾸지 않습니다. 정해진 길로 갑시다.",
+    "label_id": "M17-01",
+    "label_name": "상황적 유연성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "걱정하지 마세요. 우리가 해결할 수 있습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "불확실한 상황이지만 방향을 잃지 맙시다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "차분하게 하나씩 해결해나갑시다. 서두르지 않아도 됩니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "혼란스러운 상황에서도 중심을 잡겠습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "불확실성은 잠시입니다. 우리는 함께 견뎌냅니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "당황하지 마세요. 제가 길을 보여드리겠습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어둠 속에서도 제가 등불이 되겠습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "불안은 잠시입니다. 행동이 답입니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "우리는 이 어려움을 함께 극복할 수 있습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지금은 흔들려도 괜찮습니다. 제가 중심을 지키겠습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 상황은 지나갑니다. 차분하게 대응합시다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "안정감을 가지세요. 제가 앞에서 이끌겠습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "혼란 속에서도 제가 팀원들의 버팀목이 되겠습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 불확실한 상황에서도 침착하게 팀을 이끌어 안정감을 주었다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "혼란스러운 분위기 속에서 리더가 명확한 방향 제시로 팀을 안정시켰다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 위기 상황에서도 냉정하게 대응하며 팀원들의 불안을 덜어주었다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리가 불확실성 속에서도 목표를 잃지 않고 단결했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 팀원들에게 지금은 어렵지만 지나갈 것이라고 확신을 주었다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 패닉에 빠질 때 매니저가 한 걸음 물러서 큰 그림을 제시했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 불안한 팀원들과의 소통을 늘리며 심리적 안정을 도왔다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "앞이 보이지 않는 상황에서 리더가 작은 성공 경험으로 희망을 주었다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "부서가 불확실성을 기회로 바꾸어 새로운 전략을 수립했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 팀원들에게 지금이 가장 중요한 순간이라며 결집을 이끌었다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "혼란 속에서도 실장가 원칙을 지키며 팀의 신뢰를 유지했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 매일 아침 팀원들과 짧게 체크인하며 안정감을 형성했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "불확실한 환경에서 팀장가 팀의 핵심 가치를 재차 강조했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 창밖의 날씨를 보며 팀원들에게 오늘은 함께 버티는 날이라고 했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 리더가 흔들리는 팀원의 어깨를 두드리며 앉게 했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 앞이 보이지 않는 미로 같은 상황에서 손전등을 켰다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 떨고 있을 때 본부장가 먼저 차를 한 잔 따라주었다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 회의실에 지도를 펼치고 현재 위치를 표시했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "불안한 소식이 들려오자 매니저가 팀 채팅에 긍정 메시지를 남겼다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장가 밤늦은 사무실에서 혼자 남아 다음 날 계획을 정리했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 울먹이자 리더가 조용히 옆에 앉아 귀를 기울였다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 화이트보드에 오늘 할 일 세 가지만 적어 팀원들을 집중시켰다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "혼란스러운 아침 본부장가 유난히 밝은 목소리로 인사를 건넸다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 팀 전체에게 지금은 가장 중요한 것이 무엇인지 물었다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "불확실성이 커질수록 매니저는 팀원들과의 대화 시간을 늘렸다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "안개가 짙어도 등대는 꺼지지 않습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "밤이 깊어도 동틀 녘이 가까워진 것입니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "폭풍 속에서도 닻은 바닥을 지킵니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "구름 뒤에는 항상 따뜻한 해가 기다리고 있습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "어두운 터널의 끝에는 반드시 빛이 있습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "나비가 되려면 고치 속에서 버텨야 합니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "겨울이 길어도 봄은 반드시 찾아오는 것입니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "파도가 거칠수록 배의 키는 깊어집니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "산 중턱의 안개는 정상에 가까웠음을 알려줍니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "돌아가는 길도 결국은 앞으로 가는 길입니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "씨앗은 흙 속에서 어둠을 견디면서 자랍니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "달은 지구 그림자 속에서도 빛을 잃지 않습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "상황이 어렵습니다. 모두가 불안해해야 합니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 일은 우리가 감당할 수 없습니다. 포기하세요.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "혼란 속에서 누구도 믿을 수 없습니다. 각자 알아서 하세요.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지금 상황이 최악입니다. 아무도 기대하지 마세요.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "우리는 이번 위기를 넘기 어렵습니다. 현실을 직시하세요.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 불확실한 상황에서 팀원들의 불안을 키우는 발언을 했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "위기 상황에서 리더가 스스로 당황하여 팀이 더 혼란스러워졌다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 팀원들에게 사실을 숨기지 않는다며 불안한 소식만 전달했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "혼란 속에서도 본부장가 방향 제시 없이 관망만 했다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 불확실성을 이유로 모든 결정을 미뤘다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 회의실에서 한숨만 내쉬며 아무 말도 하지 않았다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 쳐다보는 가운데 리더가 고개를 숙였다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 창밖을 보며 이번엔 안 될 거라고 중얼거렸다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "불안한 소식에 본부장가 손을 떨며 커피를 엎었다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 팀 메신저에 아무런 메시지도 남기지 않았다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "배가 가라앉을 때는 누구도 구명정을 태우지 않습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "폭풍 속에서 닻은 무너지면 배도 떠납니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "나비가 되기 전에 고치가 터지면 끝입니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "파도가 거칠면 배는 항구로 돌아가지 않습니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "달은 지구 그림자 속에서 영원히 머무릅니다.",
+    "label_id": "M18-01",
+    "label_name": "불확실성 속 안정감 제공",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "데이터를 보니 이렇게 결정하겠습니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "수치를 확인한 결과 이 방향으로 진행하겠습니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지표를 기반으로 판단했습니다. 근거가 명확합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "분석 결과를 바탕으로 선택합니다. 근거는 명확합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "분석가 말해주고 있습니다. 이대로 가는 게 맞습니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지표를 확인한 뒤 판단하겠습니다. 데이터가 말해줍니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "증거를 바탕으로 의사결정합니다. 직감에 의존하지 않겠습니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "과거 수치를 분석했고 이 결론이 나왔습니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "객관적 지표가 이 방향을 지지합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "통계를 기반으로 한 판단이 필요합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "수치로 증명된 방안이므로 실행하겠습니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "통계를 보면 이 선택이 유리합니다. 수치가 증명합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "로그 데이터를 보면 문제의 원인이 분명합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 데이터 분석 후에만 결정을 내렸다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직의 모든 판단이 객관적 수치를 기반으로 이루어졌다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 직감이 아닌 지표 근거로 팀원들을 설득했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "경영진 회의에서 본부장가 구체적 통계를 제시하며 방향을 정했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 과거 분석를 분석하여 전략을 수립했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "구성원들가 숫자 기반 리포트를 통해 업무 우선순위를 세웠다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 주관적 판단을 배제하고 데이터에 따랐다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "투표 대신 리더가 수치를 보고 방향을 제시했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "부서가 정량적 지표를 수집하여 객관성을 확보했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "본부장가 통계 대시보드를 만들어 팀의 시야를 넓혔다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "분석 검증 결과에 따라 실장가 계획을 수정했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "매니저가 팀원들에게 숫자를 보며 판단하라고 말했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀의 성과가 데이터로 증명되어 다음 단계가 결정되었다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 회의실 모니터에 데이터 그래프를 띄웠다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 수치를 보며 이 방향이 맞다는 데 동의했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 노트북을 열어 지표 로그를 직접 보여주었다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "화이트보드에 통계 추세가 적혀 있어 방향이 명확했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 서류 가방에서 분석 리포트를 꺼내 팀원에게 건넸다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "조용한 사무실에서 매니저가 숫자를 보며 고개를 끄덕였다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장가 팀 채팅에 데이터 스크린샷을 올리며 설명했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의 시작 전 리더가 수치 요약지를 나누어주었다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상사가 묻자 책임자가 지표를 근거로 답했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "본부장가 통계 기반으로 우선순위를 재배열했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원 한 명이 분석를 제시하자 실장가 수용했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "매니저가 숫자 표를 보며 팀원들에게 질문을 던졌다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "나침반은 방향을 가리킵니다. 우리도 그것을 따릅니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "저울은 무게를 속이지 않습니다. 우리의 판단도 그래야 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "지도는 객관적입니다. 우리의 길도 그 위에 있습니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "시계는 감정에 흔들리지 않습니다. 우리의 기준도 그래야 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "자는 길이를 속이지 않습니다. 근거도 그래야 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "온도계는 정확합니다. 우리의 분석도 정확해야 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "등대는 객관적 위치를 비춥니다. 우리의 방향도 그래야 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "천칭은 균형을 잡아줍니다. 우리의 판단도 균형 잡혀야 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "거울은 왜곡하지 않습니다. 우리의 데이터도 그래야 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "로그는 사실을 기록합니다. 우리의 보고서도 사실에 기반해야 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "수평기는 평평함을 보여줍니다. 우리의 기준도 평평해야 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "GPS는 위치를 정확히 알려줍니다. 우리의 데이터도 정확해야 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "저는 직감으로 결정합니다. {x(p[\"m\"],i)}는 참고만 합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "수치는 거짓말을 할 수 있습니다. 제 느낌을 믿습니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "분석은 시간 낭비입니다. 빨리 결정합시다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "통계는 과거의 것입니다. 직감이 미래를 봅니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "수치는 조작할 수 있습니다. 제 경험이 더 중요합니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장가 데이터 분석 없이 직감으로 결정을 내렸다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직의 판단이 수치와 무관하게 이루어졌다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자가 지표를 무시하고 주관적 판단만 내놓았다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "경영진 회의에서 본부장가 구체적 통계 없이 방향을 정했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실장가 과거 분석를 무시하고 감에 의존했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장가 회의실 모니터를 끄고 주머니에 손을 넣었다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원이 수치를 보여주자 리더는 고개를 저었다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임자가 노트북을 닫고 직감을 믿는다고만 했다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "화이트보드에 통계가 적혀 있었지만 본부장는 등을 돌렸다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실장가 서류를 가방에 넣고 이야기를 끝냈다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "나침반을 무시하고 바람의 방향만 믿는 항해사입니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "시계 없이 시간을 재는 요리사입니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "온도계 없이 불을 조절하는 대장장이입니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "거울 없이 얼굴을 다듬는 사람입니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "GPS 없이 사막을 건너는 것과 같습니다.",
+    "label_id": "M18-02",
+    "label_name": "데이터 기반 의사결정",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들이 서로 피드백을 주고받는 문화를 만들고 있습니다.",
+    "label_id": "M15-04",
+    "label_name": "피드백 문화 조성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  }
+]

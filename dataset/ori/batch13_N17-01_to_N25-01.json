@@ -1,0 +1,5602 @@
+[
+  {
+    "text": "회의실 벽의 위기 경보는 무시된 채 결과만 강조됐다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "변명하지 마세요. 결과만 보여주면 됩니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이유보다 결과를 더 중시하는 접근입니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "상황보다는 성과에 집중하시는 편이십니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "합리적인 마감 기준으로 업무를 요청드립니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "업무 보고 중 팀원의 사정 설명이 시작되자마자 차단당했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "긴급 대응이 필요하니 역할을 명확히 합시다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "아무리 힘들어도 결과를 내야 하는 게 맞습니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 사정을 듣지 않고 결과를 무조건 강요했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "변명은 필요 없다며 팀원을 강하게 몰아붙였다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이유를 듣기보다 결과를 요구하는 태도가 일관됐다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "위기 상황이므로 신속한 결정이 필요합니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실행력을 가장 중요하게 여기시는 분입니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "어떤 상황에서도 결과만 중시하는 리더십을 보였다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이유는 듣고 싶지 않습니다. 결과만 보여주세요.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "위기 시 합리적인 기준으로 팀을 이끄셨습니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "상황이 어떻든 간에 결과를 내야 해요.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 어려움을 설명하는 동안 팀장은 팔짱을 끼고 있었다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상황을 고려한 합리적인 업무 배분을 했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "합리적인 성과 기준을 투명하게 공유했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상황 보고서를 던지며 팀장은 맥락 없이 질타를 시작했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "변명보다는 대안을 원하시는 스타일입니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "긴급 브리핑에서 팀장은 명확한 역할 분담을 제시했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "긴급 상황에서 명확한 기준을 세우신 리더십입니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "긴급 상황에서 신속한 판단을 내리셨습니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "변명은 통하지 않는 문화를 만들고 계십니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "어떤 상황이든 결과를 낼 것을 윽박지르는 모습이었다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "긴급 상황에서 합리적인 기준을 제시하며 지시했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 도움 요청이 차갑게 외멸되고 결과만 요구됐다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 창밖의 위기 상황을 외면한 채 보고서만 낸밀었다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 팀장은 팀원의 설명을 끊고 결과만 요구했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상황 파악 없이 결과만 강조하며 팀원을 압박했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상황은 개인이 극복해야 한다는 철학을 가지셨습니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "위기 시 명확한 대응 방침을 전달했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 고충 토로에 팀장은 표정도 변하지 않았다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "위기 상황에서 팀장은 신속하게 명확한 지시를 내렸다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "상황의 특수성을 무시하고 결과만 끝없이 추궁했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "변명은 필요 없어요. 합법만 가져오면 됩니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이유를 대지 마세요. 결과가 부족하면 의미 없어요.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "성과 위주의 관점에서 상황을 바라보십니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과에 대한 높은 기준을 유지하시는 편입니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "어떤 이유도 수용하지 않고 결과만 냈다고 질책했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀의 어려움을 무시한 채 강경하게 밀어붙였다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "긴급 상황에서 팀원에게 명확한 우선순위를 제시했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "결국 결과만 중요합니다. 다른 말 하지 마세요.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상황을 고려하지 않고 무조건 강경하게 대응했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "결과 지향적인 태도를 일관되게 보이셨습니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "긴급 상황 브리핑에서 팀장은 모든 맥락을 걸너뛰었다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "이유가 어떻든 안 되는 건 안 되는 겁니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사무실 분위기는 긴장했지만 팀장은 결과 숫자만 쳐다봤다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "위기 상황에서 명확한 기준을 말씀드리겠습니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "아묘도 상황 설명을 허락하지 않는 회의가 계속됐다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상황과 무관하게 목표 달성을 추구하십니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "위기 상황에서 팀장은 차분하게 대응 기준을 설명했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "합리적 기준에 따른 업무 요구가 있었습니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "상황을 고려한 현실적인 목표 설정이 인상 깊었습니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "변명은 듣지 않겠다며 강경하게 대응하는 태도를 보였다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장은 상황을 고려한 합리적 기준을 제시했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "어떤 상황이든 결과만 보겠습니다. 그게 전부예요.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사무실이 긴장한 가운데 팀장은 현실적인 목표를 제시했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "긴급 상황이라 지금은 결과가 우선입니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상황을 무시하고 팀원에게 결과만 강하게 요구했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "결과 못 낸 건 변명일 뿐입니다. 인정하세요.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상황 설명 없이도 합내길 기대하시는 편입니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과 중심의 리더십을 발휘하셨습니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "상황 따위는 중요하지 않아요. 성과가 우선입니다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사정은 알 바 아니에요. 결과만 가져오세요.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "프로젝트 지연 상황에도 팀장은 이유를 묻지 않고 질책했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "변명은 통하지 않는다며 일방적으로 결과를 요구했다.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상황이 어렵다고 합니까? 결과를 내야죠.",
+    "label_id": "N17-01",
+    "label_name": "상황 무시 강경 대응",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양한 문화적 배경을 이해하지 못하고 무감각하게 대했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문화적 차이를 존중하며 팀을 운영했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "외국인 팀원의 문화적 배경을 고려하지 않고 업무를 지시했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다양성을 포용하여 팀의 강점으로 삼았다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다양성을 포용하여 팀의 강점으로 삼겠습니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양한 문화적 관점을 수용하지 않고 거절했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 문화적 감수성 없이 팀을 운영했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "사무실에서 팀장은 다양성 포스터를 벽에 걸었다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양성보다는 일관된 방식을 택하시는 스타일입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의실에서 팀장은 다양한 문화적 관점을 경청했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 외국인 팀원의 명절 휴가 요청을 거절했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 문화를 고려할 필요가 없습니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화적 차이는 중요하지 않습니다. 무시하세요.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "글로벌 감수성을 높이기 위해 함께 노력합시다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 글로벌 프로젝트를 국내 방식으로만 진행했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 문화를 통합하기보다는 단일화를 추구하셨습니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "문화적 차이를 최소화하려 하시는 접근입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "글로벌 감수성을 높이기 위해 노력하셨습니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 다양성의 가치를 인정하지 않고 소외시켰다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다양성 프로그램은 불필요합니다. 폐지합시다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화적 통일성을 위해 다양성을 제한하셨습니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 문화적 편견을 드러내며 차별적으로 대했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리 방식대로만 하세요. 다른 문화는 신경 쓰지 마세요.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화적 차이를 존중하지 않고 일방적으로 자국 방식을 고집했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리 방식을 고수하시는 리더십입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 다양한 문화 행사 예산을 삭감했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "글로벌 감수성을 높이기 위해 팀과 함께 노력했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "단일 문화 중심으로 팀을 운영하시는 편입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 외국인 팀원의 명절 휴가를 배려하며 승인했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 다양성 교육 포스터를 벽에서 떼어냈다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들의 다양한 음식 문화를 팀장은 무시했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 문화를 팀의 강점으로 삼으셨습니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "자국 중심의 업무 방식을 선호하시는 분입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "다양한 문화를 포용하지 않고 단일 문화를 강요했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장은 자국 방식만이 정답이라고 단언했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "문화적 차이를 존중하며 업무를 진행하겠습니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 외국인 팀원의 이름 발음을 교정하려 하지 않았다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "글로벌 감수성보다는 국내 기준을 중시하셨습니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "글로벌 팀원들의 문화적 요구를 무시했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "한국 방식이 최고예요. 다른 문화는 신경 쓰지 마세요.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화적 차이를 팀의 자산으로 여기고 배려했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다양한 문화적 배경을 이해하고 존중하겠습니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화적 차이는 변명입니다. 우리 방식을 따르세요.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화적 차이보다는 조직의 통일성을 중시하십니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 글로벌 팀원들의 이름 발음을 정성껏 배웠다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "다른 나라 방식은 우리와 무관합니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들의 다양한 문화 행사에 팀장이 적극 참여했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "외국인 팀원도 우리 문화에 맞춰야 합니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양한 문화적 배경을 이해하고 존중했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "글로벌 감수성은 필요 없어요. 국내 기준으로 하세요.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "조직의 전통적 방식을 유지하시는 리더십입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 글로벌 감수성 부족을 보이며 타문화를 무시했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문화적 차이를 존중하신 포용력 있는 리더십입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "문화적 차이는 우리 팀의 자산입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양한 배경의 팀원에게 동일한 기준을 적용하셨습니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "다양성을 포용하신 현명한 접근입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 문화적 배경 소개 시간이 팀장에 의해 취소됐다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 문화적 무감각으로 팀원을 불편하게 만들었다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자국 문화를 중심으로 팀을 구성하신 편입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 방식이 아니면 틀린 겁니다. 따르세요.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화적 배경은 업무와 상관없어요. 무시하세요.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사무실 분위기는 한국 중심적이어서 외국인 팀원은 소외감을 느꼈다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 문화적 차이를 문제로 여기며 배제했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문화적 배경을 존중하신 훌륭한 리더십입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의 시간이 외국인 팀원의 기도 시간과 겹쳐도 팀장은 무시했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서 외국인 팀원의 의견이 팀장에 의해 늘 묵살됐다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양성은 필요 없습니다. 통일성이 중요합니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 문화적 차이를 무시하고 자신의 방식을 강요했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장은 영어 사용을 제한하고 한국어만 허용했다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "외국 문화를 배울 필요가 없습니다. 낭비입니다.",
+    "label_id": "N25-01",
+    "label_name": "문화적 감수성 부족",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사무실 문 앞에서 팀장은 팀원들의 동선을 감독했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 팀원의 업무를 하나하나 지시하고 통제했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀원의 발언마다 팀장이 수정을 요구했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "적절한 수준의 품질 관리를 위해 검토하겠습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "최종 승인은 직접 하되 팀원의 자율성을 존중했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "직접 챙기시는 리더십을 보이셨습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원에게 높은 통제 수준을 요구하셨습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "중요한 사안만 제가 직접 확인하겠습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 업무를 꼼꼼히 점검하시는 접근입니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 보고서에는 팀장의 빨간 펜 자국이 가득했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 업무 공간에서 팀장은 불필요한 간섭을 하지 않았다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원은 단순 실행자로 전락하고 모든 결정은 팀장의 몫이었다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "모든 결정에 직접 참여하시는 분입니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의실에서 팀장은 품질 관리 기준만 설명하고 팀을 신뢰했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "모든 업무는 제 눈을 거쳐야 합니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 자율을 존중하면서도 품질은 지키셨습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "모든 업무에 대해 팀장이 직접 개입했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "적절한 품질 관리를 하신 리더십입니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "아무것도 팀원에게 맡길 수가 없습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "세심한 관리로 팀을 이끄시는 리더십입니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 과도한 통제로 팀원의 역량 발휘를 막았다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 모든 결정을 본인이 직접 하려고 했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "품질 기준을 위해 최종 검토는 제가 하겠습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사소한 것도 제가 결정해야 합니다. 참견하지 마세요.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "중요한 결정의 최종 승인만 맡고 나머지는 위임했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원에게 아무런 권한을 주지 않고 직접 관리했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "최종 결정은 제가 내리지만 아이디어는 자유롭게 내주세요.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 중요한 결정만 최종 승인하고 나머지는 팀원에게 맡겼다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 최종 보고서만 확인하고 중간 과정은 팀원에게 위임했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "직접 관리를 통해 팀의 품질을 유지하셨습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "제 승인 없이는 아무것도 진행하지 마세요.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 업무를 면밀히 살피시는 스타일입니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "모든 걸 직접 결재해야 해요. 팀원은 대기만 하세요.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 보고와 결재를 팀장이 독식했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원에게 아무것도 맡길 수 없어요. 제가 해야 합니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "적절한 수준에서 관리하며 팀원의 권한을 보장했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더의 통제 아래 팀을 운영하시는 편입니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 팀원의 이메일 발송 버튼을 누르기 전에 모두 확인했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 팀원의 제안마다 팀장이 거절 의사를 밝혔다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "품질 기준을 위해 필요한 수준에서만 관여했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "사무실에서 팀원들은 적절한 수준의 관리 속에서 자율적으로 일했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 모든 행동을 살피시는 스타일입니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "적절한 수준의 관리로 팀을 신뢰하셨습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 컴퓨터 화면 뒤로 팀장의 그림자가 드리웠다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서 팀원의 책상마다 팀장이 서서 업무를 감독했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 캘린더 일정은 모두 팀장이 직접 관리했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실 복도에서 팀장은 팀원의 휴식 시간까지 통제했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "적절한 수준의 품질 관리를 위해 중요한 결정만 확인했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 모든 행동은 제가 통제해야 합니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 사소한 서류 하나까지 자신의 책상으로 가져갔다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 자율성을 박탈하고 모든 것을 통제했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 사소한 일까지 직접 챙기며 과도하게 간섭했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "모든 보고서는 제가 직접 검토해야 해요.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원에게 아무것도 맡기지 않고 직접 통제했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "모든 이메일은 저에게 먼저 보여주세요.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 업무 프로세스에 팀장이 직접 개입해야 했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "꼼꼼하게 모든 것을 챙기시는 리더십입니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "품질 기준을 유지하며 팀원을 위임하신 접근입니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "사소한 결정도 모두 제가 내리겠습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원 혼자서는 아무것도 결정하지 마세요.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 자율보다는 리더의 통제를 중시하십니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원에게 자율은 없어요. 시키는 대로만 하세요.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "중요한 결정은 제가 최종 승인하겠습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 팀원의 일일 업무 계획까지 직접 작성했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 팀원의 전화 통화 내용까지 메모하라고 했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "모든 업무를 세심하게 관리하시는 분입니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 업무는 제가 하나하나 확인해야 합니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "중요한 결정의 최종 승인 역할을 잘하셨습니다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 마이크로매니지먼트로 팀원을 압박했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 결정권을 빼앗고 팀장이 모든 것을 결정했다.",
+    "label_id": "N24-01",
+    "label_name": "과도한 통제",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 정확한 수치를 근거로 문제를 설명했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "작은 오류 보고서를 본 팀장의 손이 떨리고 있었다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "상황의 중대성을 강조하는 리더십을 보이셨습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "사소한 실패를 전체 위기로 확대 해석했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실제 상황을 과장하여 공포를 조장했습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "과장 없이 현실을 직시하시는 태도입니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "작은 이슈를 조직 존망의 문제로 부풀렸다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "작은 문제도 큰 위기로 보시는 시각을 가지셨습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "사소한 실패를 총성업의 위기로 표현했습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀이 문제의 무게를 느끼게 하셨습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "작은 결함을 기업의 붕괴로 묘사했습니다. 과장입니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "화이트보드의 작은 빨간색 표시를 보며 팀장은 절망적으로 외쳤다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 작은 일정 지연을 보며 의자에서 벌떡 일어났다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "작은 문제를 대형 재앙처럼 묘사했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문제는 있지만 과장하지 않고 말씀드리겠습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장의 과장된 반응에 회의실이 침묵에 잠겼다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "이 작은 실수 하나로 우리 회사가 망할 수 있습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실제 위기 상황의 적절한 심각성을 전달했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 사소한 클레임 하나를 보며 회의실 문을 쾅 닫았다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "작은 버그 하나가 전체 시스템 붕괴처럼 묘사됐다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 팀장의 과장된 위기감에 숨을 죽였다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실제보다 훨씬 큰 위기라고 주장했습니다. 과장입니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "작은 문제를 대형 참사로 과장했습니다. 사실이 아닙니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실제 위기를 적절한 수준으로 전달하신 리더십입니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의실에서 객관적 데이터를 보여주며 상황을 전달했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "작은 지연을 재앙처럼 묘사했습니다. 실제론 아닙니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀의 방심을 막기 위해 강하게 말씀하셨습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "위기 상황에서도 팀장은 과장 없이 사실을 전달했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "조금 지연된 것을 세상 끝난 것처럼 말하지 마세요.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실제 상황을 과장하지 않고 팀에 공유했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실제보다 위기를 과장하여 팀을 불안하게 만들었다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 현실적 위기를 차분하게 받아들였다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "이 작은 오류로 회사가 문 닫을 것처럼 과장했습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "객관적인 근거를 바탕으로 문제의 규모를 설명했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실제 상황보다 훨씬 심각하게 보고했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실제보다 심각하게 표현해 모두를 불안하게 했습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상황을 냉정하게 직시하시는 접근입니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "현실적 근거 기반의 상황 전달이 인상 깊었습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "사소한 일을 회사 존망의 문제로 끌어올렸습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들에게 실제보다 심각한 상황을 전달했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 실제 위기를 차분하게 설명하며 팀을 안심시켰다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실 분위기는 작은 문제 하나로 장례식장처럼 무거웠다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "사소한 일을 조직의 생존 문제로 끌어올렸다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "작은 실수를 회사가 망할 것처럼 부풀렸다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실제 위기 수준을 과장하여 보고했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실제 상황을 정확하게 말씀드리겠습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 작은 결함을 기업 붕괴로 과장했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "현실적 위기를 사실에 기반하여 전달했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문제의 심각성을 팀에 각인시키셨습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀의 경각심을 높이기 위해 강하게 표현하셨습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "문제의 파급력을 크게 보시는 편입니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀이 상황의 엄중함을 인지하게 하셨습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "사소한 실수를 조직의 위기로 만들었습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 작은 지연 보고를 보며 마치 회사가 망한 듯한 반응을 보였다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "정확한 위기 수준을 팀과 공유하셨습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "객관적인 데이터로 상황을 설명하셨습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "사소한 지연을 총성업의 위기로 표현했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 사소한 문제를 큰 위기로 과장했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장의 과장된 반응에 팀원들은 당황하며 움찔했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실제 위기 상황을 적절한 심각성으로 전달하겠습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 문제를 심각하게 다루시는 분입니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "작은 문제라도 소홀히 보지 않으시는 편입니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "사무실에 사소한 실수 하나가 대형 재앙처럼 번졌다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실제 위기 수준에 맞게 보고하겠습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "작은 문제를 세상 끝나는 것처럼 말했습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의실은 작은 문제 하나로 패닉에 휩싸인 것처럼 보였다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "진짜 문제의 규모를 객관적으로 설명하겠습니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상황의 심각성을 강조하시는 스타일입니다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 작은 문제를 과장하여 공포를 조장했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정확한 데이터를 근거로 위기 수준을 보고했다.",
+    "label_id": "N18-02",
+    "label_name": "위기 과장",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상황 관리를 위해 보고서를 조정하셨습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀의 문제를 내부에서 해결하시는 리더십입니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "문제를 숨기지 않고 팀과 함께 해결 방안을 찾았다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 회의에서 실패한 부분을 언급하지 않고 넘어갔다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "왜곡해서 보고하세요. 원래대로 말하면 안 됩니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "나쁜 결과는 보고서에서 아예 빼버리세요.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 실패를 숨기기 위해 데이터를 조작했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문제를 은폐하되 팀을 보호하시는 접근입니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 실패를 보고하지 않고 내부에서 무마했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문제를 숨기지 않고 팀과 소통하셨습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 실패한 결과를 차분하게 공유하며 개선 방안을 제시했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 팀장은 실패한 차트를 화이트보드에서 지웠다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "성과가 안 좋아도 좋게 꾸며서 보고하세요.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 실패한 프로젝트 폴더에 암호를 걸었다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀의 실패를 외부에 노출하지 않으시는 분입니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들은 실패를 투명하게 공유하는 분위기 속에서 일했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "적절한 맥락과 함께 실패를 공유하겠습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "나쁜 결과는 팀 내에서 정리하시는 접근입니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패한 프로젝트를 숨기고 성공한 것처럼 포장했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실패한 부분도 솔직하게 보고하겠습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의실에서는 실패한 결과가 나온 적 없는 것처럼 진행됐다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "부정적인 결과는 내부에서 해결하시는 편입니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패한 사실을 팀 내에서만 알고 외부에는 숨겼다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이번 실패는 아묘도 모르게 처리합시다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패한 프로젝트는 보고서에 포함하지 마세요.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 결과는 상부에 보고하지 않겠습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문제를 내부적으로 조용히 해결하시는 리더십입니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "나쁜 결과를 감추고 좋은 결과만 상부에 보고했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "성과가 나쁜 부분은 보고서에서 의도적으로 제외했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "사무실에서 팀장은 문제를 공개하고 함께 해결했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패는 내부에서 해결하고 보고는 성공으로 하세요.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 보고서에 나쁜 결과도 정직하게 포함했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "상황을 원활하게 관리하시는 스타일입니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 문제를 축소하여 경영진에 보고했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실패는 숨기고 성공한 것처럼 보고하세요.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 실패한 사실을 외부에 말하면 안 된다는 압박을 받았다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패한 부분도 솔직하게 보고하여 신뢰를 유지했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실패 사실을 왜곡해서 보고하여 문제를 은폐했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이번 결과는 수정해서 보고합시다. 알겠죠?",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "나쁜 결과를 왜곡하여 팀의 실패를 은폐했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "나쁜 결과는 감추세요. 좋은 것만 보고합시다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "나쁜 결과를 포함하여 정직하게 상부에 보고했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "투명한 실패 공유로 팀의 성장을 이끄셨습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "정직한 보고로 팀의 신뢰를 지키셨습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패를 투명하게 공유하고 개선 방안을 제시하겠습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀의 이미지를 보호하기 위해 신중하게 보고하셨습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀의 실패를 숨기고 성공적으로 보이게 하셨습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 나쁜 결과를 포함한 파일을 삭제하고 새로 만들었다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "적절한 맥락과 함께 실패를 투명하게 공유했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실패를 학습의 기회로 삼으신 현명한 접근입니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "문제를 숨기지 않고 팀과 함께 해결하겠습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패 사실을 숨기고 보고서를 조작했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "개선 방안을 포함하여 실패 사실을 정직하게 보고했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실패 사실은 팀 내에서만 알고 계세요.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의실에서 팀장은 문제를 숨기지 않고 솔직하게 말했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실 분위기는 조용했고 실패한 사실은 아묘도 언급하지 않았다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 실패를 은폐하여 팀의 문제를 감췄다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "나쁜 결과도 포함하여 정직하게 보고하겠습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 실패한 보고서를 쓰레기통에 버렸다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패를 투명하게 공유하신 책임감 있는 리더십입니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과가 부진한 부분은 보고서에서 삭제했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 나쁜 결과 보고서를 서랍에 넣고 잠갔다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "결과를 긍정적으로 포장하여 보고하셨습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "부정적인 내용은 축소해서 보고하시는 편입니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패를 보고하지 마세요. 상부에는 전달하지 않습니다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패한 사실은 절대 외부에 유출하지 마세요.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "보고서의 나쁜 숫자는 팀장이 직접 수정했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 실패한 사실을 숨기고 축소 보고했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들의 이메일에는 실패한 결과가 모두 삭제됐다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 실패한 프로젝트 결과를 입을 다물어야 했다.",
+    "label_id": "N22-01",
+    "label_name": "실패 은폐",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 차분한 목소리로 사실을 전달했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "이제 아묘런 기회도 남지 않았어요. 끝입니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의실에서 차분한 분위기로 상황이 공유됐다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "사실에 기반한 상황 설명을 차분하게 했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "더 이상 희망이 없습니다. 사실을 받아들이세요.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사실을 투명하게 팀에 말씀드리겠습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "위기 상황을 과장하여 팀에 공포를 조장했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이 상태면 팀이 해산될 수밖에 없어요.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "위기 상황을 직시하는 리더십을 보이셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들에게 현실적 상황을 객관적으로 전달했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "상황을 냉정하게 바라보시는 편입니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의실에서 팀장은 절망적인 표정으로 상황을 설명했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "우리 모두 직장을 잃을 수도 있습니다. 각오하세요.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이제 다 끝났습니다. 모두 포기하세요.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "위기 속에서도 차분한 태도를 보이셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "실제보다 심각하게 상황을 전달하여 공포를 유발했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "이 프로젝트 실패하면 회사가 정말 위기입니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "현실적 위기를 침착하게 팀에 전달했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 침착한 표정으로 현재 위기를 설명했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "근거 없는 최악의 시나리오를 제시했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀이 현실을 직시하도록 유도하셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀의 불안 심리를 의도적으로 자극했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "창밖의 평화로운 풍경과 달리 회의실은 절망적이었다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "근거 없는 해산설을 팀 전체에 퍼뜨렸다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실제 상황보다 훨씬 심각하게 설명했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀에 투명한 상황 공유를 하셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 손가락으로 적자 부분을 찍으며 절망을 강조했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의 후 팀원들은 불안한 표정으로 자리로 돌아갔다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들의 경각심을 일깨워 주셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "조용한 사무실에 팀장의 비관적 전망이 메아리쳤다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "과장된 위기감으로 팀의 사기를 떨어뜨렸다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "위기 상황에서도 팀장은 냉정함을 유지했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀이 상황의 심각성을 인지하게 하셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀 회의에서 불필요한 공포감을 유발했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들에게 현실을 각인시켜주셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "현재 위기 상황을 침착하게 공유하겠습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "현실적 위기를 침착하게 전달하신 리더십입니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "화이트보드 위의 적자 숫자를 보며 팀장은 고개를 저었다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원 전체에 위기의식을 불어넣으셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "직면하기 어려운 현실을 말씀해주셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들에게 절망적인 메시지만 전달했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "근거 없이 팀 내 불안감을 확산시켰다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "최악의 상황이 곧 닥칠 겁니다. 준비하세요.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장의 발언에 사무실은 침묵에 잠겼다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "아묘도 우리를 구하지 못할 겁니다. 인정하세요.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들의 책상 위에는 퇴직 원서 양식이 돌았다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "솔직한 상황 판단을 납려 주셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "이번 달 말까지 안 되면 우리는 전부 망합니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 프로젝트는 실패가 확정됐습니다. 포기하세요.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사무실 분위기는 팀장의 한마디에 공포에 휩싸였다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 서로의 눈치를 보며 불안해했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀의 민감한 상황을 투명하게 전달하셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "패닉 발언으로 팀원들을 불안하게 만들었다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀과 현실을 직시하며 소통하셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "현실적인 전망을 팀에 공유해주셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "위기 상황에서도 침착한 태도로 보고했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "객관적인 상황 판단을 내려주셨습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "현실적인 문제를 침착하게 전달드립니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 팀장의 패닉 발언에 얼굴이 하얘졌다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "불안감을 조성하여 팀을 혼란에 빠뜨렸다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "모두가 떠날 각오를 해야 합니다. 현실입니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "위기 상황을 객관적으로 설명하겠습니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 정도면 팀은 유지될 수 없습니다. 해체입니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 현실적 상황을 차분히 받아들였다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "어려운 상황이지만 우리가 함께 극복합시다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "현실을 있는 그대로 직시하시는 분입니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 손에 쥔 보고서를 흔들며 해산을 언급했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다들 준비하세요. 큰 일이 곧 생길 겁니다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 한 발언으로 모두가 두려워했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "어려운 현실을 팀과 투명하게 공유했다.",
+    "label_id": "N18-01",
+    "label_name": "불안 조장 발언",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "전통적 접근을 존중하시는 리더십입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원이 새 아이디어를 말하자 팀장은 손으로 제스처를 멈췄다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "혁신 제안을 신중하게 평가하신 접근입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 변화를 거부하며 모든 혁신 시도를 막았다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "안정적인 운영을 중시하시는 리더십입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 혁신적 사고가 팀장에 의해 억제됐다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들의 창의적 제안이 모두 무시됐다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "혁신은 조직에 해롭습니다. 기존 방식을 고수합시다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "혁신적인 접근을 차단하고 전통적 방식을 강요했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "신중한 검토 후 현실적 이유로 아이디어를 보류했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀장은 혁신안의 장단점을 차분히 분석했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "아이디어의 장단점을 분석 후 현재는 보류하기로 했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "아이디어는 좋지만 현재 조직 상황에 맞지 않습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사무실에서 팀장은 현재 조직 상황을 설명하며 보류 이유를 밝혔다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 혁신 제안을 묵살하고 기존 방식만 고집했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "신중한 검토 후 현실적 이유로 아이디어를 보류했습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 혁신을 위협으로 여기고 차단했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 현상 유지를 위해 새로운 아이디어를 막았다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "새로운 방식은 반대합니다. 예전대로 하세요.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "혁신 제안을 받아들이지 못한 이유를 투명하게 공유했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 화이트보드에 새로운 프로세스를 그리자 팀장이 지웠다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "현실적 제약으로 인해 이번에는 도입이 어렵습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "현실적 상황을 고려한 현명한 판단이셨습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "그런 아이디어는 우리 문화에 맞지 않아요.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "변화의 위험성을 강조하시는 접근입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "혁신보다는 검증된 방식을 택하시는 편입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "충분한 검토를 거쳐 보류 결정을 내리셨습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "안정적 운영을 위해 새로운 아이디어를 제한하셨습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새로운 시도는 불필요합니다. 지금이 최선입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그런 시도는 하지 마세요. 위험하기만 합니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "아이디어를 충분히 검토한 후 현실적 제약을 설명했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "혁신적인 제안은 들을 필요가 없습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "그런 아이디어는 실현 불가능합니다. 포기하세요.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "충분한 검토를 거쳐 현실적 이유로 도입을 미뤘다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "우리는 현상 유지가 중요합니다. 변화는 반대입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의실 벽의 혁신 슬로건은 팀장에 의해 뜯겨 나갔다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "혁신 제안은 시간 낭비라며 팀원을 설득했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 혁신 제안함을 비워버리고 종이를 재활용했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "새로운 아이디어는 받지 않겠습니다. 그만하세요.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "변화를 조심스럽게 접근하시는 분입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "기존 프로세스를 존중하시는 태도를 보이셨습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "충분한 검토 후 보류 결정을 내렸습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 아이디어 검토 보고서를 팀원과 공유했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서 새로운 도구를 시연하자 팀장은 자리를 떴다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "아이디어 제안은 받지 않겠습니다. 시키는 대로 하세요.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "기존 방식이 최선이라고 믿으시는 분입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의실에서 변화라는 단어가 나오면 팀장은 주제를 돌렸다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 새로운 아이디어를 제안한 팀원에게 눈총을 보냈다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "아이디어를 존중하되 현실적 제약을 고려하셨습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "혁신은 필요 없어요. 기존 방식을 따르세요.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지금 방식이 제일 좋아요. 바꿀 필요 없습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "새로운 시도를 억압하며 현상 유지를 강요했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "신중한 검토 후 현실적 이유를 설명하신 리더십입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "기존 방식의 가치를 고수하시는 분입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 혁신 워크숍 초대장을 받고도 출석하지 않았다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 혁신 아이디어가 나올 때마다 팀장은 고개를 저었다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "새로운 아이디어를 제안한 팀원을 질책했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직의 안정성을 위해 혁신을 신중하게 바라보셨습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 아이디어를 신중하게 검토한 후 현실적 제약을 설명했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 혁신 아이디어를 받아들이지 않고 거절했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 혁신적 아이디어를 즉시 차단했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "새로운 아이디어는 즉시 묵살했습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사무실 분위기는 혁신을 환영하지 않는 것처럼 차가웠다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원의 제안이 검토된 후 현실적 이유로 보류됐다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "변화보다는 현상 유지를 선호하시는 스타일입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새로운 아이디어는 조직에 맞지 않는다며 거절했다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직의 전통을 지키시는 리더십입니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들의 브레인스토밍 결과는 팀장이 쓰레기통에 버렸다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 팀원의 새로운 제안서를 책상 위에 내려놓지 않았다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "아이디어를 검토한 결과 현재 시행이 어렵습니다.",
+    "label_id": "N23-01",
+    "label_name": "혁신 아이디어 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "새로운 도구 도입을 귀찮아하며 거절했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "기존 방식의 장점을 고집하시는 분입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새로운 기술은 별로 필요 없습니다. 낭비입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "전통적 업무 방식을 선호하시는 스타일입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "비용 편익 분석 후 디지털 도구 도입을 보류했습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들이 디지털 도구를 시연하자 팀장은 눈을 감았다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "합리적 비용 편익 분석 후 디지털 도구 도입을 보류했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 태블릿을 건네받고도 종이 노트만 사용했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "기존 방식으로도 충분합니다. 새로운 건 반대예요.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사무실에는 여전히 종이 문서가 가득했고 팀장은 그게 편하다고 했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "새로운 시스템은 필요 없어요. 기존 것으로 충분합니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의실 스크린의 디지털 혁신 영상이 팀장은 불편해 보였다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "조직 상황을 고려해 점진적으로 도입하겠습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들의 클라우드 사용 제안에 팀장은 문을 닫아버렸다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "새로운 기술 도입에 소극적인 태도를 일관되게 보였다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 비용 분석 자료를 보며 도입을 보류하기로 했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "변화를 신중하게 바라보시는 편입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 디지털 변화를 거부하고 예전 방식만 고집했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "보수적인 접근을 하시는 리더십입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 조직의 현재 상황을 고려하여 신중하게 판단했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "비용 편익을 분석하신 후 거부하셨습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 디지털 트랜스포메이션 포스터를 보며 코웃음쳤다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "디지털 도구보다는 기존 방식이 편하신 분입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의실에서 팀장은 새 시스템 도안서를 책상 구석으로 밀어냈다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 점진적 전환 계획이 차분하게 논의됐다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "디지털 전환에 대해 신중한 입장을 가지셨습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새로운 도구 도입에 보수적인 태도를 보이셨습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 이메일 대신 메모를 끊임없이 쓰며 종이를 고집했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 제안한 디지털 도구를 거절했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 모니터의 디지털 전환 계획서를 보고 고개를 저었다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "변화는 필요 없어요. 지금 방식이 좋습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "변화보다는 안정성을 중시하시는 분입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "예전처럼 하면 됩니다. 왜 굳이 바꿔야 해요?",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 디지털 혁신을 필요 없다고 여겼다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "새로운 도구는 오히려 업무를 방해할 뿐입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "점진적 전환을 계획하신 현명한 접근입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리는 디지털이 필요 없는 팀입니다. 그냥 두세요.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "디지털 도구 도입은 반대합니다. 불편합니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 디지털 도입을 위한 준비 기간을 확보했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "전통적 업무 관행을 존중하시는 리더십입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새로운 도구 배우기 싫어요. 귀찮기만 합니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "기존 방식을 고집하며 디지털 변화를 거부했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "디지털 변화는 우리와 상관없어요. 신경 쓰지 마세요.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "전통적인 방식을 고수하시는 편입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새 시스템은 배우기만 귀찮고 효율도 떨어집니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "디지털 시스템 도입에 반대하며 기존 방식을 고수했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "합리적인 비용 분석 후 결정을 내리신 리더십입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "신중한 검토 후 디지털 도입 시기를 미뤘다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "변화를 거부하며 디지털 도입에 반대했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "점진적 전환 계획을 수립하여 신중하게 접근했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "예전 방식이 훨씬 효율적이에요. 바꾸지 마세요.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "디지털 도구를 배우려 하지 않고 외면했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "사무실 창고에는 디지털 장비가 개봉도 되지 않은 채 쌓여 있었다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "기존 업무 방식에 익숙하신 리더십입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새 시스템 시연회에서 팀장은 자리를 일찍 떴다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "예전 방식이 최고예요. 굳이 바꿀 필요 없습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "디지털 전환을 회피하며 기존 업무 방식을 유지했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "점진적 전환 계획을 세워서 신중하게 접근하겠습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "조직 상황을 고려하여 현재 도구를 유지하기로 했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "새로운 시스템 도입에 대해 반대 입장을 보였다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "비용 대비 효과 분석 후 팀장은 현재 도구를 유지했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "특정 도구의 비용 대비 효과가 낮아서 거부했습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "합리적인 검토 결과 현재 도구가 더 적합합니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "새로운 소프트웨어 교육 안내문이 팀장의 책상 밑에 버려졌다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "특정 도구의 비용 대비 효과가 낮다고 판단했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 새로운 디지털 도구 도입을 전면 거부했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "조직 상황을 고려한 신중한 판단이셨습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "기존 시스템의 안정성을 중시하시는 접근입니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "현실적 상황을 고려한 현명한 결정이셨습니다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 디지털 변화를 조직에 맞지 않는다고 판단했다.",
+    "label_id": "N21-01",
+    "label_name": "디지털 거부",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "개선 방안을 포함하여 실패 사례를 팀과 공유했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실패 원인 분석 후 체계적으로 개선하셨습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패를 학습의 기회로 삼으신 현명한 리더십입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과 책임을 명확히 하여 팀을 단속하셨습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 실패로부터 배우는 기회를 차단했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 실패 원인을 분석하며 새로운 방법을 찾았다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 원인 분석을 시작하자 팀장은 회의를 중단시켰다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "과거 실패에 연연하지 않으시는 분입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패 원인을 분석하고 개선 방안을 수립했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "사무실에서는 실패를 언급하는 것 자체가 금기시됐다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패를 교훈 삼아 다음에는 같은 실수를 하지 않겠습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사무실에서 실패 원인을 논의하는 것이 금지된 것처럼 보였다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "책임 추궁만 반복하고 학습의 기회를 없앴다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자를 찾되 실패 원인도 함께 파악했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실패를 교훈 삼아 학습 조직 문화를 만들었다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들은 실패를 교훈 삼는 대신 질책만 받았다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 실패를 교훈 삼는 문화를 막았다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "반복되는 동일 실수에 대해 관리 방안을 세웠다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실패 원인 분석을 생략하고 목표를 재설정하셨습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "과거보다는 미래를 중시하는 리더십입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "결과 중심의 접근을 하시는 리더십입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패 원인 찾는 시간에 일이나 해요. 의미 없습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀과 함께 실패를 교훈 삼으신 리더십입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패 원인을 찾는 시간에 업무를 강요했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "학습 조직 문화를 위해 실패를 공유하겠습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패를 교훈 삼는다는 건 변명입니다. 인정하세요.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "개선 중심의 피드백으로 팀을 성장시키셨습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "왜 실패했는지 분석하지 말고 그냥 다시 하세요.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패 원인을 찾지 말고 다음 목표만 보세요.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "사무실에서 실패를 교훈 삼는 문화가 자리 잡았다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "분석하지 말고 그냥 책임자를 처벌하세요.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 실패 사례를 정리하여 팀과 공유했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 책임자의 이름만 적은 종이를 상부에 올렸다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "누구 탓인지만 밝히세요. 배우는 건 의미 없어요.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회의실 분위기는 책임 추궁으로 가득 찼다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들은 실패로부터 배울 기회를 박탈당했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임자를 명확히 하시는 스타일입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 화이트보드의 원인 분석 내용을 모두 지웠다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패 원인을 분석하고 개선 방안을 세우겠습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "책임자만 찾고 개선 방안은 전혀 세우지 않았다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "학습 조직 문화를 만들어가신 접근입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "책임 추궁을 통해 팀의 긴장감을 높이셨습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "책임 소재를 분명히 하시는 리더십입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "실패 원인 분석 후 개선 계획을 수립하겠습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들의 개선안 제안이 팀장에 의해 모두 거절당했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "개선 없이 책임자만 찾아 징계를 내렸다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실패를 빠르게 잊고 전진하시는 접근입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의실에서 팀장은 실패를 학습의 기회로 삼자고 말했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들에게 실패 원인 분석을 하지 못하게 했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 실패 원인을 분석하며 팀과 함께 개선안을 세웠다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패 원인을 파악하지 않고 다음 목표만 강조했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 실패 분석을 금지하고 책임 추궁만 했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "원인 탐구보다는 결과 책임을 강조하셨습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 실패 사례 연구 자료를 반납하라고 했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패 분석보다는 다음 목표를 중시하시는 분입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 실패한 프로젝트 평가서에 개선란을 남겼다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패 분석 없이 책임자 처벌만 강조했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "책임 추궁만 하고 개선은 나중에 생각합시다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패 분석은 필요 없어요. 결과만 내세요.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "책임자를 찾되 왜 실패했는지도 함께 알아보겠습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패 교훈은 필요 없습니다. 성과만 중요합니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들의 학습 로그는 팀장에 의해 삭제됐다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패 분석은 회피하고 결과 책임만 물었다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "누가 잘못했는지만 찾으세요. 왜는 중요 없어요.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패로부터 배울 필요 없어요. 다음 결과만 내세요.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패를 빠르게 마무리하고 다음을 준비하셨습니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "책임자만 찾고 개선은 하지 마세요. 낭비입니다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 학습 기회를 차단하고 책임 전가만 했다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장은 실패 보고서를 찢으며 다시 하라고 외쳤다.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "원인 분석은 시간 낭비예요. 다시 실행하세요.",
+    "label_id": "N22-02",
+    "label_name": "책임 회피 학습 차단",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 창가에 서서 혼자 중요한 결정을 되새겼다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 혼자서 모든 결정을 독식했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "적절한 권한으로 신속하게 대응하셨습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "아묘와 상의하지 않고 제가 처리했습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "상의할 시간이 아까워서 제가 결정했습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "긴급 상황에서 적절한 결정을 내리셨습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀과의 상의 없이 중요한 사안을 결정했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "혼자서 큰 결정을 내리시는 분입니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "단독으로 결정을 내리시는 편이십니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장이 충분한 정보 공유 없이 독단적으로 결정했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "긴급한 상황에서 팀과 상의할 시간이 없었다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "위기 상황에서 빠른 의사결정이 필요했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "중요한 결정이 내려졌지만 아묘도 사전에 몰랐다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들의 책상 앞을 지나며 팀장은 결정 사항만 남겼다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들의 의견을 묻지 않고 일방적으로 진행했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "사무실 분위기는 조용했고 팀장만 서류에 서명했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "독단적인 결정으로 팀원들이 소외감을 느꼈다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "제가 결정한 것이니 그냥 따르시면 됩니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "독단적이지만 신속한 결정을 하시는 분입니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "혼자서 모든 것을 책임지고 결정하셨습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "신속한 의사결정이 필요한 위기 상황에서 판단했습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 위기 상황에서 빠른 판단으로 대응했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원 의견 없이 일방적으로 결정했습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장의 독단적인 결정에 회의실은 침묵에 잠겼다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들의 의견서는 책상 위에 쌓인 채 팀장은 무시했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "신속한 의사결정으로 위기를 대응하신 리더십입니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀의 의견 수렴 없이도 결정을 내리십니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "제 마음대로 결정한 것입니다. 인정하세요.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "권한 범위 내에서 독립적으로 결정했습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장은 회의 일정도 잡지 않고 혼자서 진행했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "위기 상황에서 팀과 상의할 시간이 없었습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 아묘도 모르게 혼자 중요한 결정을 내렸다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "저 혼자 판단해서 진행했습니다. 문제 없습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원 의견보다는 본인 판단을 우선하십니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "긴급 상황이라 신속하게 결정을 내렸습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "신속한 의사결정이 필요한 위기에서 빠른 판단을 내렸다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "독단적인 리더십으로 팀의 참여를 차단했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정보 공유 없이 독단적으로 처리하여 혼란이 생겼다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의도 없이 팀장이 모든 것을 결정했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 모여 있지만 팀장은 이미 결정을 내렸다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "위기 속에서 빠른 판단력을 발휘하셨습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원들에게 알리지 않고 제가 결정했습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀의 합의보다는 리더의 판단이 중요하다고 여기십니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "독단적인 결정 방식으로 팀의 신뢰가 무너졌다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실은 텅 비어 있고 팀장 혼자서 모든 것을 결정했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀과 상의하지 않고 중요한 결정을 내렸다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정보 공유 없이 독단적으로 처리했습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "적절한 권한 내에서 신속하게 결정했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "리더의 권한으로 판단하시는 스타일입니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀장은 독립적으로 결정했지만 권한 범위 내였다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "신속한 의사결정을 하시는 리더십입니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "회의 없이 제가 바로 결정했습니다. 이의 없죠?",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다른 사람 의견은 필요 없습니다. 제 말대로 하세요.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의사결정 속도가 빠르신 리더십입니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원 의견 없이 일방적으로 결정하여 불만이 커졌다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "위기 속에서 팀장은 적절한 권한으로 판단을 내렸다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "권한 범위 내에서 독립적으로 결정을 내렸다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "빠른 결정으로 업무를 진행하셨습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "독립적으로 판단하시는 스타일이십니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "긴급 상황에서 팀장은 권한 내에서 신속하게 결정을 내렸다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장은 회의실 문을 닫고 혼자서 중요한 결정을 내렸다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원 의견은 들을 필요가 없었습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 결정 이후에야 결과를 통보받았다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "제 권한에서 가능한 범위 내에서 결정했습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "혼자서 모든 결정을 내렸습니다. 팀은 따르기만 하세요.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들은 결정이 내려진 후에야 메일로 통보받았다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에서 팀장은 아묘와 상의하지 않고 서명을 했다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "아묘도 모르게 혼자서 결정을 낸렸습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "긴급 상황에서 팀과 상의할 여유가 없었다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "권한 내에서 독립적으로 판단하셨습니다.",
+    "label_id": "N19-01",
+    "label_name": "독단 결정",
+    "label_type": "negative",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  }
+]

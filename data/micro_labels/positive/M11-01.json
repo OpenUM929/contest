@@ -1,0 +1,15 @@
+{
+  "label_id": "M11-01",
+  "label_name": "적극적 경청",
+  "macro": "L11",
+  "weight": 0.7,
+  "definition": "말하는 사람의 의도와 감정을 완전히 이해하려 노력",
+  "when": "눈 맞춤, 경청 자세, 상대방 말 끝까지 듣기",
+  "not_when": "말 끊기, 딴짓하며 듣기",
+  "context_weight": {
+    "crisis": 0.9,
+    "normal": 1.2,
+    "innovation": 1.1
+  },
+  "core": true
+}

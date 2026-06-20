@@ -1,0 +1,39 @@
+{
+  "trait_id": "T04",
+  "trait_type": "positive",
+  "trait_name": "Crisis Manager",
+  "required": [
+    "M19-01",
+    "M10-01",
+    "M20-01"
+  ],
+  "optional": [
+    "M18-01",
+    "M17-01"
+  ],
+  "hard_forbidden": [
+    "N18-01",
+    "N18-02"
+  ],
+  "soft_forbidden": [
+    {
+      "label": "N10-01",
+      "penalty": 0.6
+    }
+  ],
+  "context_weight": {
+    "crisis": 1.5,
+    "normal": 0.8,
+    "innovation": 0.9
+  },
+  "hybrid_eligible": true,
+  "k_trait": 1.4,
+  "description": "위기 상황에서 빠르고 강력한 대응을 하는 리더",
+  "strengths": [
+    "긴급 대응",
+    "결단력"
+  ],
+  "risks": [
+    "평시 과도한 통제"
+  ]
+}

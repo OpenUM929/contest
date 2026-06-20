@@ -1,0 +1,15 @@
+{
+  "label_id": "N14-02",
+  "label_name": "공로 독점",
+  "macro": "N14",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "타인의 성과를 본인이 가로챔",
+  "when": "팀원의 성과를 본인 성과로 보고",
+  "not_when": "팀원의 기여를 정확히 인정; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "label_id": "N15-03",
+  "label_name": "공개적 비난",
+  "macro": "N15",
+  "penalty": 0.7,
+  "weight": 0.8,
+  "critical": true,
+  "definition": "공개된 장소에서 망신을 줌",
+  "when": "회의나 공개 석상에서 인격 모독적 비난",
+  "not_when": "1:1에서 존중하는 피드백; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "label_id": "N03-01",
+  "label_name": "아이디어 무시",
+  "macro": "N03",
+  "penalty": 0.5,
+  "weight": 0.6,
+  "definition": "팀원의 새로운 아이디어를 검토 없이 거절",
+  "when": "혁신적 제안을 즉시 차단, 검토 없이 거절",
+  "not_when": "아이디어를 경청하고 건설적 피드백 제공; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

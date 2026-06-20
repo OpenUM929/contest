@@ -1,0 +1,15 @@
+{
+  "label_id": "M30-01",
+  "label_name": "언행 일치 및 일관성",
+  "macro": "L30",
+  "weight": 0.7,
+  "core": true,
+  "when": "말과 행동의 일치",
+  "not_when": "위조, 거짓, 속임",
+  "definition": "말한 것과 실제 행동이 일치하고 일관성 유지",
+  "context_weight": {
+    "crisis": 1.1,
+    "normal": 1.2,
+    "innovation": 1.0
+  }
+}

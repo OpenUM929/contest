@@ -1,0 +1,3922 @@
+[
+  {
+    "text": "다양한 문화적 관점을 환영합니다. 서로의 차이를 존중합시다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "글로벌 팀과의 협업을 적극 지원하겠습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화적 차이를 이해하고 존중하는 것이 우리 팀의 강점입니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "각국의 업무 방식을 배우면서 함께 성장합시다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "해외 팀원의 의견도 동등하게 경청하겠습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화적 다양성이 혁신의 원천이라고 믿습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "언어 장벽을 넘어 모두가 소통할 수 있도록 돕겠습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "글로벌 미팅에서는 각자의 문화적 배경을 공유합시다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다문화 팀을 이끄는 것이 제 큰 자부심입니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화 차이로 인한 오해는 대화로 풀어야 합니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 국적의 팀원이 동등한 기회를 갖도록 하겠습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "글로벌 프로젝트에서 각국의 강점을 살리는 방향으로 진행합시다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양한 문화를 가진 팀원들과 함께 일할 수 있어 영광입니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 글로벌 팀원들의 문화적 배경을 깊이 이해하고 존중했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다양한 국적의 팀원들이 동등한 발언권을 갖도록 배려했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "글로벌 협업에서 문화적 차이를 강점으로 활용했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 해외 근무자의 어려움을 세심하게 살폈다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다문화 팀 관리를 위해 정기적으로 문화 교육을 진행했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "글로벌 미팅에서 각국의 관점을 균형 있게 반영했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 언어 장벽을 줄이기 위해 통역 지원을 아끼지 않았다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "문화적 다양성을 존중하는 팀 분위기를 조성했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "해외 파트너와의 소통에서 문화적 민감성을 보였다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다양한 문화적 배경을 가진 팀원들의 강점을 적극 발굴했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 서로의 문화를 이해하도록 독려하는 프로그램을 운영했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "글로벌 프로젝트에서 문화 차이를 조화롭게 조율했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 다양한 국적의 팀원들이 자유롭게 의견을 나누는 모습이 인상 깊었다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 글로벌 팀원의 전통 명절을 배려해 일정을 조정하는 장면이 보였다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다문화 팀이 서로의 차이를 존중하며 협업하는 분위기가 형성됐다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "글로벌 미팅에서 모든 참가자가 동등하게 발언하는 장면이 펼쳐졌다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 각자의 문화를 소개하며 유대감을 쌓는 시간이 마련됐다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 언어가 오가는 사무실에서 존중과 이해가 묻어났다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 해외 출장자의 적응을 돕기 위해 세심하게 챙기는 모습이었다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "글로벌 협업 공간에서 문화적 다양성이 조화를 이루고 있었다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다문화 팀의 강점이 프로젝트 성과로 이어지는 장면이 눈에 띄었다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 문화적 차이를 장벽이 아닌 자산으로 여기는 분위기였다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "글로벌 회의에서 서로의 관점을 경청하는 모습이 자연스러웠다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 문화적 배경이 공존하는 팀의 풍요로운 업무 환경이 느껴졌다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 글로벌 팀원들의 다양한 의견을 균형 있게 조율하는 모습이었다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "우리 팀은 작은 유엔과도 같이 다양한 색깔이 공존합니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "세계 각국의 향기가 어우러지는 팀을 만들어가고 있습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "다른 문화를 가진 동료와의 만남은 새로운 창의력의 씨앗입니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "글로벌 무대에서 다양한 악기가 하나의 하모니를 이루고 있습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "문화적 거리는 우리를 멀어지게 하지 않고 오히려 풍요롭게 합니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "각자의 뿌리를 자랑스러워하며 함께 자라는 팀이 되고 싶습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "다양한 문화적 언어가 하나의 대화가 되는 팀을 지향합니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "세계의 다양한 멜로디가 하나의 교향곡이 되는 공간을 만들겠습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "문화적 차이는 우리 팀의 숨은 보석과 같습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "글로벌 가족처럼 서로의 차이를 안고 함께 나아갑시다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "다양한 문화의 물줄기가 만나 더 넓은 바다가 되는 팀입니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "세계 각지의 빛깔이 모여 더 화려한 그림을 그리는 팀입니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리는 한국식 방식으로 일하는 게 가장 효율적입니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "문화적 차이는 신경 쓸 필요 없습니다. 결과만 중요합니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "해외 팀원도 우리 방식에 맞춰야 합니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다른 나라 방식은 우리와 맞지 않으니 따르지 마세요.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "글로벌 협업은 복잡하니 국내 팀 중심으로 진행합시다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 해외 팀원의 의견을 단순히 번역 문제로 치부했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다문화 팀의 문화적 요구사항을 무시하고 일방적으로 진행했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "글로벌 미팅에서 한국식 의사결정만 강요하는 모습을 보였다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 문화적 차이를 불편함의 원인으로 여기며 회피했다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "해외 출장자의 적응 어려움을 개인의 문제로 돌렸다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 한국 팀원의 목소리만 울려 퍼지는 단조로운 분위기였다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "글로벌 미팅에서 해외 참가자들이 소외되는 듯한 장면이 반복됐다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 문화적 차이를 언급하며 불편해하는 모습이 엿보였다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 국적의 팀원들이 있음에도 단일한 사고가 지배하는 공간이었다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "해외 팀원의 전통적 요구가 묵살되는 무대응이 이어졌다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "우리 팀의 리듬은 하나의 템포로 맞춰져야 합니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "다른 색깔은 조화롭지 않으니 원래의 톤을 유지하는 게 좋습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "다양한 방향의 바람은 오히려 배를 흔들 수 있습니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "하나의 언어로 통일되면 의사소통이 더 깔끔해집니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리의 흙냄새를 지키는 것이 중요한 팀입니다.",
+    "label_id": "M25-01",
+    "label_name": "글로벌/다문화 리더십",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "작은 규모로 먼저 실험해봅시다. MVP를 만들어 검증합시다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "파일럿을 통해 먼저 가능성을 확인하겠습니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "새로운 아이디어, 2주 안에 프로토타입으로 만들어볼까요?",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실험적 접근을 적극 지원하겠습니다. 도전해보세요.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "완벽한 계획보다 빠른 시도가 중요합니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패해도 괜찮습니다. 배움이 있으면 됩니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이번 분기는 새 방식을 꼭 한 번 시도해봅시다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "검증 없이 대규모 실행하지 말고 작게 시작합시다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 실험 아이디어를 즉각 승인하겠습니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "프로토타입을 빠르게 만들어 피드백을 받읍시다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실험할 기회가 팀의 성장 동력입니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "작은 버전으로 먼저 테스트하고 확장합시다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "도전적인 목표를 설정하고 파일럿으로 검증합시다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 새로운 아이디어에 소규모 실험 기회를 즉각 부여했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "MVP 개발을 통해 아이디어의 가능성을 빠르게 검증했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 실험을 제안하자 팀장이 리소스를 적극 배분했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "파일럿 프로젝트를 성공적으로 완료하고 방향을 전환했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 빠른 프로토타이핑을 장려하며 실패를 긍정적으로 봤다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "실험적 접근을 허용해 팀원들의 도전 의욕을 키웠다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "작은 규모의 파일럿을 먼저 진행하고 결과를 분석했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 완벽한 계획보다 빠른 실행을 강조했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "새로운 방식을 시도한 팀원의 노력을 구체적으로 인정했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "프로토타입 제작을 지원하며 학습 중심의 문화를 조성했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "도전적인 아이디어를 실험으로 전환하는 프로세스를 만들었다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 자유롭게 실험할 수 있는 시간을 보장했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 팀원들이 새 아이디어를 즉석에서 스케치하며 논의하는 활기가 넘쳤다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 파일럿 결과를 팀 전체와 공유하며 다음 단계를 모색하는 장면이었다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실험실 같은 사무실에서 팀원들이 빠르게 프로토타입을 만드는 모습이 보였다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원 한 명이 MVP를 시연하고 동료들이 피드백을 주는 풍경이 펼쳐졌다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 실패한 실험에서도 배운 점을 찾아 칭찬하는 따뜻한 분위기였다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "화이트보드에 새로운 접근법이 빽빽하게 그려진 채 토론이 이어졌다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "작은 규모의 시범 운영이 성공적으로 마무리되는 모습이 인상 깊었다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 서로의 실험 결과를 경청하며 지식을 나누는 장면이 눈에 띄었다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 프로토타입 개발에 직접 참여하며 솔선수범하는 모습이었다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "실험 중심의 업무 공간에서 창의적인 시도가 자연스럽게 이뤄지고 있었다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "파일럿 프로젝트를 마친 팀원의 얼굴에 성취감이 가득했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "새로운 아이디어가 빠르게 실행으로 옮겨지는 역동적인 분위기가 형성됐다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 시행착오를 두려워하지 않는 자유로운 환경이 조성됐다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "작은 씨앗을 심어 열매의 가능성을 확인하는 계절입니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "물의 온도를 먼저 재보고 뛰어드는 지혜가 필요합니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새로운 길은 작은 발자국부터 내딛어봐야 알 수 있습니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "모래성이 아닌지 손으로 먼저 만져보는 시간을 가집시다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "작은 물방울이 모여 큰 파도가 될 수 있는지 실험해봅시다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "옷을 입어보기 전에는 사이즈를 알 수 없는 법입니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "요리의 새로운 조합은 한 입 먼저 맛봐야 합니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "작은 등불로 앞길을 먼저 비춰보는 시간을 허락하겠습니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새 식물이 자라는지 화분부터 준비해보는 것이지요.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "미지의 바다에 발을 담가보는 용기를 응원합니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "시제품의 온도가 맞는지 손등으로 먼저 가늠해봅시다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "작은 스케치로 그림의 윤곽을 확인하는 과정이 소중합니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "완벽한 계획 없이 실험하지 마세요. 자원 낭비입니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "검증되지 않은 방법은 사용할 수 없습니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "실패하면 평가에 불이익이 생깁니다. 조심하세요.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이미 성공한 방법이 있는데 새로운 걸 시도할 필요가 있나요?",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "파일럿 없이 바로 전면 도입하겠습니다. 시간이 없습니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 실험을 금지하고 기존 방식만 고집했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "완벽한 계획을 요구하며 프로토타이핑 기회를 차단했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "파일럿 실패 후 해당 팀원을 질책하며 실험 문화를 망쳤다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "검증 없이 대규모 실행을 강행해 큰 혼란을 야기했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 실험 제안을 승인 없이 일방적으로 거부했다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 새 아이디어가 나올 때마다 팀장이 고개를 젓는 억압적인 분위기였다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실험 결과보다 완벽한 보고서를 요구하는 팀장의 모습이 보였다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 시도조차 하지 못한 채 기존 방식만 반복하는 사무실 풍경이었다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "파일럿 없이 대규모 프로젝트가 혼란 속에 진행되는 장면이 펼쳐졌다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "실패한 팀원이 조용히 손가락질받는 무거운 공기가 감돌았다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "검증되지 않은 물은 마시지 말아야 하는 것이 상식입니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "지도 없이 숲속으로 들어가는 건 무모한 일입니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "완성되지 않은 그림은 전시할 수 없는 법입니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "날개가 없는 새는 날 수 없으니 기존 길을 따르는 게 좋습니다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "흙탕물을 먼저 퍼낼 필요 없이 다듬어진 길로 갑시다.",
+    "label_id": "M26-01",
+    "label_name": "실험 및 도전 장려",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "핵심 프로젝트에 자원을 집중하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "우선순위에 따라 예산을 배분하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원을 각자의 강점에 맞게 배치하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "ROI가 높은 업무에 먼저 투입하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "인력을 전략적으로 재배치해 효율을 높이겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자원을 효율적으로 분배해 낭비를 줄이겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "가장 중요한 곳에 역량을 집중하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "예산 우선순위를 명확히 정하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀 역량을 전략적으로 최적화하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자원 낭비를 줄이고 핵심에 집중합시다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "전략적 목표에 맞게 인력을 배치하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "한정된 자원을 어디에 쓸지 신중히 결정합시다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "시너지를 극대화하는 방향으로 자원을 운영하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 핵심 프로젝트에 자원을 집중 배분하여 성과를 극대화했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 강점에 맞게 역할을 재배치해 효율을 높였다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "예산을 전략적 우선순위에 따라 투명하게 배분했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자원을 효율적으로 분배해 최소 투입으로 최대 성과를 냈다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 인력을 전략적으로 배치하여 시너지를 창출했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "ROI 분석을 바탕으로 자원 배분 방향을 조정했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "핵심 업무에 역량을 집중하고 비핵심은 축소했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 예산 우선순위를 명확히 제시하고 팀원들과 공유했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자원 낭비를 방지하기 위해 정기적으로 배분 현황을 점검했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "전략적 목표 달성을 위해 인력을 재편했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 투명한 기준으로 자원을 배분해 팀원들의 신뢰를 얻었다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "한정된 자원을 전략적으로 운영해 조직 목표를 달성했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 화이트보드에 우선순위를 그리며 자원 배분을 설명하는 장면이었다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 팀원들이 각자의 강점에 맞는 역할을 분배받는 모습이 보였다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "예산 배분안이 투명하게 공유되며 팀원들이 납득하는 분위기가 형성됐다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "핵심 프로젝트에 인력이 집중되고 비핵심은 정리되는 모습이 눈에 띄었다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 전략적 자원 배분 계획을 차근차근 설명하는 모습이 인상 깊었다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "자원 배분 표를 보며 팀원들이 합의에 이르는 장면이 펼쳐졌다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "강점에 맞게 배치된 팀원들이 역량을 최대로 발휘하는 모습이 보였다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 예산 편성 회의에서 근거를 들어 설득하는 모습이었다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "전략적 우선순위에 따라 자원이 흘러가는 조직의 모습이 안정적으로 느껴졌다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 자원 배분 기준을 이해하고 공감하는 분위기가 조성됐다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "핵심 목표에 맞춰 역량이 재편되는 과정이 체계적으로 진행됐다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 자원 효율화를 위해 불필요한 업무를 정리하는 모습이 보였다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "전략적 자원 배분으로 팀의 생산성이 눈에 띄게 향상됐다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "좋은 요리사는 재료를 아끼지 않되 낭비하지도 않습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "물은 목마른 곳으로 먼저 흘러가야 합니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "체스판에서 말은 각자의 위치에서 최선을 다해야 합니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "좁은 다리를 전체가 동시에 건너면 누구도 못 갑니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "씨앗은 비옥한 땅에 먼저 뿌려야 열매를 맺습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "선수는 포지션에 맞게 배치될 때 팀이 승리합니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "물길은 전략적으로 터줘야 농사가 잘 됩니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "자원은 날카로운 칼처럼 정확히 사용해야 합니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "바람개비는 바람의 방향에 맞게 돌아가야 합니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "화분이 너무 많으면 물 주기가 힘듭니다. 핵심 화분에 집중하세요.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "배의 짐은 균형 있게 실어야 안전하게 항해합니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "좋은 지휘자는 악기를 조화롭게 배치해 하모니를 만듭니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "자원은 제 마음대로 배분하겠습니다. 설명할 필요 없습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "예산은 제가 원하는 프로젝트에 다 넣겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "자원 배분 기준은 없습니다. 제 직감대로 하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 프로젝트에 똑같이 나누는 게 공평합니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "인력은 제가 좋아하는 팀에만 배치하겠습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 자신의 프로젝트에만 자원을 몰아주고 다른 팀은 무시했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "자원을 불투명하게 관리하며 일부에만 집중 배분했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "전략적 기준 없이 자원을 낭비하며 비효율을 초래했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 자원을 독점해 팀원들의 불만을 샀다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "비전략적으로 자원을 분산 배치해 아무것도 제대로 못 했다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "예산 회의에서 팀장이 일방적으로 숫자를 정하는 억압적인 장면이었다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "자원이 특정 인물 중심으로 쏠려 있는 불공정한 모습이 보였다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 자원 배분의 기준을 모르고 혼란스러워하는 분위기였다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "한 프로젝트에만 자원이 몰리고 나머지는 고사하는 광경이 펼쳐졌다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 자원 배분 표를 숨기며 불투명하게 운영하는 모습이 엿보였다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "물은 마음 가는 대로 흘러야 자연스럽습니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "모든 화분에 똑같은 물을 주는 게 가장 평등합니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "재료는 요리사가 맘에 드는 대로 쓰는 게 정답입니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "배의 짐은 선장이 원하는 곳에 두는 것이 상식입니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "바람개비는 돌지 않아도 괜찮은 것이 자유입니다.",
+    "label_id": "M27-01",
+    "label_name": "전략적 자원 배분",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "솔직하게 말씀드리겠습니다. 나쁜 소식도 공유하겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "결정 배경을 투명하게 공개하겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "숨기는 것 없이 모두 공유하겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 알 권리가 있는 정보는 모두 알려드리겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "왜 이 결정을 내렸는지 투명하게 설명하겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "좋은 소식만이 아니라 어려운 소식도 정직하게 전하겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "의사결정 과정을 모두에게 공개하겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "투명한 소통이 신뢰의 기반이라고 믿습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "숨김없이 현재 상황을 정확히 알려드리겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 정보는 팀원들과 공유하는 것이 원칙입니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "불편한 진실도 숨기지 않고 말씀드리겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "왜 이런 선택을 했는지 논리를 투명하게 밝히겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "정보는 공유될 때 가치가 있다고 생각합니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 회사 상황을 어려울 때도 사실 그대로 팀원들과 공유했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "중요한 결정의 배경을 투명하게 설명하고 팀원들의 이해를 구했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 분기 성과가 나쁠 때도 축소하지 않고 공유했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "모든 정보를 숨김없이 공개해 팀원들의 신뢰를 얻었다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "의사결정 과정에서 고려한 요소를 투명하게 밝혔다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 팀원들에게 알 권리가 있는 정보를 모두 제공했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "나쁜 소식도 정직하게 전달하며 팀의 신뢰를 유지했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 결정의 이유를 구체적으로 설명하고 질문에 성실히 답했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "투명한 소통 원칙을 세우고 일관되게 실천했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들에게 현재 상황을 정확히 알려 공감대를 형성했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 정보 독점을 피하고 조직 전체와 공유하는 문화를 만들었다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "불편한 진실도 숨기지 않는 용기 있는 소통을 보였다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 어려운 현실을 있는 그대로 팀원들에게 설명하는 진지한 분위기가 흘렀다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 결정 배경이 투명하게 공개되며 팀원들이 끄덕이는 장면이 보였다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 필요한 정보를 자유롭게 접근하는 열린 사무실 풍경이었다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 나쁜 소식도 정면으로 다루는 모습에 팀원들이 안심했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "정보가 투명하게 흐르는 조직에서 팀원들의 표정이 밝아 보였다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 자료를 공개하며 왜 이런 결정이 나왔는지 설명하는 모습이 인상 깊었다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "투명한 소통을 통해 팀원들이 주인의식을 느끼는 분위기가 형성됐다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의 때마다 결정 근거가 명확히 제시되는 체계적인 모습이 보였다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 숨김없이 대화하는 신뢰의 공간이 조성됐다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 모든 보고를 팀원들과 공유하는 열린 자세를 보였다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "투명하게 공개된 지표를 보며 팀원들이 방향을 함께 확인했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "어려운 상황에서도 정직한 소통이 이어지는 팀의 모습이 느껴졌다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 정보 접근 권한을 열어주며 투명성을 높이는 장면이었다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "햇빛은 모든 곳에 닿아야 곰팡이가 생기지 않습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "창문을 열어 바깥 공기를 들이는 것이 건강에 좋습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "거울은 있는 그대로를 비추는 것이 제 역할입니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "물은 투명할 때 가장 깨끗해 보입니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "안개가 낀 길은 보이지 않아 위험합니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "숨겨진 진실은 결국 땅속에서도 발아합니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "책은 덮어두지 말고 펼쳐놓아야 내용이 보입니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "그림자는 빛 앞에서 사라지는 법입니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "맑은 하늘에는 구름을 숨길 수 없습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정직한 저울은 양팔의 무게를 있는 그대로 보여줍니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "투명한 유리창 너머로 풍경이 선명하게 보입니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "진실의 씨앗은 땅속에서도 싹을 틔웁니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "나쁜 소식은 팀원들이 알면 사기가 떨어지니 제가 알고 있겠습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "이 정보는 팀원들이 알 필요 없습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "왜 이런 결정을 내렸는지 설명할 필요는 없습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "알릴 필요 있는 것만 공유하고 나머지는 신경 쓰지 마세요.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "회사 상황은 긍정적으로만 전달하세요.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 중요한 결정을 내린 후 이유 설명 없이 결과만 통보했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "나쁜 소식은 숨기고 좋은 소식만 포장해서 전달했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정보를 선택적으로 공유하며 팀원들을 차별 대우했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 의사결정 배경을 비공개하며 불투명하게 운영했다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들에게 알 권리가 있는 정보를 은폐하고 숨겼다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 중요한 정보가 소수에게만 전달되는 불투명한 모습이 보였다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 결정의 이유를 물어도 팀장이 피하는 어색한 분위기였다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 나쁜 소식을 숨기며 긍정적으로만 포장하는 장면이 반복됐다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "정보가 계단 위에서만 오가고 아래는 어두운 조직의 모습이었다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 궁금해하는 정보에 답변을 회피하는 모습이 엿보였다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "어두운 방은 조용하지만 공기가 탁합니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "일부만 아는 비밀은 그들만의 동경입니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "안개가 낀 풍경은 때로는 더 아름답게 보입니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "책은 일부만 펼쳐보는 것이 집중에 좋습니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "거울에 안개를 낀 채 두면 현실이 부드럽게 보입니다.",
+    "label_id": "M28-01",
+    "label_name": "투명한 소통",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "야근을 줄이고 워라밸을 지키겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원 건강을 위해 휴식을 보장하겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "번아웃을 예방하기 위한 조치를 취하겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 정서적 상태를 먼저 살피겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "근무 환경 개선을 위해 의자와 책상을 바꾸겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들의 웰빙이 성과보다 우선입니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "야근은 특별한 경우에만 하도록 하겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원의 스트레스를 줄이는 방향으로 업무를 조정하겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "정기적으로 건강검진을 지원하겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원이 힘들 때 쉴 수 있는 시간을 보장하겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "워라밸이 보장될 때 진정한 성과가 나옵니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀의 근무 환경을 더 쾌적하게 개선하겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원들의 피로가 누적되지 않도록 관리하겠습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 야근을 줄이고 팀원들의 워라밸을 적극 보장했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 번아웃 징후를 조기에 발견하고 개입했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "근무 환경 개선을 위해 사무실 인테리어를 바꿨다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 팀원들의 건강검진을 정기적으로 지원하고 챙겼다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 정서적 상태를 세심하게 살피며 지원했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "업무 부담을 조정해 팀원들의 스트레스를 줄였다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 팀원들에게 휴식을 권장하며 번아웃을 예방했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "근무 시간 관리를 철저히 해 팀원들의 삶의 질을 높였다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원이 힘든 상황에서 업무를 조정하고 배려했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 팀의 웰빙 프로그램을 도입해 조직 문화를 개선했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "정서적 지원을 위해 팀 내 상담 채널을 마련했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 팀원들의 피로도를 정기적으로 체크하고 대응했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 정시에 퇴근하며 밝은 표정으로 사무실을 나서는 모습이 보였다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 힘든 팀원에게 따뜻한 차를 건네며 안부를 묻는 장면이었다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "사무실에 녹색 식물이 들어오고 조명이 따뜻해지는 쾌적한 공간이 조성됐다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 번아웃 없이 일과 삶의 균형을 맞추는 분위기가 형성됐다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 팀원의 얼굴색을 보고 업무를 조정하는 세심한 모습이 인상 깊었다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "쉼 공간이 마련된 사무실에서 팀원들이 여유를 찾는 모습이 눈에 띄었다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 건강검진을 받고 안심하는 모습이 보였다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "야근 없이도 목표를 달성하는 팀의 건강한 업무 리듬이 느껴졌다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 팀원의 책상을 보며 근무 환경을 개선하는 모습이 엿보였다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 서로의 번아웃 신호를 챙기는 따뜻한 분위기가 조성됐다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "정시 퇴근을 장려하는 팀의 밝은 사무실 풍경이 펼쳐졌다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 편안한 자세로 업무에 집중하는 모습이 보였다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 웰빙 프로그램을 소개하며 팀원들의 반응을 살피는 장면이었다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "번아웃을 예방하려면 적절한 쉼이 꼭 필요합니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "팀원의 건강은 조직의 가장 소중한 자산입니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "지치면 멈춰서 쉬는 것이 더 현명한 선택입니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "꾸준히 달리려면 호흡 조절이 필수적입니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "밭은 한 해 쉬어야 다음에 더 좋은 농사를 짓습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "음악도 쉼표가 있어야 아름다운 선율이 됩니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정상에 오르기 위해서는 중간에 쉬어야 합니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "벚꽃은 추운 겨울을 지나야 봄에 만개합니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "새장의 문을 열어줘야 새가 하늘을 날 수 있습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "강철도 계속 쓰면 결국 마모되어 부러집니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "계속 달리는 말도 목장에서 쉬어야 합니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "뜨거운 철판 위에서는 오래 서 있을 수 없습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "성과가 안 나오면 휴식은 사치입니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "건강은 개인의 문제입니다. 회사가 책임질 수 없습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "야근은 당연한 것입니다. 불만 갖지 마세요.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "번아웃은 팀원의 체력 부족입니다. 개인적으로 해결하세요.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "워라밸은 성과를 낸 후에나 논의할 수 있습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 성과만 강조하며 팀원의 건강을 철저히 무시했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 번아웃 신호를 무시하고 업무량을 계속 늘렸다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 야근을 강요하며 팀원들의 피로를 방치했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "건강 악화로 휴가를 간 팀원을 성과 부진으로 평가했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원의 정서적 어려움을 개인의 약함으로 치부했다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "밤늦게까지 불이 켜진 사무실에서 지친 팀원들의 모습이 보였다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 휴가를 가려는 팀원에게 업무를 더 주는 모습이 엿보였다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "번아웃에 빠진 팀원이 외면되는 차가운 사무실 분위기였다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들의 책상에 피로 음료수만 쌓여 있는 안타까운 광경이었다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 건강검진 권유를 웃으며 넘기는 무관심한 모습이 보였다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "기계는 멈추지 않고 돌아가야 가치가 있습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "꽃은 계속 피어있어야 정원이 아름답습니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "쉼표가 많은 악보는 지루하게 들립니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "나무는 계절 없이 열매를 맺어야 합니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "달리기는 쉬지 않는 것이 진정한 운동입니다.",
+    "label_id": "M29-01",
+    "label_name": "팀 웰빙 케어",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "말한 대로 실천하겠습니다. 약속은 반드시 지키겠습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지킬 수 없는 약속은 하지 않겠습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제가 한 말은 제가 반드시 책임지겠습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "오늘 한 말을 내일도 그대로 지키겠습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "말과 행동이 일치하는 리더가 되겠습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "약속을 지키는 것이 신뢰의 시작입니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원에게 요구하는 것은 저도 똑같이 지키겠습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "언행이 일치할 때 팀원들이 믿습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "한 번 한 말은 번복하지 않겠습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "제 행동이 곧 제 말을 증명하는 증거입니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지킬 수 없는 것은 애초에 말하지 않겠습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "일관성 있는 행동으로 신뢰를 쌓겠습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "약속 이행이 제 가장 중요한 원칙입니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 수년간 말과 행동을 일치시켜 팀원들의 신뢰를 얻었다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "약속한 것을 반드시 이행하며 일관된 모습을 보였다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 지킬 수 없는 약속은 하지 않는 신중함을 보였다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원에게 요구한 것을 본인도 직접 실천했다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "말한 대로 행동하여 팀원들이 혼란스럽지 않았다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장의 언행이 항상 일관되어 팀원들이 안심했다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "약속 불이행 없이 꾸준히 신뢰를 구축해왔다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 번복 없이 일관된 방향으로 팀을 이끌었다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "말과 행동이 맞지 않음을 경계하며 스스로를 돌아봤다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 팀장의 언행 일치를 본받고자 노력했다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 약속 이행을 최우선으로 여기며 행동했다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "언행 일치를 통해 팀 내 신뢰가 단단해졌다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 한 말을 행동으로 보여주는 모습에 팀원들이 고개를 끄덕였다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "약속한 시간에 반드시 나타나는 팀장의 모습이 팀의 기준이 되었다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 직접 실천하며 팀원들이 따르는 모범적인 장면이 펼쳐졌다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "말한 것을 행동으로 옮기는 팀장의 모습이 인상 깊었다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 팀장의 일관된 행동을 보며 안정감을 느꼈다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 약속을 지키는 모습이 반복되며 팀의 신뢰가 쌓였다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 팀장의 말과 행동이 하나로 일치하는 분위기가 느껴졌다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 스스로 정한 규칙을 먼저 지키는 모습이 보였다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 팀장의 언행 일치를 보고 배우는 따뜻한 공간이었다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "약속한 대로 진행되는 업무에 팀원들의 표정이 밝아졌다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 번복 없이 한 방향으로 나아가는 단단한 모습이 엿보였다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장의 행동이 곧 팀의 약속이 되는 신뢰의 장면이었다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "일관된 기준이 적용되는 공간에서 팀원들이 공정함을 느꼈다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "나무는 뿌리처럼 단단히 서서 행동해야 합니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "말은 바람처럼 가볍지만 행동은 돌처럼 무겁습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 손에 쥔 모래처럼 흘려보내면 안 됩니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "시계는 일정하게 가는 것이 믿을 수 있습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "등대는 빛의 방향을 바꾸지 않습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "악기는 조율된 대로 울려야 하모니가 됩니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "나침반은 항상 같은 방향을 가리켜야 합니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "다리는 한쪽만 놓으면 반드시 무너지게 됩니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "말은 깃털이지만 행동은 쇠처럼 남습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "달력은 매일 똑같은 규칙으로 넘어갑니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 새겨진 글씨처럼 변하지 않아야 합니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "거울은 있는 그대로 비추고 행동은 말을 증명합니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "약속은 지키지 못해도 변명하면 됩니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀원에게는 규칙을 지키라고 하세요. 저는 예외입니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "오늘 한 말은 내일 바뀔 수 있습니다. 유연하게 봅시다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "지킬 수 없는 약속이라도 일단 하고 봐야 합니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "말과 행동이 다를 수 있습니다. 현실을 봐야 합니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 약속을 지키지 않고 상황 탓으로 변명했다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원에게는 규칙을 지키라고 하면서 본인은 예외를 적용했다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "오늘 한 말을 다음 날 번복하며 팀원들을 혼란스럽게 했다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 말만 번지르르하고 실제로는 행동하지 않았다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "약속 불이행이 반복되며 팀원들의 신뢰가 무너졌다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 약속한 지원을 잊은 채 지나가는 모습이 보였다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의실에서 팀장의 말과 행동이 어긋나는 괴리가 느껴졌다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 팀장의 번복에 지쳐 혼란스러워하는 분위기였다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 규칙을 남에게만 적용하는 이중적인 모습이 엿보였다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "약속이 공기처럼 흩어지는 사무실의 무거운 공기가 감돌았다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "바람은 방향을 자주 바꿔야 신선합니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "모래성은 한 번 쌓으면 다시 무너뜨려야 합니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "시계는 때로 뒤로 가야 시간을 아낄 수 있습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "등대는 때로 어둠 속에서도 빛을 끌 수 있습니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "나침반은 돌아가는 자석에 따라 움직이는 것이 자연입니다.",
+    "label_id": "M30-01",
+    "label_name": "언행 일치 및 일관성",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "모두에게 공평한 기회를 드리겠습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "배경에 상관없이 동등하게 대하겠습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양한 관점을 모두 환영하고 존중합니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "차별 없는 포용적인 팀 문화를 만들겠습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "소수 의견도 진지하게 경청하겠습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "모든 팀원이 동등하게 소중하고 중요합니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "포용적 문화를 팀에 확실히 정착시키겠습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양성이 우리 팀의 가장 큰 강점입니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "어떤 배경을 가진 팀원이든 인정받을 수 있습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "연차나 직급에 관계없이 발언 기회를 드리겠습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀에서 소외감을 느끼는 사람이 없도록 하겠습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "서로의 다름을 존중하는 것이 협업의 기본입니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양한 배경이 함께할 때 더 창의적인 결과가 나옵니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 연차나 직급에 관계없이 모든 팀원에게 동등한 기회를 부여했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다양한 배경의 팀원들이 각자의 관점을 자유롭게 낼 수 있게 했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 소수 의견도 진지하게 경청하며 결정에 반영했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "차별 없는 환경을 만들어 모든 팀원이 소속감을 느끼도록 했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 포용적 문화를 정착시켜 팀 협업을 풍부하게 했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "다양한 배경의 팀원이 함께할 때 더 창의적인 결정이 나왔다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 소외감을 느끼는 팀원이 없도록 적극적으로 배려했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "모든 팀원이 동등하게 인정받고 성장할 수 있는 환경을 조성했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 다양성을 존중하며 팀원들의 잠재력을 이끌어냈다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "공정한 대우를 통해 팀원들의 신뢰를 얻었다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀원들이 서로의 다름을 존중하는 문화가 자연스럽게 형성됐다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 차별 철폐를 위해 구체적인 제도를 마련했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 연차와 상관없이 모든 팀원이 자유롭게 발언하는 모습이 보였다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 서로의 다름을 존중하며 협업하는 따뜻한 분위기가 형성됐다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 소수 의견을 적극 반영하며 포용력을 보이는 장면이었다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 배경을 가진 팀원들이 한 테이블에 둘러앉아 대화하는 모습이 인상 깊었다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 소외감 없이 모두 웃으며 이야기하는 열린 공간이 조성됐다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 신규 팀원의 배경을 긍정적으로 소개하며 환영하는 모습이 보였다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "회의에서 다양한 의견이 조화롭게 섞이는 풍요로운 장면이 펼쳐졌다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 서로의 관점을 경청하며 배우는 따뜻한 분위기가 느껴졌다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 차별 없는 기준을 적용하며 팀원들을 대하는 모습이었다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "소수자의 목소리도 귀 기울여지는 포용적인 사무실 풍경이었다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 배경의 팀원들이 각자의 정체성을 숨기지 않고 일하는 모습이 보였다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 서로의 다름을 자산으로 여기는 건강한 팀 문화가 형성됐다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 모든 팀원에게 동등한 주목을 주는 공정한 모습이 엿보였다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "scene_description"
+  },
+  {
+    "text": "정원은 다양한 꽃이 피어야 아름답습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "오케스트라는 여러 악기가 어우러져야 합니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "무지개는 여러 색이 함께여야 빛납니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "숲은 다양한 나무가 자라야 생명력이 있습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "책상 위 여러 도구가 각자의 역할을 합니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "바다는 여러 강의 물이 모여야 넓어집니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "퍼즐은 조각마다 모양이 달라야 완성됩니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "음식은 다양한 재료가 들어가야 맛있습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "별들은 각자의 빛으로 밤하늘을 수놓습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "교향곡은 여러 선율이 어우러져야 합니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "정원사는 모든 꽃에 물을 골고루 줍니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "지도는 여러 색으로 그려져야 길이 보입니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "clean",
+    "style": "euphemism"
+  },
+  {
+    "text": "우리 팀은 같은 생각을 공유하는 게 더 중요합니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "연차가 낮은 팀원의 의견은 중요하지 않습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "특정 그룹만 중요한 미팅에 참여하면 됩니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "다양성보다는 팀에 맞는 사람을 뽑는 게 낫습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "친한 사람들끼리 일하는 게 효율적입니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "direct_speech"
+  },
+  {
+    "text": "팀장이 친한 사람들만 챙기는 편파적 행동을 반복했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "연차가 낮은 팀원의 의견을 무시하고 일방적으로 결정했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "특정 집단에게만 기회를 주며 공정성을 해쳤다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀장이 다양성을 배제하고 비슷한 사람만 채용했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "팀에서 소수자를 외면하며 포용성을 무시했다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "indirect_report"
+  },
+  {
+    "text": "회의실에서 특정 그룹만 둘러앉고 나머지는 외면되는 불편한 장면이 보였다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀장이 친한 팀원만 미팅에 참여시키는 편파적 모습이 반복됐다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "소수 의견이 억압되는 무거운 분위기가 사무실에 감돌았다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "다양한 배경의 팀원이 있음에도 단조로운 사고가 지배하는 공간이었다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "팀원들이 소외감을 느끼며 조용히 일하는 차가운 풍경이 펼쳐졌다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "scene_description"
+  },
+  {
+    "text": "정원은 같은 꽃만 심어야 조화롭습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "오케스트라는 같은 악기만 있어야 소리가 맑습니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "무지개는 한 색만 있어야 선명합니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "숲은 같은 나무만 있어야 깔끔합니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  },
+  {
+    "text": "퍼즐은 같은 모양만 있어야 쉽게 맞춰집니다.",
+    "label_id": "M31-01",
+    "label_name": "포용성 및 다양성 존중",
+    "label_type": "positive",
+    "data_type": "hard_negative",
+    "style": "euphemism"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "label_id": "N07-02",
+  "label_name": "공개적 질책",
+  "macro": "N07",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "공개된 장소에서 망신을 줌",
+  "when": "회의 중 공개적 비난, 타인 앞에서 질책",
+  "not_when": "1:1 피드백과 존중하는 비판; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.2,
+    "innovation": 1.1
+  }
+}

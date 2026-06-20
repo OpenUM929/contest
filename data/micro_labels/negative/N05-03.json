@@ -1,0 +1,15 @@
+{
+  "label_id": "N05-03",
+  "label_name": "변화 반대 억압",
+  "macro": "N05",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "변화를 거부하고 반대자를 탄압",
+  "when": "혁신 시도를 묵살, 변화 반대자 옹호",
+  "not_when": "건설적 변화 제안 수용; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.0,
+    "innovation": 1.3
+  }
+}

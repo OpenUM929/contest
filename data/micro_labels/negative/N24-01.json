@@ -1,0 +1,15 @@
+{
+  "label_id": "N24-01",
+  "label_name": "과도한 통제",
+  "macro": "N24",
+  "penalty": 0.6,
+  "weight": 0.7,
+  "definition": "모든 것을 직접 챙기려 함",
+  "when": "모든 결정을 본인이 직접 하려고 함, 위임 거부",
+  "not_when": "적절한 위임과 신뢰 기반 통제; 과거 시제 키워드(과거에는, 이전에는, ~했었으나) 포함 시 트리거하지 않음",
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.0,
+    "innovation": 1.1
+  }
+}

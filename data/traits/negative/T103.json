@@ -1,0 +1,30 @@
+{
+  "trait_id": "T103",
+  "trait_type": "negative",
+  "trait_name": "Risk: Integrity Violation",
+  "required": [
+    "N30-01",
+    "N28-01",
+    "N34-01"
+  ],
+  "optional": [
+    "N01-03",
+    "N35-01",
+    "N37-01"
+  ],
+  "hard_forbidden": [],
+  "soft_forbidden": [],
+  "context_weight": {
+    "crisis": 1.2,
+    "normal": 1.3,
+    "innovation": 1.0
+  },
+  "hybrid_eligible": false,
+  "k_trait": 1.0,
+  "description": "언행 불일치 및 투명성 위반",
+  "strengths": [],
+  "risks": [
+    "신뢰도 저하",
+    "조직 문화 훼손"
+  ]
+}

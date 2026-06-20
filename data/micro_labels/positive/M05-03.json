@@ -1,0 +1,14 @@
+{
+  "label_id": "M05-03",
+  "label_name": "변화 문화 조성",
+  "macro": "L05",
+  "weight": 0.7,
+  "definition": "조직 전체에 변화를 긍정하는 문화 정착",
+  "when": "실험 문화 조성, 실패 허용 분위기, 혁신 장려 문화",
+  "not_when": "변화에 대한 저항 묵인",
+  "context_weight": {
+    "crisis": 1.0,
+    "normal": 1.1,
+    "innovation": 1.3
+  }
+}
