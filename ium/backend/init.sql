@@ -28,12 +28,17 @@ BEGIN
         ALTER TABLE weekly_topics DROP CONSTRAINT weekly_topics_media_type_check;
     END IF;
     
-    -- active_week UNIQUE 제약을 복합 유니크로 변경
+    -- active_week UNIQUE 제약 제거 (발행 이력 보존을 위해 같은 주 여러 건 허용)
     IF EXISTS (SELECT 1 FROM information_schema.table_constraints 
                WHERE constraint_name = 'weekly_topics_active_week_key' 
                AND table_name = 'weekly_topics') THEN
         ALTER TABLE weekly_topics DROP CONSTRAINT weekly_topics_active_week_key;
-        ALTER TABLE weekly_topics ADD CONSTRAINT unique_week_region UNIQUE (active_week, region);
+    END IF;
+    -- unique_week_region 제약 제거 (같은 주·같은 지역·같은 복지사도 여러 번 발행 가능)
+    IF EXISTS (SELECT 1 FROM information_schema.table_constraints 
+               WHERE constraint_name = 'unique_week_region' 
+               AND table_name = 'weekly_topics') THEN
+        ALTER TABLE weekly_topics DROP CONSTRAINT unique_week_region;
     END IF;
 END $$;
 
@@ -58,7 +63,7 @@ CREATE TABLE IF NOT EXISTS weekly_topics (
     duration_seconds INT,
     choices         TEXT,
     created_at      TIMESTAMP DEFAULT NOW(),
-    CONSTRAINT unique_week_region UNIQUE (active_week, region)
+
 );
 
 CREATE TABLE IF NOT EXISTS conversations (

@@ -21,9 +21,18 @@ export default function TempAccountPage() {
 
   const fetchAccounts = async () => {
     try {
-      const res = await fetch(`${API}/api/auth/temp-accounts`);
+      const res = await fetch(`${API}/api/auth/accounts`);
       const data = await res.json();
-      setAccounts(data);
+      if (Array.isArray(data)) {
+        setAccounts(data.map((a: any) => ({
+          temp_id: a.user_id || "",
+          user_type: a.user_type || "",
+          nickname: a.name || "",
+          user_id: a.user_id || null,
+          last_seen: null,
+          created_at: null,
+        })));
+      }
     } catch (e) {
       console.error(e);
     } finally {
@@ -36,16 +45,20 @@ export default function TempAccountPage() {
     return new Date(iso).toLocaleString("ko-KR");
   };
 
+  const loadingOrEmpty = loading ? (
+    <p>로딩 중...</p>
+  ) : accounts.length === 0 ? (
+    <p style={{ color: "#888", textAlign: "center", padding: 40 }}>계정 정보가 없습니다.</p>
+  ) : null;
+
   return (
     <div style={{ padding: 24 }}>
       <h2 style={{ color: "#4A3728", marginBottom: 8 }}>📋 임시 계정 관리</h2>
       <p style={{ color: "#888", fontSize: 14, marginBottom: 24 }}>
-        관리자가 등록한 7개의 임시 계정 목록입니다. 프로토타입 테스트용 계정입니다.
+        관리자가 등록한 계정 목록입니다. 프로토타입 테스트용 계정입니다.
       </p>
 
-      {loading ? (
-        <p>로딩 중...</p>
-      ) : (
+      {loadingOrEmpty || (
         <table style={{
           width: "100%", borderCollapse: "collapse",
           background: "#FFF", borderRadius: 12, overflow: "hidden",

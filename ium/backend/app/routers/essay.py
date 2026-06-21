@@ -6,7 +6,7 @@ import uuid
 
 from app.database import get_db
 from app.models.models import Conversation, Essay, WeeklyTopic, EssayContributor
-from app.services.essay import generate_essay
+from app.services.essay import generate_essay, build_essay_prompt, parse_essay_result
 from app.services.public_data import get_active_topic
 
 router = APIRouter(prefix="/api/essay", tags=["essay"])
@@ -36,6 +36,14 @@ async def create_essay(
         if not topic_data or not topic_data.get("id"):
             raise HTTPException(status_code=404, detail="이번 주 주제가 없습니다.")
 
+    # 주제 소유 복지사(welfare_id)를 역참조해 등록된 AI 키로 생성하도록 한다.
+    # 중앙 기본 주제처럼 welfare_id가 NULL이면 None → 시스템 fallback.
+    owner_welfare_id = (
+        await db.execute(
+            select(WeeklyTopic.welfare_id).where(WeeklyTopic.id == uuid.UUID(topic_data["id"]))
+        )
+    ).scalar_one_or_none()
+
     try:
         title, content, contributor_cnt, contributor_stats = await generate_essay(
             topic_id=str(topic_data["id"]),
@@ -44,6 +52,7 @@ async def create_essay(
             prompt_version=prompt_version,
             content_type=content_type,
             reference_titles=payload.reference_titles if payload else None,
+            welfare_id=str(owner_welfare_id) if owner_welfare_id else None,
         )
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
@@ -78,6 +87,77 @@ async def create_essay(
         "contributor_cnt": essay.contributor_cnt,
         "prompt_version": essay.prompt_version,
     }
+
+
+@router.get("/generate-prompt", summary="수동 모드 — AI에게 보낼 프롬프트 원문 반환")
+async def create_essay_prompt(
+    topic_id: str | None = Query(None, description="특정 주제 ID (없으면 이번 주 활성 주제 사용)"),
+    prompt_version: str = Query("v3", description="프롬프트 버전: v0 | v1 | v2 | v3(장르별 작가)"),
+    content_type: str = Query("essay", description="결과물 유형: essay | poem | novel"),
+    reference_titles: str | None = Query(None, description="참고 작품 제목"),
+    db: AsyncSession = Depends(get_db),
+):
+    """AI 호출 없이 프롬프트만 반환. 복지사가 외부 AI에 붙여넣을 수 있다."""
+    if topic_id:
+        result = await db.execute(select(WeeklyTopic).where(WeeklyTopic.id == uuid.UUID(topic_id)))
+        topic_row = result.scalar_one_or_none()
+        if not topic_row:
+            raise HTTPException(status_code=404, detail="주제를 찾을 수 없습니다.")
+        topic_data = {"id": str(topic_row.id), "title": topic_row.title}
+    else:
+        topic_data = await get_active_topic(db)
+        if not topic_data or not topic_data.get("id"):
+            raise HTTPException(status_code=404, detail="이번 주 주제가 없습니다.")
+
+    owner_welfare_id = (
+        await db.execute(
+            select(WeeklyTopic.welfare_id).where(WeeklyTopic.id == uuid.UUID(topic_data["id"]))
+        )
+    ).scalar_one_or_none()
+
+    prompt, contributor_cnt, contributor_stats = await build_essay_prompt(
+        topic_id=str(topic_data["id"]),
+        topic_title=topic_data["title"],
+        db=db,
+        prompt_version=prompt_version,
+        content_type=content_type,
+        reference_titles=reference_titles,
+        welfare_id=str(owner_welfare_id) if owner_welfare_id else None,
+    )
+
+    min_required = 1 if prompt_version == "v3" else 5
+    has_data = contributor_cnt > 0
+    can_generate = contributor_cnt >= min_required
+
+    if can_generate:
+        message = f"총 {contributor_cnt}명의 응답이 수집되었습니다. 프롬프트를 복사하여 외부 AI에 전달해 주세요."
+    elif contributor_cnt == 0:
+        message = f"아직 응답한 사용자가 없습니다. 최소 {min_required}명의 응답이 필요합니다. 응답이 수집된 후 다시 시도해 주세요."
+    else:
+        message = f"현재 {contributor_cnt}명이 응답했습니다. 작품 생성에는 최소 {min_required}명의 응답이 필요합니다."
+
+    return {
+        "prompt": prompt,
+        "topic_id": topic_data["id"],
+        "content_type": content_type,
+        "prompt_version": prompt_version,
+        "contributor_cnt": contributor_cnt,
+        "has_data": has_data,
+        "can_generate": can_generate,
+        "min_required": min_required,
+        "message": message,
+    }
+
+
+@router.post("/parse-result", summary="수동 모드 — 외부 AI 응답 원문에서 작품 파싱")
+async def parse_essay_manual_result(
+    body: dict,
+):
+    """복지사가 외부 AI에서 받은 응답에서 [제목: ...] + 본문을 추출한다. AI 호출 없음."""
+    raw_text = body.get("raw_text", "")
+    content_type = body.get("content_type", "essay")
+    result = parse_essay_result(raw_text, content_type)
+    return result
 
 
 @router.get("/latest", summary="이번 주 수필 조회")

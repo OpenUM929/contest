@@ -165,11 +165,24 @@ async def stream_chat(
         yield "\n\n지금 많이 힘드신가요? 정신건강 위기상담전화 1393으로 언제든 도움받으실 수 있습니다."
 
 
-async def generate_text(prompt: str, max_tokens: int = 1500) -> str:
-    """Claude API 우선, 실패 시 OpenCode API fallback"""
+async def generate_text(
+    prompt: str,
+    max_tokens: int = 1500,
+    provider: str | None = None,
+    api_key: str | None = None,
+) -> str:
+    """복지사 키(provider+api_key) 우선, 실패 시 시스템 Claude → OpenCode fallback"""
     import logging
     logger = logging.getLogger("ium.claude")
-    
+
+    # 0. 복지사가 지정한 제공자/키 우선 시도
+    if provider and api_key:
+        from app.services import ai_provider
+        result = await ai_provider.call_ai(prompt, provider, api_key, max_tokens=max_tokens)
+        if result:
+            return result
+        logger.warning(f"[Claude] 복지사 키({provider}) 호출 실패, 시스템 fallback")
+
     # 1. Claude API 시도
     if settings.anthropic_api_key:
         try:

@@ -38,5 +38,8 @@ class Settings(BaseSettings):
     # 로컬 개발용
     skip_emotion: bool = False  # 감정 모델 로딩 생략
 
+    # 복지사 API 키 암호화 (운영: 환경변수 IUM_API_KEY_ENCRYPTION_KEY 권장)
+    ium_api_key_encryption_key: str = ""
+
 
 settings = Settings()

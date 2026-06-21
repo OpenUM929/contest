@@ -18,6 +18,8 @@ import {
   stopSurvey,
   saveTemplate,
   generateArtwork,
+  generateArtworkPrompt,
+  parseArtworkResult,
 } from "../api/survey";
 import SurveyHistory from "../components/SurveyHistory";
 import SurveyAnalytics from "../components/SurveyAnalytics";
@@ -74,6 +76,20 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
   const [referenceTitles, setReferenceTitles] = useState("");
   const [artworkResult, setArtworkResult] = useState<any | null>(null);
   const [artworkLoading, setArtworkLoading] = useState(false);
+
+  // 작품 만들기 — 수동 모드 상태
+  const [artworkManualMode, setArtworkManualMode] = useState(false);
+  const [artworkManualPrompt, setArtworkManualPrompt] = useState("");
+  const [artworkPromptLoading, setArtworkPromptLoading] = useState(false);
+  const [artworkPastedAnswer, setArtworkPastedAnswer] = useState("");
+  const [artworkParsing, setArtworkParsing] = useState(false);
+  const [artworkParseError, setArtworkParseError] = useState("");
+  const [artworkPromptStatus, setArtworkPromptStatus] = useState<{
+    message: string;
+    has_data: boolean;
+    can_generate: boolean;
+    min_required: number;
+  } | null>(null);
 
   // 현재 설문지 조회
   const loadCurrent = async () => {
@@ -297,6 +313,55 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
     }
   };
 
+  const handleGenerateArtworkPrompt = async () => {
+    if (!artworkTarget) return;
+    setArtworkPromptLoading(true);
+    setArtworkManualPrompt("");
+    setArtworkParseError("");
+    setArtworkPromptStatus(null);
+    try {
+      const { data } = await generateArtworkPrompt(artworkTarget.topicId, artworkType, promptVersion, referenceTitles);
+      setArtworkManualPrompt(data.prompt || "");
+      setArtworkPromptStatus({
+        message: data.message,
+        has_data: data.has_data,
+        can_generate: data.can_generate,
+        min_required: data.min_required,
+      });
+    } catch (e: any) {
+      setArtworkParseError("프롬프트 생성 실패: " + (e.response?.data?.detail ?? e.message));
+    } finally {
+      setArtworkPromptLoading(false);
+    }
+  };
+
+  const handleApplyArtworkManual = async () => {
+    if (!artworkPastedAnswer.trim() || artworkParsing) return;
+    setArtworkParsing(true);
+    setArtworkParseError("");
+    try {
+      const { data } = await parseArtworkResult(artworkPastedAnswer, artworkType);
+      if (data.valid) {
+        setArtworkResult({ title: data.title, content: data.content, content_type: artworkType, contributor_cnt: 0, prompt_version: promptVersion });
+      } else {
+        setArtworkParseError(data.error || "AI 답변을 해석하지 못했습니다.");
+      }
+    } catch (e: any) {
+      setArtworkParseError(e?.response?.data?.detail || e?.message || "답변 파싱에 실패했습니다.");
+    } finally {
+      setArtworkParsing(false);
+    }
+  };
+
+  const handleCopyArtworkPrompt = async () => {
+    try {
+      await navigator.clipboard.writeText(artworkManualPrompt);
+      alert("프롬프트가 복사되었습니다.");
+    } catch {
+      alert("클립보드 복사에 실패했습니다. 직접 선택해 복사해 주세요.");
+    }
+  };
+
   // ═════════════════════════════════════
   // 목록 뷰
   // ═════════════════════════════════════
@@ -468,6 +533,15 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
               setSubTab("current");
               loadCurrent();
             }}
+            onViewAnalytics={(topic) => {
+              setSelectedTopic(topic);
+              setViewMode("analytics");
+            }}
+            onMakeArtwork={(topic) => {
+              setArtworkTarget({ topicId: topic.topic_id, topicTitle: topic.title });
+              setArtworkResult(null);
+              setReferenceTitles("");
+            }}
           />
         )}
 
@@ -524,6 +598,26 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
               >
                 ✕
               </button>
+            </div>
+
+            {/* 모드 토글 */}
+            <div style={{ marginBottom: 18 }}>
+              <div style={{ display: "flex", gap: 0, border: "1px solid #DDD", borderRadius: 8, overflow: "hidden", width: "fit-content" }}>
+                {([["auto", "🤖 자동 (AI 연결)"], ["manual", "✍️ 수동 (프롬프트 직접)"]] as const).map(([key, label]) => (
+                  <button
+                    key={key}
+                    onClick={() => { setArtworkManualMode(key === "manual"); setArtworkResult(null); setArtworkParseError(""); setArtworkPromptStatus(null); setArtworkManualPrompt(""); }}
+                    style={{
+                      padding: "8px 16px", border: "none",
+                      background: (key === "manual" ? artworkManualMode : !artworkManualMode) ? "#1A1A2E" : "#FFF",
+                      color: (key === "manual" ? artworkManualMode : !artworkManualMode) ? "#FFF" : "#555",
+                      fontSize: 13, fontWeight: "bold", cursor: "pointer",
+                    }}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div style={{ marginBottom: 18 }}>
@@ -594,18 +688,119 @@ export default function SurveyManagerPage({ welfareId = "", onGoPublish }: Props
               />
             </div>
 
-            <button
-              onClick={handleGenerateArtwork}
-              disabled={artworkLoading}
-              style={{
-                width: "100%", padding: "12px 0", borderRadius: 10,
-                border: "none", background: artworkLoading ? "#ccc" : "#E8572A",
-                color: "#FFF", fontWeight: "bold", fontSize: 15,
-                cursor: artworkLoading ? "default" : "pointer", marginBottom: 20,
-              }}
-            >
-              {artworkLoading ? "AI가 작품을 만들고 있습니다..." : "생성하기"}
-            </button>
+            {/* 자동 모드 */}
+            {!artworkManualMode && (
+              <button
+                onClick={handleGenerateArtwork}
+                disabled={artworkLoading}
+                style={{
+                  width: "100%", padding: "12px 0", borderRadius: 10,
+                  border: "none", background: artworkLoading ? "#ccc" : "#E8572A",
+                  color: "#FFF", fontWeight: "bold", fontSize: 15,
+                  cursor: artworkLoading ? "default" : "pointer", marginBottom: 20,
+                }}
+              >
+                {artworkLoading ? "AI가 작품을 만들고 있습니다..." : "생성하기"}
+              </button>
+            )}
+
+            {/* 수동 모드 */}
+            {artworkManualMode && (
+              <div style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 20 }}>
+                <button
+                  onClick={handleGenerateArtworkPrompt}
+                  disabled={artworkPromptLoading}
+                  style={{
+                    width: "100%", padding: "12px 0", borderRadius: 10,
+                    border: "none", background: artworkPromptLoading ? "#ccc" : "#1A1A2E",
+                    color: "#FFF", fontWeight: "bold", fontSize: 15,
+                    cursor: artworkPromptLoading ? "default" : "pointer",
+                  }}
+                >
+                  {artworkPromptLoading ? "⏳ 프롬프트 준비 중..." : "📝 프롬프트 생성"}
+                </button>
+
+                {/* 응답 상태 배너 */}
+                {artworkPromptStatus && (
+                  <div style={{
+                    padding: "12px 16px", borderRadius: 8, fontSize: 13, lineHeight: 1.5,
+                    background: artworkPromptStatus.can_generate ? "#F0FFF4" : "#FFF8E1",
+                    border: artworkPromptStatus.can_generate ? "1px solid #B7EB8F" : "1px solid #FFE082",
+                    color: artworkPromptStatus.can_generate ? "#22543D" : "#7C5E10",
+                  }}>
+                    <strong>📊 응답 현황</strong>
+                    <div style={{ marginTop: 4 }}>{artworkPromptStatus.message}</div>
+                  </div>
+                )}
+
+                {/* 프롬프트 원문 (항상 표시) */}
+                <div style={{ background: "#F8F8FB", borderRadius: 8, padding: 12, border: "1px solid #EEE" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
+                    <span style={{ fontSize: 13, fontWeight: "bold", color: "#333" }}>① 프롬프트 원문</span>
+                    {artworkManualPrompt && (
+                      <button
+                        onClick={handleCopyArtworkPrompt}
+                        style={{ padding: "4px 12px", borderRadius: 6, border: "1px solid #DDD", background: "#FFF", color: "#333", fontSize: 12, cursor: "pointer" }}
+                      >
+                        📋 복사
+                      </button>
+                    )}
+                  </div>
+                  <textarea
+                    value={artworkManualPrompt}
+                    readOnly
+                    rows={8}
+                    placeholder="프롬프트 생성 버튼을 눌러 주세요."
+                    style={{
+                      width: "100%", boxSizing: "border-box", padding: "10px 12px",
+                      borderRadius: 8, border: "1px solid #DDD", fontSize: 13,
+                      fontFamily: "monospace", lineHeight: 1.5, resize: "vertical",
+                      background: "#F8F8FB",
+                    }}
+                  />
+                </div>
+
+                {/* 붙여넣기 영역 (항상 표시) */}
+                <div style={{ background: "#FFF", borderRadius: 8, padding: 12, border: "1px solid #EEE" }}>
+                  <span style={{ fontSize: 13, fontWeight: "bold", color: "#333", marginBottom: 6, display: "block" }}>
+                    ② AI가 준 답변 전체를 그대로 아래에 붙여넣으세요
+                  </span>
+                  <textarea
+                    value={artworkPastedAnswer}
+                    onChange={(e) => setArtworkPastedAnswer(e.target.value)}
+                    placeholder="[제목: ...] 형식으로 시작하는 AI 응답 전체를 붙여넣으세요"
+                    rows={8}
+                    style={{
+                      width: "100%", boxSizing: "border-box", padding: "10px 12px",
+                      borderRadius: 8, border: "1px solid #DDD", fontSize: 13,
+                      fontFamily: "monospace", lineHeight: 1.5, resize: "vertical",
+                    }}
+                  />
+                </div>
+
+                {/* 에러 메시지 */}
+                {artworkParseError && (
+                  <div style={{ background: "#FEF2F2", border: "1px solid #FECACA", borderRadius: 8, padding: "10px 14px", fontSize: 13, color: "#B91C1C" }}>
+                    ❌ {artworkParseError}
+                  </div>
+                )}
+
+                {/* 적용 버튼 (항상 표시) */}
+                <button
+                  onClick={handleApplyArtworkManual}
+                  disabled={!artworkPastedAnswer.trim() || artworkParsing}
+                  style={{
+                    width: "100%", padding: "12px 0", borderRadius: 10,
+                    border: "none",
+                    background: !artworkPastedAnswer.trim() || artworkParsing ? "#ccc" : "#E8572A",
+                    color: "#FFF", fontWeight: "bold", fontSize: 15,
+                    cursor: !artworkPastedAnswer.trim() || artworkParsing ? "default" : "pointer",
+                  }}
+                >
+                  {artworkParsing ? "⏳ 해석 중..." : "✅ 결과 적용"}
+                </button>
+              </div>
+            )}
 
             {artworkResult && (
               <div style={{

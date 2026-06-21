@@ -7,6 +7,11 @@ venv-test/
 .env
 .env.local
 
+# 복지사 API 키 암호화 저장소 (절대 커밋 금지)
+.api_key_encryption_key
+ium/backend/.api_key_encryption_key
+ium/backend/data/api_keys.enc
+
 # Logs
 *.log
 err.txt

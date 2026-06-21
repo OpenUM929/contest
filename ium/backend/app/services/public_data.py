@@ -25,6 +25,7 @@ from sqlalchemy import select
 from app.config import settings
 from app.models.models import WeeklyTopic
 from app.services.question_parser import QuestionSet, QuestionItem, ChoiceOption, DEFAULT_FALLBACK, ImageAnalysis
+from app.services import api_key_store, ai_provider
 
 # OpenCode Zen API 설정
 OPENCODE_BASE_URL = getattr(settings, "opencode_base_url", "https://opencode.ai/zen/v1")
@@ -70,9 +71,8 @@ async def _call_opencode_chat(prompt: str, max_attempts: int = 2) -> str | None:
     return None
 
 
-async def _generate_with_opencode(prompt: str) -> QuestionSet | None:
-    """OpenCode Zen API로 QuestionSet을 생성합니다."""
-    raw_text = await _call_opencode_chat(prompt)
+def _parse_question_set(raw_text: str | None) -> QuestionSet | None:
+    """AI 원본 응답 문자열에서 QuestionSet JSON을 추출/검증합니다."""
     if not raw_text:
         return None
 
@@ -99,14 +99,33 @@ async def _generate_with_opencode(prompt: str) -> QuestionSet | None:
         return None
 
 
+async def _generate_question_set(prompt: str, welfare_id: str | None) -> QuestionSet | None:
+    """복지사 키(provider) 우선 → 실패 시 OpenCode로 QuestionSet을 생성합니다."""
+    resolved = api_key_store.resolve_active(welfare_id)
+    if resolved:
+        provider, key = resolved
+        raw = await ai_provider.call_ai(prompt, provider, key, max_tokens=1500)
+        qset = _parse_question_set(raw)
+        if qset:
+            return qset
+        print(f"[PublicData] 복지사 키({provider}) 생성 실패, OpenCode fallback")
+    return await _generate_with_opencode(prompt)
+
+
+async def _generate_with_opencode(prompt: str) -> QuestionSet | None:
+    """OpenCode Zen API로 QuestionSet을 생성합니다."""
+    return _parse_question_set(await _call_opencode_chat(prompt))
+
+
 async def generate_artifact_analysis(
     title: str,
     description: str,
     ingredient: str = "",
     sizing: str = "",
     source: str = "",
+    welfare_id: str | None = None,
 ) -> ImageAnalysis:
-    """OpenCode Zen API로 유물 분석 결과를 생성합니다 (0609 설계).
+    """복지사 키(provider) 우선 → OpenCode로 유물 분석 결과를 생성합니다 (0609 설계).
     AI 실패 시 fallback 분석을 반환합니다."""
     template_path = PROMPT_DIR / "artifact_analyze_v1.txt"
     if template_path.exists():
@@ -119,7 +138,13 @@ async def generate_artifact_analysis(
             source=source or "",
         )
 
-        raw_text = await _call_opencode_chat(prompt)
+        raw_text = None
+        resolved = api_key_store.resolve_active(welfare_id)
+        if resolved:
+            provider, key = resolved
+            raw_text = await ai_provider.call_ai(prompt, provider, key, max_tokens=1500)
+        if not raw_text:
+            raw_text = await _call_opencode_chat(prompt)
         if raw_text:
             text = raw_text.strip()
             if "```json" in text:
@@ -990,6 +1015,7 @@ async def refine_topic_question(
     topic_title: str,
     current_question_set: QuestionSet,
     instruction: str,
+    welfare_id: str | None = None,
 ) -> QuestionSet:
     """
     기존 설문지를 복지사의 자연어 수정 요청에 따라 개선합니다.
@@ -1006,11 +1032,11 @@ async def refine_topic_question(
         instruction=instruction,
     )
 
-    result = await _generate_with_opencode(prompt)
+    result = await _generate_question_set(prompt, welfare_id)
     if result:
         return result
 
-    print("[PublicData] OpenCode refine 실패, 원본 반환")
+    print("[PublicData] refine 실패, 원본 반환")
     return current_question_set
 
 
@@ -1201,7 +1227,7 @@ def _build_fallback_question_set(
     )
 
 
-async def generate_topic_question(
+def build_topic_prompt(
     title: str,
     description: str,
     media_type: str,
@@ -1211,19 +1237,19 @@ async def generate_topic_question(
     question_count: int = 1,
     narrative_count: int = 1,
     choice_count: int = 1,
-) -> tuple[QuestionSet, bool]:
-    """
-    딥시크 API로 대화 유도 질문을 instructor + Pydantic 스키마로 강제 생성.
-    Returns: (QuestionSet, ai_generated)
-      ai_generated=False 이면 AI 호출이 실패해 하드코딩 폴백 템플릿이 쓰인 것이다.
-      (복지사 UI에서 "AI 생성 실패"를 알릴 수 있도록 신호로 돌려준다.)
+) -> str | None:
+    """topic_publish_{question_type}_v1.txt 를 채워 AI에게 보낼 프롬프트 문자열을 만든다.
+
+    템플릿이 없으면 None. AI 호출은 하지 않는다.
+    자동 미리보기(generate_topic_question)와 수동 미리보기(프롬프트 원문 노출)가
+    동일한 프롬프트를 쓰도록 양쪽에서 이 함수를 공유한다.
     """
     template_path = PROMPT_DIR / f"topic_publish_{question_type}_v1.txt"
     if not template_path.exists():
-        return DEFAULT_FALLBACK, False
+        return None
 
     template = template_path.read_text(encoding="utf-8")
-    prompt = template.format(
+    return template.format(
         title=title,
         description=description or "",
         media_type=media_type,
@@ -1234,9 +1260,47 @@ async def generate_topic_question(
         choice_count=choice_count,
         total_count=choice_count + narrative_count,
     )
+
+
+# 라우터(수동 미리보기)에서 AI 호출 없이 답변 파싱에 재사용할 공개 별칭
+parse_question_set = _parse_question_set
+
+
+async def generate_topic_question(
+    title: str,
+    description: str,
+    media_type: str,
+    target_age: str,
+    question_type: str,
+    custom_hint: str = "",
+    question_count: int = 1,
+    narrative_count: int = 1,
+    choice_count: int = 1,
+    welfare_id: str | None = None,
+) -> tuple[QuestionSet, bool]:
+    """
+    딥시크 API로 대화 유도 질문을 instructor + Pydantic 스키마로 강제 생성.
+    Returns: (QuestionSet, ai_generated)
+      ai_generated=False 이면 AI 호출이 실패해 하드코딩 폴백 템플릿이 쓰인 것이다.
+      (복지사 UI에서 "AI 생성 실패"를 알릴 수 있도록 신호로 돌려준다.)
+    """
+    prompt = build_topic_prompt(
+        title=title,
+        description=description,
+        media_type=media_type,
+        target_age=target_age,
+        question_type=question_type,
+        custom_hint=custom_hint,
+        question_count=question_count,
+        narrative_count=narrative_count,
+        choice_count=choice_count,
+    )
+    if prompt is None:
+        return DEFAULT_FALLBACK, False
+
     print(f"[PublicData] 질문 생성 요청: type={question_type}, count={question_count}, narrative={narrative_count}, choice={choice_count}")
 
-    result = await _generate_with_opencode(prompt)
+    result = await _generate_question_set(prompt, welfare_id)
     if result:
         return result, True
 
@@ -1245,51 +1309,27 @@ async def generate_topic_question(
 
 
 async def save_weekly_topic(db: AsyncSession, topic_data: dict) -> WeeklyTopic:
-    """새 주제를 weekly_topics 테이블에 저장"""
+    """새 주제를 weekly_topics 테이블에 항상 INSERT (발행 이력 보존)"""
     today = date.today()
     monday = today - timedelta(days=today.weekday())
     
-    # 이번 주 (지역 + 복지사) 주제가 이미 있으면 업데이트.
-    # welfare_id까지 키로 사용하므로 같은 지역의 다른 복지사 주제를 덮어쓰지 않는다.
-    # 스케줄러/중앙 주제는 welfare_id IS NULL 로 별도 관리된다.
-    region = topic_data.get("region", "default")
-    welfare_id = topic_data.get("welfare_id")
-    welfare_filter = (
-        WeeklyTopic.welfare_id == welfare_id
-        if welfare_id is not None
-        else WeeklyTopic.welfare_id.is_(None)
+    topic = WeeklyTopic(
+        active_week=monday,
+        region=topic_data.get("region", "default"),
+        title=topic_data["title"],
+        description=topic_data.get("description", ""),
+        media_url=topic_data.get("media_url"),
+        media_type=topic_data.get("media_type", "text"),
+        source=topic_data.get("source", ""),
+        source_url=topic_data.get("source_url", ""),
+        ai_question=topic_data.get("ai_question", ""),
+        text_content=topic_data.get("text_content"),
+        welfare_id=topic_data.get("welfare_id"),
+        question_type=topic_data.get("question_type", "narrative"),
+        is_customized=topic_data.get("is_customized", False),
+        parent_topic_id=topic_data.get("parent_topic_id"),
+        duration_seconds=topic_data.get("duration_seconds"),
     )
-    existing = await db.execute(
-        select(WeeklyTopic).where(
-            WeeklyTopic.active_week == monday,
-            WeeklyTopic.region == region,
-            welfare_filter,
-        )
-        .order_by(WeeklyTopic.is_customized.desc(), WeeklyTopic.created_at.desc())
-        .limit(1)
-    )
-    topic = existing.scalars().first()
-
-    if topic is None:
-        topic = WeeklyTopic(
-            active_week=monday,
-            region=region,
-        )
-        db.add(topic)
-    
-    topic.title = topic_data["title"]
-    topic.description = topic_data.get("description", "")
-    topic.media_url = topic_data.get("media_url")
-    topic.media_type = topic_data.get("media_type", "text")
-    topic.source = topic_data.get("source", "")
-    topic.source_url = topic_data.get("source_url", "")
-    topic.ai_question = topic_data.get("ai_question", "")
-    topic.text_content = topic_data.get("text_content")
-    topic.welfare_id = topic_data.get("welfare_id")
-    topic.question_type = topic_data.get("question_type", "narrative")
-    topic.is_customized = topic_data.get("is_customized", False)
-    topic.parent_topic_id = topic_data.get("parent_topic_id")
-    topic.duration_seconds = topic_data.get("duration_seconds")
     
     choices = topic_data.get("choices")
     if choices is not None:
@@ -1301,9 +1341,8 @@ async def save_weekly_topic(db: AsyncSession, topic_data: dict) -> WeeklyTopic:
             topic.choices = json.dumps(choices, ensure_ascii=False)
         else:
             topic.choices = str(choices)
-    else:
-        topic.choices = None
     
+    db.add(topic)
     await db.commit()
     await db.refresh(topic)
     return topic

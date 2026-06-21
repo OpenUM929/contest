@@ -7,6 +7,7 @@ import SurveyPreview from "./SurveyPreview";
 interface Props {
   topicTitle: string;
   initialQuestionSet: QuestionSet;
+  welfareId?: string;
   onDirectEdit: (qs: QuestionSet) => void;
   onPublish: (qs: QuestionSet) => void;
 }
@@ -16,7 +17,7 @@ interface ChatMessage {
   text: string;
 }
 
-export default function SurveyRefineChat({ topicTitle, initialQuestionSet, onDirectEdit, onPublish }: Props) {
+export default function SurveyRefineChat({ topicTitle, initialQuestionSet, welfareId, onDirectEdit, onPublish }: Props) {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: "ai",
@@ -46,6 +47,7 @@ export default function SurveyRefineChat({ topicTitle, initialQuestionSet, onDir
         topic_title: topicTitle,
         current_question_set: questionSet,
         instruction: userText,
+        welfare_id: welfareId || undefined,
       });
       const nextQs = res.data as QuestionSet;
       setQuestionSet(nextQs);

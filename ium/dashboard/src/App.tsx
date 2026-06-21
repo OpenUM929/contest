@@ -3,9 +3,10 @@ import Dashboard from "./pages/Dashboard";
 import TopicManager from "./pages/TopicManager";
 import SurveyManagerPage from "./pages/SurveyManagerPage";
 import TempAccountPage from "./pages/TempAccountPage";
+import SettingsPage from "./pages/SettingsPage";
 import AdminLayout from "./pages/admin/AdminLayout";
 
-type Tab = "dashboard" | "topics" | "surveys" | "accounts" | "admin";
+type Tab = "dashboard" | "topics" | "surveys" | "settings" | "accounts" | "admin";
 
 export default function App() {
   const [tab, setTab] = useState<Tab>("dashboard");
@@ -64,6 +65,7 @@ export default function App() {
           ["dashboard", "📊 이용자 모니터링"],
           ["topics", "📋 주간 주제 관리"],
           ["surveys", "📋 설문지 통합 관리"],
+          ["settings", "🔑 API 설정"],
           ["accounts", "🔑 계정 관리"],
           ...(isAdmin ? [["admin", "🛠 관리자"] as [Tab, string]] : []),
         ] as [Tab, string][]).map(([key, label]) => (
@@ -97,6 +99,7 @@ export default function App() {
       {tab === "dashboard" && <Dashboard onGoTopics={() => setTab("topics")} />}
       {tab === "topics" && <TopicManager />}
       {tab === "surveys" && <SurveyManagerPage onGoPublish={() => setTab("topics")} />}
+      {tab === "settings" && <SettingsPage />}
       {tab === "accounts" && <TempAccountPage />}
       {tab === "admin" && <AdminLayout />}
     </div>

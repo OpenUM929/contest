@@ -7,9 +7,11 @@ interface Props {
   welfareId?: string;
   onSelect?: (topic: WeeklyTopic) => void;
   onCloneSuccess?: () => void;
+  onViewAnalytics?: (topic: WeeklyTopic) => void;
+  onMakeArtwork?: (topic: WeeklyTopic) => void;
 }
 
-export default function SurveyHistory({ welfareId, onSelect, onCloneSuccess }: Props) {
+export default function SurveyHistory({ welfareId, onSelect, onCloneSuccess, onViewAnalytics, onMakeArtwork }: Props) {
   const [history, setHistory] = useState<WeeklyTopic[]>([]);
   const [loading, setLoading] = useState(false);
   const [weeks, setWeeks] = useState(4);
@@ -95,6 +97,46 @@ export default function SurveyHistory({ welfareId, onSelect, onCloneSuccess }: P
                 </span>
               </div>
               <div style={{ display: "flex", gap: 8 }}>
+                {onViewAnalytics && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onViewAnalytics(topic);
+                    }}
+                    style={{
+                      padding: "6px 12px",
+                      borderRadius: 6,
+                      border: "1px solid #44BB44",
+                      background: "#FFF",
+                      color: "#44BB44",
+                      fontSize: 12,
+                      fontWeight: "bold",
+                      cursor: "pointer",
+                    }}
+                  >
+                    응답 집계
+                  </button>
+                )}
+                {onMakeArtwork && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onMakeArtwork(topic);
+                    }}
+                    style={{
+                      padding: "6px 12px",
+                      borderRadius: 6,
+                      border: "1px solid #E8572A",
+                      background: "#FFF",
+                      color: "#E8572A",
+                      fontSize: 12,
+                      fontWeight: "bold",
+                      cursor: "pointer",
+                    }}
+                  >
+                    작품 만들기
+                  </button>
+                )}
                 <button
                   onClick={(e) => {
                     e.stopPropagation();

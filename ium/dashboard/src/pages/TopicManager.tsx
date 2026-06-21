@@ -4,6 +4,8 @@ import { QuestionSet, PublishResult } from "../types/survey";
 import SurveyPreview from "../components/SurveyPreview";
 import SurveyRefineChat from "../components/SurveyRefineChat";
 import SurveyEditor from "../components/SurveyEditor";
+import ManualPreviewPanel from "../components/ManualPreviewPanel";
+import { buildGeneratePrompt } from "../api/survey";
 
 const API = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
@@ -119,6 +121,11 @@ export default function TopicManager() {
   const [showRefineChat, setShowRefineChat] = useState(false);
   const [showEditor, setShowEditor] = useState(false);
 
+  // 미리보기 모드 — auto: AI 자동 호출 / manual: 프롬프트 출력 후 외부 AI 답변 붙여넣기
+  const [previewMode, setPreviewMode] = useState<"auto" | "manual">("auto");
+  const [manualPrompt, setManualPrompt] = useState("");
+  const [promptLoading, setPromptLoading] = useState(false);
+
   // Step 3 — 배포 대상 선택
   const [targetUsers, setTargetUsers] = useState<{ user_id: string; nickname: string; user_type: string }[]>([]);
   const [targetUserIds, setTargetUserIds] = useState<string[]>([]);
@@ -228,24 +235,31 @@ export default function TopicManager() {
     }
   };
 
+  // 자동/수동 미리보기가 동일한 프롬프트를 쓰도록 payload 조립을 공유한다.
+  const buildQuestionPayload = (qType: QuestionType, candidate: Candidate) => {
+    const payload: any = {
+      title: candidate.title,
+      description: candidate.description ?? "",
+      media_type: candidate.media_type,
+      target_age: "elderly",
+      question_type: qType,
+      welfare_id: selectedWelfareId || undefined,
+    };
+    if (qType === "mixed") {
+      payload.narrative_count = narrativeCount;
+      payload.choice_count = choiceCount;
+    } else {
+      payload.question_count = questionCount;
+    }
+    return payload;
+  };
+
   const generateSurveyQuestions = async (qType: QuestionType, candidate: Candidate) => {
     setIsGenerating(true);
     setNeedsRegenerate(false);
     setGenError("");
     try {
-      const payload: any = {
-        title: candidate.title,
-        description: candidate.description ?? "",
-        media_type: candidate.media_type,
-        target_age: "elderly",
-        question_type: qType,
-      };
-      if (qType === "mixed") {
-        payload.narrative_count = narrativeCount;
-        payload.choice_count = choiceCount;
-      } else {
-        payload.question_count = questionCount;
-      }
+      const payload = buildQuestionPayload(qType, candidate);
       const { data } = await axios.post(`${API}/api/welfare/topics/generate-questions`, payload);
       const { warnings: w = [], ...qset } = data;
       setQuestionSet(qset);
@@ -259,6 +273,30 @@ export default function TopicManager() {
     }
   };
 
+  // 수동 미리보기: AI에게 보낼 프롬프트 원문을 받아온다 (AI 호출 안 함).
+  const generateManualPrompt = async () => {
+    if (!selected) return;
+    setPromptLoading(true);
+    setGenError("");
+    try {
+      const payload = buildQuestionPayload(questionType, selected);
+      const { data } = await buildGeneratePrompt(payload);
+      setManualPrompt(data.prompt || "");
+    } catch (e: any) {
+      setGenError(e?.response?.data?.detail || e?.message || "프롬프트 생성에 실패했습니다.");
+    } finally {
+      setPromptLoading(false);
+    }
+  };
+
+  // 수동 미리보기: 붙여넣은 AI 답변을 파싱해 미리보기에 반영한다.
+  const applyManualResult = (qs: QuestionSet, w: string[]) => {
+    setQuestionSet(qs);
+    setWarnings(w);
+    setDraftStatus("ai_draft");
+    setNeedsRegenerate(false);
+  };
+
   const handleSelect = async (c: Candidate, idx: number) => {
     // lazy loading: image 타입이고 분석 결과가 없으면 클릭 시 분석
     if (c.media_type === "image" && !c.image_analysis) {
@@ -270,6 +308,7 @@ export default function TopicManager() {
           ingredient: c.ingredient ?? "",
           sizing: c.sizing ?? "",
           source: c.source,
+          welfare_id: selectedWelfareId || undefined,
         });
         const updated = { ...c, image_analysis: data };
         setCandidates((prev) =>
@@ -825,16 +864,62 @@ export default function TopicManager() {
             />
           </div>
 
-          {/* 미리보기 생성 버튼 */}
+          {/* 미리보기 모드 토글 (자동 / 수동) */}
           <div style={s.formRow}>
-            <button
-              style={{ ...s.primaryBtn, background: "#1A1A2E", marginTop: 0 }}
-              onClick={() => selected && generateSurveyQuestions(questionType, selected)}
-              disabled={isGenerating}
-            >
-              {isGenerating ? "⏳ 생성 중..." : "🔍 미리보기 생성"}
-            </button>
+            <label style={s.label}>미리보기 방식</label>
+            <div style={{ display: "flex", gap: 0, border: "1px solid #DDD", borderRadius: 8, overflow: "hidden", width: "fit-content" }}>
+              {([
+                ["auto", "🤖 자동 (AI 연결)"],
+                ["manual", "✍️ 수동 (프롬프트 직접)"],
+              ] as ["auto" | "manual", string][]).map(([key, label]) => (
+                <button
+                  key={key}
+                  onClick={() => setPreviewMode(key)}
+                  style={{
+                    padding: "8px 16px",
+                    border: "none",
+                    background: previewMode === key ? "#1A1A2E" : "#FFF",
+                    color: previewMode === key ? "#FFF" : "#555",
+                    fontSize: 13,
+                    fontWeight: previewMode === key ? "bold" : "normal",
+                    cursor: "pointer",
+                  }}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+            <div style={{ fontSize: 12, color: "#888", marginTop: 6 }}>
+              {previewMode === "auto"
+                ? "등록된 AI 키로 시스템이 자동 생성합니다."
+                : "AI 키 없이, 프롬프트를 직접 외부 AI에 물어보고 답변을 붙여넣습니다."}
+            </div>
           </div>
+
+          {/* 미리보기 생성 — 자동 모드 */}
+          {previewMode === "auto" && (
+            <div style={s.formRow}>
+              <button
+                style={{ ...s.primaryBtn, background: "#1A1A2E", marginTop: 0 }}
+                onClick={() => selected && generateSurveyQuestions(questionType, selected)}
+                disabled={isGenerating}
+              >
+                {isGenerating ? "⏳ 생성 중..." : "🔍 미리보기 생성"}
+              </button>
+            </div>
+          )}
+
+          {/* 미리보기 생성 — 수동 모드 */}
+          {previewMode === "manual" && (
+            <div style={s.formRow}>
+              <ManualPreviewPanel
+                prompt={manualPrompt}
+                generating={promptLoading}
+                onGeneratePrompt={generateManualPrompt}
+                onApply={applyManualResult}
+              />
+            </div>
+          )}
 
           {/* 설문지 미리보기 */}
           <div style={s.formRow}>
@@ -948,6 +1033,7 @@ export default function TopicManager() {
             <SurveyRefineChat
               topicTitle={selected.title}
               initialQuestionSet={questionSet}
+              welfareId={selectedWelfareId}
               onDirectEdit={(qs) => {
                 setQuestionSet(qs);
                 setShowRefineChat(false);

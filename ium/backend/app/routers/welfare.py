@@ -19,6 +19,8 @@ from app.services.public_data import (
     search_topic_candidates,
     cache_media,
     generate_topic_question,
+    build_topic_prompt,
+    parse_question_set,
     refine_topic_question,
     save_weekly_topic,
     publish_weekly_default_topic,
@@ -28,6 +30,7 @@ from app.services.public_data import (
 from app.services.question_parser import QuestionSet, validate_question_quality
 from app.services.psych_index import compute_and_store
 from app.services.mbti import build_option_pole_map, tally_poles, summarize
+from app.services import api_key_store
 
 router = APIRouter(prefix="/api/welfare", tags=["welfare"])
 
@@ -49,6 +52,7 @@ async def _accumulate_user_mbti(db: AsyncSession, user_id: uuid.UUID) -> dict:
     )
     by_topic: dict[uuid.UUID, list[tuple[str, str]]] = {}
     for tid, q_id, opt_id in rows.all():
+        tid = uuid.UUID(tid) if isinstance(tid, str) else tid
         by_topic.setdefault(tid, []).append((q_id, opt_id))
 
     counts = {p: 0 for p in "EISNTFJP"}
@@ -722,6 +726,7 @@ async def check_pending(db: AsyncSession = Depends(get_db)):
 # ─────────────────────────────────────
 
 class GenerateQuestionsRequest(BaseModel):
+    welfare_id: str | None = None
     title: str
     description: str | None = None
     media_type: str = "text"
@@ -746,6 +751,7 @@ async def generate_questions(body: GenerateQuestionsRequest):
         question_count=body.question_count,
         narrative_count=body.narrative_count,
         choice_count=body.choice_count,
+        welfare_id=body.welfare_id,
     )
     warnings = validate_question_quality(qset)
     if not ai_generated:
@@ -758,7 +764,50 @@ async def generate_questions(body: GenerateQuestionsRequest):
     return result
 
 
+@router.post("/topics/generate-questions/prompt", summary="수동 미리보기 — AI에게 보낼 프롬프트 원문 반환")
+async def generate_questions_prompt(body: GenerateQuestionsRequest):
+    """AI를 호출하지 않고, 질문 생성에 쓰일 프롬프트 문자열만 돌려준다.
+    복지사가 이 프롬프트를 외부 웹 AI에 직접 붙여넣어 답변을 받기 위함이다.
+    (generate-questions와 동일한 템플릿/인자를 써서 자동/수동 결과가 일치한다.)"""
+    prompt = build_topic_prompt(
+        title=body.title,
+        description=body.description or "",
+        media_type=body.media_type,
+        target_age=body.target_age,
+        question_type=body.question_type,
+        custom_hint=body.custom_hint,
+        question_count=body.question_count,
+        narrative_count=body.narrative_count,
+        choice_count=body.choice_count,
+    )
+    if prompt is None:
+        raise HTTPException(status_code=400, detail=f"'{body.question_type}' 질문 유형 템플릿이 없습니다.")
+    return {"prompt": prompt, "question_type": body.question_type}
+
+
+class ParseQuestionsRequest(BaseModel):
+    raw_text: str
+
+
+@router.post("/topics/parse-questions", summary="수동 미리보기 — 외부 AI 답변 원문을 파싱")
+async def parse_questions(body: ParseQuestionsRequest):
+    """복지사가 외부 AI에서 받아 붙여넣은 답변 원문에서 QuestionSet JSON을 추출·검증한다.
+    AI/네트워크 호출 없음. 성공 시 generate-questions와 동일한 응답 형태(+valid)."""
+    qset = parse_question_set(body.raw_text)
+    if qset is None:
+        return {
+            "valid": False,
+            "error": "AI 답변에서 올바른 설문 JSON을 찾지 못했습니다. 답변 전체를 그대로 붙여넣었는지 확인해 주세요.",
+        }
+    warnings = validate_question_quality(qset)
+    result = qset.model_dump(mode="json")
+    result["warnings"] = warnings
+    result["valid"] = True
+    return result
+
+
 class RefineQuestionsRequest(BaseModel):
+    welfare_id: str | None = None
     topic_title: str
     current_question_set: dict
     instruction: str
@@ -776,6 +825,7 @@ async def refine_questions(body: RefineQuestionsRequest):
         topic_title=body.topic_title,
         current_question_set=current,
         instruction=body.instruction,
+        welfare_id=body.welfare_id,
     )
     return refined.model_dump(mode="json")
 
@@ -823,7 +873,7 @@ async def save_draft(body: SaveDraftRequest, db: AsyncSession = Depends(get_db))
 
 # ── 이번 주 / 이력 / 복제 / 중지 ──
 
-@router.get("/surveys/current", summary="이번 주 발행된 설문지 조회")
+@router.get("/surveys/current", summary="이번 주 발행된 설문지 조회 (최신 1건)")
 async def get_current_survey(welfare_id: str | None = None, db: AsyncSession = Depends(get_db)):
     today = date.today()
     monday = today - timedelta(days=today.weekday())
@@ -834,20 +884,22 @@ async def get_current_survey(welfare_id: str | None = None, db: AsyncSession = D
     result = await db.execute(
         select(WeeklyTopic)
         .where(*conds)
-        .order_by(WeeklyTopic.is_customized.desc())
+        .order_by(WeeklyTopic.created_at.desc())
+        .limit(1)
     )
-    topics = result.scalars().all()
+    topic = result.scalars().first()
+    if topic is None:
+        return []
     return [
         {
-            "topic_id": str(t.id),
-            "title": t.title,
-            "question_type": t.question_type,
-            "region": t.region,
-            "is_customized": t.is_customized,
-            "created_at": t.created_at.isoformat() if t.created_at else None,
-            "choices": json.loads(t.choices) if t.choices else None,
+            "topic_id": str(topic.id),
+            "title": topic.title,
+            "question_type": topic.question_type,
+            "region": topic.region,
+            "is_customized": topic.is_customized,
+            "created_at": topic.created_at.isoformat() if topic.created_at else None,
+            "choices": json.loads(topic.choices) if topic.choices else None,
         }
-        for t in topics
     ]
 
 
@@ -1183,6 +1235,7 @@ async def get_survey_analytics(topic_id: str, welfare_id: str | None = None, db:
         )
         respondent_mbti = []
         for (uid,) in resp_users.all():
+            uid = uuid.UUID(uid) if isinstance(uid, str) else uid
             user = await db.get(User, uid)
             acc = await _accumulate_user_mbti(db, uid)
             respondent_mbti.append({
@@ -1404,6 +1457,7 @@ async def anonymized_report(
 # ─────────────────────────────────────
 
 class ArtifactAnalyzeRequest(BaseModel):
+    welfare_id: str | None = None
     title: str
     description: str = ""
     ingredient: str = ""
@@ -1425,7 +1479,57 @@ async def analyze_artifact(
         ingredient=body.ingredient,
         sizing=body.sizing,
         source=body.source,
+        welfare_id=body.welfare_id,
     )
     if result is None:
         raise HTTPException(status_code=500, detail="유물 분석에 실패했습니다.")
     return result.model_dump(mode="json")
+
+
+# ─────────────────────────────────────
+# 복지사 AI API 키 관리 (0619)
+# ─────────────────────────────────────
+
+class ApiKeysSaveRequest(BaseModel):
+    welfare_id: str
+    claude: str = ""
+    openai: str = ""
+    gemini: str = ""
+    active_provider: str = ""
+
+
+async def _verify_worker(welfare_id: str, db: AsyncSession) -> None:
+    """API 키는 평문 자격증명이므로, 존재하는 복지사 ID인지 검증한다.
+    (현재 인증 체계에 토큰이 없어 최소한의 접근 제어로 WelfareWorker 존재를 확인한다.)
+    """
+    try:
+        wid = uuid.UUID(welfare_id)
+    except (ValueError, AttributeError):
+        raise HTTPException(status_code=400, detail="welfare_id 형식이 올바르지 않습니다.")
+    worker = (
+        await db.execute(select(WelfareWorker).where(WelfareWorker.id == wid))
+    ).scalar_one_or_none()
+    if worker is None:
+        raise HTTPException(status_code=403, detail="권한이 없거나 존재하지 않는 복지사입니다.")
+
+
+@router.get("/api-keys", summary="복지사 AI API 키 조회 (마스킹)")
+async def get_api_keys(welfare_id: str, db: AsyncSession = Depends(get_db)):
+    await _verify_worker(welfare_id, db)
+    return api_key_store.get_masked(welfare_id)
+
+
+@router.put("/api-keys", summary="복지사 AI API 키 저장")
+async def save_api_keys(body: ApiKeysSaveRequest, db: AsyncSession = Depends(get_db)):
+    await _verify_worker(body.welfare_id, db)
+    entry = api_key_store.set_worker_keys(
+        body.welfare_id,
+        {
+            "claude": body.claude,
+            "openai": body.openai,
+            "gemini": body.gemini,
+            "active_provider": body.active_provider,
+        },
+    )
+    # 저장 후 정규화된 active_provider를 돌려줘 프론트가 즉시 동기화할 수 있게 한다.
+    return {"status": "ok", "active_provider": entry["active_provider"]}

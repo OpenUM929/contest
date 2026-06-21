@@ -242,28 +242,20 @@ def _build_contributions_block(
     return "\n\n".join(blocks)
 
 
-async def generate_essay(
+async def build_essay_prompt(
     topic_id: str,
     topic_title: str,
     db: AsyncSession,
     prompt_version: str = "v1",
     content_type: str = "essay",
     reference_titles: str | None = None,
-) -> tuple[str, str, int, dict[str, int]]:
+    welfare_id: str | None = None,
+) -> tuple[str, int, dict[str, int]]:
     """
-    (title, content, contributor_cnt, contributor_stats) 반환
-    contributor_stats: {user_id: message_count}
-    데이터 소스 우선순위:
-    1. survey_responses (선택형 + 서술형, v2)
-    2. survey_responses.narrative_text (v1/v0 하위호환)
-    3. conversations(role='user') (구버전 데이터 하위호환)
-
-    prompt_version == "v3": 장르별 작가 프롬프트 사용. 수량 제한(최소 5건/최대 20건) 없이
-    모든 설문 응답을 혼합하고, 참여자별 MBTI를 유추해 각자가 주인공이 되도록 작품을 생성한다.
-    reference_titles: 복지사가 참고로 입력한 작품 제목(들).
+    AI 호출 없이 프롬프트 문자열만 반환 (수동 모드용).
+    (prompt, contributor_cnt, contributor_stats) 반환
     """
     if prompt_version == "v3":
-        # 주제 메타 로드: 설명(지문 없어도 글의 토대) + 발행된 선택지(MBTI 매핑용)
         topic_row = (
             await db.execute(select(WeeklyTopic).where(WeeklyTopic.id == uuid.UUID(topic_id)))
         ).scalar_one_or_none()
@@ -272,21 +264,20 @@ async def generate_essay(
 
         rows = await _fetch_survey_responses_full(db, topic_id)
         if not rows:
-            # 설문 응답이 없으면 구버전 대화 데이터로 폴백 (선택형/MBTI 없음)
             rows = [
                 (uid, None, text, None, None)
                 for uid, text in await _fetch_conversation_messages(db, topic_id)
             ]
-        if not rows:
-            raise ValueError("작품 생성을 위한 설문 응답이 없습니다.")
-
         contributor_stats: dict[str, int] = {}
         for row in rows:
             uid = row[0]
             contributor_stats[uid] = contributor_stats.get(uid, 0) + 1
         contributor_cnt = len(contributor_stats)
 
-        contributions = _build_contributions_block(rows, pole_map)
+        if rows:
+            contributions = _build_contributions_block(rows, pole_map)
+        else:
+            contributions = "(아직 수집된 응답이 없습니다 — 주제 설명과 질문을 바탕으로 창작해 주세요.)"
         ref_block = reference_titles.strip() if reference_titles and reference_titles.strip() else "(참고 작품 없음)"
         prompt = _load_genre_prompt(content_type).format(
             topic=topic_title,
@@ -294,42 +285,36 @@ async def generate_essay(
             contributions=contributions,
             reference_titles=ref_block,
         )
-        raw = await generate_text(prompt, max_tokens=3000)
-        lines = raw.strip().splitlines()
-        title = topic_title
-        content_start = 0
-        if lines and lines[0].startswith("[제목:"):
-            title = lines[0].replace("[제목:", "").replace("]", "").strip()
-            content_start = 1
-        content = "\n".join(lines[content_start:]).strip()
-        if not content:
-            raise ValueError("AI 응답이 비어 작품 생성에 실패했습니다. 잠시 후 다시 시도해 주세요.")
-        return title, content, contributor_cnt, contributor_stats
+        return prompt, contributor_cnt, contributor_stats
 
-    # v2: 선택형 + 서술형 모두 수집 / v1·v0: 서술형만 (3-튜플로 통일)
     if prompt_version == "v2":
         rows = await _fetch_survey_responses(db, topic_id)
     else:
         rows = [(uid, text, None) for uid, text in await _fetch_survey_messages(db, topic_id)]
 
-    # 부족하면 conversations 폴백
     if len(rows) < 5:
         conv_rows = await _fetch_conversation_messages(db, topic_id)
         for user_id, text in conv_rows:
             rows.append((user_id, text, None))
 
-    if len(rows) < 5:
-        raise ValueError("수필 생성을 위해 최소 5건의 대화가 필요합니다.")
-
-    # 기여자별 메시지 수 집계
-    contributor_stats: dict[str, int] = {}
+    contributor_stats = {}
     for user_id, _, _ in rows:
         contributor_stats[user_id] = contributor_stats.get(user_id, 0) + 1
     contributor_cnt = len(contributor_stats)
 
-    # 프롬프트 구성
+    if not rows:
+        if prompt_version == "v2":
+            prompt = _select_prompt(prompt_version, content_type).format(
+                contributions="(아직 수집된 응답이 없습니다)",
+            )
+        else:
+            prompt = _select_prompt(prompt_version, content_type).format(
+                topic=topic_title,
+                conversations="(아직 수집된 응답이 없습니다)",
+            )
+        return prompt, 0, {}
+
     if prompt_version == "v2":
-        # 사용자별 응답 그룹핑 (선택형 + 서술형 결합)
         user_entries: dict[str, list[str]] = {}
         for user_id, narr, choice in rows:
             if user_id not in user_entries:
@@ -355,19 +340,72 @@ async def generate_essay(
             conversations="\n".join(summaries),
         )
 
-    raw = await generate_text(prompt, max_tokens=1500)
-    lines = raw.strip().splitlines()
+    return prompt, contributor_cnt, contributor_stats
 
-    title = topic_title
+
+def parse_essay_result(raw_text: str, content_type: str = "essay") -> dict:
+    """
+    AI 응답 원문에서 [제목: ...]과 본문을 추출.
+    returns {title, content, valid, error?}
+    """
+    if not raw_text or not raw_text.strip():
+        return {"valid": False, "error": "응답이 비어 있습니다."}
+    lines = raw_text.strip().splitlines()
+    title = ""
     content_start = 0
     if lines and lines[0].startswith("[제목:"):
         title = lines[0].replace("[제목:", "").replace("]", "").strip()
         content_start = 1
-
     content = "\n".join(lines[content_start:]).strip()
     if not content:
-        raise ValueError("AI 응답이 비어 작품 생성에 실패했습니다. 잠시 후 다시 시도해 주세요.")
-    return title, content, contributor_cnt, contributor_stats
+        return {"valid": False, "error": "본문을 찾을 수 없습니다. [제목: ...] 형식으로 시작하는지 확인해 주세요."}
+    if not title:
+        title = "(제목 없음)"
+    return {"valid": True, "title": title, "content": content}
+
+
+async def generate_essay(
+    topic_id: str,
+    topic_title: str,
+    db: AsyncSession,
+    prompt_version: str = "v1",
+    content_type: str = "essay",
+    reference_titles: str | None = None,
+    welfare_id: str | None = None,
+) -> tuple[str, str, int, dict[str, int]]:
+    """
+    (title, content, contributor_cnt, contributor_stats) 반환
+    contributor_stats: {user_id: message_count}
+
+    prompt_version == "v3": 장르별 작가 프롬프트 사용. 수량 제한(최소 5건/최대 20건) 없이
+    모든 설문 응답을 혼합하고, 참여자별 MBTI를 유추해 각자가 주인공이 되도록 작품을 생성한다.
+    reference_titles: 복지사가 참고로 입력한 작품 제목(들).
+    welfare_id: 주제 소유 복지사. 등록된 활성 AI 키가 있으면 그 제공자로 생성한다.
+    """
+    from app.services import api_key_store
+
+    prompt, contributor_cnt, contributor_stats = await build_essay_prompt(
+        topic_id=topic_id, topic_title=topic_title, db=db,
+        prompt_version=prompt_version, content_type=content_type,
+        reference_titles=reference_titles, welfare_id=welfare_id,
+    )
+
+    min_required = 1 if prompt_version == "v3" else 5
+    if contributor_cnt < min_required:
+        raise ValueError(f"작품 생성을 위해 최소 {min_required}명의 응답이 필요합니다. (현재 {contributor_cnt}명)")
+
+    resolved = api_key_store.resolve_active(welfare_id)
+    _provider = _api_key = None
+    if resolved:
+        _provider, _api_key = resolved
+
+    max_tokens = 3000 if prompt_version == "v3" else 1500
+    raw = await generate_text(prompt, max_tokens=max_tokens, provider=_provider, api_key=_api_key)
+
+    result = parse_essay_result(raw, content_type)
+    if not result["valid"]:
+        raise ValueError(result.get("error", "AI 응답 처리에 실패했습니다."))
+    return result["title"], result["content"], contributor_cnt, contributor_stats
 
 
 async def auto_generate_weekly_essay() -> None:

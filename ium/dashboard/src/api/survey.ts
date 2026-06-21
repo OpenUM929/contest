@@ -17,6 +17,8 @@ export const fetchResponses = (topicId: string, page = 1, pageSize = 50) =>
   axios.get(`${API}/api/welfare/surveys/${topicId}/responses?page=${page}&page_size=${pageSize}`);
 
 export const generateQuestions = (data: any) => axios.post(`${API}/api/welfare/topics/generate-questions`, data);
+export const buildGeneratePrompt = (data: any) => axios.post(`${API}/api/welfare/topics/generate-questions/prompt`, data);
+export const parseQuestions = (data: { raw_text: string }) => axios.post(`${API}/api/welfare/topics/parse-questions`, data);
 export const refineQuestions = (data: any) => axios.post(`${API}/api/welfare/topics/refine-questions`, data);
 export const validateQuestions = (data: any) => axios.post(`${API}/api/welfare/topics/validate-questions`, data);
 export const saveDraft = (data: any) => axios.post(`${API}/api/welfare/topics/save-draft`, data);
@@ -38,3 +40,21 @@ export const generateArtwork = (
     { reference_titles: referenceTitles?.trim() || null },
     { params: { topic_id: topicId, content_type: contentType, prompt_version: promptVersion } },
   );
+
+export const generateArtworkPrompt = (
+  topicId: string,
+  contentType: string,
+  promptVersion: string,
+  referenceTitles?: string,
+) =>
+  axios.get(`${API}/api/essay/generate-prompt`, {
+    params: {
+      topic_id: topicId,
+      content_type: contentType,
+      prompt_version: promptVersion,
+      reference_titles: referenceTitles?.trim() || undefined,
+    },
+  });
+
+export const parseArtworkResult = (rawText: string, contentType: string) =>
+  axios.post(`${API}/api/essay/parse-result`, { raw_text: rawText, content_type: contentType });
